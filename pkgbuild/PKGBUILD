@@ -1,0 +1,56 @@
+# Maintainer: BigLinux Team <dev@biglinux.com.br>
+
+pkgname=big-hardware-info
+pkgdesc="A modern GTK4/Adwaita application for viewing and sharing hardware information."
+
+depends=(
+    'gtk4'
+    'libadwaita'
+    'python'
+    'python-gobject'
+    'inxi'
+    'pciutils'
+    'usbutils'
+)
+makedepends=(
+    'python-build'
+    'python-installer'
+    'python-uv-build'
+    'python-wheel'
+)
+
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+
+arch=('any')
+license=('GPL-3.0-or-later')
+url="https://github.com/biglinux/${pkgname}"
+source=("git+${url}.git")
+md5sums=('SKIP')
+
+build() {
+    cd "${srcdir}/${pkgname}"
+    python -m build --wheel --no-isolation --skip-dependency-check
+}
+
+package() {
+    cd "${srcdir}/${pkgname}"
+
+    python -m installer --destdir="$pkgdir" dist/*.whl
+
+    # Install files
+    cp -a usr/share "${pkgdir}/usr/share"
+    
+    # Install binary
+    install -Dm755 usr/bin/big-hardware-info "${pkgdir}/usr/bin/big-hardware-info"
+
+    # Install license file if present
+    if [ -f "LICENSE" ]; then
+        install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    fi
+
+    # Install documentation if present
+    if [ -f "README.md" ]; then
+        install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+    fi
+}

@@ -1,0 +1,39 @@
+[project]
+name = "big-hardware-info"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Hardware",
+    "Topic :: Utilities",
+]
+version = "2.0.0"
+authors = [
+    { name = "BigLinux Team", email = "biglinux@biglinux.com.br" },
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PyGObject",
+    "pycairo",
+]
+
+[project.gui-scripts]
+big-hardware-info = "app:main"
+
+[project.urls]
+Homepage = "https://github.com/biglinux/big-hardware-info"
+Issues = "https://github.com/biglinux/big-hardware-info/issues"
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
+
+[tool.uv-build]
+package-dir = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["app", "app.*"]

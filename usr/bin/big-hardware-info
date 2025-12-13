@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Search big-hardware-info installation folder
+for i in /usr/lib/python3.{25..6}/site-packages/app /usr/share/big-hardware-info; do
+    if [[ -e "$i" ]]; then
+        cd "$i"
+        break
+    fi
+done
+
+exec python3 __init__.py "$@"
