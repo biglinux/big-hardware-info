@@ -1086,6 +1086,20 @@ msgstr "Αντιγραφή περιεχομένου στο πρόχειρο"
 msgid "... {count} more lines hidden"
 msgstr "... {count} περισσότερες γραμμές κρυφές"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/main_window.py, line: 1110
+# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/main_window.py, line: 1137
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/main_window.py, line: 1110
+# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/main_window.py, line: 1137
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1110
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1137
 # 
@@ -1690,3 +1704,225 @@ msgstr ""
 "υλικού</li><li>Εξαγωγή σε HTML με σύγχρονο σχεδιασμό</li><li>Διαδικτυακή κοινοποίηση μέσω του "
 "termbin.com</li><li>Επισήμανση σύνταξης για αρχεία συστήματος</li><li>Διάκριση συσκευών "
 "USB/PCIe</li></ul>"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
+msgid ""
+"Could not upload the report:\n"
+"\n"
+msgstr "Δεν ήταν δυνατή η μεταφόρτωση της αναφοράς:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
+msgid ""
+"Could not export the report:\n"
+"\n"
+msgstr "Δεν ήταν δυνατή η εξαγωγή της αναφοράς:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
+msgid ""
+"Report saved successfully to:\n"
+"\n"
+msgstr "Η αναφορά αποθηκεύτηκε επιτυχώς στο:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
+msgid "  Used:"
+msgstr "Χρησιμοποιήθηκε:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
+msgid "  Usage:"
+msgstr "Χρήση:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
+msgid "  Size:"
+msgstr "Μέγεθος:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "  Free:"
+msgstr "Δωρεάν:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
+msgid "Distro:"
+msgstr "Διανομή:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
+msgid "Video:"
+msgstr "Βίντεο:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
+msgid "Install Date:"
+msgstr "Ημερομηνία εγκατάστασης:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
+msgid "Kernel:"
+msgstr "Πυρήνας:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB Κόμβοι & Ελεγκτές"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
+msgid "ports"
+msgstr "θύρες"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
+msgid "Mode"
+msgstr "Λειτουργία"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
+msgid "Loading"
+msgstr "Φόρτωση"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
+msgid "Admin Access Unavailable"
+msgstr "Μη διαθέσιμη πρόσβαση διαχειριστή"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
+msgid "The pkexec command is not available on this system."
+msgstr "Η εντολή pkexec δεν είναι διαθέσιμη σε αυτό το σύστημα."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "Αντιγράφηκε:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
+msgid "more lines hidden"
+msgstr "περισσότερες γραμμές κρυφές"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "Showing all"
+msgstr "Εμφάνιση όλων"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "lines"
+msgstr "γραμμές"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
+msgid "Requires Administrator"
+msgstr "Απαιτείται Διαχειριστής"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
+msgid "Click to run as administrator and show"
+msgstr "Κάντε κλικ για εκτέλεση ως διαχειριστής και εμφάνιση"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
+msgid "Administrator Access Required"
+msgstr "Απαιτείται Πρόσβαση Διαχειριστή"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+msgid ""
+"Some hardware information requires administrator privileges to access. Do you want to reload with "
+"elevated access?"
+msgstr ""
+"Ορισμένες πληροφορίες υλικού απαιτούν δικαιώματα διαχειριστή για πρόσβαση. Θέλετε να επαναφορτώσετε "
+"με ανυψωμένη πρόσβαση;"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
+msgid "Reload as Admin"
+msgstr "Επαναφόρτωση ως Διαχειριστής"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Συνολική Αποθήκευση:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Χρησιμοποιήθηκε:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+msgid "Copy"
+msgstr "Αντιγραφή"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
+msgid "Total Memory:"
+msgstr "Συνολική Μνήμη:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
+msgid "used"
+msgstr "χρησιμοποιήθηκε"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
+msgid "Memory Modules"
+msgstr "Μνήμες"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
+msgid "Priority:"
+msgstr "Προτεραιότητα:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
+msgid "Compression:"
+msgstr "Συμπίεση:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
+msgid "Device:"
+msgstr "Συσκευή:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Σύνολο:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
+msgid "Usage:"
+msgstr "Χρήση:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
+msgid "Capacity:"
+msgstr "Χωρητικότητα:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
+msgid "Modules:"
+msgstr "Μονάδες:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
+msgid "Slots:"
+msgstr "Κουλοχέρηδες:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "Ταχύτητες Νημάτων"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Νήμα"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "Σημαίες CPU"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "Ευπάθειες CPU"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
+msgid "Model:"
+msgstr "Μοντέλο:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
+msgid "Cores/Threads:"
+msgstr "Πυρήνες/Νήματα:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
+msgid "Architecture:"
+msgstr "Αρχιτεκτονική:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
+msgid "Bits:"
+msgstr "Μπίτς:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
+msgid "Max Speed:"
+msgstr "Μέγιστη Ταχύτητα:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
+msgid "L3 Cache:"
+msgstr "L3 Cache:"

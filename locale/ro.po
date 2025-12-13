@@ -1705,3 +1705,225 @@ msgstr ""
 "cuprinzătoare</li><li>Export în HTML cu design modern</li><li>Partajare online prin "
 "termbin.com</li><li>Subliniere sintactică pentru fișierele de sistem</li><li>Distingerea "
 "dispozitivelor USB/PCIe</li></ul>"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
+msgid ""
+"Could not upload the report:\n"
+"\n"
+msgstr "Nu s-a putut încărca raportul:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
+msgid ""
+"Could not export the report:\n"
+"\n"
+msgstr "Nu s-a putut exporta raportul:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
+msgid ""
+"Report saved successfully to:\n"
+"\n"
+msgstr "Raport salvat cu succes în:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
+msgid "  Used:"
+msgstr "Utilizat:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
+msgid "  Usage:"
+msgstr "Utilizare:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
+msgid "  Size:"
+msgstr "Dimensiune:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "  Free:"
+msgstr "Gratuit:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
+msgid "Distro:"
+msgstr "Distribuție:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
+msgid "Video:"
+msgstr "Video:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
+msgid "Install Date:"
+msgstr "Data instalării:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
+msgid "Kernel:"
+msgstr "Nucleu:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "Hub-uri și Controlere USB"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
+msgid "ports"
+msgstr "porturi"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
+msgid "Mode"
+msgstr "Modă"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
+msgid "Loading"
+msgstr "Încărcare"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
+msgid "Admin Access Unavailable"
+msgstr "Acces Admin Inexistent"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
+msgid "The pkexec command is not available on this system."
+msgstr "Comanda pkexec nu este disponibilă pe acest sistem."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "Copiat:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
+msgid "more lines hidden"
+msgstr "mai multe linii ascunse"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "Showing all"
+msgstr "Afișare toate"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "lines"
+msgstr "linii"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
+msgid "Requires Administrator"
+msgstr "Necesită Administrator"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
+msgid "Click to run as administrator and show"
+msgstr "Faceți clic pentru a rula ca administrator și a arăta"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
+msgid "Administrator Access Required"
+msgstr "Acces de Administrator Necesare"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+msgid ""
+"Some hardware information requires administrator privileges to access. Do you want to reload with "
+"elevated access?"
+msgstr ""
+"Unele informații hardware necesită privilegii de administrator pentru a fi accesate. Doriți să "
+"reîncărcați cu acces elevat?"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
+msgid "Reload as Admin"
+msgstr "Reîncărcați ca Administrator"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Stoc total:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Utilizat:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+msgid "Copy"
+msgstr "Copiază"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
+msgid "Total Memory:"
+msgstr "Memorie totală:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
+msgid "used"
+msgstr "utilizat"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
+msgid "Memory Modules"
+msgstr "Module de memorie"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
+msgid "Priority:"
+msgstr "Prioritate:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
+msgid "Compression:"
+msgstr "Compresie:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
+msgid "Device:"
+msgstr "Dispozitiv:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Total:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
+msgid "Usage:"
+msgstr "Utilizare:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
+msgid "Capacity:"
+msgstr "Capacitate:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
+msgid "Modules:"
+msgstr "Module:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
+msgid "Slots:"
+msgstr "Sloturi:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "Vitezele firului"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Fir"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "Fluturile CPU"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "Vulnerabilități CPU"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
+msgid "Model:"
+msgstr "Model:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
+msgid "Cores/Threads:"
+msgstr "Nuclee/Fire:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
+msgid "Architecture:"
+msgstr "Arhitectură:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
+msgid "Bits:"
+msgstr "Biti:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
+msgid "Max Speed:"
+msgstr "Viteză maximă:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
+msgid "L3 Cache:"
+msgstr "Cache L3:"

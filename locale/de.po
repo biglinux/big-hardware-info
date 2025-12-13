@@ -1689,3 +1689,227 @@ msgstr ""
 "Hardwareerkennung</li><li>Export nach HTML mit modernem Design</li><li>Online-Sharing über "
 "termbin.com</li><li>Syntaxhervorhebung für Systemdateien</li><li>Unterscheidung zwischen USB- und "
 "PCIe-Geräten</li></ul>"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
+msgid ""
+"Could not upload the report:\n"
+"\n"
+msgstr "Bericht konnte nicht hochgeladen werden:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
+msgid ""
+"Could not export the report:\n"
+"\n"
+msgstr "Bericht konnte nicht exportiert werden:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
+msgid ""
+"Report saved successfully to:\n"
+"\n"
+msgstr "Bericht erfolgreich gespeichert unter:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
+msgid "  Used:"
+msgstr "Verwendet:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
+msgid "  Usage:"
+msgstr "Verwendung:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
+msgid "  Size:"
+msgstr "Größe:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "  Free:"
+msgstr "Kostenlos:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
+msgid "Distro:"
+msgstr "Distribution:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
+msgid "Video:"
+msgstr "Video:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
+msgid "Install Date:"
+msgstr "Installationsdatum:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
+msgid "Kernel:"
+msgstr "Kernel:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB-Hubs und -Controller"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
+msgid "ports"
+msgstr "Ports"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
+msgid "Mode"
+msgstr "Modus"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
+msgid "Loading"
+msgstr "Laden"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
+msgid "Admin Access Unavailable"
+msgstr "Admin-Zugriff nicht verfügbar"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
+msgid "The pkexec command is not available on this system."
+msgstr "Der pkexec-Befehl ist auf diesem System nicht verfügbar."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "Kopiert:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
+msgid "more lines hidden"
+msgstr "mehr Zeilen verborgen"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "Showing all"
+msgstr "Alle anzeigen"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "lines"
+msgstr "Linien"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
+msgid "Requires Administrator"
+msgstr "Erfordert Administratorrechte"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
+msgid "Click to run as administrator and show"
+msgstr "Klicken Sie, um als Administrator auszuführen und anzuzeigen"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
+msgid "Administrator Access Required"
+msgstr "Administratorzugriff erforderlich"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+msgid ""
+"Some hardware information requires administrator privileges to access. Do you want to reload with "
+"elevated access?"
+msgstr ""
+"Einige Hardwareinformationen erfordern Administratorrechte für den Zugriff. Möchten Sie mit "
+"erhöhten Rechten neu laden?"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
+msgid "Reload as Admin"
+msgstr "Als Administrator neu laden"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Gesamter Speicher:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Verwendet:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+msgid "Copy"
+msgstr "Kopieren"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
+msgid "Total Memory:"
+msgstr "Gesamter Speicher:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
+msgid "used"
+msgstr "verwendet"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
+msgid "Memory Modules"
+msgstr "Speichermodule"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
+msgid "Priority:"
+msgstr "Priorität:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
+msgid "Compression:"
+msgstr "Kompression:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
+msgid "Device:"
+msgstr "Gerät:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Gesamt:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
+msgid "Usage:"
+msgstr "Verwendung:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
+msgid "Capacity:"
+msgstr "Kapazität:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
+msgid "Modules:"
+msgstr "Module:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
+msgid "Slots:"
+msgstr "Slots:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "Threadgeschwindigkeiten"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Thread"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "CPU-Flags"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "CPU-Sicherheitsanfälligkeiten"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
+msgid "Model:"
+msgstr "Modell:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
+msgid "Cores/Threads:"
+msgstr "Kerne/Threads:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
+msgid "Architecture:"
+msgstr "Architektur:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
+msgid "Bits:"
+msgstr "Bits:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
+msgid "Max Speed:"
+msgstr "Maximale Geschwindigkeit:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
+msgid "L3 Cache:"
+msgstr "L3-Cache:"
