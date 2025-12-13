@@ -58,8 +58,13 @@ class HtmlGenerator:
         generated_text = _("Generated:")
         visit_website = _("Visit BigLinux website")
         
+        # Determine HTML lang attribute from current locale
+        import locale as _locale
+        lang_code = _locale.getlocale()[0] or _locale.getdefaultlocale()[0] or "en"
+        lang_code = lang_code.split("_")[0] if lang_code else "en"
+
         return f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="{lang_code}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -708,10 +713,12 @@ class HtmlGenerator:
                 "dialog-information-symbolic": "ℹ️"
             }
             icon = icon_map.get(cinfo["icon"], "▪️")
+            # Translate the category name for the sidebar so exported HTML is localized
+            name = _(cinfo.get("name", cid.title()))
             return f"""
-            <a class="nav-item" href="#{cid}" onclick="scrollToSection('{cid}'); return false;" data-target="{cid}" role="menuitem" aria-label="Go to {cinfo['name']}">
+            <a class="nav-item" href="#{cid}" onclick="scrollToSection('{cid}'); return false;" data-target="{cid}" role="menuitem" aria-label="{_('Go to')} {name}">
                 <span class="nav-icon" aria-hidden="true">{icon}</span>
-                <span class="nav-label">{cinfo["name"]}</span>
+                <span class="nav-label">{name}</span>
             </a>
             """
 

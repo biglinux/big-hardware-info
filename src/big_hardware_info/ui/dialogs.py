@@ -8,7 +8,7 @@ import os
 import threading
 import logging
 from datetime import datetime
-from gettext import gettext as _
+from big_hardware_info.utils.i18n import _
 
 import gi
 gi.require_version("Gtk", "4.0")
@@ -331,9 +331,7 @@ def show_share_error(window, error_message: str):
     """Show share error dialog."""
     dialog = Adw.AlertDialog()
     dialog.set_heading(_("Upload Failed"))
-    dialog.set_body(
-        _("Could not upload the report:\n\n{error}").format(error=error_message)
-    )
+    dialog.set_body(_("Could not upload the report:\n\n") + str(error_message))
     dialog.add_response("close", _("Close"))
     dialog.present(window)
 
@@ -408,9 +406,7 @@ def _on_export_complete(window, file_path: str, error: str = None):
         # Show error dialog
         dialog = Adw.AlertDialog()
         dialog.set_heading(_("Export Failed"))
-        dialog.set_body(
-            _("Could not export the report:\n\n{error}").format(error=error)
-        )
+        dialog.set_body(_("Could not export the report:\n\n") + str(error))
         dialog.add_response("close", _("Close"))
         dialog.present(window)
     else:
@@ -418,9 +414,7 @@ def _on_export_complete(window, file_path: str, error: str = None):
         dialog = Adw.AlertDialog()
         dialog.set_heading(_("Report Exported"))
         dialog.set_body(
-            _("Report saved successfully to:\n\n{file}").format(
-                file=os.path.basename(file_path)
-            )
+            _("Report saved successfully to:\n\n") + os.path.basename(file_path)
         )
         
         dialog.add_response("close", _("Close"))

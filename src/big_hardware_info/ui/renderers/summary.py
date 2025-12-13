@@ -205,29 +205,35 @@ class SummaryRenderer(SectionRenderer):
         return "\n".join([
             _("=== Usage Overview ==="),
             "",
-            _("Memory RAM: {memory}").format(memory=memory.get("total", "Unknown")),
-            _("  Used: {used}").format(used=memory.get("used", "N/A")),
-            _("  Usage: {usage}%").format(usage=memory.get("used_percent", "N/A")),
-            "",
-            _("Root Partition: {partition}").format(
-                partition=disk.get("device", disk.get("mount_point", "/"))
+            _("Memory RAM:") + " " + str(memory.get("total", "Unknown")),
+            _("  Used:") + " " + str(memory.get("used", "N/A")),
+            _("  Usage:")
+            + " "
+            + (
+                str(memory.get("used_percent", "N/A")) + "%"
+                if isinstance(memory.get("used_percent", None), (int, float))
+                else str(memory.get("used_percent", "N/A"))
             ),
-            _("  Size: {size}").format(size=disk.get("size", "Unknown")),
-            _("  Used: {used}").format(used=disk.get("used", "Unknown")),
-            _("  Free: {free}").format(free=disk.get("available", "Unknown")),
-            _("  Usage: {usage}").format(usage=disk.get("use_percent", "N/A")),
+            "",
+            _("Root Partition:")
+            + " "
+            + str(disk.get("device", disk.get("mount_point", "/"))),
+            _("  Size:") + " " + str(disk.get("size", "Unknown")),
+            _("  Used:") + " " + str(disk.get("used", "Unknown")),
+            _("  Free:") + " " + str(disk.get("available", "Unknown")),
+            _("  Usage:") + " " + str(disk.get("use_percent", "N/A")),
         ])
     
     def _format_system_copy(self, distro: str, gpu: str, date: str, kernel: str) -> str:
         """Format system info for clipboard."""
         lines = [_("=== System Info ==="), ""]
         if distro:
-            lines.append(_("Distro: {distro}").format(distro=distro))
+            lines.append(_("Distro:") + " " + str(distro))
         if gpu:
-            lines.append(_("Video: {video}").format(video=gpu))
+            lines.append(_("Video:") + " " + str(gpu))
         if date:
-            lines.append(_("Install Date: {date}").format(date=date))
-        lines.append(_("Kernel: {kernel}").format(kernel=kernel or "Unknown"))
+            lines.append(_("Install Date:") + " " + str(date))
+        lines.append(_("Kernel:") + " " + str(kernel or "Unknown"))
         return "\n".join(lines)
     
     def _build_searchable_text(self, memory: Dict, disk: Dict, gpu: Dict, system: Dict) -> str:

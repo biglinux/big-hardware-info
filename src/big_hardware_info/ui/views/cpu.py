@@ -257,7 +257,7 @@ class CpuSectionView(HardwareSectionView):
             speeds_section = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
 
             speeds_title = Gtk.Label(
-                label=_("Thread Speeds ({count})").format(count=len(core_speeds))
+                label=_("Thread Speeds") + f" ({len(core_speeds)})"
             )
             speeds_title.add_css_class("heading")
             speeds_title.set_halign(Gtk.Align.START)
@@ -269,9 +269,7 @@ class CpuSectionView(HardwareSectionView):
                 core_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4)
                 core_box.add_css_class("core-box")
 
-                core_label = Gtk.Label(
-                    label=_("Thread {thread}").format(thread=core_num)
-                )
+                core_label = Gtk.Label(label=_("Thread") + " " + str(core_num))
                 core_label.add_css_class("core-label")
                 core_box.append(core_label)
 
@@ -290,9 +288,7 @@ class CpuSectionView(HardwareSectionView):
 
             flags_section = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
 
-            flags_title = Gtk.Label(
-                label=_("CPU Flags ({count})").format(count=len(flags_list))
-            )
+            flags_title = Gtk.Label(label=_("CPU Flags") + f" ({len(flags_list)})")
             flags_title.add_css_class("heading")
             flags_title.set_halign(Gtk.Align.START)
             flags_section.append(flags_title)
@@ -313,9 +309,7 @@ class CpuSectionView(HardwareSectionView):
             vuln_section = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
 
             vuln_title = Gtk.Label(
-                label=_("CPU Vulnerabilities ({count})").format(
-                    count=len(vulnerabilities)
-                )
+                label=_("CPU Vulnerabilities") + f" ({len(vulnerabilities)})"
             )
             vuln_title.add_css_class("heading")
             vuln_title.set_halign(Gtk.Align.START)
@@ -372,23 +366,19 @@ class CpuSectionView(HardwareSectionView):
         lines = [
             _("=== Processor ==="),
             "",
-            _("Model: {model}").format(model=data.get("model", "Unknown")),
+            _("Model:") + " " + str(data.get("model", "Unknown")),
         ]
         
         if cores_threads:
-            lines.append(
-                _("Cores/Threads: {cores_threads}").format(cores_threads=cores_threads)
-            )
+            lines.append(_("Cores/Threads:") + " " + str(cores_threads))
         if data.get("arch"):
-            lines.append(_("Architecture: {arch}").format(arch=data.get("arch")))
+            lines.append(_("Architecture:") + " " + str(data.get("arch")))
         if data.get("bits"):
-            lines.append(_("Bits: {bits}").format(bits=data.get("bits")))
+            lines.append(_("Bits:") + " " + str(data.get("bits")))
         if data.get("speed_max"):
-            lines.append(
-                _("Max Speed: {speed} MHz").format(speed=data.get("speed_max"))
-            )
+            lines.append(_("Max Speed:") + " " + str(data.get("speed_max")) + " MHz")
         if data.get("cache_l3"):
-            lines.append(_("L3 Cache: {cache}").format(cache=data.get("cache_l3")))
+            lines.append(_("L3 Cache:") + " " + str(data.get("cache_l3")))
         
         text = "\n".join(lines)
         clipboard = Gdk.Display.get_default().get_clipboard()

@@ -27,6 +27,7 @@ from big_hardware_info.ui.search import SearchHandler
 from big_hardware_info.export.html_generator import HtmlGenerator
 from big_hardware_info.utils.style_manager import StyleManager
 from big_hardware_info.utils.i18n import _
+from big_hardware_info.utils.constants import AppInfo
 
 logger = logging.getLogger(__name__)
 
@@ -64,7 +65,7 @@ class MainWindow(Adw.ApplicationWindow):
         
         super().__init__(
             application=application,
-            title=_("Big Hardware Info"),
+            title=AppInfo.NAME,
             default_width=default_width,
             default_height=default_height,
             **kwargs,
@@ -152,12 +153,12 @@ class MainWindow(Adw.ApplicationWindow):
         app_icon = Gtk.Image.new_from_icon_name("computer-symbolic")
         app_icon.set_pixel_size(20)
         app_icon_btn.set_child(app_icon)
-        app_icon_btn.set_tooltip_text(_("About Big Hardware Info"))
+        app_icon_btn.set_tooltip_text(_("About") + " " + AppInfo.NAME)
         app_icon_btn.connect("clicked", lambda btn: self.app.activate_action("about", None))
         sidebar_header.pack_start(app_icon_btn)
         
         # Title in sidebar header
-        sidebar_title = Adw.WindowTitle.new(_("Big Hardware Info"), "")
+        sidebar_title = Adw.WindowTitle.new(AppInfo.NAME, "")
         sidebar_header.set_title_widget(sidebar_title)
         
         sidebar_toolbar.add_top_bar(sidebar_header)
@@ -249,7 +250,7 @@ class MainWindow(Adw.ApplicationWindow):
         self.section_widgets = {}
         
         # Create content navigation page
-        content_page = Adw.NavigationPage.new(content_toolbar, _("Big Hardware Info"))
+        content_page = Adw.NavigationPage.new(content_toolbar, AppInfo.NAME)
         self.split_view.set_content(content_page)
         
         # Configure split view
@@ -354,9 +355,7 @@ class MainWindow(Adw.ApplicationWindow):
         """Update progress indicator."""
         if hasattr(self, "progress_label") and self.progress_label:
             self.progress_label.set_text(
-                _("Loading {category}... ({progress}%)").format(
-                    category=category, progress=int(progress * 100)
-                )
+                _("Loading") + f" {category}... ({int(progress * 100)}%)"
             )
 
     def _on_data_collected(self, data: dict):
@@ -390,10 +389,10 @@ class MainWindow(Adw.ApplicationWindow):
         if not shutil.which("pkexec"):
             dialog = Adw.MessageDialog.new(
                 self,
-                "Admin Access Unavailable",
-                "The pkexec command is not available on this system.",
+                _("Admin Access Unavailable"),
+                _("The pkexec command is not available on this system."),
             )
-            dialog.add_response("ok", "OK")
+            dialog.add_response("ok", _("OK"))
             dialog.present()
             return
 
@@ -941,7 +940,7 @@ class MainWindow(Adw.ApplicationWindow):
         if title:
             # Get category name
             cat_name = CATEGORIES.get(title, {}).get("name", title.title())
-            lines.append(_("=== {category} ===").format(category=cat_name))
+            lines.append(f"=== {cat_name} ===")
             lines.append("")
         
         def format_value(key, value, indent: int = 0) -> list:
@@ -983,11 +982,7 @@ class MainWindow(Adw.ApplicationWindow):
         clipboard.set(text)
         
         if hasattr(self, 'toast_overlay'):
-            msg = (
-                _("Copied: {title}").format(title=title)
-                if title
-                else _("Copied to clipboard")
-            )
+            msg = (_("Copied:") + " " + title) if title else _("Copied to clipboard")
             toast = Adw.Toast.new(msg)
             toast.set_timeout(2)
             self.toast_overlay.add_toast(toast)
@@ -1096,9 +1091,10 @@ class MainWindow(Adw.ApplicationWindow):
             expander_row.set_margin_bottom(8)
 
             more_label = Gtk.Label(
-                label=_("... {count} more lines hidden").format(
-                    count=total_lines - max_lines
-                )
+                label="... "
+                + str(total_lines - max_lines)
+                + " "
+                + _("more lines hidden")
             )
             more_label.add_css_class("dim-label")
             more_label.add_css_class("caption")
@@ -1131,12 +1127,12 @@ class MainWindow(Adw.ApplicationWindow):
         if button.get_active():
             self._apply_terminal_highlighting(buffer, full_text)
             button.set_label(_("Show less"))
-            label.set_text(_("Showing all {count} lines").format(count=total))
+            label.set_text(_("Showing all") + f" {total} " + _("lines"))
         else:
             self._apply_terminal_highlighting(buffer, short_text)
             button.set_label(_("Show all"))
             label.set_text(
-                _("... {count} more lines hidden").format(count=total - max_lines)
+                "... " + str(total - max_lines) + " " + _("more lines hidden")
             )
 
     def _show_no_data(self, message: str):
@@ -1172,13 +1168,15 @@ class MainWindow(Adw.ApplicationWindow):
         box.append(icon)
         
         # Text
-        label = Gtk.Label(label="Requires Administrator")
+        label = Gtk.Label(label=_("Requires Administrator"))
         label.add_css_class("warning")
         label.add_css_class("caption")
         box.append(label)
         
         button.set_child(box)
-        button.set_tooltip_text(f"Click to run as administrator and show {field_name}")
+        button.set_tooltip_text(
+            _("Click to run as administrator and show") + " " + field_name
+        )
         button.connect("clicked", self._on_superuser_required_clicked)
         
         return button
@@ -1203,10 +1201,14 @@ class MainWindow(Adw.ApplicationWindow):
         
         # Show a loading indicator
         dialog = Adw.AlertDialog()
-        dialog.set_heading("Administrator Access Required")
-        dialog.set_body("Some hardware information requires administrator privileges to access. Do you want to reload with elevated access?")
-        dialog.add_response("cancel", "Cancel")
-        dialog.add_response("reload", "Reload as Admin")
+        dialog.set_heading(_("Administrator Access Required"))
+        dialog.set_body(
+            _(
+                "Some hardware information requires administrator privileges to access. Do you want to reload with elevated access?"
+            )
+        )
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("reload", _("Reload as Admin"))
         dialog.set_response_appearance("reload", Adw.ResponseAppearance.SUGGESTED)
         dialog.set_default_response("reload")
         dialog.set_close_response("cancel")

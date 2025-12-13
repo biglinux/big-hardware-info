@@ -224,7 +224,7 @@ class NetworkSectionView(HardwareSectionView):
         copy_btn = Gtk.Button()
         copy_btn.set_icon_name("edit-copy-symbolic")
         copy_btn.add_css_class("flat")
-        copy_btn.set_tooltip_text(_("Copy {label}").format(label=label))
+        copy_btn.set_tooltip_text(_("Copy") + " " + label)
         copy_btn.set_valign(Gtk.Align.CENTER)
         
         if self._copy_text_callback:

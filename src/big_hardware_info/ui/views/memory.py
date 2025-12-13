@@ -85,7 +85,7 @@ class MemorySectionView(HardwareSectionView):
         header.append(icon)
         
         total = data.get("total", "Unknown")
-        title = Gtk.Label(label=_("Total Memory: {total}").format(total=total))
+        title = Gtk.Label(label=_("Total Memory:") + " " + str(total))
         title.add_css_class("hero-title")
         title.set_hexpand(True)
         title.set_halign(Gtk.Align.START)
@@ -117,7 +117,7 @@ class MemorySectionView(HardwareSectionView):
             # Clean percentage from used string
             used_clean = self.clean_percentage_string(used)
 
-            used_label = Gtk.Label(label=_("Used: {used}").format(used=used_clean))
+            used_label = Gtk.Label(label=_("Used:") + " " + str(used_clean))
             used_label.add_css_class("info-value")
             used_label.set_halign(Gtk.Align.START)
             usage_labels.append(used_label)
@@ -137,7 +137,7 @@ class MemorySectionView(HardwareSectionView):
             bar_container.append(bar)
 
             # Percentage label
-            percent_label = Gtk.Label(label=_("{:.1f}% used").format(used_percent))
+            percent_label = Gtk.Label(label=f"{used_percent:.1f}% " + _("used"))
             percent_label.add_css_class("info-label")
             percent_label.set_halign(Gtk.Align.END)
             bar_container.append(percent_label)
@@ -229,9 +229,7 @@ class MemorySectionView(HardwareSectionView):
 
         # Create expander for modules
         modules_count = len(modules)
-        expander = Gtk.Expander(
-            label=_("Memory Modules ({modules})").format(modules=modules_count)
-        )
+        expander = Gtk.Expander(label=_("Memory Modules") + f" ({modules_count})")
         expander.add_css_class("card")
 
         # Content container
@@ -387,11 +385,7 @@ class MemorySectionView(HardwareSectionView):
         # Title
         swap_id = swap.get("id", "Swap")
         swap_type_display = swap.get("type", "").upper()
-        swap_title = Gtk.Label(
-            label=_("{swap_id} ({swap_type})").format(
-                swap_id=swap_id, swap_type=swap_type_display
-            )
-        )
+        swap_title = Gtk.Label(label=f"{swap_id} ({swap_type_display})")
         swap_title.add_css_class("device-title")
         swap_header.append(swap_title)
         
@@ -426,9 +420,7 @@ class MemorySectionView(HardwareSectionView):
             used_str = swap.get('used', '')
             used_clean = self.clean_percentage_string(used_str)
             usage_label = Gtk.Label(
-                label=_("Used: {used} ({percent:.1f}%)").format(
-                    used=used_clean, percent=used_percent
-                )
+                label=_("Used:") + " " + used_clean + f" ({used_percent:.1f}%)"
             )
             usage_label.add_css_class("info-label")
             usage_label.set_halign(Gtk.Align.END)
@@ -439,13 +431,11 @@ class MemorySectionView(HardwareSectionView):
         # Details
         details = []
         if swap.get("priority"):
-            details.append(_("Priority: {priority}").format(priority=swap["priority"]))
+            details.append(_("Priority:") + " " + str(swap["priority"]))
         if swap.get("comp"):
-            details.append(
-                _("Compression: {compression}").format(compression=swap["comp"])
-            )
+            details.append(_("Compression:") + " " + str(swap["comp"]))
         if swap.get("dev"):
-            details.append(_("Device: {device}").format(device=swap["dev"]))
+            details.append(_("Device:") + " " + str(swap["dev"]))
         
         if details:
             detail_label = Gtk.Label(label=" | ".join(details))
@@ -468,21 +458,23 @@ class MemorySectionView(HardwareSectionView):
         lines = [
             _("=== Memory ==="),
             "",
-            _("Total: {total}").format(total=data.get("total", "Unknown")),
-            _("Used: {used}").format(used=data.get("used", "N/A")),
-            _("Usage: {usage}%").format(usage=data.get("used_percent", "N/A")),
+            _("Total:") + " " + str(data.get("total", "Unknown")),
+            _("Used:") + " " + str(data.get("used", "N/A")),
+            _("Usage:")
+            + " "
+            + (
+                str(data.get("used_percent", "N/A")) + "%"
+                if isinstance(data.get("used_percent", None), (int, float))
+                else str(data.get("used_percent", "N/A"))
+            ),
         ]
         
         if data.get("capacity"):
-            lines.append(
-                _("Capacity: {capacity}").format(capacity=data.get("capacity"))
-            )
+            lines.append(_("Capacity:") + " " + str(data.get("capacity")))
         if data.get("modules_count"):
-            lines.append(
-                _("Modules: {modules}").format(modules=data.get("modules_count"))
-            )
+            lines.append(_("Modules:") + " " + str(data.get("modules_count")))
         if data.get("slots"):
-            lines.append(_("Slots: {slots}").format(slots=data.get("slots")))
+            lines.append(_("Slots:") + " " + str(data.get("slots")))
         
         text = "\n".join(lines)
         clipboard = Gdk.Display.get_default().get_clipboard()

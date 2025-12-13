@@ -23,6 +23,7 @@ from gi.repository import Gtk, Adw, Gio, GLib  # noqa: E402
 from big_hardware_info.ui import MainWindow  # noqa: E402
 from big_hardware_info.utils.config import AppConfig  # noqa: E402
 from big_hardware_info.utils.i18n import _  # noqa: E402
+from big_hardware_info.utils.constants import AppInfo  # noqa: E402
 
 
 # Set up logging
@@ -50,7 +51,7 @@ class BigHardwareInfoApplication(Adw.Application):
         self.config = AppConfig()
         self.window = None
         
-        GLib.set_application_name(_("Big Hardware Info"))
+        GLib.set_application_name(AppInfo.NAME)
         
     def do_startup(self):
         """Called when the application starts."""
@@ -115,7 +116,7 @@ class BigHardwareInfoApplication(Adw.Application):
     def _on_about(self, _action, _param):
         """Show about dialog."""
         dialog = Adw.AboutDialog.new()
-        dialog.set_application_name(_("Big Hardware Info"))
+        dialog.set_application_name(AppInfo.NAME)
         dialog.set_version("2.0.0")
         dialog.set_developer_name("BigLinux Team")
         dialog.set_license_type(Gtk.License.GPL_3_0)
