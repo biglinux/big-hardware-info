@@ -14,18 +14,20 @@ logger = logging.getLogger(__name__)
 
 
 # Standard inxi command for full hardware info
+# --tty: Forces inxi to act as if running in a real terminal (fixes IRC/Background error)
+# -c 0: Disable color codes to ensure clean JSON parsing
 # -Fxxxa: Full report with maximum extra data
-# -v8: Maximum verbosity level (shows all data including repos, processes)
+# -v8: Maximum verbosity level
 # --output json: Output in JSON format
 # --output-file print: Print to stdout instead of file
-INXI_COMMAND = ["inxi", "-Fxxxa", "-v8", "--output", "json", "--output-file", "print"]
+INXI_COMMAND = ["inxi", "--tty", "-c", "0", "-Fxxxa", "-v8", "--output", "json", "--output-file", "print"]
 
 # Command with filtering enabled (for export/upload with privacy)
 # -z: Filter sensitive information (serial numbers, MAC addresses, etc.)
-INXI_COMMAND_FILTERED = ["inxi", "-Fxxxa", "-v8", "-z", "--output", "json", "--output-file", "print"]
+INXI_COMMAND_FILTERED = ["inxi", "--tty", "-c", "0", "-Fxxxa", "-v8", "-z", "--output", "json", "--output-file", "print"]
 
 # Simplified fallback command (fewer options, more compatible)
-INXI_COMMAND_FALLBACK = ["inxi", "-Fxxx", "--output", "json", "--output-file", "print"]
+INXI_COMMAND_FALLBACK = ["inxi", "--tty", "-c", "0", "-Fxxx", "--output", "json", "--output-file", "print"]
 
 
 class InxiCollector(BaseCollector):
