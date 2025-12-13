@@ -1,0 +1,1269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the big-hardware-info package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: big-hardware-info\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 54
+msgid "Hardware Report"
+msgstr "Hardware Rapport"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 57
+msgid "Search sections..."
+msgstr "Zoek secties..."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 58
+msgid "Generated:"
+msgstr "Gegenereerd:"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 59
+msgid "Visit BigLinux website"
+msgstr "Bezoek de BigLinux-website"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1105
+msgid "No graphics devices found"
+msgstr "Geen grafische apparaten gevonden"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1459
+msgid "No storage drives found"
+msgstr "Geen opslagstations gevonden"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1782
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 58
+msgid "No audio devices found"
+msgstr "Geen audioapparaten gevonden"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1840
+msgid "No network interfaces found"
+msgstr "Geen netwerkinvoeren gevonden"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1972
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 26
+msgid "No battery detected (Desktop system)"
+msgstr "Geen batterij gedetecteerd (Desktop systeem)"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2054
+msgid "No Bluetooth devices found"
+msgstr "Geen Bluetooth-apparaten gevonden"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2110
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2116
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 35
+msgid "No USB devices found"
+msgstr "Geen USB-apparaten gevonden"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2215
+msgid "No PCI devices found"
+msgstr "Geen PCI-apparaten gevonden"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2334
+msgid "No webcams found"
+msgstr "Geen webcams gevonden"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2395
+msgid "No printers configured"
+msgstr "Geen printers geconfigureerd"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2479
+# File: big-hardware-info/src/app/ui/sections.py, line: 359
+msgid "No sensors detected"
+msgstr "Geen sensoren gedetecteerd"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2607
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2609
+msgid "No SDIO devices detected"
+msgstr "Geen SDIO-apparaten gedetecteerd"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2675
+msgid "No additional information available"
+msgstr "Geen aanvullende informatie beschikbaar"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Gebruiksoverzicht"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Systeeminformatie"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 243
+msgid "No battery detected"
+msgstr "Geen batterij gedetecteerd"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 252
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 230
+msgid "Model"
+msgstr "Model"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 253
+# File: big-hardware-info/src/app/ui/sections.py, line: 460
+msgid "Status"
+msgstr "Status"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 254
+msgid "Charge"
+msgstr "Opladen"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 255
+# File: big-hardware-info/src/app/ui/sections.py, line: 324
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 46
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 154
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 141
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 297
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 325
+# File: big-hardware-info/src/app/ui/views/network.py, line: 110
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 103
+msgid "Vendor"
+msgstr "Leverancier"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 259
+msgid "Technology"
+msgstr "Technologie"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 260
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 117
+msgid "Voltage"
+msgstr "Spanning"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 261
+msgid "Energy"
+msgstr "Energie"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 262
+msgid "Capacity"
+msgstr "Capaciteit"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 307
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 25
+msgid "No Bluetooth devices detected"
+msgstr "Geen Bluetooth-apparaten gedetecteerd"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 325
+# File: big-hardware-info/src/app/ui/sections.py, line: 528
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 132
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 129
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 150
+# File: big-hardware-info/src/app/ui/views/network.py, line: 118
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 110
+msgid "Chip ID"
+msgstr "Chip-ID"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 329
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 51
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 131
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 130
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 149
+# File: big-hardware-info/src/app/ui/views/network.py, line: 117
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 109
+msgid "Bus ID"
+msgstr "Bus-ID"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 330
+# File: big-hardware-info/src/app/ui/sections.py, line: 529
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 52
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 136
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 136
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 142
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 242
+# File: big-hardware-info/src/app/ui/views/network.py, line: 111
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 104
+msgid "Driver"
+msgstr "Stuurprogramma"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 336
+# File: big-hardware-info/src/app/ui/sections.py, line: 542
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 58
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 110
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 230
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 80
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 106
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 180
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 267
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 119
+# File: big-hardware-info/src/app/ui/views/network.py, line: 153
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 135
+msgid "info"
+msgstr "informatie"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 337
+# File: big-hardware-info/src/app/ui/sections.py, line: 543
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 59
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 111
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 231
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 107
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 181
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 268
+msgid "View device info on Linux Hardware Database"
+msgstr "Bekijk apparaatinformatie op de Linux Hardware Database"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 367
+msgid "Temperatures"
+msgstr "Temperaturen"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 402
+msgid "Fans"
+msgstr "Ventilatoren"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 453
+msgid "No printers detected"
+msgstr "Geen printers gedetecteerd"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 461
+msgid "Location"
+msgstr "Locatie"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 462
+msgid "Make/Model"
+msgstr "Maak/Model"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 466
+msgid "Connection"
+msgstr "Verbinding"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 467
+msgid "Device URI"
+msgstr "Apparaat-URI"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 468
+msgid "Default"
+msgstr "Standaard"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 513
+msgid "No webcams detected"
+msgstr "Geen webcams gedetecteerd"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 526
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 231
+msgid "Resolution"
+msgstr "Resolutie"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 527
+msgid "Format"
+msgstr "Indeling"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 533
+msgid "Colorspace"
+msgstr "Kleurschema"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 534
+msgid "Max FPS"
+msgstr "Max FPS"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 535
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 143
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 312
+msgid "Driver Version"
+msgstr "Stuurprogramma Versie"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Apparaat"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 34
+msgid "Share Report Online"
+msgstr "Deel rapport online"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 36
+msgid ""
+"Your hardware report will be uploaded to filebin.net, a public file hosting service.\n"
+"\n"
+"The generated link will be publicly accessible for 7 days."
+msgstr ""
+"Uw hardware rapport wordt geüpload naar filebin.net, een openbare bestandsopslagdienst.\n"
+"\n"
+"De gegenereerde link is 7 dagen openbaar toegankelijk."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 41
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 119
+msgid "Export Hardware Report"
+msgstr "Exporteer Hardware Rapport"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 42
+msgid "Your hardware report will be saved as an HTML file."
+msgstr "Uw hardware rapport wordt opgeslagen als een HTML-bestand."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 60
+msgid ""
+"Sensitive data (serial numbers, MAC addresses) can be included. For privacy, it's recommended to "
+"exclude them when sharing."
+msgstr ""
+"Gevoelige gegevens (serienummers, MAC-adressen) kunnen worden opgenomen. Voor de privacy wordt "
+"aanbevolen om ze uit te sluiten bij het delen."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 74
+msgid "Include sensitive information"
+msgstr "Inclusief gevoelige informatie"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 88
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 93
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 172
+msgid "Cancel"
+msgstr "Annuleren"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
+msgid "Share"
+msgstr "Delen"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
+msgid "Export"
+msgstr "Exporteren"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 128
+msgid "HTML files"
+msgstr "HTML-bestanden"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 159
+msgid "Uploading Report"
+msgstr "Rapport uploaden"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 160
+msgid "Generating and uploading your hardware report..."
+msgstr "Genereer en upload uw hardware rapport..."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 267
+msgid "Report Uploaded Successfully"
+msgstr "Rapport Succesvol Geüpload"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 268
+msgid "Your report has been uploaded. The link is available for 7 days."
+msgstr "Uw rapport is geüpload. De link is 7 dagen beschikbaar."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 288
+msgid "Copy URL to clipboard"
+msgstr "Kopieer URL naar klembord"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 305
+msgid "Tip: Click the copy button or select the URL to copy it."
+msgstr "Tip: Klik op de kopieerknop of selecteer de URL om deze te kopiëren."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 313
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 335
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 410
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 418
+msgid "Close"
+msgstr "Sluiten"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 314
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 419
+msgid "Open in Browser"
+msgstr "Openen in browser"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 333
+msgid "Upload Failed"
+msgstr "Upload mislukt"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 334
+msgid ""
+"Could not upload the report:\n"
+"\n"
+"{}"
+msgstr ""
+"Kon het rapport niet uploaden:\n"
+"\n"
+"{}"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 408
+msgid "Export Failed"
+msgstr "Exporteren mislukt"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 409
+msgid ""
+"Could not export the report:\n"
+"\n"
+"{}"
+msgstr ""
+"Kon het rapport niet exporteren:\n"
+"\n"
+"{}"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 415
+msgid "Report Exported"
+msgstr "Rapport geëxporteerd"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 416
+msgid ""
+"Report saved successfully to:\n"
+"\n"
+"{}"
+msgstr ""
+"Rapport succesvol opgeslagen naar:\n"
+"\n"
+"{}"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 432
+msgid "Failed to open browser"
+msgstr "Kon niet browser openen"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 44
+msgid "No PCI devices detected"
+msgstr "Geen PCI-apparaten gedetecteerd"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 64
+msgid "Hardware Devices"
+msgstr "Hardware-apparaten"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 86
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 174
+msgid "Unknown Device"
+msgstr "Onbekend apparaat"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 130
+msgid "Category"
+msgstr "Categorie"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 137
+msgid "Rev"
+msgstr "Rev"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 138
+msgid "Kernel Module"
+msgstr "Kernelmodule"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 153
+msgid "System Controllers & Bridges ({} devices)"
+msgstr "Systeemcontrollers en bruggen ({} apparaten)"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
+msgid "No motherboard information available"
+msgstr "Geen moederbordinformatie beschikbaar"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
+# File: big-hardware-info/src/app/ui/search.py, line: 73
+# File: big-hardware-info/src/app/ui/search.py, line: 221
+# File: big-hardware-info/src/app/ui/search.py, line: 222
+msgid "Motherboard"
+msgstr "Moederbord"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 37
+# File: big-hardware-info/src/app/ui/search.py, line: 195
+msgid "Manufacturer"
+msgstr "Fabrikant"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 38
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 112
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 132
+# File: big-hardware-info/src/app/ui/search.py, line: 193
+msgid "Type"
+msgstr "Type"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
+# File: big-hardware-info/src/app/ui/search.py, line: 92
+# File: big-hardware-info/src/app/ui/search.py, line: 213
+msgid "System"
+msgstr "Systeem"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 40
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 162
+msgid "Firmware"
+msgstr "Firmware"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 44
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 311
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 324
+msgid "Version"
+msgstr "Versie"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 45
+msgid "BIOS Vendor"
+msgstr "BIOS-leverancier"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 46
+msgid "BIOS Version"
+msgstr "BIOS-versie"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 47
+msgid "BIOS Date"
+msgstr "BIOS-datum"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 84
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 48
+# File: big-hardware-info/src/app/ui/main_window.py, line: 757
+# File: big-hardware-info/src/app/ui/main_window.py, line: 778
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 67
+msgid "Full Output"
+msgstr "Volledige uitvoer"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
+msgid "No sensor data available"
+msgstr "Geen sensorgegevens beschikbaar"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Systeemtemperaturen"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Ventilator Snelheden"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Gedetailleerde sensorgegevens (sensoren)"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 81
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 122
+# File: big-hardware-info/src/app/ui/views/network.py, line: 156
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 138
+msgid ""
+"View device info on Linux Hardware Database\n"
+"See driver compatibility and troubleshooting tips"
+msgstr ""
+"Bekijk apparaatinformatie op de Linux Hardware Database  \n"
+"Bekijk de compatibiliteit van stuurprogramma's en tips voor probleemoplossing"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 24
+msgid "No system information available"
+msgstr "Geen systeeminformatie beschikbaar"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 37
+msgid "Compilers"
+msgstr "Compilers"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 44
+msgid "Flatpak Packages"
+msgstr "Flatpak-pakketten"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 90
+msgid "Linux"
+msgstr "Linux"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 113
+msgid "Hostname"
+msgstr "Hostnaam"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "Kernel"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 115
+msgid "Desktop"
+msgstr "Bureaublad"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 116
+msgid "Window Manager"
+msgstr "Vensterbeheerder"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 117
+msgid "Shell"
+msgstr "Schaal"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 118
+msgid "Terminal"
+msgstr "Terminal"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 122
+msgid "Init System"
+msgstr "Init-systeem"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 123
+msgid "Session Type"
+msgstr "Sessie Type"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 124
+msgid "Display Manager"
+msgstr "Weergavebeheerder"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 125
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 283
+msgid "Compositor"
+msgstr "Compositor"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 126
+msgid "Uptime"
+msgstr "Beschikbaarheid"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 127
+msgid "Processes"
+msgstr "Processen"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 128
+msgid "Packages"
+msgstr "Pakketten"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 129
+msgid "Locale"
+msgstr "Locale"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 173
+msgid "Top Processes"
+msgstr "Topprocessen"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 182
+msgid "CPU Usage"
+msgstr "CPU-gebruik"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "Geheugengebruik"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
+msgid "Packages & Repositories"
+msgstr "Pakketten & Repositories"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
+msgid "Battery"
+msgstr "Batterij"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
+msgid "Condition"
+msgstr "Voorwaarde"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 113
+msgid "Cycles"
+msgstr "Cycli"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 118
+msgid "Min Voltage"
+msgstr "Min Spanning."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 119
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 139
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 163
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 241
+msgid "Serial"
+msgstr "Serieel"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "Verbonden Apparaten"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
+msgid "Class"
+msgstr "Klasse"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 137
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 155
+# File: big-hardware-info/src/app/ui/views/network.py, line: 113
+msgid "Speed"
+msgstr "Snelheid"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 138
+msgid "Ports"
+msgstr "Poorten"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 166
+msgid "Device ID"
+msgstr "Apparaat-ID"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
+msgid "Bus"
+msgstr "Bus"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers ({})"
+msgstr "USB-hubs en -controllers ({})"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
+msgid "Hub"
+msgstr "Hub"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 233
+msgid "{} ports"
+msgstr "{} poorten"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 237
+msgid "Mode {}"
+msgstr "Modus {}"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 277
+msgid "System USB Controllers ({} devices)"
+msgstr "Systeem USB-controllers ({} apparaten)"
+# 
+# File: big-hardware-info/src/app/ui/builders.py, line: 154
+msgid "Copy to clipboard"
+msgstr "Kopiëren naar klembord"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 67
+# File: big-hardware-info/src/app/ui/main_window.py, line: 160
+# File: big-hardware-info/src/app/ui/main_window.py, line: 252
+# File: big-hardware-info/src/app/__init__.py, line: 53
+# File: big-hardware-info/src/app/__init__.py, line: 118
+msgid "Big Hardware Info"
+msgstr "Grote Hardware-informatie"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 155
+msgid "About Big Hardware Info"
+msgstr "Over Big Hardware Info"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 200
+msgid "Refresh hardware information (Ctrl+R)"
+msgstr "Vernieuw hardware-informatie (Ctrl+R)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 206
+msgid "Collect restricted data (requires admin)"
+msgstr "Verzamel beperkte gegevens (vereist beheerder)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 212
+msgid "Search..."
+msgstr "Zoeken..."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "Exporteren Rapport"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "Deel Online"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 222
+msgid "About"
+msgstr "Over"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 868
+msgid "Opening in browser..."
+msgstr "Opening in browser..."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 877
+msgid "Copy category data to clipboard"
+msgstr "Kopieer categoriedata naar het klembord"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 889
+msgid "No data to copy"
+msgstr "Geen gegevens om te kopiëren"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 903
+msgid "Data copied to clipboard"
+msgstr "Gegevens gekopieerd naar het klembord"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 956
+msgid "Copied: {}"
+msgstr "Gekopieerd: {}"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 956
+msgid "Copied to clipboard"
+msgstr "Gekopieerd naar klembord"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 1022
+msgid "Copy content to clipboard"
+msgstr "Kopieer inhoud naar klembord"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 70
+msgid "Processor"
+msgstr "Processor"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 71
+msgid "Graphics"
+msgstr "Grafisch"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 72
+msgid "Memory"
+msgstr "Geheugen"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 74
+msgid "Audio"
+msgstr "Audio"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 75
+msgid "Network"
+msgstr "Netwerk"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 76
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Storage"
+msgstr "Opslag"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 77
+msgid "PCI Devices"
+msgstr "PCI-apparaten"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 78
+msgid "USB Devices"
+msgstr "USB-apparaten"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 191
+msgid "Slot"
+msgstr "Slot"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 197
+msgid "Part Number"
+msgstr "Onderdeelnummer"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 214
+# File: big-hardware-info/src/app/ui/search.py, line: 294
+msgid "System Information"
+msgstr "Systeeminformatie"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 289
+msgid "Distribution"
+msgstr "Distributie"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 321
+msgid "No results found"
+msgstr "Geen resultaten gevonden"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 325
+msgid "Try a different search term"
+msgstr "Probeer een andere zoekterm"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 39
+msgid "No disk information available"
+msgstr "Geen schijfinformatie beschikbaar"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Total Storage: {}"
+msgstr "Totale opslag: {}"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 101
+msgid "Used: {}"
+msgstr "Gebruikt: {}"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Opslagapparaten"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 119
+msgid "Unknown Drive"
+msgstr "Onbekende schijf"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "Grootte"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 160
+msgid "Lanes"
+msgstr "Rijen"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 161
+msgid "Temp"
+msgstr "Temp"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 202
+msgid "Mounted Partitions"
+msgstr "Gemonteerde Partities"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "Gebruikt"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 308
+msgid "Mounted at"
+msgstr "Gemonteerd op"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 318
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 354
+# File: big-hardware-info/src/app/ui/views/network.py, line: 408
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 185
+msgid "Copy device info"
+msgstr "Kopieer apparaatgegevens"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 49
+msgid "No GPU information available"
+msgstr "Geen GPU-informatie beschikbaar"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 61
+msgid "No GPU devices found"
+msgstr "Geen GPU-apparaten gevonden"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 104
+msgid "Unknown GPU"
+msgstr "Onbekende GPU"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 144
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 301
+msgid "Video Memory"
+msgstr "Videogeheugen"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 145
+msgid "Architecture"
+msgstr "Architectuur"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 151
+# File: big-hardware-info/src/app/ui/views/network.py, line: 98
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 95
+msgid "PCIe"
+msgstr "PCIe"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 152
+msgid "Active Ports"
+msgstr "Actieve poorten"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 153
+msgid "Empty Ports"
+msgstr "Lege poorten"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Monitoren"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
+msgid "Monitor"
+msgstr "Monitor"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 232
+msgid "Refresh Rate"
+msgstr "Verversingssnelheid"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 234
+msgid "Diagonal"
+msgstr "Diagonaal"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 235
+msgid "Aspect Ratio"
+msgstr "Beeldverhouding"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 236
+msgid "DPI"
+msgstr "DPI"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 237
+msgid "Gamma"
+msgstr "Gamma"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 238
+msgid "Built Year"
+msgstr "Bouwjaar"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 239
+msgid "Max Resolution"
+msgstr "Maximale resolutie"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 240
+msgid "Min Resolution"
+msgstr "Min Resolutie"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
+msgid "Mapped"
+msgstr "In kaart gebracht"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
+msgid "Advanced Information"
+msgstr "Geavanceerde informatie"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Weergaveserver"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
+msgid "Display"
+msgstr "Weergeven"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 282
+msgid "With"
+msgstr "Met"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 284
+msgid "Driver Loaded"
+msgstr "Stuurprogramma geladen"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 285
+msgid "GPU"
+msgstr "GPU"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 296
+msgid "Compatibility"
+msgstr "Compatibiliteit"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 298
+msgid "GLX Version"
+msgstr "GLX Versie"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 299
+msgid "Direct Render"
+msgstr "Direct Render"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 300
+msgid "Renderer"
+msgstr "Renderer"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 314
+msgid "Device Type"
+msgstr "Apparaat type"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 56
+msgid "No network information available"
+msgstr "Geen netwerkinformatie beschikbaar"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 63
+msgid "No network devices found"
+msgstr "Geen netwerkinrichtingen gevonden"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 75
+msgid "Unknown Network Device"
+msgstr "Onbekend netwerkapparaat"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 88
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 85
+msgid "USB"
+msgstr "USB"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 112
+msgid "Interface"
+msgstr "Interface"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 119
+msgid "MAC"
+msgstr "MAC"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 205
+msgid "IPv4"
+msgstr "IPv4"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 209
+msgid "IPv6"
+msgstr "IPv6"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 227
+msgid "Copy {}"
+msgstr "Kopieer {}"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 240
+msgid "Virtual Networks ({})"
+msgstr "Virtuele Netwerken ({})"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 272
+msgid "Virtual"
+msgstr "Virtueel"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 305
+msgid "Type:"
+msgstr "Type:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 318
+msgid "Driver:"
+msgstr "Stuurprogramma:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 331
+msgid "MAC:"
+msgstr "MAC:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 344
+msgid "IPv4:"
+msgstr "IPv4:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 357
+msgid "IPv6:"
+msgstr "IPv6:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 372
+msgid "Speed:"
+msgstr "Snelheid:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 385
+msgid "Bus ID:"
+msgstr "Bus-ID:"
+# 
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 52
+msgid "No audio information available"
+msgstr "Geen audio-informatie beschikbaar"
+# 
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 72
+msgid "Unknown Audio Device"
+msgstr "Onbekend audiapparaat"
+# 
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 105
+msgid "Class ID"
+msgstr "Klasse-ID"
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 123
+msgid ""
+"View detailed hardware information and share diagnostic reports.\n"
+"\n"
+"Collect comprehensive system data including CPU, GPU, memory, storage, network, and more. Export "
+"reports to HTML or share online."
+msgstr ""
+"Bekijk gedetailleerde hardware-informatie en deel diagnostische rapporten.\n"
+"\n"
+"Verzamel uitgebreide systeemgegevens, waaronder CPU, GPU, geheugen, opslag, netwerk en meer. "
+"Exporteer rapporten naar HTML of deel ze online."
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 140
+msgid "Special Thanks"
+msgstr "Speciale dank"
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 145
+msgid "translator-credits"
+msgstr "vertaler-credits"
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 150
+msgid ""
+"<p>Big Hardware Info 2.0.0 - Complete Rewrite:</p><ul><li>Comprehensive hardware "
+"detection</li><li>Export to HTML with modern design</li><li>Online sharing via "
+"termbin.com</li><li>Syntax highlighting for system files</li><li>USB/PCIe device "
+"distinction</li></ul>"
+msgstr ""
+"<p>Big Hardware Info 2.0.0 - Volledige herschrijving:</p><ul><li>Uitgebreide "
+"hardwaredetectie</li><li>Exporteren naar HTML met modern ontwerp</li><li>Online delen via "
+"termbin.com</li><li>Syntaxhighlighting voor systeem bestanden</li><li>USB/PCIe "
+"apparaatscheiding</li></ul>"

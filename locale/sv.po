@@ -1,0 +1,1268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the big-hardware-info package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: big-hardware-info\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 54
+msgid "Hardware Report"
+msgstr "Hårdvarurapport"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 57
+msgid "Search sections..."
+msgstr "Sök avsnitt..."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 58
+msgid "Generated:"
+msgstr "Genererad:"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 59
+msgid "Visit BigLinux website"
+msgstr "Besök BigLinux-webbplatsen"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1105
+msgid "No graphics devices found"
+msgstr "Inga grafikenheter hittades"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1459
+msgid "No storage drives found"
+msgstr "Inga lagringsenheter hittades"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1782
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 58
+msgid "No audio devices found"
+msgstr "Inga ljudenheter hittades"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1840
+msgid "No network interfaces found"
+msgstr "Inga nätverksgränssnitt hittades"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1972
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 26
+msgid "No battery detected (Desktop system)"
+msgstr "Ingen batteri upptäcktes (Skrivbordssystem)"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2054
+msgid "No Bluetooth devices found"
+msgstr "Inga Bluetooth-enheter hittades"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2110
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2116
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 35
+msgid "No USB devices found"
+msgstr "Inga USB-enheter hittades"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2215
+msgid "No PCI devices found"
+msgstr "Inga PCI-enheter hittades"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2334
+msgid "No webcams found"
+msgstr "Inga webbkameror hittades"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2395
+msgid "No printers configured"
+msgstr "Inga skrivare konfigurerade"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2479
+# File: big-hardware-info/src/app/ui/sections.py, line: 359
+msgid "No sensors detected"
+msgstr "Inga sensorer upptäckta"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2607
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2609
+msgid "No SDIO devices detected"
+msgstr "Inga SDIO-enheter upptäcktes"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2675
+msgid "No additional information available"
+msgstr "Ingen ytterligare information tillgänglig"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Användningsöversikt"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Systeminformation"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 243
+msgid "No battery detected"
+msgstr "Ingen batteri upptäckt"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 252
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 230
+msgid "Model"
+msgstr "Modell"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 253
+# File: big-hardware-info/src/app/ui/sections.py, line: 460
+msgid "Status"
+msgstr "Status"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 254
+msgid "Charge"
+msgstr "Ladda"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 255
+# File: big-hardware-info/src/app/ui/sections.py, line: 324
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 46
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 154
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 141
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 297
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 325
+# File: big-hardware-info/src/app/ui/views/network.py, line: 110
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 103
+msgid "Vendor"
+msgstr "Leverantör"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 259
+msgid "Technology"
+msgstr "Teknik"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 260
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 117
+msgid "Voltage"
+msgstr "Spänning"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 261
+msgid "Energy"
+msgstr "Energi"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 262
+msgid "Capacity"
+msgstr "Kapacitet"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 307
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 25
+msgid "No Bluetooth devices detected"
+msgstr "Inga Bluetooth-enheter upptäcktes"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 325
+# File: big-hardware-info/src/app/ui/sections.py, line: 528
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 132
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 129
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 150
+# File: big-hardware-info/src/app/ui/views/network.py, line: 118
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 110
+msgid "Chip ID"
+msgstr "Chip-ID"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 329
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 51
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 131
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 130
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 149
+# File: big-hardware-info/src/app/ui/views/network.py, line: 117
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 109
+msgid "Bus ID"
+msgstr "Buss-ID"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 330
+# File: big-hardware-info/src/app/ui/sections.py, line: 529
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 52
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 136
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 136
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 142
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 242
+# File: big-hardware-info/src/app/ui/views/network.py, line: 111
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 104
+msgid "Driver"
+msgstr "Drivrutin"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 336
+# File: big-hardware-info/src/app/ui/sections.py, line: 542
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 58
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 110
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 230
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 80
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 106
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 180
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 267
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 119
+# File: big-hardware-info/src/app/ui/views/network.py, line: 153
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 135
+msgid "info"
+msgstr "information"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 337
+# File: big-hardware-info/src/app/ui/sections.py, line: 543
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 59
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 111
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 231
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 107
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 181
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 268
+msgid "View device info on Linux Hardware Database"
+msgstr "Visa enhetsinformation på Linux-hårdvarudatabas"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 367
+msgid "Temperatures"
+msgstr "Temperaturer"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 402
+msgid "Fans"
+msgstr "Fläktar"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 453
+msgid "No printers detected"
+msgstr "Inga skrivare upptäcktes"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 461
+msgid "Location"
+msgstr "Plats"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 462
+msgid "Make/Model"
+msgstr "Tillverkare/Modell"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 466
+msgid "Connection"
+msgstr "Anslutning"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 467
+msgid "Device URI"
+msgstr "Enhets-URI"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 468
+msgid "Default"
+msgstr "Standardinställning"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 513
+msgid "No webcams detected"
+msgstr "Inga webbkameror upptäcktes"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 526
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 231
+msgid "Resolution"
+msgstr "Upplösning"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 527
+msgid "Format"
+msgstr "Format"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 533
+msgid "Colorspace"
+msgstr "Färgrymd"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 534
+msgid "Max FPS"
+msgstr "Max FPS"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 535
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 143
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 312
+msgid "Driver Version"
+msgstr "Drivrutinsversion"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Enhet"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 34
+msgid "Share Report Online"
+msgstr "Dela rapport online"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 36
+msgid ""
+"Your hardware report will be uploaded to filebin.net, a public file hosting service.\n"
+"\n"
+"The generated link will be publicly accessible for 7 days."
+msgstr ""
+"Din hårdvarurapport kommer att laddas upp till filebin.net, en offentlig filhostingstjänst.\n"
+"\n"
+"Den genererade länken kommer att vara offentligt tillgänglig i 7 dagar."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 41
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 119
+msgid "Export Hardware Report"
+msgstr "Exportera hårdvarurapport"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 42
+msgid "Your hardware report will be saved as an HTML file."
+msgstr "Din hårdvarurapport kommer att sparas som en HTML-fil."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 60
+msgid ""
+"Sensitive data (serial numbers, MAC addresses) can be included. For privacy, it's recommended to "
+"exclude them when sharing."
+msgstr ""
+"Känslig data (serienummer, MAC-adresser) kan inkluderas. För integritet rekommenderas det att "
+"utesluta dem vid delning."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 74
+msgid "Include sensitive information"
+msgstr "Inkludera känslig information"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 88
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 93
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 172
+msgid "Cancel"
+msgstr "Avbryt"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
+msgid "Share"
+msgstr "Dela"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
+msgid "Export"
+msgstr "Exportera"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 128
+msgid "HTML files"
+msgstr "HTML-filer"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 159
+msgid "Uploading Report"
+msgstr "Laddar upp rapport"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 160
+msgid "Generating and uploading your hardware report..."
+msgstr "Genererar och laddar upp din hårdvaru rapport..."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 267
+msgid "Report Uploaded Successfully"
+msgstr "Rapportet har laddats upp framgångsrikt"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 268
+msgid "Your report has been uploaded. The link is available for 7 days."
+msgstr "Din rapport har laddats upp. Länken är tillgänglig i 7 dagar."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 288
+msgid "Copy URL to clipboard"
+msgstr "Kopiera URL till urklipp"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 305
+msgid "Tip: Click the copy button or select the URL to copy it."
+msgstr "Tips: Klicka på kopiera-knappen eller välj URL:en för att kopiera den."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 313
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 335
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 410
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 418
+msgid "Close"
+msgstr "Stäng"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 314
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 419
+msgid "Open in Browser"
+msgstr "Öppna i webbläsare"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 333
+msgid "Upload Failed"
+msgstr "Uppladdning misslyckades"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 334
+msgid ""
+"Could not upload the report:\n"
+"\n"
+"{}"
+msgstr ""
+"Kunde inte ladda upp rapporten:\n"
+"\n"
+"{}"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 408
+msgid "Export Failed"
+msgstr "Exporten misslyckades"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 409
+msgid ""
+"Could not export the report:\n"
+"\n"
+"{}"
+msgstr ""
+"Kunde inte exportera rapporten:\n"
+"\n"
+"{}"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 415
+msgid "Report Exported"
+msgstr "Rapport exporterad"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 416
+msgid ""
+"Report saved successfully to:\n"
+"\n"
+"{}"
+msgstr ""
+"Rapportet har sparats framgångsrikt till:\n"
+"\n"
+"{}"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 432
+msgid "Failed to open browser"
+msgstr "Misslyckades med att öppna webbläsaren"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 44
+msgid "No PCI devices detected"
+msgstr "Inga PCI-enheter upptäcktes"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 64
+msgid "Hardware Devices"
+msgstr "Hårdvaruenheter"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 86
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 174
+msgid "Unknown Device"
+msgstr "Okänd enhet"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 130
+msgid "Category"
+msgstr "Kategori"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 137
+msgid "Rev"
+msgstr "Rev"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 138
+msgid "Kernel Module"
+msgstr "Kärnmodul"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 153
+msgid "System Controllers & Bridges ({} devices)"
+msgstr "Systemkontroller och broar ({} enheter)"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
+msgid "No motherboard information available"
+msgstr "Ingen moderkortsinformation tillgänglig"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
+# File: big-hardware-info/src/app/ui/search.py, line: 73
+# File: big-hardware-info/src/app/ui/search.py, line: 221
+# File: big-hardware-info/src/app/ui/search.py, line: 222
+msgid "Motherboard"
+msgstr "Moderkort"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 37
+# File: big-hardware-info/src/app/ui/search.py, line: 195
+msgid "Manufacturer"
+msgstr "Tillverkare"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 38
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 112
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 132
+# File: big-hardware-info/src/app/ui/search.py, line: 193
+msgid "Type"
+msgstr "Typ"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
+# File: big-hardware-info/src/app/ui/search.py, line: 92
+# File: big-hardware-info/src/app/ui/search.py, line: 213
+msgid "System"
+msgstr "System"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 40
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 162
+msgid "Firmware"
+msgstr "Fastvara"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 44
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 311
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 324
+msgid "Version"
+msgstr "Version"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 45
+msgid "BIOS Vendor"
+msgstr "BIOS-leverantör"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 46
+msgid "BIOS Version"
+msgstr "BIOS-version"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 47
+msgid "BIOS Date"
+msgstr "BIOS-datum"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 84
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 48
+# File: big-hardware-info/src/app/ui/main_window.py, line: 757
+# File: big-hardware-info/src/app/ui/main_window.py, line: 778
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 67
+msgid "Full Output"
+msgstr "Fullständig utdata"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
+msgid "No sensor data available"
+msgstr "Ingen sensordata tillgänglig"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Systemtemperaturer"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Fläktvarvtal"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Detaljerad sensorinformation (sensorer)"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 81
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 122
+# File: big-hardware-info/src/app/ui/views/network.py, line: 156
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 138
+msgid ""
+"View device info on Linux Hardware Database\n"
+"See driver compatibility and troubleshooting tips"
+msgstr ""
+"Visa enhetsinformation på Linux-hårdvarudatabas  \n"
+"Se drivrutinskompatibilitet och felsökningstips"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 24
+msgid "No system information available"
+msgstr "Ingen systeminformation tillgänglig"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 37
+msgid "Compilers"
+msgstr "Kompilatorer"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 44
+msgid "Flatpak Packages"
+msgstr "Flatpak-paket"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 90
+msgid "Linux"
+msgstr "Linux"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 113
+msgid "Hostname"
+msgstr "Värdnamn"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "Kärna"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 115
+msgid "Desktop"
+msgstr "Skrivbord"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 116
+msgid "Window Manager"
+msgstr "Fönsterhanterare"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 117
+msgid "Shell"
+msgstr "Skal"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 118
+msgid "Terminal"
+msgstr "Terminal"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 122
+msgid "Init System"
+msgstr "Init-system"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 123
+msgid "Session Type"
+msgstr "Sessions typ"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 124
+msgid "Display Manager"
+msgstr "Visningshanterare"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 125
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 283
+msgid "Compositor"
+msgstr "Kompositör"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 126
+msgid "Uptime"
+msgstr "Driftstid"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 127
+msgid "Processes"
+msgstr "Processer"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 128
+msgid "Packages"
+msgstr "Paket"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 129
+msgid "Locale"
+msgstr "Språkregion"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 173
+msgid "Top Processes"
+msgstr "Toppprocesser"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 182
+msgid "CPU Usage"
+msgstr "CPU-användning"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "Minnesanvändning"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
+msgid "Packages & Repositories"
+msgstr "Paket och Repositories"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
+msgid "Battery"
+msgstr "Batteri"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
+msgid "Condition"
+msgstr "Villkor"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 113
+msgid "Cycles"
+msgstr "Cykler"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 118
+msgid "Min Voltage"
+msgstr "Min spänning"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 119
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 139
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 163
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 241
+msgid "Serial"
+msgstr "Serienummer"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "Anslutna enheter"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
+msgid "Class"
+msgstr "Klass"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 137
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 155
+# File: big-hardware-info/src/app/ui/views/network.py, line: 113
+msgid "Speed"
+msgstr "Hastighet"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 138
+msgid "Ports"
+msgstr "Portar"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 166
+msgid "Device ID"
+msgstr "Enhets-ID"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
+msgid "Bus"
+msgstr "Buss"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers ({})"
+msgstr "USB-hubbar och kontroller ({})"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
+msgid "Hub"
+msgstr "Navpunkt"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 233
+msgid "{} ports"
+msgstr "{} portar"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 237
+msgid "Mode {}"
+msgstr "Läge {}"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 277
+msgid "System USB Controllers ({} devices)"
+msgstr "System USB-kontroller ({} enheter)"
+# 
+# File: big-hardware-info/src/app/ui/builders.py, line: 154
+msgid "Copy to clipboard"
+msgstr "Kopiera till urklipp"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 67
+# File: big-hardware-info/src/app/ui/main_window.py, line: 160
+# File: big-hardware-info/src/app/ui/main_window.py, line: 252
+# File: big-hardware-info/src/app/__init__.py, line: 53
+# File: big-hardware-info/src/app/__init__.py, line: 118
+msgid "Big Hardware Info"
+msgstr "Stora hårdvaruinformationer"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 155
+msgid "About Big Hardware Info"
+msgstr "Om Big Hardware Info"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 200
+msgid "Refresh hardware information (Ctrl+R)"
+msgstr "Uppdatera hårdvaruinformation (Ctrl+R)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 206
+msgid "Collect restricted data (requires admin)"
+msgstr "Samla in begränsade uppgifter (kräver administratör)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 212
+msgid "Search..."
+msgstr "Sök..."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "Exportera rapport"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "Dela online"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 222
+msgid "About"
+msgstr "Om"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 868
+msgid "Opening in browser..."
+msgstr "Öppnar i webbläsare..."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 877
+msgid "Copy category data to clipboard"
+msgstr "Kopiera kategoridata till urklipp"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 889
+msgid "No data to copy"
+msgstr "Inga data att kopiera"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 903
+msgid "Data copied to clipboard"
+msgstr "Data kopierad till urklipp."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 956
+msgid "Copied: {}"
+msgstr "Kopierad: {}"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 956
+msgid "Copied to clipboard"
+msgstr "Kopierad till urklipp"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 1022
+msgid "Copy content to clipboard"
+msgstr "Kopiera innehåll till urklipp"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 70
+msgid "Processor"
+msgstr "Processor"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 71
+msgid "Graphics"
+msgstr "Grafik"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 72
+msgid "Memory"
+msgstr "Minne"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 74
+msgid "Audio"
+msgstr "Ljud"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 75
+msgid "Network"
+msgstr "Nätverk"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 76
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Storage"
+msgstr "Lagring"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 77
+msgid "PCI Devices"
+msgstr "PCI-enheter"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 78
+msgid "USB Devices"
+msgstr "USB-enheter"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 191
+msgid "Slot"
+msgstr "Slot"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 197
+msgid "Part Number"
+msgstr "Delnummer"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 214
+# File: big-hardware-info/src/app/ui/search.py, line: 294
+msgid "System Information"
+msgstr "Systeminformation"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 289
+msgid "Distribution"
+msgstr "Distribution"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 321
+msgid "No results found"
+msgstr "Inga resultat hittades"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 325
+msgid "Try a different search term"
+msgstr "Försök med en annan sökterm"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 39
+msgid "No disk information available"
+msgstr "Ingen diskinformation tillgänglig"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Total Storage: {}"
+msgstr "Total lagring: {}"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 101
+msgid "Used: {}"
+msgstr "Använd: {}"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Lagringsenheter"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 119
+msgid "Unknown Drive"
+msgstr "Okänd enhet"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "Storlek"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 160
+msgid "Lanes"
+msgstr "Fält"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 161
+msgid "Temp"
+msgstr "Temp"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 202
+msgid "Mounted Partitions"
+msgstr "Monterade partitioner"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "Används"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 308
+msgid "Mounted at"
+msgstr "Monterad vid"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 318
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 354
+# File: big-hardware-info/src/app/ui/views/network.py, line: 408
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 185
+msgid "Copy device info"
+msgstr "Kopiera enhetsinformation"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 49
+msgid "No GPU information available"
+msgstr "Ingen GPU-information tillgänglig"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 61
+msgid "No GPU devices found"
+msgstr "Inga GPU-enheter hittades"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 104
+msgid "Unknown GPU"
+msgstr "Okänd GPU"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 144
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 301
+msgid "Video Memory"
+msgstr "Videominne"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 145
+msgid "Architecture"
+msgstr "Arkitektur"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 151
+# File: big-hardware-info/src/app/ui/views/network.py, line: 98
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 95
+msgid "PCIe"
+msgstr "PCIe"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 152
+msgid "Active Ports"
+msgstr "Aktiva portar"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 153
+msgid "Empty Ports"
+msgstr "Tomma portar"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Skärmar"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
+msgid "Monitor"
+msgstr "Övervaka"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 232
+msgid "Refresh Rate"
+msgstr "Uppdateringsfrekvens"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 234
+msgid "Diagonal"
+msgstr "Diagonal"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 235
+msgid "Aspect Ratio"
+msgstr "Bildförhållande"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 236
+msgid "DPI"
+msgstr "DPI"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 237
+msgid "Gamma"
+msgstr "Gamma"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 238
+msgid "Built Year"
+msgstr "Byggår"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 239
+msgid "Max Resolution"
+msgstr "Maxupplösning"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 240
+msgid "Min Resolution"
+msgstr "Min upplösning"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
+msgid "Mapped"
+msgstr "Kopplad"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
+msgid "Advanced Information"
+msgstr "Avancerad information"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Visningsserver"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
+msgid "Display"
+msgstr "Visa"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 282
+msgid "With"
+msgstr "Med"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 284
+msgid "Driver Loaded"
+msgstr "Drivrutin Laddad"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 285
+msgid "GPU"
+msgstr "GPU"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 296
+msgid "Compatibility"
+msgstr "Kompatibilitet"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 298
+msgid "GLX Version"
+msgstr "GLX-version"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 299
+msgid "Direct Render"
+msgstr "Direkt rendering"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 300
+msgid "Renderer"
+msgstr "Renderer"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 314
+msgid "Device Type"
+msgstr "Enhetstyp"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 56
+msgid "No network information available"
+msgstr "Ingen nätverksinformation tillgänglig"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 63
+msgid "No network devices found"
+msgstr "Inga nätverksenheter hittades"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 75
+msgid "Unknown Network Device"
+msgstr "Okänd nätverksenhet"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 88
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 85
+msgid "USB"
+msgstr "USB"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 112
+msgid "Interface"
+msgstr "Gränssnitt"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 119
+msgid "MAC"
+msgstr "MAC"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 205
+msgid "IPv4"
+msgstr "IPv4"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 209
+msgid "IPv6"
+msgstr "IPv6"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 227
+msgid "Copy {}"
+msgstr "Kopiera {}"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 240
+msgid "Virtual Networks ({})"
+msgstr "Virtuella nätverk ({})"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 272
+msgid "Virtual"
+msgstr "Virtuell"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 305
+msgid "Type:"
+msgstr "Typ:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 318
+msgid "Driver:"
+msgstr "Drivrutin:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 331
+msgid "MAC:"
+msgstr "MAC:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 344
+msgid "IPv4:"
+msgstr "IPv4:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 357
+msgid "IPv6:"
+msgstr "IPv6:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 372
+msgid "Speed:"
+msgstr "Hastighet:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 385
+msgid "Bus ID:"
+msgstr "Buss-ID:"
+# 
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 52
+msgid "No audio information available"
+msgstr "Ingen ljudinformation tillgänglig"
+# 
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 72
+msgid "Unknown Audio Device"
+msgstr "Okänd ljudenhet"
+# 
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 105
+msgid "Class ID"
+msgstr "Klass-ID"
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 123
+msgid ""
+"View detailed hardware information and share diagnostic reports.\n"
+"\n"
+"Collect comprehensive system data including CPU, GPU, memory, storage, network, and more. Export "
+"reports to HTML or share online."
+msgstr ""
+"Visa detaljerad hårdvaruinformation och dela diagnostikrapporter.\n"
+"\n"
+"Samla omfattande systemdata inklusive CPU, GPU, minne, lagring, nätverk och mer. Exportera "
+"rapporter till HTML eller dela online."
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 140
+msgid "Special Thanks"
+msgstr "Speciella Tack"
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 145
+msgid "translator-credits"
+msgstr "översättar-erkännanden"
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 150
+msgid ""
+"<p>Big Hardware Info 2.0.0 - Complete Rewrite:</p><ul><li>Comprehensive hardware "
+"detection</li><li>Export to HTML with modern design</li><li>Online sharing via "
+"termbin.com</li><li>Syntax highlighting for system files</li><li>USB/PCIe device "
+"distinction</li></ul>"
+msgstr ""
+"<p>Big Hardware Info 2.0.0 - Fullständig omskrivning:</p><ul><li>Omfattande "
+"hårdvarudetektering</li><li>Exportera till HTML med modern design</li><li>Online delning via "
+"termbin.com</li><li>Syntaxmarkering för systemfiler</li><li>USB/PCIe enskildhet</li></ul>"

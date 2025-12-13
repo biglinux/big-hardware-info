@@ -1,0 +1,1269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the big-hardware-info package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: big-hardware-info\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 54
+msgid "Hardware Report"
+msgstr "Správa hardvéru"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 57
+msgid "Search sections..."
+msgstr "Hľadať sekcie..."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 58
+msgid "Generated:"
+msgstr "Vygenerované:"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 59
+msgid "Visit BigLinux website"
+msgstr "Navštívte webovú stránku BigLinux."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1105
+msgid "No graphics devices found"
+msgstr "Neboli nájdené grafické zariadenia"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1459
+msgid "No storage drives found"
+msgstr "Neboli nájdené žiadne úložné disky."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1782
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 58
+msgid "No audio devices found"
+msgstr "Neboli nájdené žiadne zvukové zariadenia."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1840
+msgid "No network interfaces found"
+msgstr "Neboli nájdené žiadne sieťové rozhrania."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1972
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 26
+msgid "No battery detected (Desktop system)"
+msgstr "Žiadna batéria nebola zistená (desktopový systém)"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2054
+msgid "No Bluetooth devices found"
+msgstr "Neboli nájdené žiadne zariadenia Bluetooth."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2110
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2116
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 35
+msgid "No USB devices found"
+msgstr "Žiadne USB zariadenia neboli nájdené."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2215
+msgid "No PCI devices found"
+msgstr "Neboli nájdené žiadne zariadenia PCI."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2334
+msgid "No webcams found"
+msgstr "Neboli nájdené žiadne webkamery."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2395
+msgid "No printers configured"
+msgstr "Žiadne tlačiarne nie sú nakonfigurované."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2479
+# File: big-hardware-info/src/app/ui/sections.py, line: 359
+msgid "No sensors detected"
+msgstr "Žiadne senzory neboli zistené."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2607
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2609
+msgid "No SDIO devices detected"
+msgstr "Neboli zistené žiadne zariadenia SDIO."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2675
+msgid "No additional information available"
+msgstr "Žiadne ďalšie informácie nie sú k dispozícii."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Prehľad používania"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Informácie o systéme"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 243
+msgid "No battery detected"
+msgstr "Žiadna batéria nebola zistená"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 252
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 230
+msgid "Model"
+msgstr "Model"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 253
+# File: big-hardware-info/src/app/ui/sections.py, line: 460
+msgid "Status"
+msgstr "Stav"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 254
+msgid "Charge"
+msgstr "Nabíjanie"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 255
+# File: big-hardware-info/src/app/ui/sections.py, line: 324
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 46
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 154
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 141
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 297
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 325
+# File: big-hardware-info/src/app/ui/views/network.py, line: 110
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 103
+msgid "Vendor"
+msgstr "Predajca"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 259
+msgid "Technology"
+msgstr "Technológia"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 260
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 117
+msgid "Voltage"
+msgstr "Napätie"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 261
+msgid "Energy"
+msgstr "Energia"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 262
+msgid "Capacity"
+msgstr "Kapacita"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 307
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 25
+msgid "No Bluetooth devices detected"
+msgstr "Neboli zistené žiadne zariadenia Bluetooth."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 325
+# File: big-hardware-info/src/app/ui/sections.py, line: 528
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 132
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 129
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 150
+# File: big-hardware-info/src/app/ui/views/network.py, line: 118
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 110
+msgid "Chip ID"
+msgstr "ID čipu"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 329
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 51
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 131
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 130
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 149
+# File: big-hardware-info/src/app/ui/views/network.py, line: 117
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 109
+msgid "Bus ID"
+msgstr "ID autobusu"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 330
+# File: big-hardware-info/src/app/ui/sections.py, line: 529
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 52
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 136
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 136
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 142
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 242
+# File: big-hardware-info/src/app/ui/views/network.py, line: 111
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 104
+msgid "Driver"
+msgstr "Ovládač"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 336
+# File: big-hardware-info/src/app/ui/sections.py, line: 542
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 58
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 110
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 230
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 80
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 106
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 180
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 267
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 119
+# File: big-hardware-info/src/app/ui/views/network.py, line: 153
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 135
+msgid "info"
+msgstr "informácie"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 337
+# File: big-hardware-info/src/app/ui/sections.py, line: 543
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 59
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 111
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 231
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 107
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 181
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 268
+msgid "View device info on Linux Hardware Database"
+msgstr "Zobraziť informácie o zariadení v databáze hardvéru Linuxu"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 367
+msgid "Temperatures"
+msgstr "Teploty"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 402
+msgid "Fans"
+msgstr "Ventilátory"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 453
+msgid "No printers detected"
+msgstr "Neboli zistené žiadne tlačiarne"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 461
+msgid "Location"
+msgstr "Poloha"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 462
+msgid "Make/Model"
+msgstr "Výrobca/Model"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 466
+msgid "Connection"
+msgstr "Pripojenie"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 467
+msgid "Device URI"
+msgstr "URI zariadenia"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 468
+msgid "Default"
+msgstr "Predvolené"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 513
+msgid "No webcams detected"
+msgstr "Neboli zistené žiadne webkamery"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 526
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 231
+msgid "Resolution"
+msgstr "Rozlíšenie"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 527
+msgid "Format"
+msgstr "Formát"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 533
+msgid "Colorspace"
+msgstr "Farebný priestor"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 534
+msgid "Max FPS"
+msgstr "Max FPS"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 535
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 143
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 312
+msgid "Driver Version"
+msgstr "Verzia ovládača"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Zariadenie"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 34
+msgid "Share Report Online"
+msgstr "Zdieľať správu online"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 36
+msgid ""
+"Your hardware report will be uploaded to filebin.net, a public file hosting service.\n"
+"\n"
+"The generated link will be publicly accessible for 7 days."
+msgstr ""
+"Váš hardvérový report bude nahraný na filebin.net, verejnej službe na hosting súborov.\n"
+"\n"
+"Vygenerovaný odkaz bude verejne prístupný po dobu 7 dní."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 41
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 119
+msgid "Export Hardware Report"
+msgstr "Exportovať správu o hardvéri"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 42
+msgid "Your hardware report will be saved as an HTML file."
+msgstr "Váš hardvérový report bude uložený ako súbor HTML."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 60
+msgid ""
+"Sensitive data (serial numbers, MAC addresses) can be included. For privacy, it's recommended to "
+"exclude them when sharing."
+msgstr ""
+"Citlivé údaje (sériové čísla, MAC adresy) môžu byť zahrnuté. Pre ochranu súkromia sa odporúča "
+"vylúčiť ich pri zdieľaní."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 74
+msgid "Include sensitive information"
+msgstr "Zahŕňa citlivé informácie"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 88
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 93
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 172
+msgid "Cancel"
+msgstr "Zrušiť"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
+msgid "Share"
+msgstr "Zdieľať"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
+msgid "Export"
+msgstr "Exportovať"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 128
+msgid "HTML files"
+msgstr "HTML súbory"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 159
+msgid "Uploading Report"
+msgstr "Nahrávanie správy"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 160
+msgid "Generating and uploading your hardware report..."
+msgstr "Generovanie a nahrávanie vašej správy o hardvéri..."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 267
+msgid "Report Uploaded Successfully"
+msgstr "Správa bola úspešne nahraná."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 268
+msgid "Your report has been uploaded. The link is available for 7 days."
+msgstr "Váš report bol nahraný. Odkaz je k dispozícii na 7 dní."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 288
+msgid "Copy URL to clipboard"
+msgstr "Kopírovať URL do schránky"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 305
+msgid "Tip: Click the copy button or select the URL to copy it."
+msgstr "Tip: Kliknite na tlačidlo kopírovať alebo vyberte URL na jeho skopírovanie."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 313
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 335
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 410
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 418
+msgid "Close"
+msgstr "Zavrieť"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 314
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 419
+msgid "Open in Browser"
+msgstr "Otvoriť v prehliadači"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 333
+msgid "Upload Failed"
+msgstr "Nahrávanie zlyhalo"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 334
+msgid ""
+"Could not upload the report:\n"
+"\n"
+"{}"
+msgstr ""
+"Nemožno nahrať správu:\n"
+"\n"
+"{}"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 408
+msgid "Export Failed"
+msgstr "Export zlyhal"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 409
+msgid ""
+"Could not export the report:\n"
+"\n"
+"{}"
+msgstr ""
+"Nemožno exportovať správu:\n"
+"\n"
+"{}"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 415
+msgid "Report Exported"
+msgstr "Správa exportovaná"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 416
+msgid ""
+"Report saved successfully to:\n"
+"\n"
+"{}"
+msgstr ""
+"Správa bola úspešne uložená do: \n"
+"\n"
+"{}"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 432
+msgid "Failed to open browser"
+msgstr "Nepodarilo sa otvoriť prehliadač."
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 44
+msgid "No PCI devices detected"
+msgstr "Neboli zistené žiadne zariadenia PCI."
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 64
+msgid "Hardware Devices"
+msgstr "Hardvérové zariadenia"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 86
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 174
+msgid "Unknown Device"
+msgstr "Neznáme zariadenie"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 130
+msgid "Category"
+msgstr "Kategória"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 137
+msgid "Rev"
+msgstr "Rev"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 138
+msgid "Kernel Module"
+msgstr "Jadrový modul"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 153
+msgid "System Controllers & Bridges ({} devices)"
+msgstr "Systémové ovládače a mosty ({} zariadenia)"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
+msgid "No motherboard information available"
+msgstr "Žiadne informácie o základnej doske nie sú k dispozícii."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
+# File: big-hardware-info/src/app/ui/search.py, line: 73
+# File: big-hardware-info/src/app/ui/search.py, line: 221
+# File: big-hardware-info/src/app/ui/search.py, line: 222
+msgid "Motherboard"
+msgstr "Základná doska"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 37
+# File: big-hardware-info/src/app/ui/search.py, line: 195
+msgid "Manufacturer"
+msgstr "Výrobca"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 38
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 112
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 132
+# File: big-hardware-info/src/app/ui/search.py, line: 193
+msgid "Type"
+msgstr "Typovať"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
+# File: big-hardware-info/src/app/ui/search.py, line: 92
+# File: big-hardware-info/src/app/ui/search.py, line: 213
+msgid "System"
+msgstr "Systém"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 40
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 162
+msgid "Firmware"
+msgstr "Firmvér"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 44
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 311
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 324
+msgid "Version"
+msgstr "Verzia"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 45
+msgid "BIOS Vendor"
+msgstr "Dodávateľ BIOSu"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 46
+msgid "BIOS Version"
+msgstr "Verzia BIOSu"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 47
+msgid "BIOS Date"
+msgstr "Dátum BIOSu"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 84
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 48
+# File: big-hardware-info/src/app/ui/main_window.py, line: 757
+# File: big-hardware-info/src/app/ui/main_window.py, line: 778
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 67
+msgid "Full Output"
+msgstr "Plný výstup"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
+msgid "No sensor data available"
+msgstr "Žiadne údaje zo senzora nie sú k dispozícii."
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Teploty systému"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Rýchlosti ventilátorov"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Podrobné údaje o senzore (senzory)"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 81
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 122
+# File: big-hardware-info/src/app/ui/views/network.py, line: 156
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 138
+msgid ""
+"View device info on Linux Hardware Database\n"
+"See driver compatibility and troubleshooting tips"
+msgstr ""
+"Zobraziť informácie o zariadení v databáze hardvéru Linuxu  \n"
+"Zobraziť kompatibilitu ovládača a tipy na riešenie problémov"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 24
+msgid "No system information available"
+msgstr "Žiadne systémové informácie nie sú k dispozícii."
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 37
+msgid "Compilers"
+msgstr "Kompilátory"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 44
+msgid "Flatpak Packages"
+msgstr "Flatpak balíky"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 90
+msgid "Linux"
+msgstr "Linux"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 113
+msgid "Hostname"
+msgstr "Názov hostiteľa"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "Jadro"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 115
+msgid "Desktop"
+msgstr "Desktop"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 116
+msgid "Window Manager"
+msgstr "Správca okien"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 117
+msgid "Shell"
+msgstr "Shell"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 118
+msgid "Terminal"
+msgstr "Terminál"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 122
+msgid "Init System"
+msgstr "Iniciačný systém"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 123
+msgid "Session Type"
+msgstr "Typ relácie"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 124
+msgid "Display Manager"
+msgstr "Správca zobrazenia"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 125
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 283
+msgid "Compositor"
+msgstr "Kompozitor"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 126
+msgid "Uptime"
+msgstr "Prevádzková doba"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 127
+msgid "Processes"
+msgstr "Procesy"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 128
+msgid "Packages"
+msgstr "Balíky"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 129
+msgid "Locale"
+msgstr "Lokalita"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 173
+msgid "Top Processes"
+msgstr "Hlavné procesy"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 182
+msgid "CPU Usage"
+msgstr "Využitie CPU"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "Využitie pamäte"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
+msgid "Packages & Repositories"
+msgstr "Balíky a repozitáre"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
+msgid "Battery"
+msgstr "Batéria"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
+msgid "Condition"
+msgstr "Podmienka"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 113
+msgid "Cycles"
+msgstr "Cyklusy"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 118
+msgid "Min Voltage"
+msgstr "Minimálne napätie"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 119
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 139
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 163
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 241
+msgid "Serial"
+msgstr "Sériové číslo"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "Pripojené zariadenia"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
+msgid "Class"
+msgstr "Trieda"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 137
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 155
+# File: big-hardware-info/src/app/ui/views/network.py, line: 113
+msgid "Speed"
+msgstr "Rýchlosť"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 138
+msgid "Ports"
+msgstr "Porty"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 166
+msgid "Device ID"
+msgstr "ID zariadenia"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
+msgid "Bus"
+msgstr "Autobus"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers ({})"
+msgstr "USB huby a ovládače ({})"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
+msgid "Hub"
+msgstr "Uzol"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 233
+msgid "{} ports"
+msgstr "{} porty"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 237
+msgid "Mode {}"
+msgstr "Režim {}"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 277
+msgid "System USB Controllers ({} devices)"
+msgstr "Ovládače USB systému ({} zariadení)"
+# 
+# File: big-hardware-info/src/app/ui/builders.py, line: 154
+msgid "Copy to clipboard"
+msgstr "Kopírovať do schránky"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 67
+# File: big-hardware-info/src/app/ui/main_window.py, line: 160
+# File: big-hardware-info/src/app/ui/main_window.py, line: 252
+# File: big-hardware-info/src/app/__init__.py, line: 53
+# File: big-hardware-info/src/app/__init__.py, line: 118
+msgid "Big Hardware Info"
+msgstr "Veľké informácie o hardvéri"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 155
+msgid "About Big Hardware Info"
+msgstr "O veľkých informáciách o hardvéri"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 200
+msgid "Refresh hardware information (Ctrl+R)"
+msgstr "Obnoviť informácie o hardvéri (Ctrl+R)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 206
+msgid "Collect restricted data (requires admin)"
+msgstr "Zbierajte obmedzené údaje (vyžaduje administrátora)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 212
+msgid "Search..."
+msgstr "Hľadať..."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "Exportovať správu"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "Zdieľať online"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 222
+msgid "About"
+msgstr "O aplikácii"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 868
+msgid "Opening in browser..."
+msgstr "Otvorenie v prehliadači..."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 877
+msgid "Copy category data to clipboard"
+msgstr "Kopírovať údaje kategórie do schránky"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 889
+msgid "No data to copy"
+msgstr "Žiadne údaje na kopírovanie"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 903
+msgid "Data copied to clipboard"
+msgstr "Údaje skopírované do schránky"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 956
+msgid "Copied: {}"
+msgstr "Skopírované: {}"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 956
+msgid "Copied to clipboard"
+msgstr "Skopírované do schránky"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 1022
+msgid "Copy content to clipboard"
+msgstr "Kopírovať obsah do schránky"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 70
+msgid "Processor"
+msgstr "Procesor"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 71
+msgid "Graphics"
+msgstr "Grafika"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 72
+msgid "Memory"
+msgstr "Pamäť"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 74
+msgid "Audio"
+msgstr "Zvuk"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 75
+msgid "Network"
+msgstr "Sieť"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 76
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Storage"
+msgstr "Úložisko"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 77
+msgid "PCI Devices"
+msgstr "PCI zariadenia"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 78
+msgid "USB Devices"
+msgstr "USB zariadenia"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 191
+msgid "Slot"
+msgstr "Slot"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 197
+msgid "Part Number"
+msgstr "Číslo dielu"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 214
+# File: big-hardware-info/src/app/ui/search.py, line: 294
+msgid "System Information"
+msgstr "Informácie o systéme"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 289
+msgid "Distribution"
+msgstr "Distribúcia"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 321
+msgid "No results found"
+msgstr "Nenašli sa žiadne výsledky"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 325
+msgid "Try a different search term"
+msgstr "Skúste iný vyhľadávací výraz."
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 39
+msgid "No disk information available"
+msgstr "Žiadne informácie o disku nie sú k dispozícii."
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Total Storage: {}"
+msgstr "Celková kapacita: {}"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 101
+msgid "Used: {}"
+msgstr "Použité: {}"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Úložné zariadenia"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 119
+msgid "Unknown Drive"
+msgstr "Neznámy disk"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "Veľkosť"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 160
+msgid "Lanes"
+msgstr "Pruhy"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 161
+msgid "Temp"
+msgstr "Teplota"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 202
+msgid "Mounted Partitions"
+msgstr "Pripojené oddiely"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "Použité"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 308
+msgid "Mounted at"
+msgstr "Pripojené na"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 318
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 354
+# File: big-hardware-info/src/app/ui/views/network.py, line: 408
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 185
+msgid "Copy device info"
+msgstr "Kopírovať informácie o zariadení"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 49
+msgid "No GPU information available"
+msgstr "Žiadne informácie o GPU nie sú k dispozícii."
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 61
+msgid "No GPU devices found"
+msgstr "Neboli nájdené žiadne GPU zariadenia."
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 104
+msgid "Unknown GPU"
+msgstr "Neznáma GPU"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 144
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 301
+msgid "Video Memory"
+msgstr "Video pamäť"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 145
+msgid "Architecture"
+msgstr "Architektúra"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 151
+# File: big-hardware-info/src/app/ui/views/network.py, line: 98
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 95
+msgid "PCIe"
+msgstr "PCIe"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 152
+msgid "Active Ports"
+msgstr "Aktívne porty"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 153
+msgid "Empty Ports"
+msgstr "Prázdne porty"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Monitory"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
+msgid "Monitor"
+msgstr "Monitor"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 232
+msgid "Refresh Rate"
+msgstr "Obnovovacia frekvencia"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 234
+msgid "Diagonal"
+msgstr "Diagonála"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 235
+msgid "Aspect Ratio"
+msgstr "Pomerančový pomer"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 236
+msgid "DPI"
+msgstr "DPI"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 237
+msgid "Gamma"
+msgstr "Gamma"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 238
+msgid "Built Year"
+msgstr "Rok výroby"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 239
+msgid "Max Resolution"
+msgstr "Maximálne rozlíšenie"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 240
+msgid "Min Resolution"
+msgstr "Min rozlíšenie"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
+msgid "Mapped"
+msgstr "Zmapované"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
+msgid "Advanced Information"
+msgstr "Pokročilé informácie"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Zobrazovací server"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
+msgid "Display"
+msgstr "Zobraziť"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 282
+msgid "With"
+msgstr "S použitím"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 284
+msgid "Driver Loaded"
+msgstr "Ovládač načítaný"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 285
+msgid "GPU"
+msgstr "GPU"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 296
+msgid "Compatibility"
+msgstr "Kompatibilita"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 298
+msgid "GLX Version"
+msgstr "Verzia GLX"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 299
+msgid "Direct Render"
+msgstr "Priame vykreslenie"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 300
+msgid "Renderer"
+msgstr "Renderer"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 314
+msgid "Device Type"
+msgstr "Typ zariadenia"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 56
+msgid "No network information available"
+msgstr "Žiadne informácie o sieti nie sú k dispozícii."
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 63
+msgid "No network devices found"
+msgstr "Neboli nájdené žiadne sieťové zariadenia."
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 75
+msgid "Unknown Network Device"
+msgstr "Neznáme sieťové zariadenie"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 88
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 85
+msgid "USB"
+msgstr "USB"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 112
+msgid "Interface"
+msgstr "Rozhranie"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 119
+msgid "MAC"
+msgstr "MAC"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 205
+msgid "IPv4"
+msgstr "IPv4"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 209
+msgid "IPv6"
+msgstr "IPv6"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 227
+msgid "Copy {}"
+msgstr "Kopírovať {}"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 240
+msgid "Virtual Networks ({})"
+msgstr "Virtuálne siete ({})"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 272
+msgid "Virtual"
+msgstr "Virtuálny"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 305
+msgid "Type:"
+msgstr "Typ:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 318
+msgid "Driver:"
+msgstr "Ovládač:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 331
+msgid "MAC:"
+msgstr "MAC:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 344
+msgid "IPv4:"
+msgstr "IPv4:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 357
+msgid "IPv6:"
+msgstr "IPv6:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 372
+msgid "Speed:"
+msgstr "Rýchlosť:"
+# 
+# File: big-hardware-info/src/app/ui/views/network.py, line: 385
+msgid "Bus ID:"
+msgstr "ID autobusu:"
+# 
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 52
+msgid "No audio information available"
+msgstr "Žiadne zvukové informácie nie sú k dispozícii."
+# 
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 72
+msgid "Unknown Audio Device"
+msgstr "Neznáme audio zariadenie"
+# 
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 105
+msgid "Class ID"
+msgstr "ID triedy"
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 123
+msgid ""
+"View detailed hardware information and share diagnostic reports.\n"
+"\n"
+"Collect comprehensive system data including CPU, GPU, memory, storage, network, and more. Export "
+"reports to HTML or share online."
+msgstr ""
+"Zobrazte podrobné informácie o hardvéri a zdieľajte diagnostické správy.\n"
+"\n"
+"Zbierajte komplexné systémové údaje vrátane CPU, GPU, pamäte, úložiska, siete a ďalších. Exportujte "
+"správy do formátu HTML alebo zdieľajte online."
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 140
+msgid "Special Thanks"
+msgstr "Špeciálne poďakovanie"
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 145
+msgid "translator-credits"
+msgstr "preklady-uznania"
+# 
+# File: big-hardware-info/src/app/__init__.py, line: 150
+msgid ""
+"<p>Big Hardware Info 2.0.0 - Complete Rewrite:</p><ul><li>Comprehensive hardware "
+"detection</li><li>Export to HTML with modern design</li><li>Online sharing via "
+"termbin.com</li><li>Syntax highlighting for system files</li><li>USB/PCIe device "
+"distinction</li></ul>"
+msgstr ""
+"<p>Veľké informácie o hardvéri 2.0.0 - Kompletné prepracovanie:</p><ul><li>Komplexné zistenie "
+"hardvéru</li><li>Export do HTML s moderným dizajnom</li><li>Online zdieľanie cez "
+"termbin.com</li><li>Syntax zvýraznenie pre systémové súbory</li><li>Rozlíšenie zariadení "
+"USB/PCIe</li></ul>"
