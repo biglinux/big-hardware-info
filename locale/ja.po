@@ -88,10 +88,42 @@ msgstr "プリンターが設定されていません"
 msgid "No sensors detected"
 msgstr "センサーが検出されませんでした"
 # 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
+msgid "Package Repositories"
+msgstr "パッケージリポジトリ"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2607
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2609
 msgid "No SDIO devices detected"
 msgstr "SDIOデバイスが検出されませんでした。"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2635
+msgid "SDIO"
+msgstr "SDIO"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2665
+msgid "Mhwd driver"
+msgstr "Mhwd ドライバー"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2667
+msgid "Mhwd kernel"
+msgstr "Mhwdカーネル"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2672
+msgid "Cmdline"
+msgstr "コマンドライン"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2687
+msgid "ACPI Interrupts"
+msgstr "ACPI割り込み"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2693
+msgid "dmesg (errors)"
+msgstr "dmesg（エラー）"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2697
+msgid "journalctl (errors)"
+msgstr "journalctl（エラー）"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2675
 msgid "No additional information available"
@@ -465,43 +497,46 @@ msgstr "ブラウザで開く"
 msgid "Upload Failed"
 msgstr "アップロードに失敗しました"
 # 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 334
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 335
+#, python-brace-format
 msgid ""
 "Could not upload the report:\n"
 "\n"
-"{}"
+"{error}"
 msgstr ""
 "レポートをアップロードできませんでした：\n"
 "\n"
-"{}"
+"{error}"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 408
 msgid "Export Failed"
 msgstr "エクスポートに失敗しました"
 # 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 409
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 412
+#, python-brace-format
 msgid ""
 "Could not export the report:\n"
 "\n"
-"{}"
+"{error}"
 msgstr ""
 "レポートをエクスポートできませんでした：\n"
 "\n"
-"{}"
+"{error}"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 415
 msgid "Report Exported"
 msgstr "レポートがエクスポートされました"
 # 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 416
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 421
+#, python-brace-format
 msgid ""
 "Report saved successfully to:\n"
 "\n"
-"{}"
+"{file}"
 msgstr ""
 "レポートが正常に保存されました: \n"
 "\n"
-"{}"
+"{file}"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 432
 msgid "Failed to open browser"
@@ -532,9 +567,18 @@ msgstr "リビジョン"
 msgid "Kernel Module"
 msgstr "カーネルモジュール"
 # 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 153
-msgid "System Controllers & Bridges ({} devices)"
-msgstr "システムコントローラーとブリッジ（{} デバイス）"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 154
+#, python-brace-format
+msgid "System Controllers & Bridges ({count} devices)"
+msgstr "システムコントローラーとブリッジ（{count} デバイス）"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "プリンタの詳細"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
+msgid "Configure printers in System Settings"
+msgstr "システム設定でプリンターを構成する"
 # 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
 msgid "No motherboard information available"
@@ -622,6 +666,129 @@ msgstr "BIOS日付"
 msgid "Full Output"
 msgstr "完全な出力"
 # 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "レポートをエクスポート"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
+msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
+msgstr "ハードウェアの完全なHTMLレポートを保存して、サポートと共有するか、参照用に保管してください。"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "オンライン共有"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
+msgid "Upload your hardware report to get a shareable link for forums or support tickets."
+msgstr "ハードウェアレポートをアップロードして、フォーラムやサポートチケット用の共有リンクを取得してください。"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "メモリRAM:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "使用済み"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "ルートパーティション:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "サイズ"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
+msgid "Free"
+msgstr "無料"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 173
+msgid "Distro"
+msgstr "ディストロ"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
+msgid "Video"
+msgstr "ビデオ"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
+msgid "Install Date"
+msgstr "インストール日"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "カーネル"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 206
+msgid "=== Usage Overview ==="
+msgstr "=== 使用概要 ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 208
+#, python-brace-format
+msgid "Memory RAM: {memory}"
+msgstr "メモリ RAM: {memory}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 216
+#, python-brace-format
+msgid "  Used: {used}"
+msgstr "使用済み: {used}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
+#, python-brace-format
+msgid "  Usage: {usage}%"
+msgstr "使用状況: {usage}%"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 212
+#, python-brace-format
+msgid "Root Partition: {partition}"
+msgstr "ルートパーティション: {partition}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 215
+#, python-brace-format
+msgid "  Size: {size}"
+msgstr "サイズ: {size}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 217
+#, python-brace-format
+msgid "  Free: {free}"
+msgstr "無料: {free}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 218
+#, python-brace-format
+msgid "  Usage: {usage}"
+msgstr "使用法: {usage}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "=== System Info ==="
+msgstr "=== システム情報 ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 225
+#, python-brace-format
+msgid "Distro: {distro}"
+msgstr "ディストリビューション: {distro}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 227
+#, python-brace-format
+msgid "Video: {video}"
+msgstr "ビデオ: {video}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 229
+#, python-brace-format
+msgid "Install Date: {date}"
+msgstr "インストール日: {date}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 230
+#, python-brace-format
+msgid "Kernel: {kernel}"
+msgstr "カーネル: {kernel}"
+# 
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
 msgstr "センサーデータは利用できません。"
@@ -675,28 +842,13 @@ msgstr "リナックス"
 msgid "Hostname"
 msgstr "ホスト名"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
-# File: big-hardware-info/src/app/ui/search.py, line: 291
-msgid "Kernel"
-msgstr "カーネル"
-# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 115
 msgid "Desktop"
 msgstr "デスクトップ"
 # 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 116
-msgid "Window Manager"
-msgstr "ウィンドウマネージャー"
-# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 117
 msgid "Shell"
 msgstr "シェル"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 118
-msgid "Terminal"
-msgstr "ターミナル"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 122
 msgid "Init System"
@@ -705,6 +857,18 @@ msgstr "初期化システム"
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 123
 msgid "Session Type"
 msgstr "セッションタイプ"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 126
+msgid "Uptime"
+msgstr "稼働時間"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 116
+msgid "Window Manager"
+msgstr "ウィンドウマネージャー"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 118
+msgid "Terminal"
+msgstr "ターミナル"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 124
 msgid "Display Manager"
@@ -716,10 +880,6 @@ msgstr "ディスプレイマネージャ"
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 283
 msgid "Compositor"
 msgstr "合成器"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 126
-msgid "Uptime"
-msgstr "稼働時間"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 127
 msgid "Processes"
@@ -748,6 +908,10 @@ msgstr "メモリ使用量"
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
 msgid "Packages & Repositories"
 msgstr "パッケージとリポジトリ"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/system.py, line: 258
+msgid "Active Repositories"
+msgstr "アクティブリポジトリ"
 # 
 # File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
 msgid "Battery"
@@ -809,25 +973,29 @@ msgstr "デバイスID"
 msgid "Bus"
 msgstr "バス"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers ({})"
-msgstr "USBハブとコントローラー ({})"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 195
+#, python-brace-format
+msgid "USB Hubs & Controllers ({count})"
+msgstr "USBハブとコントローラー（{count}）"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
 msgstr "ハブ"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 233
-msgid "{} ports"
-msgstr "{} ポート"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 235
+#, python-brace-format
+msgid "{count} ports"
+msgstr "{count} ポート"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 237
-msgid "Mode {}"
-msgstr "モード {}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 239
+#, python-brace-format
+msgid "Mode {mode}"
+msgstr "モード {mode}"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 277
-msgid "System USB Controllers ({} devices)"
-msgstr "システム USB コントローラー ({} デバイス)"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 280
+#, python-brace-format
+msgid "System USB Controllers ({count} devices)"
+msgstr "システム USB コントローラー ({count} デバイス)"
 # 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
@@ -859,17 +1027,18 @@ msgstr "制限されたデータを収集する（管理者が必要）"
 msgid "Search..."
 msgstr "検索..."
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 220
-msgid "Export Report"
-msgstr "レポートをエクスポート"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 221
-msgid "Share Online"
-msgstr "オンライン共有"
-# 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 222
 msgid "About"
 msgstr "情報について"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
+msgid "Collecting hardware information..."
+msgstr "ハードウェア情報を収集しています..."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 357
+#, python-brace-format
+msgid "Loading {category}... ({progress}%)"
+msgstr "{category}を読み込み中... ({progress}%)"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
@@ -887,9 +1056,15 @@ msgstr "コピーするデータがありません"
 msgid "Data copied to clipboard"
 msgstr "クリップボードにデータがコピーされました。"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 956
-msgid "Copied: {}"
-msgstr "コピーしました: {}"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 944
+#, python-brace-format
+msgid "=== {category} ==="
+msgstr "=== {カテゴリ} ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 987
+#, python-brace-format
+msgid "Copied: {title}"
+msgstr "コピーしました: {title}"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 956
 msgid "Copied to clipboard"
@@ -898,6 +1073,27 @@ msgstr "クリップボードにコピーされました"
 # File: big-hardware-info/src/app/ui/main_window.py, line: 1022
 msgid "Copy content to clipboard"
 msgstr "クリップボードに内容をコピー"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1099
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1139
+#, python-brace-format
+msgid "... {count} more lines hidden"
+msgstr "... {count} 行が非表示になっています"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1110
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1137
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1110
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1137
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+msgid "Show less"
+msgstr "表示を減らす"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1134
+#, python-brace-format
+msgid "Showing all {count} lines"
+msgstr "{count} 行をすべて表示中"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
@@ -963,13 +1159,19 @@ msgstr "別の検索語を試してください。"
 msgid "No disk information available"
 msgstr "ディスク情報は利用できません。"
 # 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
-msgid "Total Storage: {}"
-msgstr "合計ストレージ: {}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+#, python-brace-format
+msgid "Total Storage: {total}"
+msgstr "合計ストレージ: {total}"
 # 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 101
-msgid "Used: {}"
-msgstr "使用済み: {}"
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 105
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 472
+#, python-brace-format
+msgid "Used: {used}"
+msgstr "使用済み: {used}"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 110
 msgid "Storage Devices"
@@ -978,14 +1180,6 @@ msgstr "ストレージデバイス"
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
 msgstr "不明なドライブ"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
-msgid "Size"
-msgstr "サイズ"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 160
 msgid "Lanes"
@@ -998,10 +1192,6 @@ msgstr "テンポ"
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 202
 msgid "Mounted Partitions"
 msgstr "マウントされたパーティション"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
-msgid "Used"
-msgstr "使用済み"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 308
 msgid "Mounted at"
@@ -1182,13 +1372,15 @@ msgstr "IPv4"
 msgid "IPv6"
 msgstr "IPv6"
 # 
-# File: big-hardware-info/src/app/ui/views/network.py, line: 227
-msgid "Copy {}"
-msgstr "コピー{}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+#, python-brace-format
+msgid "Copy {label}"
+msgstr "{label}をコピー"
 # 
-# File: big-hardware-info/src/app/ui/views/network.py, line: 240
-msgid "Virtual Networks ({})"
-msgstr "仮想ネットワーク ({})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 241
+#, python-brace-format
+msgid "Virtual Networks ({count})"
+msgstr "仮想ネットワーク ({count})"
 # 
 # File: big-hardware-info/src/app/ui/views/network.py, line: 272
 msgid "Virtual"
@@ -1233,6 +1425,233 @@ msgstr "不明なオーディオデバイス"
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 105
 msgid "Class ID"
 msgstr "クラスID"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
+#, python-brace-format
+msgid "Total Memory: {total}"
+msgstr "合計メモリ: {total}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 98
+msgid "Copy memory info"
+msgstr "メモリ情報をコピーする"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
+#, python-format
+msgid "{:.1f}% used"
+msgstr "{:.1f}% 使用済み"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 152
+msgid "Modules"
+msgstr "モジュール"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 154
+msgid "Slots"
+msgstr "スロット"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 158
+msgid "Max Module Size"
+msgstr "最大モジュールサイズ"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 162
+msgid "ECC"
+msgstr "ECC"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 233
+#, python-brace-format
+msgid "Memory Modules ({modules})"
+msgstr "メモリモジュール ({modules})"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 296
+msgid "Volts"
+msgstr "ボルト"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 337
+msgid "Swap / ZRAM"
+msgstr "スワップ / ZRAM"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 353
+msgid "Kernel Settings"
+msgstr "カーネル設定"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 359
+msgid "Swappiness"
+msgstr "スワップネス"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 360
+msgid "Cache Pressure"
+msgstr "キャッシュ圧力"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 361
+msgid "ZSwap"
+msgstr "ZSwap"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 362
+msgid "Compressor"
+msgstr "コンプレッサー"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 391
+#, python-brace-format
+msgid "{swap_id} ({swap_type})"
+msgstr "{swap_id} ({swap_type})"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 429
+#, python-brace-format
+msgid "Used: {used} ({percent:.1f}%)"
+msgstr "使用済み: {used} ({percent:.1f}%)"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 442
+#, python-brace-format
+msgid "Priority: {priority}"
+msgstr "優先度: {priority}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 445
+#, python-brace-format
+msgid "Compression: {compression}"
+msgstr "圧縮: {compression}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 448
+#, python-brace-format
+msgid "Device: {device}"
+msgstr "デバイス: {device}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 469
+msgid "=== Memory ==="
+msgstr "=== メモリ ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 471
+#, python-brace-format
+msgid "Total: {total}"
+msgstr "合計: {total}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
+#, python-brace-format
+msgid "Usage: {usage}%"
+msgstr "使用状況: {usage}%"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 478
+#, python-brace-format
+msgid "Capacity: {capacity}"
+msgstr "容量: {capacity}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 482
+#, python-brace-format
+msgid "Modules: {modules}"
+msgstr "モジュール: {modules}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 485
+#, python-brace-format
+msgid "Slots: {slots}"
+msgstr "スロット: {slots}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
+msgid "Copy CPU info"
+msgstr "CPU情報をコピーする"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 88
+msgid "Cores"
+msgstr "コア"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 90
+msgid "Bits"
+msgstr "ビット"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 95
+msgid "Generation"
+msgstr "生成"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 96
+msgid "Process"
+msgstr "プロセス"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 97
+msgid "Built"
+msgstr "構築済み"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 99
+msgid "Scaling"
+msgstr "スケーリング"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
+msgid "Cache"
+msgstr "キャッシュ"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
+msgid "Family"
+msgstr "家族"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 221
+msgid "Model ID"
+msgstr "モデルID"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 222
+msgid "Stepping"
+msgstr "ステッピング"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 223
+msgid "Microcode"
+msgstr "マイクロコード"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
+msgid "Bogomips"
+msgstr "ボゴミップス"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
+msgid "Technical Details"
+msgstr "技術的詳細情報"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+#, python-brace-format
+msgid "Thread Speeds ({count})"
+msgstr "スレッド速度 ({count})"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 273
+#, python-brace-format
+msgid "Thread {thread}"
+msgstr "スレッド {thread}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 294
+#, python-brace-format
+msgid "CPU Flags ({count})"
+msgstr "CPUフラグ（{count}）"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 316
+#, python-brace-format
+msgid "CPU Vulnerabilities ({count})"
+msgstr "CPUの脆弱性（{count}）"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
+msgid "=== Processor ==="
+msgstr "=== プロセッサ ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
+#, python-brace-format
+msgid "Model: {model}"
+msgstr "モデル: {model}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 380
+#, python-brace-format
+msgid "Cores/Threads: {cores_threads}"
+msgstr "コア/スレッド: {cores_threads}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 383
+#, python-brace-format
+msgid "Architecture: {arch}"
+msgstr "アーキテクチャ: {arch}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 385
+#, python-brace-format
+msgid "Bits: {bits}"
+msgstr "ビット: {bits}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 388
+#, python-brace-format
+msgid "Max Speed: {speed} MHz"
+msgstr "最大速度: {speed} MHz"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 391
+#, python-brace-format
+msgid "L3 Cache: {cache}"
+msgstr "L3キャッシュ: {cache}"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""

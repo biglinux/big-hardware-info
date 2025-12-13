@@ -88,10 +88,42 @@ msgstr "Žádné tiskárny nejsou nakonfigurovány."
 msgid "No sensors detected"
 msgstr "Žádné senzory nebyly detekovány."
 # 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
+msgid "Package Repositories"
+msgstr "Balíčkové repozitáře"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2607
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2609
 msgid "No SDIO devices detected"
 msgstr "Žádná SDIO zařízení nebyla detekována."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2635
+msgid "SDIO"
+msgstr "SDIO"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2665
+msgid "Mhwd driver"
+msgstr "Ovladač Mhwd"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2667
+msgid "Mhwd kernel"
+msgstr "Jádro Mhwd"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2672
+msgid "Cmdline"
+msgstr "Příkazový řádek"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2687
+msgid "ACPI Interrupts"
+msgstr "ACPI přerušení"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2693
+msgid "dmesg (errors)"
+msgstr "dmesg (chyby)"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2697
+msgid "journalctl (errors)"
+msgstr "journalctl (chyby)"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2675
 msgid "No additional information available"
@@ -467,43 +499,46 @@ msgstr "Otevřít v prohlížeči"
 msgid "Upload Failed"
 msgstr "Nahrání se nezdařilo"
 # 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 334
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 335
+#, python-brace-format
 msgid ""
 "Could not upload the report:\n"
 "\n"
-"{}"
+"{error}"
 msgstr ""
 "Nelze nahrát zprávu:\n"
 "\n"
-"{}"
+"{error}"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 408
 msgid "Export Failed"
 msgstr "Export selhal."
 # 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 409
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 412
+#, python-brace-format
 msgid ""
 "Could not export the report:\n"
 "\n"
-"{}"
+"{error}"
 msgstr ""
 "Nelze exportovat zprávu:\n"
 "\n"
-"{}"
+"{error}"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 415
 msgid "Report Exported"
 msgstr "Zpráva exportována"
 # 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 416
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 421
+#, python-brace-format
 msgid ""
 "Report saved successfully to:\n"
 "\n"
-"{}"
+"{file}"
 msgstr ""
 "Zpráva byla úspěšně uložena do: \n"
 "\n"
-"{}"
+"{file}"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 432
 msgid "Failed to open browser"
@@ -534,9 +569,18 @@ msgstr "Rev"
 msgid "Kernel Module"
 msgstr "Jádrový modul"
 # 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 153
-msgid "System Controllers & Bridges ({} devices)"
-msgstr "Systémové ovladače a mosty ({} zařízení)"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 154
+#, python-brace-format
+msgid "System Controllers & Bridges ({count} devices)"
+msgstr "Systémové ovladače a mosty ({count} zařízení)"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "Podrobnosti o tiskárně"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
+msgid "Configure printers in System Settings"
+msgstr "Nastavte tiskárny v systémových nastaveních"
 # 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
 msgid "No motherboard information available"
@@ -624,6 +668,131 @@ msgstr "Datum BIOSu"
 msgid "Full Output"
 msgstr "Úplný výstup"
 # 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "Exportovat zprávu"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
+msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
+msgstr ""
+"Uložte kompletní HTML zprávu o vašem hardwaru, kterou můžete sdílet s podporou nebo si ji uchovat "
+"pro pozdější použití."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "Sdílet online"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
+msgid "Upload your hardware report to get a shareable link for forums or support tickets."
+msgstr "Nahrajte svou zprávu o hardwaru, abyste získali sdílený odkaz pro fóra nebo podpůrné tikety."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "Paměť RAM:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "Použito"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "Kořenová oddíl:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "Velikost"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
+msgid "Free"
+msgstr "Zdarma"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 173
+msgid "Distro"
+msgstr "Distro"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
+msgid "Video"
+msgstr "Video"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
+msgid "Install Date"
+msgstr "Datum instalace"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "Jádro"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 206
+msgid "=== Usage Overview ==="
+msgstr "=== Přehled použití ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 208
+#, python-brace-format
+msgid "Memory RAM: {memory}"
+msgstr "Paměť RAM: {memory}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 216
+#, python-brace-format
+msgid "  Used: {used}"
+msgstr "Použito: {used}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
+#, python-brace-format
+msgid "  Usage: {usage}%"
+msgstr "Použití: {usage}%"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 212
+#, python-brace-format
+msgid "Root Partition: {partition}"
+msgstr "Kořenová oddíl: {partition}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 215
+#, python-brace-format
+msgid "  Size: {size}"
+msgstr "Velikost: {size}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 217
+#, python-brace-format
+msgid "  Free: {free}"
+msgstr "Zdarma: {free}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 218
+#, python-brace-format
+msgid "  Usage: {usage}"
+msgstr "Použití: {usage}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "=== System Info ==="
+msgstr "=== Informace o systému ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 225
+#, python-brace-format
+msgid "Distro: {distro}"
+msgstr "Distro: {distro}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 227
+#, python-brace-format
+msgid "Video: {video}"
+msgstr "Video: {video}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 229
+#, python-brace-format
+msgid "Install Date: {date}"
+msgstr "Datum instalace: {date}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 230
+#, python-brace-format
+msgid "Kernel: {kernel}"
+msgstr "Jádro: {kernel}"
+# 
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
 msgstr "Žádná data senzoru nejsou k dispozici."
@@ -677,28 +846,13 @@ msgstr "Linux"
 msgid "Hostname"
 msgstr "Název hostitele"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
-# File: big-hardware-info/src/app/ui/search.py, line: 291
-msgid "Kernel"
-msgstr "Jádro"
-# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 115
 msgid "Desktop"
 msgstr "Desktop"
 # 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 116
-msgid "Window Manager"
-msgstr "Správce oken"
-# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 117
 msgid "Shell"
 msgstr "Shell"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 118
-msgid "Terminal"
-msgstr "Terminál"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 122
 msgid "Init System"
@@ -707,6 +861,18 @@ msgstr "Iniciační systém"
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 123
 msgid "Session Type"
 msgstr "Typ relace"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 126
+msgid "Uptime"
+msgstr "Dostupnost"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 116
+msgid "Window Manager"
+msgstr "Správce oken"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 118
+msgid "Terminal"
+msgstr "Terminál"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 124
 msgid "Display Manager"
@@ -718,10 +884,6 @@ msgstr "Správce zobrazení"
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 283
 msgid "Compositor"
 msgstr "Skládací program"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 126
-msgid "Uptime"
-msgstr "Dostupnost"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 127
 msgid "Processes"
@@ -750,6 +912,10 @@ msgstr "Využití paměti"
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
 msgid "Packages & Repositories"
 msgstr "Balíčky a repozitáře"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/system.py, line: 258
+msgid "Active Repositories"
+msgstr "Aktivní repozitáře"
 # 
 # File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
 msgid "Battery"
@@ -811,25 +977,29 @@ msgstr "ID zařízení"
 msgid "Bus"
 msgstr "Autobus"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers ({})"
-msgstr "USB huby a ovladače ({})"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 195
+#, python-brace-format
+msgid "USB Hubs & Controllers ({count})"
+msgstr "USB huby a ovladače ({count})"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
 msgstr "Hub"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 233
-msgid "{} ports"
-msgstr "{} porty"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 235
+#, python-brace-format
+msgid "{count} ports"
+msgstr "{count} portů"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 237
-msgid "Mode {}"
-msgstr "Režim {}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 239
+#, python-brace-format
+msgid "Mode {mode}"
+msgstr "Režim {mode}"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 277
-msgid "System USB Controllers ({} devices)"
-msgstr "Ovladače USB systému ({} zařízení)"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 280
+#, python-brace-format
+msgid "System USB Controllers ({count} devices)"
+msgstr "Ovladače USB systému ({count} zařízení)"
 # 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
@@ -861,17 +1031,18 @@ msgstr "Shromáždit omezená data (vyžaduje administrátora)"
 msgid "Search..."
 msgstr "Hledat..."
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 220
-msgid "Export Report"
-msgstr "Exportovat zprávu"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 221
-msgid "Share Online"
-msgstr "Sdílet online"
-# 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 222
 msgid "About"
 msgstr "O aplikaci"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
+msgid "Collecting hardware information..."
+msgstr "Shromažďování informací o hardwaru..."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 357
+#, python-brace-format
+msgid "Loading {category}... ({progress}%)"
+msgstr "Načítání {category}... ({progress}%)"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
@@ -889,9 +1060,15 @@ msgstr "Žádná data k zkopírování"
 msgid "Data copied to clipboard"
 msgstr "Data zkopírována do schránky"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 956
-msgid "Copied: {}"
-msgstr "Zkopírováno: {}"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 944
+#, python-brace-format
+msgid "=== {category} ==="
+msgstr "=== {kategorie} ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 987
+#, python-brace-format
+msgid "Copied: {title}"
+msgstr "Zkopírováno: {title}"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 956
 msgid "Copied to clipboard"
@@ -900,6 +1077,26 @@ msgstr "Zkopírováno do schránky"
 # File: big-hardware-info/src/app/ui/main_window.py, line: 1022
 msgid "Copy content to clipboard"
 msgstr "Kopírovat obsah do schránky"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1099
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1139
+#, python-brace-format
+msgid "... {count} more lines hidden"
+msgstr "... {count} dalších řádků skryto"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1110
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1137
+msgid "Show all"
+msgstr "Zobrazit vše"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+msgid "Show less"
+msgstr "Zobrazit méně"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1134
+#, python-brace-format
+msgid "Showing all {count} lines"
+msgstr "Zobrazení všech {count} řádků"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
@@ -965,13 +1162,19 @@ msgstr "Zkuste jiný vyhledávací termín"
 msgid "No disk information available"
 msgstr "Žádné informace o disku nejsou k dispozici."
 # 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
-msgid "Total Storage: {}"
-msgstr "Celková kapacita: {}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+#, python-brace-format
+msgid "Total Storage: {total}"
+msgstr "Celková kapacita: {total}"
 # 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 101
-msgid "Used: {}"
-msgstr "Použito: {}"
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 105
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 472
+#, python-brace-format
+msgid "Used: {used}"
+msgstr "Použito: {used}"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 110
 msgid "Storage Devices"
@@ -980,14 +1183,6 @@ msgstr "Úložná zařízení"
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
 msgstr "Neznámý disk"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
-msgid "Size"
-msgstr "Velikost"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 160
 msgid "Lanes"
@@ -1000,10 +1195,6 @@ msgstr "Teplota"
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 202
 msgid "Mounted Partitions"
 msgstr "Připojené oddíly"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
-msgid "Used"
-msgstr "Použito"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 308
 msgid "Mounted at"
@@ -1184,13 +1375,15 @@ msgstr "IPv4"
 msgid "IPv6"
 msgstr "IPv6"
 # 
-# File: big-hardware-info/src/app/ui/views/network.py, line: 227
-msgid "Copy {}"
-msgstr "Kopírovat {}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+#, python-brace-format
+msgid "Copy {label}"
+msgstr "Kopírovat {label}"
 # 
-# File: big-hardware-info/src/app/ui/views/network.py, line: 240
-msgid "Virtual Networks ({})"
-msgstr "Virtuální sítě ({})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 241
+#, python-brace-format
+msgid "Virtual Networks ({count})"
+msgstr "Virtuální sítě ({count})"
 # 
 # File: big-hardware-info/src/app/ui/views/network.py, line: 272
 msgid "Virtual"
@@ -1235,6 +1428,233 @@ msgstr "Neznámé audio zařízení"
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 105
 msgid "Class ID"
 msgstr "ID třídy"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
+#, python-brace-format
+msgid "Total Memory: {total}"
+msgstr "Celková paměť: {total}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 98
+msgid "Copy memory info"
+msgstr "Kopírovat informace o paměti"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
+#, python-format
+msgid "{:.1f}% used"
+msgstr "{:.1f}% použito"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 152
+msgid "Modules"
+msgstr "Moduly"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 154
+msgid "Slots"
+msgstr "Sloty"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 158
+msgid "Max Module Size"
+msgstr "Maximální velikost modulu"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 162
+msgid "ECC"
+msgstr "ECC"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 233
+#, python-brace-format
+msgid "Memory Modules ({modules})"
+msgstr "Paměťové moduly ({modules})"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 296
+msgid "Volts"
+msgstr "Volty"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 337
+msgid "Swap / ZRAM"
+msgstr "Swap / ZRAM"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 353
+msgid "Kernel Settings"
+msgstr "Nastavení jádra"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 359
+msgid "Swappiness"
+msgstr "Swappiness"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 360
+msgid "Cache Pressure"
+msgstr "Tlak na mezipaměť"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 361
+msgid "ZSwap"
+msgstr "ZSwap"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 362
+msgid "Compressor"
+msgstr "Komprimátor"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 391
+#, python-brace-format
+msgid "{swap_id} ({swap_type})"
+msgstr "{swap_id} ({swap_type})"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 429
+#, python-brace-format
+msgid "Used: {used} ({percent:.1f}%)"
+msgstr "Použito: {used} ({percent:.1f}%)"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 442
+#, python-brace-format
+msgid "Priority: {priority}"
+msgstr "Priorita: {priority}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 445
+#, python-brace-format
+msgid "Compression: {compression}"
+msgstr "Komprese: {komprese}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 448
+#, python-brace-format
+msgid "Device: {device}"
+msgstr "Zařízení: {device}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 469
+msgid "=== Memory ==="
+msgstr "=== Paměť ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 471
+#, python-brace-format
+msgid "Total: {total}"
+msgstr "Celkem: {total}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
+#, python-brace-format
+msgid "Usage: {usage}%"
+msgstr "Použití: {usage}%"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 478
+#, python-brace-format
+msgid "Capacity: {capacity}"
+msgstr "Kapacita: {capacity}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 482
+#, python-brace-format
+msgid "Modules: {modules}"
+msgstr "Moduly: {modules}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 485
+#, python-brace-format
+msgid "Slots: {slots}"
+msgstr "Sloty: {slots}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
+msgid "Copy CPU info"
+msgstr "Kopírovat informace o CPU"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 88
+msgid "Cores"
+msgstr "Jádra"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 90
+msgid "Bits"
+msgstr "Bity"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 95
+msgid "Generation"
+msgstr "Generace"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 96
+msgid "Process"
+msgstr "Zpracovat"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 97
+msgid "Built"
+msgstr "Postaveno"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 99
+msgid "Scaling"
+msgstr "Škálování"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
+msgid "Cache"
+msgstr "Mezipaměť"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
+msgid "Family"
+msgstr "Rodina"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 221
+msgid "Model ID"
+msgstr "ID modelu"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 222
+msgid "Stepping"
+msgstr "Kročení"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 223
+msgid "Microcode"
+msgstr "Mikrokód"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
+msgid "Bogomips"
+msgstr "Bogomips"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
+msgid "Technical Details"
+msgstr "Technické podrobnosti"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+#, python-brace-format
+msgid "Thread Speeds ({count})"
+msgstr "Rychlosti vláken ({count})"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 273
+#, python-brace-format
+msgid "Thread {thread}"
+msgstr "Vlákno {thread}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 294
+#, python-brace-format
+msgid "CPU Flags ({count})"
+msgstr "CPU Příznaky ({count})"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 316
+#, python-brace-format
+msgid "CPU Vulnerabilities ({count})"
+msgstr "Zranitelnosti CPU ({count})"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
+msgid "=== Processor ==="
+msgstr "=== Procesor ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
+#, python-brace-format
+msgid "Model: {model}"
+msgstr "Model: {model}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 380
+#, python-brace-format
+msgid "Cores/Threads: {cores_threads}"
+msgstr "Jádra/Thready: {cores_threads}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 383
+#, python-brace-format
+msgid "Architecture: {arch}"
+msgstr "Architektura: {arch}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 385
+#, python-brace-format
+msgid "Bits: {bits}"
+msgstr "Bity: {bits}"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 388
+#, python-brace-format
+msgid "Max Speed: {speed} MHz"
+msgstr "Maximální rychlost: {speed} MHz"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 391
+#, python-brace-format
+msgid "L3 Cache: {cache}"
+msgstr "L3 Cache: {cache}"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
