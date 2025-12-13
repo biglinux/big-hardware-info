@@ -52,7 +52,7 @@ class PrintersRenderer(SectionRenderer):
         
         # Show raw output
         if raw:
-            self.window._add_terminal_block("Printer Details", raw)
+            self.window._add_terminal_block(_("Printer Details"), raw)
     
     def _render_empty_state(self) -> None:
         """Render empty state when no printers found."""
@@ -66,12 +66,15 @@ class PrintersRenderer(SectionRenderer):
         icon = ui.icon("printer-symbolic", 64)
         icon.add_css_class("dim-label")
         card.append(icon)
-        
-        msg = ui.title("No printers configured", level=3)
+
+        msg = ui.title(_("No printers configured"), level=3)
         msg.add_css_class("dim-label")
         card.append(msg)
-        
-        hint = ui.label("Configure printers in System Settings", css_classes=["body", "dim-label"])
+
+        hint = ui.label(
+            _("Configure printers in System Settings"),
+            css_classes=["body", "dim-label"],
+        )
         card.append(hint)
         
         self.container.append(card)

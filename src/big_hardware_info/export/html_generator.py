@@ -790,7 +790,7 @@ class HtmlGenerator:
     def _render_section_header(self, cat_id: str) -> str:
         """Render section header."""
         info = CATEGORIES.get(cat_id, {})
-        name = info.get("name", cat_id.title())
+        name = _(info.get("name", cat_id.title()))
         # Icon handling logic (using emoji proxy for now)
         return f"""
         <div class="box-horizontal" style="margin-bottom: 6px; margin-top: 24px; align-items: center;">
@@ -869,16 +869,16 @@ class HtmlGenerator:
         <div class="box-horizontal" style="margin-bottom: 24px; gap: 16px;">
             <!-- Usage Overview Card (RAM + Partition) -->
             <div class="card" style="flex: 1;">
-                <div class="title-4" style="margin-bottom: 12px;">Usage Overview</div>
+                <div class="title-4" style="margin-bottom: 12px;">{_("Usage Overview")}</div>
                 
                 <!-- Memory RAM -->
                 <div class="box-vertical" style="margin-bottom: 12px;">
                     <div class="box-horizontal" style="justify-content: space-between;">
-                        <div class="dim-label">Memory RAM:</div>
+                        <div class="dim-label">{_("Memory RAM:")}</div>
                         <div class="heading">{ram_total_str}</div>
                     </div>
                     <div class="box-horizontal" style="font-size: 0.85em; gap: 12px; margin-top: 4px;">
-                        <span class="dim-label">Used: {ram_used_str.split('(')[0].strip() if '(' in str(ram_used_str) else ram_used_str}</span>
+                        <span class="dim-label">{_("Used:")} {ram_used_str.split("(")[0].strip() if "(" in str(ram_used_str) else ram_used_str}</span>
                     </div>
                     <div class="usage-bar" style="background: rgba(255,255,255,0.1); border-radius: 4px; height: 8px; margin-top: 6px;">
                         <div class="progress" style="width: {ram_percent}%; background-color: var({ram_color_var}); height: 100%; border-radius: 4px;"></div>
@@ -896,7 +896,7 @@ class HtmlGenerator:
                     </div>
                     <div class="box-horizontal" style="font-size: 0.85em; gap: 12px; margin-top: 4px;">
                         <span class="dim-label">Size: {part_size}</span>
-                        <span class="dim-label">Used: {part_used}</span>
+                        <span class="dim-label">{_("Used:")} {part_used}</span>
                         <span class="dim-label">Free: {part_free}</span>
                     </div>
                     <div class="usage-bar" style="background: rgba(255,255,255,0.1); border-radius: 4px; height: 8px; margin-top: 6px;">
@@ -908,7 +908,7 @@ class HtmlGenerator:
             
             <!-- System Info Card -->
             <div class="card" style="flex: 1;">
-                <div class="title-4" style="margin-bottom: 12px;">System Info</div>
+                <div class="title-4" style="margin-bottom: 12px;">{_("System Info")}</div>
                 {self._create_spec_item("Distro", system.get("distro", ""))}
                 {self._create_spec_item("Video", gpu_name) if gpu_name else ""}
                 {self._create_spec_item("Install Date", install_date) if install_date else ""}
@@ -1371,7 +1371,7 @@ class HtmlGenerator:
             
             <div class="box-horizontal" style="gap: 16px; font-size: 0.9em;">
                 <span class="dim-label">Total: <span style="color: var(--text-primary);">{total}</span></span>
-                <span class="dim-label">Used: <span style="color: var(--text-primary);">{used}</span></span>
+                <span class="dim-label">{_("Used:")} <span style="color: var(--text-primary);">{used}</span></span>
             </div>
         </div>
         """)
@@ -1477,7 +1477,7 @@ class HtmlGenerator:
                     </div>
                     <div class="heading">{used_percent:.0f}%</div>
                 </div>
-                <div class="dim-label">Used: {used}</div>
+                <div class="dim-label">{_("Used:")} {used}</div>
             </div>
             """)
         
@@ -1648,7 +1648,11 @@ class HtmlGenerator:
             badges_html += f'<div class="device-badge">{fs}</div>'
         
         # Build usage display string
-        usage_display = f"Used: {used_clean} ({used_percent:.1f}%)" if used_clean else f"{used_percent:.1f}%"
+        usage_display = (
+            f"{_('Used:')} {used_clean} ({used_percent:.1f}%)"
+            if used_clean
+            else f"{used_percent:.1f}%"
+        )
         
         return f"""
         <div class="card" style="margin-bottom: 8px;">
@@ -1863,7 +1867,11 @@ class HtmlGenerator:
             virt_html = []
             for device in virtual:
                 virt_html.append(self._render_network_card(device))
-            html.append(self._create_expander(f"Virtual Networks ({len(virtual)})", "\n".join(virt_html)))
+            html.append(
+                self._create_expander(
+                    f"{_('Virtual Networks')} ({len(virtual)})", "\n".join(virt_html)
+                )
+            )
             
         return "\n".join(html)
 
@@ -2096,7 +2104,9 @@ class HtmlGenerator:
             
             # Connected Devices Section
             if devices:
-                html.append('<div class="title-4" style="margin-bottom: 12px;">Connected Devices</div>')
+                html.append(
+                    f'<div class="title-4" style="margin-bottom: 12px;">{_("Connected Devices")}</div>'
+                )
                 for device in devices:
                     html.append(self._render_usb_item(device))
             
@@ -2105,7 +2115,12 @@ class HtmlGenerator:
                 hub_html = []
                 for hub in hubs:
                     hub_html.append(self._render_usb_item(hub))
-                html.append(self._create_expander(f"USB Hubs & Controllers ({len(hubs)})", "\n".join(hub_html)))
+                html.append(
+                    self._create_expander(
+                        f"{_('USB Hubs & Controllers')} ({len(hubs)})",
+                        "\n".join(hub_html),
+                    )
+                )
                 
             return "\n".join(html) if html else self._render_no_data(_("No USB devices found"))
         
@@ -2134,7 +2149,11 @@ class HtmlGenerator:
             hub_html = []
             for device in hubs:
                 hub_html.append(self._render_usb_item(device))
-            html.append(self._create_expander(f"USB Hubs ({len(hubs)})", "\n".join(hub_html)))
+            html.append(
+                self._create_expander(
+                    f"{_('USB Hubs')} ({len(hubs)})", "\n".join(hub_html)
+                )
+            )
             
         return "\n".join(html)
 
@@ -2240,10 +2259,12 @@ class HtmlGenerator:
             infra_html = []
             for device in infrastructure_devices:
                 infra_html.append(self._render_pci_item(device, inxi_lookup))
-            html.append(self._create_expander(
-                f"System Controllers & Bridges ({len(infrastructure_devices)} devices)", 
-                "\n".join(infra_html)
-            ))
+            html.append(
+                self._create_expander(
+                    f"{_('System Controllers & Bridges')} ({len(infrastructure_devices)} {_('devices')})",
+                    "\n".join(infra_html),
+                )
+            )
              
         return "\n".join(html)
         
@@ -2426,7 +2447,7 @@ class HtmlGenerator:
             # Just display the raw info nicely
             html.append(f"""
             <div class="card terminal-card">
-                <div class="terminal-title">Printer Status</div>
+                <div class="terminal-title">{_("Printer Status")}</div>
                 <div class="terminal-text">{raw}</div>
             </div>
             """)
@@ -2461,7 +2482,7 @@ class HtmlGenerator:
         if raw:
             html.append(f"""
             <div class="card terminal-card" style="margin-top: 16px;">
-                <div class="terminal-title">Printer Details</div>
+                <div class="terminal-title">{_("Printer Details")}</div>
                 <div class="terminal-text" style="max-height: 300px; overflow: auto;">{raw}</div>
             </div>
             """)
@@ -2479,7 +2500,9 @@ class HtmlGenerator:
             return self._render_no_data(_("No sensors detected"))
             
         if temps:
-            html.append('<div class="title-4" style="margin-bottom: 12px;">System Temperatures</div>')
+            html.append(
+                f'<div class="title-4" style="margin-bottom: 12px;">{_("System Temperatures")}</div>'
+            )
             html.append('<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px;">')
             
             for temp in temps:
@@ -2505,7 +2528,9 @@ class HtmlGenerator:
             html.append('</div>')
             
         if fans:
-            html.append('<div class="title-4" style="margin-bottom: 12px;">Fan Speeds</div>')
+            html.append(
+                f'<div class="title-4" style="margin-bottom: 12px;">{_("Fan Speeds")}</div>'
+            )
             html.append('<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px;">')
             for fan in fans:
                 speed = fan.get("speed", fan.get("value", "N/A"))
@@ -2525,7 +2550,7 @@ class HtmlGenerator:
             escaped_cmd = self._apply_syntax_highlighting(sensors_cmd)
             html.append(f"""
             <div class="card terminal-card" style="margin-top: 16px;">
-                <div class="terminal-title">Detailed Sensor Data (sensors)</div>
+                <div class="terminal-title">{_("Detailed Sensor Data (sensors)")}</div>
                 <div class="terminal-text" style="max-height: 500px; overflow: auto; white-space: pre-wrap;">{escaped_cmd}</div>
             </div>
             """)
@@ -2571,7 +2596,7 @@ class HtmlGenerator:
         
         # Package Repositories
         repositories = system_data.get("repositories", "")
-        add_terminal_block("Package Repositories", repositories)
+        add_terminal_block(_("Package Repositories"), repositories)
         
         # PCI Devices (lspci -nn)
         if isinstance(pci_data, dict):
@@ -2607,7 +2632,7 @@ class HtmlGenerator:
                 sdio_text = _("No SDIO devices detected")
         else:
             sdio_text = _("No SDIO devices detected")
-        add_terminal_block("SDIO", sdio_text)
+        add_terminal_block(_("SDIO"), sdio_text)
         
         # PCI Detailed (lspci -nvv)
         if isinstance(pci_data, dict):
@@ -2637,14 +2662,14 @@ class HtmlGenerator:
         # MHWD driver
         if isinstance(mhwd_data, dict):
             mhwd_drivers = mhwd_data.get("installed_drivers", "")
-            add_terminal_block("Mhwd driver", mhwd_drivers)
+            add_terminal_block(_("Mhwd driver"), mhwd_drivers)
             mhwd_kernels = mhwd_data.get("installed_kernels", "")
-            add_terminal_block("Mhwd kernel", mhwd_kernels)
+            add_terminal_block(_("Mhwd kernel"), mhwd_kernels)
         
         # Cmdline
         if isinstance(cmdline_data, dict):
             cmdline_raw = cmdline_data.get("raw", "")
-            add_terminal_block("Cmdline", cmdline_raw)
+            add_terminal_block(_("Cmdline"), cmdline_raw)
         
         # EFI Boot Manager
         if isinstance(efi_data, dict) and efi_data.get("available"):
@@ -2659,17 +2684,17 @@ class HtmlGenerator:
                     f"{i.get('name', 'Unknown')}: {i.get('count', 0)}"
                     for i in acpi_interrupts
                 )
-                add_terminal_block("ACPI Interrupts", acpi_text)
+                add_terminal_block(_("ACPI Interrupts"), acpi_text)
         
         # Logs - dmesg errors
         if isinstance(logs_data, dict):
             dmesg = logs_data.get("dmesg_errors", {})
             if isinstance(dmesg, dict) and dmesg.get("raw"):
-                add_terminal_block("dmesg (errors)", dmesg.get("raw", ""))
+                add_terminal_block(_("dmesg (errors)"), dmesg.get("raw", ""))
             
             journal = logs_data.get("journal_errors", {})
             if isinstance(journal, dict) and journal.get("raw"):
-                add_terminal_block("journalctl (errors)", journal.get("raw", ""))
+                add_terminal_block(_("journalctl (errors)"), journal.get("raw", ""))
         
         if not html:
             return self._render_no_data(_("No additional information available"))

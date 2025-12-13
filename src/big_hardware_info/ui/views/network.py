@@ -224,7 +224,7 @@ class NetworkSectionView(HardwareSectionView):
         copy_btn = Gtk.Button()
         copy_btn.set_icon_name("edit-copy-symbolic")
         copy_btn.add_css_class("flat")
-        copy_btn.set_tooltip_text(_("Copy {}").format(label))
+        copy_btn.set_tooltip_text(_("Copy {label}").format(label=label))
         copy_btn.set_valign(Gtk.Align.CENTER)
         
         if self._copy_text_callback:
@@ -237,7 +237,9 @@ class NetworkSectionView(HardwareSectionView):
     
     def _render_virtual_networks(self, virtual_devices: list) -> None:
         """Render virtual networks in collapsible section with full details."""
-        expander = Gtk.Expander(label=_("Virtual Networks ({})").format(len(virtual_devices)))
+        expander = Gtk.Expander(
+            label=_("Virtual Networks ({count})").format(count=len(virtual_devices))
+        )
         expander.add_css_class("card")
         expander.set_margin_top(12)
         

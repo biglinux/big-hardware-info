@@ -53,7 +53,7 @@ class SystemRenderer(SectionRenderer):
         
         # Raw output
         if system_data.get("raw"):
-            self.add_raw_expander("Full Output", system_data["raw"])
+            self.add_raw_expander(_("Full Output"), system_data["raw"])
     
     def _build_shell_display(self, data: Dict) -> str:
         """Build shell display string."""
@@ -95,15 +95,21 @@ class SystemRenderer(SectionRenderer):
         title_row.append(title_lbl)
         
         # Copy button
-        copy_text = self.format_copy_text(distro, [
-            ("Hostname", data.get("hostname", "")),
-            ("Kernel", kernel_display),
-            ("Desktop", f"{data.get('desktop', '')} {data.get('desktop_version', '')}".strip()),
-            ("Shell", shell_display),
-            ("Init System", data.get("init", "")),
-            ("Session Type", data.get("session_type", "")),
-            ("Uptime", data.get("uptime", "")),
-        ])
+        copy_text = self.format_copy_text(
+            distro,
+            [
+                (_("Hostname"), data.get("hostname", "")),
+                (_("Kernel"), kernel_display),
+                (
+                    _("Desktop"),
+                    f"{data.get('desktop', '')} {data.get('desktop_version', '')}".strip(),
+                ),
+                (_("Shell"), shell_display),
+                (_("Init System"), data.get("init", "")),
+                (_("Session Type"), data.get("session_type", "")),
+                (_("Uptime"), data.get("uptime", "")),
+            ],
+        )
         title_row.append(ui.copy_button(on_click=lambda b: self.copy_to_clipboard(copy_text, distro)))
         
         card.append(title_row)
@@ -248,8 +254,8 @@ class SystemRenderer(SectionRenderer):
         if repos:
             if packages:
                 box.append(ui.separator(margins=(8, 8)))
-            
-            repos_title = ui.heading("Active Repositories")
+
+            repos_title = ui.heading(_("Active Repositories"))
             repos_title.set_halign(Gtk.Align.START)
             box.append(repos_title)
             

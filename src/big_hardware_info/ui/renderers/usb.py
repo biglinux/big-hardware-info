@@ -191,7 +191,9 @@ class UsbRenderer(SectionRenderer):
     def _render_hubs_expander(self, hubs: List[Dict]) -> None:
         """Render USB hubs in an expandable section."""
         expander = Gtk.Expander()
-        expander.set_label(_("USB Hubs & Controllers ({})").format(len(hubs)))
+        expander.set_label(
+            _("USB Hubs & Controllers ({count})").format(count=len(hubs))
+        )
         expander.add_css_class("card")
         expander.set_margin_top(16)
         
@@ -230,11 +232,11 @@ class UsbRenderer(SectionRenderer):
         
         details = []
         if hub.get("ports"):
-            details.append(_("{} ports").format(hub['ports']))
+            details.append(_("{count} ports").format(count=hub["ports"]))
         if hub.get("speed"):
             details.append(hub["speed"])
         if hub.get("mode"):
-            details.append(_("Mode {}").format(hub['mode']))
+            details.append(_("Mode {mode}").format(mode=hub["mode"]))
         if class_id:
             details.append(f"Class: {class_id}")
         if chip_id:
@@ -274,7 +276,9 @@ class UsbRenderer(SectionRenderer):
     def _render_system_usb_expander(self, devices: List[Dict]) -> None:
         """Render system USB controllers in an expandable section."""
         expander = Gtk.Expander()
-        expander.set_label(_("System USB Controllers ({} devices)").format(len(devices)))
+        expander.set_label(
+            _("System USB Controllers ({count} devices)").format(count=len(devices))
+        )
         expander.add_css_class("card")
         expander.set_margin_top(16)
         

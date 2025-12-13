@@ -27,22 +27,30 @@ class SummaryRenderer(SectionRenderer):
         actions_row = ui.row(spacing=16)
         actions_row.set_homogeneous(True)
         actions_row.set_margin_bottom(24)
-        
-        actions_row.append(ui.action_card(
-            "document-save-symbolic",
-            "Export Report",
-            "Save a complete HTML report of your hardware to share with support or keep for reference.",
-            "Export",
-            lambda b: self.window.app.activate_action("export", None)
-        ))
-        
-        actions_row.append(ui.action_card(
-            "send-to-symbolic",
-            "Share Online",
-            "Upload your hardware report to get a shareable link for forums or support tickets.",
-            "Share",
-            lambda b: self.window.app.activate_action("share", None)
-        ))
+
+        actions_row.append(
+            ui.action_card(
+                "document-save-symbolic",
+                _("Export Report"),
+                _(
+                    "Save a complete HTML report of your hardware to share with support or keep for reference."
+                ),
+                _("Export"),
+                lambda b: self.window.app.activate_action("export", None),
+            )
+        )
+
+        actions_row.append(
+            ui.action_card(
+                "send-to-symbolic",
+                _("Share Online"),
+                _(
+                    "Upload your hardware report to get a shareable link for forums or support tickets."
+                ),
+                _("Share"),
+                lambda b: self.window.app.activate_action("share", None),
+            )
+        )
         
         self.container.append(actions_row)
         
@@ -86,13 +94,13 @@ class SummaryRenderer(SectionRenderer):
         ram_used_clean = str(ram_used).split("(")[0].strip() if "(" in str(ram_used) else ram_used
         
         ram_row = ui.row(spacing=8)
-        ram_row.append(ui.dim_label("Memory RAM:"))
+        ram_row.append(ui.dim_label(_("Memory RAM:")))
         ram_row.append(ui.heading(ram_display))
         card.append(ram_row)
         
         # RAM details
         details = ui.grid()
-        details.attach(ui.dim_label("Used", caption=True), 0, 0, 1, 1)
+        details.attach(ui.dim_label(_("Used"), caption=True), 0, 0, 1, 1)
         details.attach(ui.label(str(ram_used_clean) or "N/A", halign=Gtk.Align.START), 1, 0, 1, 1)
         card.append(details)
         
@@ -117,14 +125,18 @@ class SummaryRenderer(SectionRenderer):
             pass
         
         part_row = ui.row(spacing=8)
-        part_row.append(ui.dim_label("Root Partition:"))
+        part_row.append(ui.dim_label(_("Root Partition:")))
         part_row.append(ui.heading(partition))
         card.append(part_row)
         
         # Partition details grid
         part_grid = ui.grid()
         col = 0
-        for lbl, val in [("Size", part_size), ("Used", used_space), ("Free", free_space)]:
+        for lbl, val in [
+            (_("Size"), part_size),
+            (_("Used"), used_space),
+            (_("Free"), free_space),
+        ]:
             part_grid.attach(ui.dim_label(lbl, caption=True), col, 0, 1, 1)
             part_grid.attach(ui.label(val, halign=Gtk.Align.START), col + 1, 0, 1, 1)
             col += 2
@@ -158,10 +170,10 @@ class SummaryRenderer(SectionRenderer):
         
         # Info items
         items = [
-            ("Distro", distro),
-            ("Video", gpu_name),
-            ("Install Date", install_date),
-            ("Kernel", kernel),
+            (_("Distro"), distro),
+            (_("Video"), gpu_name),
+            (_("Install Date"), install_date),
+            (_("Kernel"), kernel),
         ]
         
         for label, value in items:
@@ -191,29 +203,31 @@ class SummaryRenderer(SectionRenderer):
     def _format_usage_copy(self, memory: Dict, disk: Dict) -> str:
         """Format usage data for clipboard."""
         return "\n".join([
-            "=== Usage Overview ===",
+            _("=== Usage Overview ==="),
             "",
-            f"Memory RAM: {memory.get('total', 'Unknown')}",
-            f"  Used: {memory.get('used', 'N/A')}",
-            f"  Usage: {memory.get('used_percent', 'N/A')}%",
+            _("Memory RAM: {memory}").format(memory=memory.get("total", "Unknown")),
+            _("  Used: {used}").format(used=memory.get("used", "N/A")),
+            _("  Usage: {usage}%").format(usage=memory.get("used_percent", "N/A")),
             "",
-            f"Root Partition: {disk.get('device', disk.get('mount_point', '/'))}",
-            f"  Size: {disk.get('size', 'Unknown')}",
-            f"  Used: {disk.get('used', 'Unknown')}",
-            f"  Free: {disk.get('available', 'Unknown')}",
-            f"  Usage: {disk.get('use_percent', 'N/A')}",
+            _("Root Partition: {partition}").format(
+                partition=disk.get("device", disk.get("mount_point", "/"))
+            ),
+            _("  Size: {size}").format(size=disk.get("size", "Unknown")),
+            _("  Used: {used}").format(used=disk.get("used", "Unknown")),
+            _("  Free: {free}").format(free=disk.get("available", "Unknown")),
+            _("  Usage: {usage}").format(usage=disk.get("use_percent", "N/A")),
         ])
     
     def _format_system_copy(self, distro: str, gpu: str, date: str, kernel: str) -> str:
         """Format system info for clipboard."""
-        lines = ["=== System Info ===", ""]
+        lines = [_("=== System Info ==="), ""]
         if distro:
-            lines.append(f"Distro: {distro}")
+            lines.append(_("Distro: {distro}").format(distro=distro))
         if gpu:
-            lines.append(f"Video: {gpu}")
+            lines.append(_("Video: {video}").format(video=gpu))
         if date:
-            lines.append(f"Install Date: {date}")
-        lines.append(f"Kernel: {kernel or 'Unknown'}")
+            lines.append(_("Install Date: {date}").format(date=date))
+        lines.append(_("Kernel: {kernel}").format(kernel=kernel or "Unknown"))
         return "\n".join(lines)
     
     def _build_searchable_text(self, memory: Dict, disk: Dict, gpu: Dict, system: Dict) -> str:

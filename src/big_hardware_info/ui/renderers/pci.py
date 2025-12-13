@@ -150,7 +150,11 @@ class PciRenderer(SectionRenderer):
     def _render_infrastructure_expander(self, devices: List[Dict], inxi_lookup: Dict) -> None:
         """Render infrastructure devices in an expandable section."""
         expander = Gtk.Expander()
-        expander.set_label(_("System Controllers & Bridges ({} devices)").format(len(devices)))
+        expander.set_label(
+            _("System Controllers & Bridges ({count} devices)").format(
+                count=len(devices)
+            )
+        )
         expander.add_css_class("card")
         expander.set_margin_top(16)
         

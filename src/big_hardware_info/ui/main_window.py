@@ -276,7 +276,7 @@ class MainWindow(Adw.ApplicationWindow):
         box.append(icon)
         
         # Label
-        label = Gtk.Label(label=cat_info["name"])
+        label = Gtk.Label(label=_(cat_info["name"]))
         label.set_halign(Gtk.Align.START)
         label.set_hexpand(True)
         label.add_css_class("category-label")
@@ -323,29 +323,29 @@ class MainWindow(Adw.ApplicationWindow):
         spinner.set_size_request(48, 48)
         spinner.start()
         spinner_box.append(spinner)
-        
-        label = Gtk.Label(label="Collecting hardware information...")
+
+        label = Gtk.Label(label=_("Collecting hardware information..."))
         label.add_css_class("dim-label")
         spinner_box.append(label)
-        
+
         # Progress label
         self.progress_label = Gtk.Label(label="")
         self.progress_label.add_css_class("caption")
         spinner_box.append(self.progress_label)
-        
+
         self.content_container.append(spinner_box)
 
     def _start_data_collection(self):
         """Start background data collection."""
         self._show_loading()
-        
+
         def collect_in_thread():
             def progress_callback(category, progress):
                 GLib.idle_add(self._update_progress, category, progress)
-            
+
             data = self.collector.collect_all(progress_callback)
             GLib.idle_add(self._on_data_collected, data)
-        
+
         thread = threading.Thread(target=collect_in_thread, daemon=True)
         thread.start()
         return False
@@ -353,7 +353,11 @@ class MainWindow(Adw.ApplicationWindow):
     def _update_progress(self, category: str, progress: float):
         """Update progress indicator."""
         if hasattr(self, "progress_label") and self.progress_label:
-            self.progress_label.set_text(f"Loading {category}... ({int(progress * 100)}%)")
+            self.progress_label.set_text(
+                _("Loading {category}... ({progress}%)").format(
+                    category=category, progress=int(progress * 100)
+                )
+            )
 
     def _on_data_collected(self, data: dict):
         """Handle collected data."""
@@ -364,12 +368,12 @@ class MainWindow(Adw.ApplicationWindow):
     def _refresh_data(self):
         """Refresh hardware data."""
         # Save scroll position to restore after refresh
-        if hasattr(self, 'content_scroll') and self.content_scroll:
+        if hasattr(self, "content_scroll") and self.content_scroll:
             vadj = self.content_scroll.get_vadjustment()
             self._saved_scroll_position = vadj.get_value()
         else:
             self._saved_scroll_position = None
-        
+
         self.collector.inxi_parser.clear_cache()
         self._start_data_collection()
 
@@ -381,7 +385,7 @@ class MainWindow(Adw.ApplicationWindow):
         """Handle root access button click - collect restricted data with pkexec."""
         import subprocess
         import shutil
-        
+
         # Check if pkexec is available
         if not shutil.which("pkexec"):
             dialog = Adw.MessageDialog.new(
@@ -392,49 +396,66 @@ class MainWindow(Adw.ApplicationWindow):
             dialog.add_response("ok", "OK")
             dialog.present()
             return
-        
+
         # Show spinner while collecting
         button.set_sensitive(False)
         button.set_icon_name("emblem-synchronizing-symbolic")
-        
+
         def collect_root_data():
             """Collect data that requires root privileges.
-            
+
             Uses a single pkexec call with inxi -Fxxxza to collect all data at once,
             so the user only needs to enter the password once.
             """
             root_data = {}
-            
+
             # Single pkexec call to collect all root-required data at once
             # -F = Full output, -xxx = extra extra extra details, -z = privacy filter
             # -a = even more info (all advanced options)
             # This collects: GPU, SMART, sensors, unmounted partitions, and more
             try:
                 result = subprocess.run(
-                    ["pkexec", "inxi", "-Fxxxza", "--output", "json", "--output-file", "print"],
+                    [
+                        "pkexec",
+                        "inxi",
+                        "-Fxxxza",
+                        "--output",
+                        "json",
+                        "--output-file",
+                        "print",
+                    ],
                     capture_output=True,
                     text=True,
-                    timeout=120  # Longer timeout for full collection
+                    timeout=120,  # Longer timeout for full collection
                 )
                 if result.returncode == 0:
                     import json as json_module
+
                     try:
                         parsed = json_module.loads(result.stdout)
                         # Store the complete data
                         root_data["full_inxi"] = result.stdout
-                        
+
                         # Extract specific sections for backward compatibility
                         for section in parsed:
                             for key, value in section.items():
                                 clean_key = key.split("#")[-1] if "#" in key else key
                                 if "Graphics" in clean_key:
-                                    root_data["gpu_detailed"] = json_module.dumps([section])
+                                    root_data["gpu_detailed"] = json_module.dumps([
+                                        section
+                                    ])
                                 elif "Drives" in clean_key:
-                                    root_data["disk_smart"] = json_module.dumps([section])
+                                    root_data["disk_smart"] = json_module.dumps([
+                                        section
+                                    ])
                                 elif "Sensors" in clean_key:
-                                    root_data["sensors_detailed"] = json_module.dumps([section])
+                                    root_data["sensors_detailed"] = json_module.dumps([
+                                        section
+                                    ])
                                 elif "Unmounted" in clean_key:
-                                    root_data["unmounted"] = json_module.dumps([section])
+                                    root_data["unmounted"] = json_module.dumps([
+                                        section
+                                    ])
                     except json_module.JSONDecodeError:
                         # Store raw if parsing fails
                         root_data["full_inxi"] = result.stdout
@@ -442,14 +463,16 @@ class MainWindow(Adw.ApplicationWindow):
                 pass
             except Exception:
                 pass
-            
+
             return root_data
-        
+
         def on_complete(root_data):
             """Handle completion of root data collection."""
             button.set_sensitive(True)
-            button.set_icon_name("security-high-symbolic")  # Changed icon to show elevated
-            
+            button.set_icon_name(
+                "security-high-symbolic"
+            )  # Changed icon to show elevated
+
             # Store root data and refresh display
             if root_data:
                 # Merge directly into main hardware_data using new model structure
@@ -458,18 +481,18 @@ class MainWindow(Adw.ApplicationWindow):
                     "disk_smart": "smart_data",
                     "sensors_detailed": "advanced_sensors",
                     "unmounted": "unmounted",
-                    "full_inxi": "raw_inxi"
+                    "full_inxi": "raw_inxi",
                 }
 
                 for old_key, new_key in mapping.items():
                     if old_key in root_data:
                         self.hardware_data[new_key] = root_data[old_key]
-                
+
                 # Mark as root collected
                 self.hardware_data["root_collected"] = True
-                
+
                 self._update_content()
-                
+
                 # Show success toast
                 toast = Adw.Toast.new("Admin data collected successfully")
                 toast.set_timeout(2)
@@ -479,13 +502,14 @@ class MainWindow(Adw.ApplicationWindow):
                 toast = Adw.Toast.new("Failed to collect admin data")
                 toast.set_timeout(3)
                 self.toast_overlay.add_toast(toast)
-        
+
         # Run in thread to avoid blocking UI
         import threading
+
         def thread_func():
             root_data = collect_root_data()
             GLib.idle_add(on_complete, root_data)
-        
+
         thread = threading.Thread(target=thread_func, daemon=True)
         thread.start()
 
@@ -493,27 +517,27 @@ class MainWindow(Adw.ApplicationWindow):
         """Handle category selection - scroll to section."""
         if row is None:
             return
-        
+
         # Update active category CSS class
         current = self.category_list.get_first_child()
         while current:
             current.remove_css_class("active-category")
             current = current.get_next_sibling()
-        
+
         row.add_css_class("active-category")
         self.current_category = row.cat_id
-        
+
         # Scroll to the section widget if it exists
         if row.cat_id in self.section_widgets:
             section = self.section_widgets[row.cat_id]
             # Use scroll_to_child to smoothly scroll to the section
-            if hasattr(self, 'content_scroll') and self.content_scroll:
+            if hasattr(self, "content_scroll") and self.content_scroll:
                 # Get the vertical adjustment
                 vadj = self.content_scroll.get_vadjustment()
                 if vadj:
                     # Mark as programmatic scroll to avoid sidebar update loop
                     self._programmatic_scroll = True
-                    
+
                     # Calculate the y position of the section
                     def scroll_to_section():
                         if section.get_mapped():
@@ -524,48 +548,49 @@ class MainWindow(Adw.ApplicationWindow):
                             vadj.set_value(y_pos)
                         # Reset programmatic scroll flag after animation
                         GLib.timeout_add(300, self._reset_programmatic_scroll)
+
                     # Schedule the scroll after layout is complete
                     GLib.idle_add(scroll_to_section)
-    
+
     def _reset_programmatic_scroll(self):
         """Reset the programmatic scroll flag."""
         self._programmatic_scroll = False
         return False  # Don't repeat
-    
+
     def _on_scroll_changed(self, _adjustment):
         """Handle scroll changes.
-        
+
         Note: Automatic category selection based on scroll is DISABLED.
         Users should click on sidebar categories to navigate.
         This provides more predictable behavior and avoids unexpected jumps.
         """
         # Scroll tracking disabled - categories only change on sidebar click
         pass
-    
+
     def _select_category_without_scroll(self, cat_id: str):
         """Select a category in the sidebar without triggering scroll."""
         self._scroll_tracking_enabled = False
-        
+
         # Find and select the row
         row = self.category_list.get_first_child()
         while row:
-            if hasattr(row, 'cat_id') and row.cat_id == cat_id:
+            if hasattr(row, "cat_id") and row.cat_id == cat_id:
                 # Update CSS classes
                 current = self.category_list.get_first_child()
                 while current:
                     current.remove_css_class("active-category")
                     current = current.get_next_sibling()
                 row.add_css_class("active-category")
-                
+
                 # Select in list (this triggers row-selected but we blocked scroll)
                 self.category_list.select_row(row)
                 self.current_category = cat_id
                 break
             row = row.get_next_sibling()
-        
+
         # Re-enable scroll tracking after a short delay
         GLib.timeout_add(50, self._enable_scroll_tracking)
-    
+
     def _enable_scroll_tracking(self):
         """Re-enable scroll tracking."""
         self._scroll_tracking_enabled = True
@@ -575,14 +600,14 @@ class MainWindow(Adw.ApplicationWindow):
         """Update content area showing ALL categories in a single scroll view."""
         if not hasattr(self, "content_container") or not self.content_container:
             return
-            
+
         self._clear_content()
         self.section_widgets = {}
-        
+
         if not self.hardware_data:
             self._show_loading()
             return
-        
+
         # Show ALL sections in order - each creates a section with header
         self._add_section("summary", self._show_summary)
         self._add_section("cpu", self._show_cpu)
@@ -601,39 +626,44 @@ class MainWindow(Adw.ApplicationWindow):
         self._add_section("printer", self._show_printers)  # After System
         self._add_section("sensors", self._show_sensors)
         self._add_section("more_info", self._show_more_info)
-        
+
         # Restore scroll position if saved (after refresh)
-        if hasattr(self, '_saved_scroll_position') and self._saved_scroll_position is not None:
+        if (
+            hasattr(self, "_saved_scroll_position")
+            and self._saved_scroll_position is not None
+        ):
+
             def restore_scroll():
-                if hasattr(self, 'content_scroll') and self.content_scroll:
+                if hasattr(self, "content_scroll") and self.content_scroll:
                     vadj = self.content_scroll.get_vadjustment()
                     vadj.set_value(self._saved_scroll_position)
                 self._saved_scroll_position = None
                 return False
+
             # Delay restoration to allow content to render
             GLib.timeout_add(50, restore_scroll)
 
     def _add_section(self, cat_id: str, content_func):
         """Add a section with header to the content container."""
         cat = CATEGORIES.get(cat_id, {})
-        
+
         # Create section container
         section = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
         section.cat_id = cat_id
-        
+
         # Skip header and separator for summary section
         if cat_id != "summary":
             # Section header - clickable/visible
             header_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=12)
             header_box.set_margin_top(16)
             header_box.set_margin_bottom(8)
-            
+
             icon = Gtk.Image.new_from_icon_name(cat.get("icon", "computer-symbolic"))
             icon.set_pixel_size(28)
             icon.add_css_class("accent")
             header_box.append(icon)
-            
-            label = Gtk.Label(label=cat.get("name", cat_id.title()))
+
+            label = Gtk.Label(label=_(cat.get("name", cat_id.title())))
             label.add_css_class("title-2")
             label.set_halign(Gtk.Align.START)
             label.set_hexpand(True)
@@ -813,7 +843,7 @@ class MainWindow(Adw.ApplicationWindow):
         self.content_container.append(disk_view)
         
         if disk_data.get("raw"):
-            self._add_raw_expander("Full Output", disk_data["raw"])
+            self._add_raw_expander(_("Full Output"), disk_data["raw"])
 
     def _show_pci(self):
         """Delegates to PciRenderer."""
@@ -911,7 +941,7 @@ class MainWindow(Adw.ApplicationWindow):
         if title:
             # Get category name
             cat_name = CATEGORIES.get(title, {}).get("name", title.title())
-            lines.append(f"=== {cat_name} ===")
+            lines.append(_("=== {category} ===").format(category=cat_name))
             lines.append("")
         
         def format_value(key, value, indent: int = 0) -> list:
@@ -953,7 +983,11 @@ class MainWindow(Adw.ApplicationWindow):
         clipboard.set(text)
         
         if hasattr(self, 'toast_overlay'):
-            msg = _("Copied: {}").format(title) if title else _("Copied to clipboard")
+            msg = (
+                _("Copied: {title}").format(title=title)
+                if title
+                else _("Copied to clipboard")
+            )
             toast = Adw.Toast.new(msg)
             toast.set_timeout(2)
             self.toast_overlay.add_toast(toast)
@@ -1060,8 +1094,12 @@ class MainWindow(Adw.ApplicationWindow):
             expander_row.set_margin_end(12)
             expander_row.set_margin_top(4)
             expander_row.set_margin_bottom(8)
-            
-            more_label = Gtk.Label(label=f"... {total_lines - max_lines} more lines hidden")
+
+            more_label = Gtk.Label(
+                label=_("... {count} more lines hidden").format(
+                    count=total_lines - max_lines
+                )
+            )
             more_label.add_css_class("dim-label")
             more_label.add_css_class("caption")
             more_label.set_halign(Gtk.Align.START)
@@ -1069,7 +1107,7 @@ class MainWindow(Adw.ApplicationWindow):
             expander_row.append(more_label)
             
             # Toggle button to show all
-            toggle_btn = Gtk.ToggleButton(label="Show all")
+            toggle_btn = Gtk.ToggleButton(label=_("Show all"))
             toggle_btn.add_css_class("flat")
             toggle_btn.add_css_class("caption")
             toggle_btn.connect("toggled", self._on_terminal_toggle, text_view, text, visible_content, more_label, total_lines, max_lines)
@@ -1092,12 +1130,14 @@ class MainWindow(Adw.ApplicationWindow):
         buffer = text_view.get_buffer()
         if button.get_active():
             self._apply_terminal_highlighting(buffer, full_text)
-            button.set_label("Show less")
-            label.set_text(f"Showing all {total} lines")
+            button.set_label(_("Show less"))
+            label.set_text(_("Showing all {count} lines").format(count=total))
         else:
             self._apply_terminal_highlighting(buffer, short_text)
-            button.set_label("Show all")
-            label.set_text(f"... {total - max_lines} more lines hidden")
+            button.set_label(_("Show all"))
+            label.set_text(
+                _("... {count} more lines hidden").format(count=total - max_lines)
+            )
 
     def _show_no_data(self, message: str):
         """Show no data message."""

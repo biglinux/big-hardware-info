@@ -65,7 +65,11 @@ class DiskSectionView(HardwareSectionView):
         card.add_css_class("card")
         
         # Title
-        title_text = _("Total Storage: {}").format(total_size) if total_size else _("Storage")
+        title_text = (
+            _("Total Storage: {total}").format(total=total_size)
+            if total_size
+            else _("Storage")
+        )
         title = Gtk.Label(label=title_text)
         title.add_css_class("title-4")
         title.set_halign(Gtk.Align.START)
@@ -98,7 +102,7 @@ class DiskSectionView(HardwareSectionView):
             card.append(bar_row)
             
             if used:
-                used_label = Gtk.Label(label=_("Used: {}").format(used))
+                used_label = Gtk.Label(label=_("Used: {used}").format(used=used))
                 used_label.add_css_class("info-value")
                 used_label.set_halign(Gtk.Align.START)
                 card.append(used_label)

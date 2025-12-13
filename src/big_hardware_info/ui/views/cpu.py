@@ -11,6 +11,7 @@ gi.require_version("Gtk", "4.0")
 from gi.repository import Gtk, Gdk
 
 from big_hardware_info.ui.views.base import HardwareSectionView
+from big_hardware_info.utils.i18n import _
 
 
 class CpuSectionView(HardwareSectionView):
@@ -67,7 +68,7 @@ class CpuSectionView(HardwareSectionView):
         copy_btn = Gtk.Button()
         copy_btn.set_icon_name("edit-copy-symbolic")
         copy_btn.add_css_class("flat")
-        copy_btn.set_tooltip_text("Copy CPU info")
+        copy_btn.set_tooltip_text(_("Copy CPU info"))
         copy_btn.set_valign(Gtk.Align.CENTER)
         copy_btn.connect("clicked", lambda b, d=data: self._copy_cpu_data(d))
         model_row.append(copy_btn)
@@ -84,18 +85,22 @@ class CpuSectionView(HardwareSectionView):
         
         # Split into two balanced columns
         left_items = [
-            ("Cores", cores_threads),
-            ("Architecture", data.get("arch", "")),
-            ("Bits", f"{data.get('bits', '')} bit" if data.get("bits") else ""),
-            ("Speed", speed_display),
+            (_("Cores"), cores_threads),
+            (_("Architecture"), data.get("arch", "")),
+            (_("Bits"), f"{data.get('bits', '')} bit" if data.get("bits") else ""),
+            (_("Speed"), speed_display),
         ]
         
         right_items = [
-            ("Generation", data.get("gen", "")),
-            ("Process", data.get("process", "")),
-            ("Built", data.get("built", "")),
-            ("Scaling", f"{data.get('scaling_driver', '')} / {data.get('scaling_governor', '')}" 
-                       if data.get("scaling_driver") else ""),
+            (_("Generation"), data.get("gen", "")),
+            (_("Process"), data.get("process", "")),
+            (_("Built"), data.get("built", "")),
+            (
+                _("Scaling"),
+                f"{data.get('scaling_driver', '')} / {data.get('scaling_governor', '')}"
+                if data.get("scaling_driver")
+                else "",
+            ),
         ]
         
         # Filter out empty values
@@ -176,7 +181,7 @@ class CpuSectionView(HardwareSectionView):
             return
         
         # Section title
-        title = self.create_section_title("Cache")
+        title = self.create_section_title(_("Cache"))
         self.append(title)
         
         # Cache cards in flow box
@@ -211,12 +216,15 @@ class CpuSectionView(HardwareSectionView):
         
         # Build technical details items
         tech_items = [
-            ("Type", data.get("type", "")),
-            ("Family", data.get("family", "")),
-            ("Model ID", data.get("model_id", "")),
-            ("Stepping", data.get("stepping", "")),
-            ("Microcode", data.get("microcode", "")),
-            ("Bogomips", str(data.get("bogomips", "")) if data.get("bogomips") else ""),
+            (_("Type"), data.get("type", "")),
+            (_("Family"), data.get("family", "")),
+            (_("Model ID"), data.get("model_id", "")),
+            (_("Stepping"), data.get("stepping", "")),
+            (_("Microcode"), data.get("microcode", "")),
+            (
+                _("Bogomips"),
+                str(data.get("bogomips", "")) if data.get("bogomips") else "",
+            ),
         ]
         tech_items = [(k, v) for k, v in tech_items if v]
         
@@ -225,7 +233,7 @@ class CpuSectionView(HardwareSectionView):
             return
         
         # Single collapsible expander for all advanced info
-        expander = Gtk.Expander(label="Advanced Information")
+        expander = Gtk.Expander(label=_("Advanced Information"))
         expander.add_css_class("card")
         
         content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=16)
@@ -234,21 +242,23 @@ class CpuSectionView(HardwareSectionView):
         # Technical Details Section
         if tech_items:
             tech_section = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
-            
-            tech_title = Gtk.Label(label="Technical Details")
+
+            tech_title = Gtk.Label(label=_("Technical Details"))
             tech_title.add_css_class("heading")
             tech_title.set_halign(Gtk.Align.START)
             tech_section.append(tech_title)
-            
+
             tech_grid = self.create_info_grid(tech_items, columns=3)
             tech_section.append(tech_grid)
             content_box.append(tech_section)
-        
+
         # Thread Speeds Section
         if core_speeds:
             speeds_section = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
-            
-            speeds_title = Gtk.Label(label=f"Thread Speeds ({len(core_speeds)})")
+
+            speeds_title = Gtk.Label(
+                label=_("Thread Speeds ({count})").format(count=len(core_speeds))
+            )
             speeds_title.add_css_class("heading")
             speeds_title.set_halign(Gtk.Align.START)
             speeds_section.append(speeds_title)
@@ -258,27 +268,31 @@ class CpuSectionView(HardwareSectionView):
             for core_num, speed in sorted(core_speeds.items()):
                 core_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4)
                 core_box.add_css_class("core-box")
-                
-                core_label = Gtk.Label(label=f"Thread {core_num}")
+
+                core_label = Gtk.Label(
+                    label=_("Thread {thread}").format(thread=core_num)
+                )
                 core_label.add_css_class("core-label")
                 core_box.append(core_label)
-                
+
                 speed_label = Gtk.Label(label=f"{speed} MHz")
                 speed_label.add_css_class("core-speed")
                 core_box.append(speed_label)
-                
+
                 cores_flow.insert(core_box, -1)
-            
+
             speeds_section.append(cores_flow)
             content_box.append(speeds_section)
-        
+
         # CPU Flags Section - displayed as plain text for readability
         if flags:
             flags_list = flags.split()
-            
+
             flags_section = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
-            
-            flags_title = Gtk.Label(label=f"CPU Flags ({len(flags_list)})")
+
+            flags_title = Gtk.Label(
+                label=_("CPU Flags ({count})").format(count=len(flags_list))
+            )
             flags_title.add_css_class("heading")
             flags_title.set_halign(Gtk.Align.START)
             flags_section.append(flags_title)
@@ -297,8 +311,12 @@ class CpuSectionView(HardwareSectionView):
         # Vulnerabilities Section
         if vulnerabilities:
             vuln_section = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
-            
-            vuln_title = Gtk.Label(label=f"CPU Vulnerabilities ({len(vulnerabilities)})")
+
+            vuln_title = Gtk.Label(
+                label=_("CPU Vulnerabilities ({count})").format(
+                    count=len(vulnerabilities)
+                )
+            )
             vuln_title.add_css_class("heading")
             vuln_title.set_halign(Gtk.Align.START)
             vuln_section.append(vuln_title)
@@ -342,7 +360,7 @@ class CpuSectionView(HardwareSectionView):
         raw = data.get("raw", "")
         
         if raw:
-            expander = self.create_raw_expander("Full Output", raw)
+            expander = self.create_raw_expander(_("Full Output"), raw)
             self.append(expander)
     
     def _copy_cpu_data(self, data: Dict[str, Any]) -> None:
@@ -352,21 +370,25 @@ class CpuSectionView(HardwareSectionView):
         cores_threads = f"{cores} Cores / {threads} Threads" if cores and threads else ""
         
         lines = [
-            "=== Processor ===",
+            _("=== Processor ==="),
             "",
-            f"Model: {data.get('model', 'Unknown')}",
+            _("Model: {model}").format(model=data.get("model", "Unknown")),
         ]
         
         if cores_threads:
-            lines.append(f"Cores/Threads: {cores_threads}")
+            lines.append(
+                _("Cores/Threads: {cores_threads}").format(cores_threads=cores_threads)
+            )
         if data.get("arch"):
-            lines.append(f"Architecture: {data.get('arch')}")
+            lines.append(_("Architecture: {arch}").format(arch=data.get("arch")))
         if data.get("bits"):
-            lines.append(f"Bits: {data.get('bits')}")
+            lines.append(_("Bits: {bits}").format(bits=data.get("bits")))
         if data.get("speed_max"):
-            lines.append(f"Max Speed: {data.get('speed_max')} MHz")
+            lines.append(
+                _("Max Speed: {speed} MHz").format(speed=data.get("speed_max"))
+            )
         if data.get("cache_l3"):
-            lines.append(f"L3 Cache: {data.get('cache_l3')}")
+            lines.append(_("L3 Cache: {cache}").format(cache=data.get("cache_l3")))
         
         text = "\n".join(lines)
         clipboard = Gdk.Display.get_default().get_clipboard()

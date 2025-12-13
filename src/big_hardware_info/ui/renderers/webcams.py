@@ -86,13 +86,13 @@ class WebcamsRenderer(SectionRenderer):
         
         # Copy button
         copy_text = self.format_copy_text(cam_name, [
-            ("Resolution", webcam.get("resolution", "")),
-            ("Format", webcam.get("pixel_format", "")),
-            ("Chip ID", chip_id),
-            ("Driver", webcam.get("driver", "")),
-            ("Colorspace", webcam.get("colorspace", "")),
-            ("Max FPS", webcam.get("max_fps", "")),
-            ("Device", webcam.get("device_path", "")),
+            (_("Resolution"), webcam.get("resolution", "")),
+            (_("Format"), webcam.get("pixel_format", "")),
+            (_("Chip ID"), chip_id),
+            (_("Driver"), webcam.get("driver", "")),
+            (_("Colorspace"), webcam.get("colorspace", "")),
+            (_("Max FPS"), webcam.get("max_fps", "")),
+            (_("Device"), webcam.get("device_path", "")),
         ])
         title_row.append(ui.copy_button(on_click=lambda b: self.copy_to_clipboard(copy_text, cam_name)))
         
@@ -100,17 +100,17 @@ class WebcamsRenderer(SectionRenderer):
         
         # Two-column layout
         left_items = self._filter_items([
-            ("Resolution", webcam.get("resolution", "")),
-            ("Format", webcam.get("pixel_format", "")),
-            ("Chip ID", webcam.get("chip_id", "")),
-            ("Driver", webcam.get("driver", "")),
+            (_("Resolution"), webcam.get("resolution", "")),
+            (_("Format"), webcam.get("pixel_format", "")),
+            (_("Chip ID"), webcam.get("chip_id", "")),
+            (_("Driver"), webcam.get("driver", "")),
         ])
         
         right_items = self._filter_items([
-            ("Colorspace", webcam.get("colorspace", "")),
-            ("Max FPS", webcam.get("max_fps", "")),
-            ("Driver Version", webcam.get("driver_version", "")),
-            ("Device", webcam.get("device_path", "")),
+            (_("Colorspace"), webcam.get("colorspace", "")),
+            (_("Max FPS"), webcam.get("max_fps", "")),
+            (_("Driver Version"), webcam.get("driver_version", "")),
+            (_("Device"), webcam.get("device_path", "")),
         ])
         
         if left_items or right_items:

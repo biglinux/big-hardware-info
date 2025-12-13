@@ -331,7 +331,9 @@ def show_share_error(window, error_message: str):
     """Show share error dialog."""
     dialog = Adw.AlertDialog()
     dialog.set_heading(_("Upload Failed"))
-    dialog.set_body(_("Could not upload the report:\n\n{}").format(error_message))
+    dialog.set_body(
+        _("Could not upload the report:\n\n{error}").format(error=error_message)
+    )
     dialog.add_response("close", _("Close"))
     dialog.present(window)
 
@@ -406,14 +408,20 @@ def _on_export_complete(window, file_path: str, error: str = None):
         # Show error dialog
         dialog = Adw.AlertDialog()
         dialog.set_heading(_("Export Failed"))
-        dialog.set_body(_("Could not export the report:\n\n{}").format(error))
+        dialog.set_body(
+            _("Could not export the report:\n\n{error}").format(error=error)
+        )
         dialog.add_response("close", _("Close"))
         dialog.present(window)
     else:
         # Show success dialog asking if user wants to open in browser
         dialog = Adw.AlertDialog()
         dialog.set_heading(_("Report Exported"))
-        dialog.set_body(_("Report saved successfully to:\n\n{}").format(os.path.basename(file_path)))
+        dialog.set_body(
+            _("Report saved successfully to:\n\n{file}").format(
+                file=os.path.basename(file_path)
+            )
+        )
         
         dialog.add_response("close", _("Close"))
         dialog.add_response("open", _("Open in Browser"))
