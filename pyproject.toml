@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [project.gui-scripts]
-big-hardware-info = "app:main"
+big-hardware-info = "big_hardware_info:main"
 
 [project.urls]
 Homepage = "https://github.com/biglinux/big-hardware-info"
@@ -36,4 +36,4 @@ package-dir = "src"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["app", "app.*"]
+include = ["big_hardware_info", "big_hardware_info.*"]
