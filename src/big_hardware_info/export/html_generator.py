@@ -526,13 +526,39 @@ class HtmlGenerator:
 
         /* Responsive */
         @media (max-width: 800px) {
-            .app-window { flex-direction: column; overflow: auto; height: auto; }
+            html, body { 
+                height: auto; 
+                min-height: 100vh;
+                overflow-x: hidden;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            .app-window { 
+                flex-direction: column; 
+                overflow: visible; 
+                height: auto; 
+                min-height: 100vh;
+            }
             .sidebar { width: 100%; height: auto; border-right: none; border-bottom: 1px solid var(--border-color); }
             .sidebar-content { display: none; /* simple toggle could be exacted but let's just show header on mobile for now */ }
             
-            .content-header { padding: 0 16px; height: 60px; }
-            .header-search { width: 200px; }
-            .content-scroll { padding: 16px; overflow: visible; }
+            .content-header { 
+                padding: 0 16px; 
+                height: 60px; 
+                position: relative;
+                backdrop-filter: none;
+            }
+            .header-search { width: 100%; max-width: 200px; }
+            .content-scroll { 
+                padding: 16px; 
+                overflow: visible; 
+                height: auto;
+                flex: none;
+            }
+            .main-content {
+                overflow: visible;
+                height: auto;
+            }
             
             /* Stack columns on mobile */
             .box-horizontal { flex-direction: column; gap: 16px; }
@@ -898,13 +924,13 @@ class HtmlGenerator:
                 <!-- Root Partition -->
                 <div class="box-vertical" style="margin-top: 12px;">
                     <div class="box-horizontal" style="justify-content: space-between;">
-                        <div class="dim-label">Root Partition:</div>
+                        <div class="dim-label">{_("Root Partition:")}</div>
                         <div class="heading">{partition}</div>
                     </div>
                     <div class="box-horizontal" style="font-size: 0.85em; gap: 12px; margin-top: 4px;">
-                        <span class="dim-label">Size: {part_size}</span>
+                        <span class="dim-label">{_("Size:")} {part_size}</span>
                         <span class="dim-label">{_("Used:")} {part_used}</span>
-                        <span class="dim-label">Free: {part_free}</span>
+                        <span class="dim-label">{_("Free:")} {part_free}</span>
                     </div>
                     <div class="usage-bar" style="background: rgba(255,255,255,0.1); border-radius: 4px; height: 8px; margin-top: 6px;">
                         <div class="progress" style="width: {part_percent}%; background-color: var({part_color_var}); height: 100%; border-radius: 4px;"></div>
@@ -1002,7 +1028,7 @@ class HtmlGenerator:
                     """)
             
             html.append(f"""
-            <div class="title-4" style="margin-top: 16px; margin-bottom: 8px;">Cache</div>
+            <div class="title-4" style="margin-top: 16px; margin-bottom: 8px;">{_("Cache")}</div>
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
                 {''.join(cache_items)}
             </div>
@@ -1032,13 +1058,13 @@ class HtmlGenerator:
             if tech_items:
                 tech_rows = "".join([f"""
                     <div class="box-vertical" style="margin-bottom: 8px;">
-                        <div class="caption dim-label">{k}</div>
+                        <div class="caption dim-label">{_(k)}</div>
                         <div>{v}</div>
                     </div>
                 """ for k, v in tech_items])
                 adv_content.append(f"""
                     <div style="margin-bottom: 16px;">
-                        <div class="heading" style="margin-bottom: 8px;">Technical Details</div>
+                        <div class="heading" style="margin-bottom: 8px;">{_("Technical Details")}</div>
                         <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;">
                             {tech_rows}
                         </div>
@@ -1049,13 +1075,13 @@ class HtmlGenerator:
             if core_speeds:
                 speeds_html = "".join([f"""
                     <div class="core-box" style="text-align: center; padding: 8px; background: rgba(255,255,255,0.03); border-radius: 6px;">
-                        <div class="caption dim-label">Thread {num}</div>
+                        <div class="caption dim-label">{_("Thread")} {num}</div>
                         <div class="core-speed">{speed} MHz</div>
                     </div>
                 """ for num, speed in sorted(core_speeds.items())])
                 adv_content.append(f"""
                     <div style="margin-bottom: 16px;">
-                        <div class="heading" style="margin-bottom: 8px;">Thread Speeds ({len(core_speeds)})</div>
+                        <div class="heading" style="margin-bottom: 8px;">{_("Thread Speeds")} ({len(core_speeds)})</div>
                         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 8px;">
                             {speeds_html}
                         </div>
@@ -1067,7 +1093,7 @@ class HtmlGenerator:
                 flags_list = flags.split()
                 adv_content.append(f"""
                     <div style="margin-bottom: 16px;">
-                        <div class="heading" style="margin-bottom: 8px;">CPU Flags ({len(flags_list)})</div>
+                        <div class="heading" style="margin-bottom: 8px;">{_("CPU Flags")} ({len(flags_list)})</div>
                         <div class="dim-label" style="font-family: monospace; font-size: 0.85em; word-wrap: break-word;">{flags}</div>
                     </div>
                 """)
@@ -1089,12 +1115,12 @@ class HtmlGenerator:
                     """
                 adv_content.append(f"""
                     <div>
-                        <div class="heading" style="margin-bottom: 8px;">CPU Vulnerabilities ({len(vulnerabilities)})</div>
+                        <div class="heading" style="margin-bottom: 8px;">{_("CPU Vulnerabilities")} ({len(vulnerabilities)})</div>
                         {vuln_rows}
                     </div>
                 """)
             
-            html.append(self._create_expander("Advanced Information", "".join(adv_content)))
+            html.append(self._create_expander(_("Advanced Information"), "".join(adv_content)))
         
         return "\n".join(html)
 
@@ -1182,7 +1208,7 @@ class HtmlGenerator:
         
         # Monitors Section
         if monitors:
-            html.append('<div class="title-4" style="margin-top: 16px; margin-bottom: 8px;">Monitors</div>')
+            html.append(f'<div class="title-4" style="margin-top: 16px; margin-bottom: 8px;">{_("Monitors")}</div>')
             
             for monitor in monitors:
                 mon_name = monitor.get("name", monitor.get("model", "Monitor"))
@@ -1245,13 +1271,13 @@ class HtmlGenerator:
                 if display_items:
                     display_html = "".join([f"""
                         <div class="box-horizontal" style="margin-bottom: 4px;">
-                            <div class="dim-label" style="width: 120px;">{l}</div>
+                            <div class="dim-label" style="width: 120px;">{_(l)}</div>
                             <div>{v}</div>
                         </div>
                     """ for l, v in display_items])
                     adv_content.append(f"""
                         <div style="margin-bottom: 16px;">
-                            <div class="heading" style="margin-bottom: 8px;">Display Server</div>
+                            <div class="heading" style="margin-bottom: 8px;">{_("Display Server")}</div>
                             {display_html}
                         </div>
                     """)
@@ -1271,13 +1297,13 @@ class HtmlGenerator:
                 if gl_items:
                     gl_html = "".join([f"""
                         <div class="box-horizontal" style="margin-bottom: 4px;">
-                            <div class="dim-label" style="width: 120px;">{l}</div>
+                            <div class="dim-label" style="width: 120px;">{_(l)}</div>
                             <div>{v}</div>
                         </div>
                     """ for l, v in gl_items])
                     adv_content.append(f"""
                         <div style="margin-bottom: 16px;">
-                            <div class="heading" style="margin-bottom: 8px;">OpenGL</div>
+                            <div class="heading" style="margin-bottom: 8px;">{_("OpenGL")}</div>
                             {gl_html}
                         </div>
                     """)
@@ -1293,7 +1319,7 @@ class HtmlGenerator:
                 vk_devices = vulkan.get("devices", [])
                 vk_html = "".join([f"""
                     <div class="box-horizontal" style="margin-bottom: 4px;">
-                        <div class="dim-label" style="width: 120px;">{l}</div>
+                        <div class="dim-label" style="width: 120px;">{_(l)}</div>
                         <div>{v}</div>
                     </div>
                 """ for l, v in vk_items])
@@ -1302,14 +1328,14 @@ class HtmlGenerator:
                     if vk_dev.get("name"):
                         vk_html += f"""
                             <div class="box-horizontal" style="margin-bottom: 4px;">
-                                <div class="dim-label" style="width: 120px;">Device</div>
+                                <div class="dim-label" style="width: 120px;">{_("Device")}</div>
                                 <div>{vk_dev.get("name", "")}</div>
                             </div>
                         """
                 
                 adv_content.append(f"""
                     <div style="margin-bottom: 16px;">
-                        <div class="heading" style="margin-bottom: 8px;">Vulkan</div>
+                        <div class="heading" style="margin-bottom: 8px;">{_("Vulkan")}</div>
                         {vk_html}
                     </div>
                 """)
@@ -1325,19 +1351,19 @@ class HtmlGenerator:
                 if egl_items:
                     egl_html = "".join([f"""
                         <div class="box-horizontal" style="margin-bottom: 4px;">
-                            <div class="dim-label" style="width: 120px;">{l}</div>
+                            <div class="dim-label" style="width: 120px;">{_(l)}</div>
                             <div>{v}</div>
                         </div>
                     """ for l, v in egl_items])
                     adv_content.append(f"""
                         <div>
-                            <div class="heading" style="margin-bottom: 8px;">EGL</div>
+                            <div class="heading" style="margin-bottom: 8px;">{_("EGL")}</div>
                             {egl_html}
                         </div>
                     """)
             
             if adv_content:
-                html.append(self._create_expander("Advanced Information", "".join(adv_content)))
+                html.append(self._create_expander(_("Advanced Information"), "".join(adv_content)))
         
         return "\n".join(html)
 
@@ -1368,7 +1394,7 @@ class HtmlGenerator:
         html.append(f"""
         <div class="card" style="margin-bottom: 24px;">
             <div class="box-horizontal" style="justify-content: space-between; margin-bottom: 8px;">
-                <div class="title-4">Memory Usage</div>
+                <div class="title-4">{_("Memory Usage")}</div>
                 <div class="heading">{percent}%</div>
             </div>
             
@@ -1377,7 +1403,7 @@ class HtmlGenerator:
             </div>
             
             <div class="box-horizontal" style="gap: 16px; font-size: 0.9em;">
-                <span class="dim-label">Total: <span style="color: var(--text-primary);">{total}</span></span>
+                <span class="dim-label">{_("Total:")} <span style="color: var(--text-primary);">{total}</span></span>
                 <span class="dim-label">{_("Used:")} <span style="color: var(--text-primary);">{used}</span></span>
             </div>
         </div>
@@ -1386,7 +1412,7 @@ class HtmlGenerator:
         # 2. General Info Grid
         html.append(f"""
         <div class="card" style="margin-bottom: 24px;">
-            <div class="title-4" style="margin-bottom: 16px;">General Information</div>
+            <div class="title-4" style="margin-bottom: 16px;">{_("General Information")}</div>
             <div class="box-horizontal" style="gap: 24px;">
                 <div class="box-vertical" style="flex: 1;">
                     {self._create_spec_item("Capacity", capacity)}
@@ -1445,7 +1471,7 @@ class HtmlGenerator:
                     """)
             
             if modules_html:
-                html.append(self._create_expander(f"Memory Modules ({len(modules)})", f"""
+                html.append(self._create_expander(_("Memory Modules") + f" ({len(modules)})", f"""
                     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px;">
                         {''.join(modules_html)}
                     </div>
@@ -1477,7 +1503,7 @@ class HtmlGenerator:
             
             html.append(f"""
             <div class="card" style="margin-bottom: 24px;">
-                <div class="title-4" style="margin-bottom: 8px;">Total Storage: {total_size}</div>
+                <div class="title-4" style="margin-bottom: 8px;">{_("Total Storage:")} {total_size}</div>
                 <div class="box-horizontal" style="align-items: center; gap: 12px; margin-bottom: 4px;">
                     <div style="flex: 1; background: rgba(255,255,255,0.1); border-radius: 4px; height: 8px; overflow: hidden;">
                         <div style="width: {used_percent}%; height: 100%; background: var(--{bar_color}); border-radius: 4px;"></div>
@@ -1489,7 +1515,7 @@ class HtmlGenerator:
             """)
         
         # Section title
-        html.append('<div class="title-4" style="margin-bottom: 12px; margin-top: 16px;">Storage Devices</div>')
+        html.append(f'<div class="title-4" style="margin-bottom: 12px; margin-top: 16px;">{_("Storage Devices")}</div>')
             
         for drive in drives:
             model = drive.get("model", "Unknown Drive")
@@ -1586,7 +1612,7 @@ class HtmlGenerator:
                 part_html.append(self._render_partition_item(part))
             
             if part_html:
-                html.append(self._create_expander("Disk Partitions", "\n".join(part_html)))
+                html.append(self._create_expander(_("Disk Partitions"), "\n".join(part_html)))
             
         return "\n".join(html)
 
@@ -1624,7 +1650,7 @@ class HtmlGenerator:
         if mount_points:
              # Join with commas
              mount_str = ", ".join(mount_points)
-             mount_display = f'<div class="box-horizontal" style="margin-top: 4px;"><span class="caption dim-label" style="margin-right: 8px;">Mounted on:</span><span>{mount_str}</span></div>'
+             mount_display = f'<div class="box-horizontal" style="margin-top: 4px;"><span class="caption dim-label" style="margin-right: 8px;">{_("Mounted on:")}</span><span>{mount_str}</span></div>'
              
         # Used and Used percent
         used_str = part.get("used", "")
@@ -3308,27 +3334,33 @@ class HtmlGenerator:
 
     def _create_stat_card(self, icon: str, value: str, label: str) -> str:
         icon_html = f'<div style="font-size: 24px; margin-bottom: 4px;">{icon}</div>' if icon else ""
+        # Auto-translate the label for i18n
+        translated_label = _(label)
         return f"""
         <div class="card stat-card" style="flex: 1; text-align: center;">
             {icon_html}
             <div class="heading" style="font-size: 1.2em;">{value}</div>
-            <div class="caption dim-label">{label}</div>
+            <div class="caption dim-label">{translated_label}</div>
         </div>
         """
     def _create_info_row(self, label: str, value: str) -> str:
         if not value: return ""
+        # Auto-translate the label for i18n
+        translated_label = _(label)
         return f"""
         <div class="info-row" style="display: flex; padding: 4px 0; border-bottom: 1px solid var(--borders);">
-            <div class="dim-label" style="width: 120px;">{label}</div>
+            <div class="dim-label" style="width: 120px;">{translated_label}</div>
             <div style="flex: 1; text-align: right;">{value}</div>
         </div>
         """
 
     def _create_spec_item(self, label: str, value: str) -> str:
         if not value: return ""
+        # Auto-translate the label for i18n
+        translated_label = _(label)
         return f"""
         <div class="box-vertical" style="margin-bottom: 8px;">
-            <div class="caption dim-label">{label}</div>
+            <div class="caption dim-label">{translated_label}</div>
             <div class="heading">{value}</div>
         </div>
         """
