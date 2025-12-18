@@ -31,13 +31,25 @@ msgstr "Myndað:"
 msgid "Visit BigLinux website"
 msgstr "Heimsæktu BigLinux vefsíðuna"
 # 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
+msgid "Advanced Information"
+msgstr "Fyrri upplýsingar"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Engin grafík fannst ekki"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
+msgid "Memory Modules"
+msgstr "minnihólf"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1459
 msgid "No storage drives found"
 msgstr "Engin geymslu fannst ekki"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
+msgid "Disk Partitions"
+msgstr "Disk skiptingar"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -283,6 +295,60 @@ msgstr "Bus ID"
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 104
 msgid "Driver"
 msgstr "Drifti"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 336
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 542
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/bluetooth.py, line: 58
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 110
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 234
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/webcams.py, line: 80
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 106
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 180
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 267
+# File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 119
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 153
+# File: big-hardware-info/src/big_hardware_info/ui/views/audio.py, line: 135
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 336
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 542
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/bluetooth.py, line: 58
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 110
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 234
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/webcams.py, line: 80
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 106
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 180
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 267
+# File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 119
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 153
+# File: big-hardware-info/src/big_hardware_info/ui/views/audio.py, line: 135
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -796,46 +862,31 @@ msgstr "Opna í vafra"
 msgid "Upload Failed"
 msgstr "Hleðsla mistókst"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 335
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
 msgid ""
 "Could not upload the report:\n"
 "\n"
-"{error}"
-msgstr ""
-"Gat ekki hlaðið upp skýrslunni:\n"
-"\n"
-"{error}"
+msgstr "Gat ekki hlaðið skýrslunni:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 408
 msgid "Export Failed"
 msgstr "Útflutningur mistókst"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 412
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
 msgid ""
 "Could not export the report:\n"
 "\n"
-"{error}"
-msgstr ""
-"Gat ekki út skýrsluna:\n"
-"\n"
-"{error}"
+msgstr "Gat ekki að flytja út skýrsluna:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 415
 msgid "Report Exported"
 msgstr "Skýrsla flutt út"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 421
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
 msgid ""
 "Report saved successfully to:\n"
 "\n"
-"{file}"
-msgstr ""
-"Skýrsla vistuð með góðum árangri í: \n"
-"\n"
-"{file}"
+msgstr "Skýrsla vistuð með góðum árangri á:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 432
 msgid "Failed to open browser"
@@ -1028,65 +1079,43 @@ msgstr "Kjarni"
 msgid "=== Usage Overview ==="
 msgstr "=== Yfirlit yfir notkun ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 208
-#, python-brace-format
-msgid "Memory RAM: {memory}"
-msgstr "Minni RAM: {memory}"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 216
-#, python-brace-format
-msgid "  Used: {used}"
-msgstr "Not available for translation."
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
+msgid "  Used:"
+msgstr "Notaður:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
-#, python-brace-format
-msgid "  Usage: {usage}%"
-msgstr "Not found."
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
+msgid "  Usage:"
+msgstr "Notkun:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 212
-#, python-brace-format
-msgid "Root Partition: {partition}"
-msgstr "Rótpartítion: {partition}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
+msgid "  Size:"
+msgstr "Stærð:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 215
-#, python-brace-format
-msgid "  Size: {size}"
-msgstr "Stærð: {size}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 217
-#, python-brace-format
-msgid "  Free: {free}"
-msgstr "Frítt: {free}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 218
-#, python-brace-format
-msgid "  Usage: {usage}"
-msgstr "Not found"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "  Free:"
+msgstr "Frítt:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
 msgid "=== System Info ==="
 msgstr "=== Kerfissupplýsingar ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 225
-#, python-brace-format
-msgid "Distro: {distro}"
-msgstr "Distro: {distro}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
+msgid "Distro:"
+msgstr "Distro:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 227
-#, python-brace-format
-msgid "Video: {video}"
-msgstr "Vídeó: {video}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
+msgid "Video:"
+msgstr "Myndband:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 229
-#, python-brace-format
-msgid "Install Date: {date}"
-msgstr "Install Dagsetning: {date}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
+msgid "Install Date:"
+msgstr "Dagsetning uppsetningar:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 230
-#, python-brace-format
-msgid "Kernel: {kernel}"
-msgstr "Kjarni: {kernel}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
+msgid "Kernel:"
+msgstr "Kjarni:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1287,24 +1316,21 @@ msgstr "Tækniauðkenni"
 msgid "Bus"
 msgstr "Strætó"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 195
-#, python-brace-format
-msgid "USB Hubs & Controllers ({count})"
-msgstr "USB miðlar og stjórnendur ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB miðlar og stjórnendur"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
 msgstr "Hubburður"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 235
-#, python-brace-format
-msgid "{count} ports"
-msgstr "{count} hafnir"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
+msgid "ports"
+msgstr "hafnir"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 239
-#, python-brace-format
-msgid "Mode {mode}"
-msgstr "Rejim {mode}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
+msgid "Mode"
+msgstr "Rejim"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 280
 #, python-brace-format
@@ -1315,19 +1341,9 @@ msgstr "Kerfi USB stýringar ({count} tæki)"
 msgid "Copy to clipboard"
 msgstr "Afrita í skyndiminni"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 67
-# File: big-hardware-info/src/app/ui/main_window.py, line: 160
-# File: big-hardware-info/src/app/ui/main_window.py, line: 252
-# File: big-hardware-info/src/app/__init__.py, line: 53
-# File: big-hardware-info/src/app/__init__.py, line: 118
-msgid "Big Hardware Info"
-msgstr "Stór vélbúnaðarupplýsingar"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 155
-msgid "About Big Hardware Info"
-msgstr "Um stórar upplýsingar um vélbúnað"
+# File: big-hardware-info/src/app/ui/main_window.py, line: 222
+msgid "About"
+msgstr "Um umfjöllun"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 200
 msgid "Refresh hardware information (Ctrl+R)"
@@ -1341,18 +1357,25 @@ msgstr "Safna takmarkaðar gögn (krafist stjórnanda)"
 msgid "Search..."
 msgstr "Leita..."
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 222
-msgid "About"
-msgstr "Um umfjöllun"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
 msgid "Collecting hardware information..."
 msgstr "Safna vélbúnaðarupplýsingum..."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 357
-#, python-brace-format
-msgid "Loading {category}... ({progress}%)"
-msgstr "Hleð {category}... ({progress}%)"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
+msgid "Loading"
+msgstr "Hleð inn"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
+msgid "Admin Access Unavailable"
+msgstr "Aðgangur að stjórnanda ófáanlegur"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
+msgid "The pkexec command is not available on this system."
+msgstr "The pkexec skipun er ekki tiltækur á þessu kerfi."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
@@ -1370,15 +1393,9 @@ msgstr "Engin gögn til að afrita"
 msgid "Data copied to clipboard"
 msgstr "Gagna afritað í klippiborð."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 944
-#, python-brace-format
-msgid "=== {category} ==="
-msgstr "=== {flokkur} ==="
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 987
-#, python-brace-format
-msgid "Copied: {title}"
-msgstr "Afrit: {title}"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 956
 msgid "Copied to clipboard"
@@ -1388,11 +1405,26 @@ msgstr "Afrit á skammta."
 msgid "Copy content to clipboard"
 msgstr "Kopiera efni í klippiborð"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1099
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1139
-#, python-brace-format
-msgid "... {count} more lines hidden"
-msgstr "... {count} fleiri línur falin"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
+msgid "more lines hidden"
+msgstr "fleiri línur faldar"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+msgid "Show all"
+msgstr "Sýna allt"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1418,10 +1450,37 @@ msgstr "... {count} fleiri línur falin"
 msgid "Show less"
 msgstr "Sýna minna"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1134
-#, python-brace-format
-msgid "Showing all {count} lines"
-msgstr "Sýna allar {count} línur"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "Showing all"
+msgstr "Sýna allt"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "lines"
+msgstr "línur"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
+msgid "Requires Administrator"
+msgstr "Krafar stjórnanda"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
+msgid "Click to run as administrator and show"
+msgstr "Smelltu til að keyra sem stjórnandi og sýna"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
+msgid "Administrator Access Required"
+msgstr "þarf aðgang að stjórnanda"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+msgid ""
+"Some hardware information requires administrator privileges to access. Do you want to reload with "
+"elevated access?"
+msgstr ""
+"Sumar upplýsingar um vélbúnað krafist stjórnandaheimildum til að fá aðgang. Viltu hlaða aftur með "
+"hækkuðum aðgangi?"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
+msgid "Reload as Admin"
+msgstr "Endurhlaða sem aðili"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
@@ -1488,18 +1547,17 @@ msgid "No disk information available"
 msgstr "Engin upplýsingum um disk er ekki til staðar."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-#, python-brace-format
-msgid "Total Storage: {total}"
-msgstr "Heildarrými: {total}"
+msgid "Total Storage:"
+msgstr "Heildar geymsla:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 105
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 472
-#, python-brace-format
-msgid "Used: {used}"
-msgstr "Notað: {notað}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Notaður:"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 110
 msgid "Storage Devices"
@@ -1621,10 +1679,6 @@ msgstr "Lágmarksupplausn"
 msgid "Mapped"
 msgstr "Kortlagt"
 # 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
-msgid "Advanced Information"
-msgstr "Fyrri upplýsingar"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
 msgid "Display Server"
 msgstr "Sýningaraðili"
@@ -1701,9 +1755,8 @@ msgid "IPv6"
 msgstr "IPv6"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-#, python-brace-format
-msgid "Copy {label}"
-msgstr "Kopiera {label}"
+msgid "Copy"
+msgstr "Afritað"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 241
 #, python-brace-format
@@ -1754,19 +1807,21 @@ msgstr "Ókunnugur hljóðtæki"
 msgid "Class ID"
 msgstr "Kennitala"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
-#, python-brace-format
-msgid "Total Memory: {total}"
-msgstr "Heildar minni: {total}"
+msgid "Total Memory:"
+msgstr "Heildar minni:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 98
 msgid "Copy memory info"
 msgstr "Afrita minni upplýsingar"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
-#, python-format
-msgid "{:.1f}% used"
-msgstr "{:.1f}% notaður"
+msgid "used"
+msgstr "notaður"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 152
 msgid "Modules"
@@ -1783,11 +1838,6 @@ msgstr "Max stærð einingar"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 162
 msgid "ECC"
 msgstr "ECC"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 233
-#, python-brace-format
-msgid "Memory Modules ({modules})"
-msgstr "Minni Module ({modules})"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 296
 msgid "Volts"
@@ -1817,59 +1867,41 @@ msgstr "ZSwap"
 msgid "Compressor"
 msgstr "Þjöppun"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 391
-#, python-brace-format
-msgid "{swap_id} ({swap_type})"
-msgstr "{swap_id} ({swap_type})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
+msgid "Priority:"
+msgstr "Forgangur:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 429
-#, python-brace-format
-msgid "Used: {used} ({percent:.1f}%)"
-msgstr "Notað: {used} ({percent:.1f}%)"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
+msgid "Compression:"
+msgstr "Þjöppun:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 442
-#, python-brace-format
-msgid "Priority: {priority}"
-msgstr "Forgangur: {priority}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 445
-#, python-brace-format
-msgid "Compression: {compression}"
-msgstr "Þjöppun: {compression}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 448
-#, python-brace-format
-msgid "Device: {device}"
-msgstr "Tæki: {device}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
+msgid "Device:"
+msgstr "Tæki:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 469
 msgid "=== Memory ==="
 msgstr "=== Minni ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 471
-#, python-brace-format
-msgid "Total: {total}"
-msgstr "Heild: {total}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Heildar:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
+msgid "Usage:"
+msgstr "Notkun:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
-#, python-brace-format
-msgid "Usage: {usage}%"
-msgstr "Not found"
+msgid "Capacity:"
+msgstr "Rúmtak:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 478
-#, python-brace-format
-msgid "Capacity: {capacity}"
-msgstr "Rúmtak: {capacity}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
+msgid "Modules:"
+msgstr "Modularar:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 482
-#, python-brace-format
-msgid "Modules: {modules}"
-msgstr "Modular: {modules}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 485
-#, python-brace-format
-msgid "Slots: {slots}"
-msgstr "Raufar: {slots}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
+msgid "Slots:"
+msgstr "Raufar"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1928,58 +1960,48 @@ msgid "Technical Details"
 msgstr "tæknile upplýsingar"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-#, python-brace-format
-msgid "Thread Speeds ({count})"
-msgstr "Þráðahraði ({count})"
+msgid "Thread Speeds"
+msgstr "Þráðahraðar"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 273
-#, python-brace-format
-msgid "Thread {thread}"
-msgstr "Þráð {thread}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Þráður"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 294
-#, python-brace-format
-msgid "CPU Flags ({count})"
-msgstr "CPU Flagg ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "CPU Flaggirðir"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 316
-#, python-brace-format
-msgid "CPU Vulnerabilities ({count})"
-msgstr "CPU veikleikar ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "CPU veikleikar"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="
 msgstr "=== Örgjari ==="
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
+msgid "Model:"
+msgstr "Gerð:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
+msgid "Cores/Threads:"
+msgstr "Kjarna/Þræðir:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
-#, python-brace-format
-msgid "Model: {model}"
-msgstr "Model: {model}"
+msgid "Architecture:"
+msgstr "arkitektúr"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 380
-#, python-brace-format
-msgid "Cores/Threads: {cores_threads}"
-msgstr "Kjarna/Þræðir: {cores_threads}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
+msgid "Bits:"
+msgstr "Bits:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 383
-#, python-brace-format
-msgid "Architecture: {arch}"
-msgstr "Arkitektúr: {arch}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
+msgid "Max Speed:"
+msgstr "Hámarkshraði:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 385
-#, python-brace-format
-msgid "Bits: {bits}"
-msgstr "Bitar: {bits}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 388
-#, python-brace-format
-msgid "Max Speed: {speed} MHz"
-msgstr "Hámarkshraði: {speed} MHz"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 391
-#, python-brace-format
-msgid "L3 Cache: {cache}"
-msgstr "L3 skyndiminni: {cache}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
+msgid "L3 Cache:"
+msgstr "L3 Minni:"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
@@ -2011,225 +2033,3 @@ msgstr ""
 "<p>Stór vélbúnaðarupplýsingar 2.0.0 - Alhliða endurskrif:</p><ul><li>Alhliða "
 "vélbúnaðarupptöku</li><li>Útflutningur í HTML með nútímalegu útliti</li><li>Vefdeiling í gegnum "
 "termbin.com</li><li>Syntax litun fyrir kerfisskrár</li><li>Greining á USB/PCIe tækjum</li></ul>"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
-msgid ""
-"Could not upload the report:\n"
-"\n"
-msgstr "Gat ekki hlaðið skýrslunni:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
-msgid ""
-"Could not export the report:\n"
-"\n"
-msgstr "Gat ekki að flytja út skýrsluna:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
-msgid ""
-"Report saved successfully to:\n"
-"\n"
-msgstr "Skýrsla vistuð með góðum árangri á:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
-msgid "  Used:"
-msgstr "Notaður:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
-msgid "  Usage:"
-msgstr "Notkun:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
-msgid "  Size:"
-msgstr "Stærð:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
-msgid "  Free:"
-msgstr "Frítt:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
-msgid "Distro:"
-msgstr "Distro:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
-msgid "Video:"
-msgstr "Myndband:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
-msgid "Install Date:"
-msgstr "Dagsetning uppsetningar:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
-msgid "Kernel:"
-msgstr "Kjarni:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "USB miðlar og stjórnendur"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
-msgid "ports"
-msgstr "hafnir"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
-msgid "Mode"
-msgstr "Rejim"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
-msgid "Loading"
-msgstr "Hleð inn"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
-msgid "Admin Access Unavailable"
-msgstr "Aðgangur að stjórnanda ófáanlegur"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
-msgid "The pkexec command is not available on this system."
-msgstr "The pkexec skipun er ekki tiltækur á þessu kerfi."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
-msgid "more lines hidden"
-msgstr "fleiri línur faldar"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "Showing all"
-msgstr "Sýna allt"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "lines"
-msgstr "línur"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
-msgid "Requires Administrator"
-msgstr "Krafar stjórnanda"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
-msgid "Click to run as administrator and show"
-msgstr "Smelltu til að keyra sem stjórnandi og sýna"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
-msgid "Administrator Access Required"
-msgstr "þarf aðgang að stjórnanda"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
-msgid ""
-"Some hardware information requires administrator privileges to access. Do you want to reload with "
-"elevated access?"
-msgstr ""
-"Sumar upplýsingar um vélbúnað krafist stjórnandaheimildum til að fá aðgang. Viltu hlaða aftur með "
-"hækkuðum aðgangi?"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
-msgid "Reload as Admin"
-msgstr "Endurhlaða sem aðili"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Heildar geymsla:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Notaður:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
-msgid "Total Memory:"
-msgstr "Heildar minni:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
-msgid "used"
-msgstr "notaður"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
-msgid "Memory Modules"
-msgstr "minnihólf"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
-msgid "Priority:"
-msgstr "Forgangur:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
-msgid "Compression:"
-msgstr "Þjöppun:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
-msgid "Device:"
-msgstr "Tæki:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "Heildar:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
-msgid "Usage:"
-msgstr "Notkun:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
-msgid "Capacity:"
-msgstr "Rúmtak:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
-msgid "Modules:"
-msgstr "Modularar:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
-msgid "Slots:"
-msgstr "Raufar"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "Þráðahraðar"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "Þráður"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "CPU Flaggirðir"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "CPU veikleikar"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
-msgid "Model:"
-msgstr "Gerð:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
-msgid "Cores/Threads:"
-msgstr "Kjarna/Þræðir:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
-msgid "Architecture:"
-msgstr "arkitektúr"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
-msgid "Bits:"
-msgstr "Bits:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
-msgid "Max Speed:"
-msgstr "Hámarkshraði:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
-msgid "L3 Cache:"
-msgstr "L3 Minni:"

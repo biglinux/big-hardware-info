@@ -31,13 +31,25 @@ msgstr "Wygenerowane:"
 msgid "Visit BigLinux website"
 msgstr "Odwiedź stronę internetową BigLinux"
 # 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
+msgid "Advanced Information"
+msgstr "Zaawansowane informacje"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Nie znaleziono urządzeń graficznych."
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
+msgid "Memory Modules"
+msgstr "Moduły pamięci"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1459
 msgid "No storage drives found"
 msgstr "Nie znaleziono dysków pamięci."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
+msgid "Disk Partitions"
+msgstr "Partycje dysku"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -499,46 +511,31 @@ msgstr "Otwórz w przeglądarce"
 msgid "Upload Failed"
 msgstr "Przesyłanie nie powiodło się"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 335
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
 msgid ""
 "Could not upload the report:\n"
 "\n"
-"{error}"
-msgstr ""
-"Nie można przesłać raportu:\n"
-"\n"
-"{error}"
+msgstr "Nie można przesłać raportu:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 408
 msgid "Export Failed"
 msgstr "Eksport nie powiódł się"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 412
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
 msgid ""
 "Could not export the report:\n"
 "\n"
-"{error}"
-msgstr ""
-"Nie można wyeksportować raportu:\n"
-"\n"
-"{błąd}"
+msgstr "Nie można wyeksportować raportu:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 415
 msgid "Report Exported"
 msgstr "Raport wyeksportowany"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 421
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
 msgid ""
 "Report saved successfully to:\n"
 "\n"
-"{file}"
-msgstr ""
-"Raport zapisany pomyślnie do: \n"
-"\n"
-"{file}"
+msgstr "Raport zapisany pomyślnie do:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 432
 msgid "Failed to open browser"
@@ -735,65 +732,43 @@ msgstr "Jądro"
 msgid "=== Usage Overview ==="
 msgstr "=== Przegląd użycia ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 208
-#, python-brace-format
-msgid "Memory RAM: {memory}"
-msgstr "Pamięć RAM: {memory}"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 216
-#, python-brace-format
-msgid "  Used: {used}"
-msgstr "Używane: {used}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
+msgid "  Used:"
+msgstr "Używane:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
-#, python-brace-format
-msgid "  Usage: {usage}%"
-msgstr "Użycie: {usage}%"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
+msgid "  Usage:"
+msgstr "Użycie:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 212
-#, python-brace-format
-msgid "Root Partition: {partition}"
-msgstr "Partycja główna: {partition}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
+msgid "  Size:"
+msgstr "Rozmiar:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 215
-#, python-brace-format
-msgid "  Size: {size}"
-msgstr "Rozmiar: {size}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 217
-#, python-brace-format
-msgid "  Free: {free}"
-msgstr "Darmowy: {free}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 218
-#, python-brace-format
-msgid "  Usage: {usage}"
-msgstr "Użycie: {usage}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "  Free:"
+msgstr "Darmowy:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
 msgid "=== System Info ==="
 msgstr "=== Informacje o systemie ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 225
-#, python-brace-format
-msgid "Distro: {distro}"
-msgstr "Distro: {distro}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
+msgid "Distro:"
+msgstr "Distro:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 227
-#, python-brace-format
-msgid "Video: {video}"
-msgstr "Wideo: {video}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
+msgid "Video:"
+msgstr "Wideo:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 229
-#, python-brace-format
-msgid "Install Date: {date}"
-msgstr "Data instalacji: {date}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
+msgid "Install Date:"
+msgstr "Data instalacji:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 230
-#, python-brace-format
-msgid "Kernel: {kernel}"
-msgstr "Jądro: {kernel}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
+msgid "Kernel:"
+msgstr "Jądro:"
 # 
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
@@ -979,24 +954,21 @@ msgstr "Identyfikator urządzenia"
 msgid "Bus"
 msgstr "Autobus"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 195
-#, python-brace-format
-msgid "USB Hubs & Controllers ({count})"
-msgstr "Huby USB i kontrolery ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "Huby i kontrolery USB"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
 msgstr "Hub"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 235
-#, python-brace-format
-msgid "{count} ports"
-msgstr "{count} portów"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
+msgid "ports"
+msgstr "porty"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 239
-#, python-brace-format
-msgid "Mode {mode}"
-msgstr "Tryb {mode}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
+msgid "Mode"
+msgstr "Tryb"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 280
 #, python-brace-format
@@ -1007,19 +979,9 @@ msgstr "Kontrolery USB systemu ({count} urządzeń)"
 msgid "Copy to clipboard"
 msgstr "Skopiuj do schowka"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 67
-# File: big-hardware-info/src/app/ui/main_window.py, line: 160
-# File: big-hardware-info/src/app/ui/main_window.py, line: 252
-# File: big-hardware-info/src/app/__init__.py, line: 53
-# File: big-hardware-info/src/app/__init__.py, line: 118
-msgid "Big Hardware Info"
-msgstr "Wielkie informacje o sprzęcie"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 155
-msgid "About Big Hardware Info"
-msgstr "O programie Big Hardware Info"
+# File: big-hardware-info/src/app/ui/main_window.py, line: 222
+msgid "About"
+msgstr "O programie"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 200
 msgid "Refresh hardware information (Ctrl+R)"
@@ -1033,18 +995,25 @@ msgstr "Zbieraj dane ograniczone (wymaga uprawnień administratora)"
 msgid "Search..."
 msgstr "Szukaj..."
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 222
-msgid "About"
-msgstr "O programie"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
 msgid "Collecting hardware information..."
 msgstr "Zbieranie informacji o sprzęcie..."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 357
-#, python-brace-format
-msgid "Loading {category}... ({progress}%)"
-msgstr "Ładowanie {category}... ({progress}%)"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
+msgid "Loading"
+msgstr "Ładowanie"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
+msgid "Admin Access Unavailable"
+msgstr "Brak dostępu administratora"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
+msgid "The pkexec command is not available on this system."
+msgstr "Polecenie pkexec nie jest dostępne w tym systemie."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+msgid "OK"
+msgstr "OK"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
@@ -1062,15 +1031,9 @@ msgstr "Brak danych do skopiowania."
 msgid "Data copied to clipboard"
 msgstr "Dane skopiowane do schowka"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 944
-#, python-brace-format
-msgid "=== {category} ==="
-msgstr "=== {kategoria} ==="
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 987
-#, python-brace-format
-msgid "Copied: {title}"
-msgstr "Skopiowane: {title}"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "Skopiowane:"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 956
 msgid "Copied to clipboard"
@@ -1080,11 +1043,10 @@ msgstr "Skopiowano do schowka"
 msgid "Copy content to clipboard"
 msgstr "Skopiuj zawartość do schowka"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1099
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1139
-#, python-brace-format
-msgid "... {count} more lines hidden"
-msgstr "... {count} więcej ukrytych linii"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
+msgid "more lines hidden"
+msgstr "więcej ukrytych linii"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1112,10 +1074,37 @@ msgstr "Pokaż wszystko"
 msgid "Show less"
 msgstr "Pokaż mniej"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1134
-#, python-brace-format
-msgid "Showing all {count} lines"
-msgstr "Wyświetlanie wszystkich {count} linii"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "Showing all"
+msgstr "Pokazuje wszystko"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "lines"
+msgstr "linie"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
+msgid "Requires Administrator"
+msgstr "Wymaga uprawnień administratora"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
+msgid "Click to run as administrator and show"
+msgstr "Kliknij, aby uruchomić jako administrator i pokaż"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
+msgid "Administrator Access Required"
+msgstr "Wymagany dostęp administratora"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+msgid ""
+"Some hardware information requires administrator privileges to access. Do you want to reload with "
+"elevated access?"
+msgstr ""
+"Niektóre informacje o sprzęcie wymagają uprawnień administratora do uzyskania dostępu. Czy chcesz "
+"przeładować z podwyższonymi uprawnieniami?"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
+msgid "Reload as Admin"
+msgstr "Przeładuj jako administrator"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
@@ -1182,18 +1171,17 @@ msgid "No disk information available"
 msgstr "Brak dostępnych informacji o dysku"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-#, python-brace-format
-msgid "Total Storage: {total}"
-msgstr "Całkowita pamięć: {total}"
+msgid "Total Storage:"
+msgstr "Całkowita pamięć:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 105
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 472
-#, python-brace-format
-msgid "Used: {used}"
-msgstr "Używane: {used}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Używane:"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 110
 msgid "Storage Devices"
@@ -1315,10 +1303,6 @@ msgstr "Minimalna rozdzielczość"
 msgid "Mapped"
 msgstr "Zmapowane"
 # 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
-msgid "Advanced Information"
-msgstr "Zaawansowane informacje"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
 msgid "Display Server"
 msgstr "Serwer wyświetlania"
@@ -1395,9 +1379,8 @@ msgid "IPv6"
 msgstr "IPv6"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-#, python-brace-format
-msgid "Copy {label}"
-msgstr "Kopiuj {label}"
+msgid "Copy"
+msgstr "Kopiuj"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 241
 #, python-brace-format
@@ -1449,18 +1432,16 @@ msgid "Class ID"
 msgstr "ID klasy"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
-#, python-brace-format
-msgid "Total Memory: {total}"
-msgstr "Całkowita pamięć: {total}"
+msgid "Total Memory:"
+msgstr "Całkowita pamięć:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 98
 msgid "Copy memory info"
 msgstr "Kopiuj informacje o pamięci"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
-#, python-format
-msgid "{:.1f}% used"
-msgstr "{:.1f}% użyte"
+msgid "used"
+msgstr "używany"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 152
 msgid "Modules"
@@ -1477,11 +1458,6 @@ msgstr "Maksymalny rozmiar modułu"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 162
 msgid "ECC"
 msgstr "ECC"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 233
-#, python-brace-format
-msgid "Memory Modules ({modules})"
-msgstr "Moduły pamięci ({modules})"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 296
 msgid "Volts"
@@ -1511,59 +1487,41 @@ msgstr "ZSwap"
 msgid "Compressor"
 msgstr "Kompresor"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 391
-#, python-brace-format
-msgid "{swap_id} ({swap_type})"
-msgstr "{swap_id} ({swap_type})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
+msgid "Priority:"
+msgstr "Priorytet:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 429
-#, python-brace-format
-msgid "Used: {used} ({percent:.1f}%)"
-msgstr "Użyte: {used} ({percent:.1f}%)"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
+msgid "Compression:"
+msgstr "Kompresja:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 442
-#, python-brace-format
-msgid "Priority: {priority}"
-msgstr "Priorytet: {priority}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 445
-#, python-brace-format
-msgid "Compression: {compression}"
-msgstr "Kompresja: {compression}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 448
-#, python-brace-format
-msgid "Device: {device}"
-msgstr "Urządzenie: {device}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
+msgid "Device:"
+msgstr "Urządzenie:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 469
 msgid "=== Memory ==="
 msgstr "=== Pamięć ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 471
-#, python-brace-format
-msgid "Total: {total}"
-msgstr "Całkowita: {total}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Całkowity:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
+msgid "Usage:"
+msgstr "Użycie:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
-#, python-brace-format
-msgid "Usage: {usage}%"
-msgstr "Użycie: {usage}%"
+msgid "Capacity:"
+msgstr "Pojemność:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 478
-#, python-brace-format
-msgid "Capacity: {capacity}"
-msgstr "Pojemność: {capacity}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
+msgid "Modules:"
+msgstr "Moduły:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 482
-#, python-brace-format
-msgid "Modules: {modules}"
-msgstr "Moduły: {modules}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 485
-#, python-brace-format
-msgid "Slots: {slots}"
-msgstr "Sloty: {slots}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
+msgid "Slots:"
+msgstr "Sloty:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1622,58 +1580,48 @@ msgid "Technical Details"
 msgstr "Szczegóły techniczne"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-#, python-brace-format
-msgid "Thread Speeds ({count})"
-msgstr "Prędkości wątków ({count})"
+msgid "Thread Speeds"
+msgstr "Prędkości wątków"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 273
-#, python-brace-format
-msgid "Thread {thread}"
-msgstr "Wątek {thread}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Wątek"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 294
-#, python-brace-format
-msgid "CPU Flags ({count})"
-msgstr "Flagi CPU ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "Flagi CPU"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 316
-#, python-brace-format
-msgid "CPU Vulnerabilities ({count})"
-msgstr "Vulnerabilities procesora ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "Vulnerabilities procesora"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="
 msgstr "=== Procesor ==="
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
+msgid "Model:"
+msgstr "Model:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
+msgid "Cores/Threads:"
+msgstr "Rdzenie/Wątki:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
-#, python-brace-format
-msgid "Model: {model}"
-msgstr "Model: {model}"
+msgid "Architecture:"
+msgstr "Architektura:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 380
-#, python-brace-format
-msgid "Cores/Threads: {cores_threads}"
-msgstr "Rdzenie/Wątki: {cores_threads}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
+msgid "Bits:"
+msgstr "Bity:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 383
-#, python-brace-format
-msgid "Architecture: {arch}"
-msgstr "Architektura: {arch}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
+msgid "Max Speed:"
+msgstr "Maksymalna prędkość:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 385
-#, python-brace-format
-msgid "Bits: {bits}"
-msgstr "Bity: {bits}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 388
-#, python-brace-format
-msgid "Max Speed: {speed} MHz"
-msgstr "Maksymalna prędkość: {speed} MHz"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 391
-#, python-brace-format
-msgid "L3 Cache: {cache}"
-msgstr "Cache L3: {cache}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
+msgid "L3 Cache:"
+msgstr "Cache L3:"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
@@ -1706,225 +1654,3 @@ msgstr ""
 "sprzętu</li><li>Eksport do HTML z nowoczesnym designem</li><li>Udostępnianie online za "
 "pośrednictwem termbin.com</li><li>Podświetlanie składni dla plików systemowych</li><li>Rozróżnienie "
 "urządzeń USB/PCIe</li></ul>"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
-msgid ""
-"Could not upload the report:\n"
-"\n"
-msgstr "Nie można przesłać raportu:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
-msgid ""
-"Could not export the report:\n"
-"\n"
-msgstr "Nie można wyeksportować raportu:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
-msgid ""
-"Report saved successfully to:\n"
-"\n"
-msgstr "Raport zapisany pomyślnie do:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
-msgid "  Used:"
-msgstr "Używane:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
-msgid "  Usage:"
-msgstr "Użycie:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
-msgid "  Size:"
-msgstr "Rozmiar:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
-msgid "  Free:"
-msgstr "Darmowy:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
-msgid "Distro:"
-msgstr "Distro:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
-msgid "Video:"
-msgstr "Wideo:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
-msgid "Install Date:"
-msgstr "Data instalacji:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
-msgid "Kernel:"
-msgstr "Jądro:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "Huby i kontrolery USB"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
-msgid "ports"
-msgstr "porty"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
-msgid "Mode"
-msgstr "Tryb"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
-msgid "Loading"
-msgstr "Ładowanie"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
-msgid "Admin Access Unavailable"
-msgstr "Brak dostępu administratora"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
-msgid "The pkexec command is not available on this system."
-msgstr "Polecenie pkexec nie jest dostępne w tym systemie."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-msgid "OK"
-msgstr "OK"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-msgid "Copied:"
-msgstr "Skopiowane:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
-msgid "more lines hidden"
-msgstr "więcej ukrytych linii"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "Showing all"
-msgstr "Pokazuje wszystko"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "lines"
-msgstr "linie"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
-msgid "Requires Administrator"
-msgstr "Wymaga uprawnień administratora"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
-msgid "Click to run as administrator and show"
-msgstr "Kliknij, aby uruchomić jako administrator i pokaż"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
-msgid "Administrator Access Required"
-msgstr "Wymagany dostęp administratora"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
-msgid ""
-"Some hardware information requires administrator privileges to access. Do you want to reload with "
-"elevated access?"
-msgstr ""
-"Niektóre informacje o sprzęcie wymagają uprawnień administratora do uzyskania dostępu. Czy chcesz "
-"przeładować z podwyższonymi uprawnieniami?"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
-msgid "Reload as Admin"
-msgstr "Przeładuj jako administrator"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Całkowita pamięć:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Używane:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-msgid "Copy"
-msgstr "Kopiuj"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
-msgid "Total Memory:"
-msgstr "Całkowita pamięć:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
-msgid "used"
-msgstr "używany"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
-msgid "Memory Modules"
-msgstr "Moduły pamięci"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
-msgid "Priority:"
-msgstr "Priorytet:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
-msgid "Compression:"
-msgstr "Kompresja:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
-msgid "Device:"
-msgstr "Urządzenie:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "Całkowity:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
-msgid "Usage:"
-msgstr "Użycie:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
-msgid "Capacity:"
-msgstr "Pojemność:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
-msgid "Modules:"
-msgstr "Moduły:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
-msgid "Slots:"
-msgstr "Sloty:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "Prędkości wątków"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "Wątek"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "Flagi CPU"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "Vulnerabilities procesora"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
-msgid "Model:"
-msgstr "Model:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
-msgid "Cores/Threads:"
-msgstr "Rdzenie/Wątki:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
-msgid "Architecture:"
-msgstr "Architektura:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
-msgid "Bits:"
-msgstr "Bity:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
-msgid "Max Speed:"
-msgstr "Maksymalna prędkość:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
-msgid "L3 Cache:"
-msgstr "Cache L3:"

@@ -31,13 +31,25 @@ msgstr "Згенеровано:"
 msgid "Visit BigLinux website"
 msgstr "Відвідайте веб-сайт BigLinux"
 # 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
+msgid "Advanced Information"
+msgstr "Розширена інформація"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Не знайдено графічних пристроїв"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
+msgid "Memory Modules"
+msgstr "Модулі пам'яті"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1459
 msgid "No storage drives found"
 msgstr "Не знайдено накопичувачів."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
+msgid "Disk Partitions"
+msgstr "Дискові розділи"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -500,46 +512,31 @@ msgstr "Відкрити в браузері"
 msgid "Upload Failed"
 msgstr "Завантаження не вдалося"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 335
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
 msgid ""
 "Could not upload the report:\n"
 "\n"
-"{error}"
-msgstr ""
-"Не вдалося завантажити звіт:\n"
-"\n"
-"{error}"
+msgstr "Не вдалося завантажити звіт:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 408
 msgid "Export Failed"
 msgstr "Експорт не вдався"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 412
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
 msgid ""
 "Could not export the report:\n"
 "\n"
-"{error}"
-msgstr ""
-"Не вдалося експортувати звіт:\n"
-"\n"
-"{error}"
+msgstr "Не вдалося експортувати звіт:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 415
 msgid "Report Exported"
 msgstr "Звіт експортовано"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 421
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
 msgid ""
 "Report saved successfully to:\n"
 "\n"
-"{file}"
-msgstr ""
-"Звіт успішно збережено за адресою: \n"
-"\n"
-"{file}"
+msgstr "Звіт успішно збережено за адресою:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 432
 msgid "Failed to open browser"
@@ -736,65 +733,43 @@ msgstr "Ядро"
 msgid "=== Usage Overview ==="
 msgstr "=== Огляд використання ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 208
-#, python-brace-format
-msgid "Memory RAM: {memory}"
-msgstr "Оперативна пам'ять: {memory}"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 216
-#, python-brace-format
-msgid "  Used: {used}"
-msgstr "Використано: {used}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
+msgid "  Used:"
+msgstr "Використано:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
-#, python-brace-format
-msgid "  Usage: {usage}%"
-msgstr "Використання: {usage}%"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
+msgid "  Usage:"
+msgstr "Використання:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 212
-#, python-brace-format
-msgid "Root Partition: {partition}"
-msgstr "Коренева розділ: {partition}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
+msgid "  Size:"
+msgstr "Розмір:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 215
-#, python-brace-format
-msgid "  Size: {size}"
-msgstr "Розмір: {size}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 217
-#, python-brace-format
-msgid "  Free: {free}"
-msgstr "Безкоштовно: {free}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 218
-#, python-brace-format
-msgid "  Usage: {usage}"
-msgstr "Використання: {usage}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "  Free:"
+msgstr "Безкоштовно:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
 msgid "=== System Info ==="
 msgstr "=== Інформація про систему ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 225
-#, python-brace-format
-msgid "Distro: {distro}"
-msgstr "Дистрибутив: {distro}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
+msgid "Distro:"
+msgstr "Дистрибутив:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 227
-#, python-brace-format
-msgid "Video: {video}"
-msgstr "Відео: {video}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
+msgid "Video:"
+msgstr "Відео:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 229
-#, python-brace-format
-msgid "Install Date: {date}"
-msgstr "Дата встановлення: {date}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
+msgid "Install Date:"
+msgstr "Дата встановлення:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 230
-#, python-brace-format
-msgid "Kernel: {kernel}"
-msgstr "Ядро: {kernel}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
+msgid "Kernel:"
+msgstr "Ядро:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1025,24 +1000,21 @@ msgstr "Ідентифікатор пристрою"
 msgid "Bus"
 msgstr "Автобус"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 195
-#, python-brace-format
-msgid "USB Hubs & Controllers ({count})"
-msgstr "USB Хаби та Контролери ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB концентратори та контролери"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
 msgstr "Вузол"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 235
-#, python-brace-format
-msgid "{count} ports"
-msgstr "{count} портів"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
+msgid "ports"
+msgstr "порти"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 239
-#, python-brace-format
-msgid "Mode {mode}"
-msgstr "Режим {mode}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
+msgid "Mode"
+msgstr "Режим"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 280
 #, python-brace-format
@@ -1053,19 +1025,9 @@ msgstr "Системні USB контролери ({count} пристроїв)"
 msgid "Copy to clipboard"
 msgstr "Скопіювати в буфер обміну"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 67
-# File: big-hardware-info/src/app/ui/main_window.py, line: 160
-# File: big-hardware-info/src/app/ui/main_window.py, line: 252
-# File: big-hardware-info/src/app/__init__.py, line: 53
-# File: big-hardware-info/src/app/__init__.py, line: 118
-msgid "Big Hardware Info"
-msgstr "Велика інформація про апаратуру"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 155
-msgid "About Big Hardware Info"
-msgstr "Про Big Hardware Info"
+# File: big-hardware-info/src/app/ui/main_window.py, line: 222
+msgid "About"
+msgstr "Про програму"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 200
 msgid "Refresh hardware information (Ctrl+R)"
@@ -1079,18 +1041,25 @@ msgstr "Збирати обмежені дані (потрібен адміні�
 msgid "Search..."
 msgstr "Пошук..."
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 222
-msgid "About"
-msgstr "Про програму"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
 msgid "Collecting hardware information..."
 msgstr "Збирання інформації про апаратне забезпечення..."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 357
-#, python-brace-format
-msgid "Loading {category}... ({progress}%)"
-msgstr "Завантаження {category}... ({progress}%)"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
+msgid "Loading"
+msgstr "Завантаження"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
+msgid "Admin Access Unavailable"
+msgstr "Доступ адміністратора недоступний"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
+msgid "The pkexec command is not available on this system."
+msgstr "Команда pkexec недоступна в цій системі."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
@@ -1108,15 +1077,13 @@ msgstr "Немає даних для копіювання"
 msgid "Data copied to clipboard"
 msgstr "Дані скопійовано в буфер обміну."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 944
-#, python-brace-format
-msgid "=== {category} ==="
-msgstr "=== {категорія} ==="
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 987
-#, python-brace-format
-msgid "Copied: {title}"
-msgstr "Скопійовано: {title}"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "Скопійовано:"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 956
 msgid "Copied to clipboard"
@@ -1126,11 +1093,16 @@ msgstr "Скопійовано в буфер обміну"
 msgid "Copy content to clipboard"
 msgstr "Скопіювати вміст в буфер обміну"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1099
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1139
-#, python-brace-format
-msgid "... {count} more lines hidden"
-msgstr "... {count} більше рядків приховано"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
+msgid "more lines hidden"
+msgstr "більше рядків приховано"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1156,10 +1128,37 @@ msgstr "... {count} більше рядків приховано"
 msgid "Show less"
 msgstr "Показати менше"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1134
-#, python-brace-format
-msgid "Showing all {count} lines"
-msgstr "Показано всі {count} рядків"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "Showing all"
+msgstr "Показати все"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "lines"
+msgstr "рядки"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
+msgid "Requires Administrator"
+msgstr "Потрібен адміністратор"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
+msgid "Click to run as administrator and show"
+msgstr "Натисніть, щоб запустити від імені адміністратора та показати"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
+msgid "Administrator Access Required"
+msgstr "Потрібен доступ адміністратора"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+msgid ""
+"Some hardware information requires administrator privileges to access. Do you want to reload with "
+"elevated access?"
+msgstr ""
+"Деяка інформація про апаратне забезпечення вимагає прав адміністратора для доступу. Ви хочете "
+"перезавантажити з підвищеними правами?"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
+msgid "Reload as Admin"
+msgstr "Перезавантажити як адміністратор"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
@@ -1226,18 +1225,17 @@ msgid "No disk information available"
 msgstr "Немає інформації про диск"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-#, python-brace-format
-msgid "Total Storage: {total}"
-msgstr "Загальний обсяг пам'яті: {total}"
+msgid "Total Storage:"
+msgstr "Загальний обсяг пам'яті:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 105
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 472
-#, python-brace-format
-msgid "Used: {used}"
-msgstr "Використано: {used}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Використано:"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 110
 msgid "Storage Devices"
@@ -1359,10 +1357,6 @@ msgstr "Мінімальна роздільна здатність"
 msgid "Mapped"
 msgstr "Спрямований"
 # 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
-msgid "Advanced Information"
-msgstr "Розширена інформація"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
 msgid "Display Server"
 msgstr "Сервер відображення"
@@ -1439,9 +1433,8 @@ msgid "IPv6"
 msgstr "IPv6"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-#, python-brace-format
-msgid "Copy {label}"
-msgstr "Скопіювати {label}"
+msgid "Copy"
+msgstr "Копіювати"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 241
 #, python-brace-format
@@ -1493,18 +1486,16 @@ msgid "Class ID"
 msgstr "Ідентифікатор класу"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
-#, python-brace-format
-msgid "Total Memory: {total}"
-msgstr "Загальна пам'ять: {total}"
+msgid "Total Memory:"
+msgstr "Загальна пам'ять:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 98
 msgid "Copy memory info"
 msgstr "Скопіювати інформацію про пам'ять"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
-#, python-format
-msgid "{:.1f}% used"
-msgstr "{:.1f}% використано"
+msgid "used"
+msgstr "використовувався"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 152
 msgid "Modules"
@@ -1521,11 +1512,6 @@ msgstr "Максимальний розмір модуля"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 162
 msgid "ECC"
 msgstr "ECC"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 233
-#, python-brace-format
-msgid "Memory Modules ({modules})"
-msgstr "Модулі пам'яті ({modules})"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 296
 msgid "Volts"
@@ -1555,59 +1541,41 @@ msgstr "ZSwap"
 msgid "Compressor"
 msgstr "Компресор"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 391
-#, python-brace-format
-msgid "{swap_id} ({swap_type})"
-msgstr "{swap_id} ({swap_type})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
+msgid "Priority:"
+msgstr "Пріоритет:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 429
-#, python-brace-format
-msgid "Used: {used} ({percent:.1f}%)"
-msgstr "Використано: {used} ({percent:.1f}%)"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
+msgid "Compression:"
+msgstr "Стиснення:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 442
-#, python-brace-format
-msgid "Priority: {priority}"
-msgstr "Пріоритет: {priority}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 445
-#, python-brace-format
-msgid "Compression: {compression}"
-msgstr "Стиснення: {compression}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 448
-#, python-brace-format
-msgid "Device: {device}"
-msgstr "Пристрій: {device}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
+msgid "Device:"
+msgstr "Пристрій:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 469
 msgid "=== Memory ==="
 msgstr "=== Пам'ять ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 471
-#, python-brace-format
-msgid "Total: {total}"
-msgstr "Всього: {total}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Всього:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
+msgid "Usage:"
+msgstr "Використання:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
-#, python-brace-format
-msgid "Usage: {usage}%"
-msgstr "Використання: {usage}%"
+msgid "Capacity:"
+msgstr "Ємність:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 478
-#, python-brace-format
-msgid "Capacity: {capacity}"
-msgstr "Ємність: {capacity}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
+msgid "Modules:"
+msgstr "Модулі:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 482
-#, python-brace-format
-msgid "Modules: {modules}"
-msgstr "Модулі: {modules}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 485
-#, python-brace-format
-msgid "Slots: {slots}"
-msgstr "Слоти: {slots}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
+msgid "Slots:"
+msgstr "Слоти:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1666,58 +1634,48 @@ msgid "Technical Details"
 msgstr "Технічні деталі"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-#, python-brace-format
-msgid "Thread Speeds ({count})"
-msgstr "Швидкості потоків ({count})"
+msgid "Thread Speeds"
+msgstr "Швидкості потоків"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 273
-#, python-brace-format
-msgid "Thread {thread}"
-msgstr "Потік {thread}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Потік"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 294
-#, python-brace-format
-msgid "CPU Flags ({count})"
-msgstr "CPU Прапори ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "Флаги ЦПУ"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 316
-#, python-brace-format
-msgid "CPU Vulnerabilities ({count})"
-msgstr "Вразливості ЦП ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "Вразливості ЦП"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="
 msgstr "=== Процесор ==="
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
+msgid "Model:"
+msgstr "Модель:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
+msgid "Cores/Threads:"
+msgstr "Ядра/Потоки:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
-#, python-brace-format
-msgid "Model: {model}"
-msgstr "Модель: {model}"
+msgid "Architecture:"
+msgstr "Архітектура:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 380
-#, python-brace-format
-msgid "Cores/Threads: {cores_threads}"
-msgstr "Ядер/Потоків: {cores_threads}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
+msgid "Bits:"
+msgstr "Біти:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 383
-#, python-brace-format
-msgid "Architecture: {arch}"
-msgstr "Архітектура: {arch}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
+msgid "Max Speed:"
+msgstr "Максимальна швидкість:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 385
-#, python-brace-format
-msgid "Bits: {bits}"
-msgstr "Біти: {bits}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 388
-#, python-brace-format
-msgid "Max Speed: {speed} MHz"
-msgstr "Максимальна швидкість: {speed} МГц"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 391
-#, python-brace-format
-msgid "L3 Cache: {cache}"
-msgstr "L3 кеш: {cache}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
+msgid "L3 Cache:"
+msgstr "L3 кеш:"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
@@ -1750,225 +1708,3 @@ msgstr ""
 "забезпечення</li><li>Експорт у HTML з сучасним дизайном</li><li>Онлайн-обмін через "
 "termbin.com</li><li>Підсвічування синтаксису для системних файлів</li><li>Розрізнення пристроїв "
 "USB/PCIe</li></ul>"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
-msgid ""
-"Could not upload the report:\n"
-"\n"
-msgstr "Не вдалося завантажити звіт:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
-msgid ""
-"Could not export the report:\n"
-"\n"
-msgstr "Не вдалося експортувати звіт:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
-msgid ""
-"Report saved successfully to:\n"
-"\n"
-msgstr "Звіт успішно збережено за адресою:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
-msgid "  Used:"
-msgstr "Використано:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
-msgid "  Usage:"
-msgstr "Використання:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
-msgid "  Size:"
-msgstr "Розмір:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
-msgid "  Free:"
-msgstr "Безкоштовно:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
-msgid "Distro:"
-msgstr "Дистрибутив:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
-msgid "Video:"
-msgstr "Відео:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
-msgid "Install Date:"
-msgstr "Дата встановлення:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
-msgid "Kernel:"
-msgstr "Ядро:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "USB концентратори та контролери"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
-msgid "ports"
-msgstr "порти"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
-msgid "Mode"
-msgstr "Режим"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
-msgid "Loading"
-msgstr "Завантаження"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
-msgid "Admin Access Unavailable"
-msgstr "Доступ адміністратора недоступний"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
-msgid "The pkexec command is not available on this system."
-msgstr "Команда pkexec недоступна в цій системі."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-msgid "Copied:"
-msgstr "Скопійовано:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
-msgid "more lines hidden"
-msgstr "більше рядків приховано"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "Showing all"
-msgstr "Показати все"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "lines"
-msgstr "рядки"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
-msgid "Requires Administrator"
-msgstr "Потрібен адміністратор"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
-msgid "Click to run as administrator and show"
-msgstr "Натисніть, щоб запустити від імені адміністратора та показати"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
-msgid "Administrator Access Required"
-msgstr "Потрібен доступ адміністратора"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
-msgid ""
-"Some hardware information requires administrator privileges to access. Do you want to reload with "
-"elevated access?"
-msgstr ""
-"Деяка інформація про апаратне забезпечення вимагає прав адміністратора для доступу. Ви хочете "
-"перезавантажити з підвищеними правами?"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
-msgid "Reload as Admin"
-msgstr "Перезавантажити як адміністратор"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Загальний обсяг пам'яті:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Використано:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-msgid "Copy"
-msgstr "Копіювати"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
-msgid "Total Memory:"
-msgstr "Загальна пам'ять:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
-msgid "used"
-msgstr "використовувався"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
-msgid "Memory Modules"
-msgstr "Модулі пам'яті"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
-msgid "Priority:"
-msgstr "Пріоритет:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
-msgid "Compression:"
-msgstr "Стиснення:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
-msgid "Device:"
-msgstr "Пристрій:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "Всього:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
-msgid "Usage:"
-msgstr "Використання:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
-msgid "Capacity:"
-msgstr "Ємність:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
-msgid "Modules:"
-msgstr "Модулі:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
-msgid "Slots:"
-msgstr "Слоти:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "Швидкості потоків"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "Потік"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "Флаги ЦПУ"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "Вразливості ЦП"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
-msgid "Model:"
-msgstr "Модель:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
-msgid "Cores/Threads:"
-msgstr "Ядра/Потоки:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
-msgid "Architecture:"
-msgstr "Архітектура:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
-msgid "Bits:"
-msgstr "Біти:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
-msgid "Max Speed:"
-msgstr "Максимальна швидкість:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
-msgid "L3 Cache:"
-msgstr "L3 кеш:"

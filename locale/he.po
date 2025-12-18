@@ -31,13 +31,25 @@ msgstr "נוצר:"
 msgid "Visit BigLinux website"
 msgstr "בקר באתר BigLinux"
 # 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
+msgid "Advanced Information"
+msgstr "מידע מתקדם"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "לא נמצאו מכשירי גרפיקה"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
+msgid "Memory Modules"
+msgstr "מודולי זיכרון"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1459
 msgid "No storage drives found"
 msgstr "לא נמצאו כונני אחסון"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
+msgid "Disk Partitions"
+msgstr "מחיצות דיסק"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -499,46 +511,31 @@ msgstr "פתח בדפדפן"
 msgid "Upload Failed"
 msgstr "העלאה נכשלה"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 335
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
 msgid ""
 "Could not upload the report:\n"
 "\n"
-"{error}"
-msgstr ""
-"לא ניתן להעלות את הדו\"ח:\n"
-"\n"
-"{error}"
+msgstr "לא ניתן להעלות את הדו\"ח:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 408
 msgid "Export Failed"
 msgstr "ייצוא נכשל"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 412
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
 msgid ""
 "Could not export the report:\n"
 "\n"
-"{error}"
-msgstr ""
-"לא ניתן לייצא את הדו\"ח:\n"
-"\n"
-"{error}"
+msgstr "לא ניתן לייצא את הדו\"ח:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 415
 msgid "Report Exported"
 msgstr "דו\"ח יוצא"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 421
-#, python-brace-format
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
 msgid ""
 "Report saved successfully to:\n"
 "\n"
-"{file}"
-msgstr ""
-"הדוח נשמר בהצלחה ל: \n"
-"\n"
-"{file}"
+msgstr "הדוח נשמר בהצלחה ל:"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 432
 msgid "Failed to open browser"
@@ -731,65 +728,43 @@ msgstr "קרנל"
 msgid "=== Usage Overview ==="
 msgstr "=== סקירת שימוש ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 208
-#, python-brace-format
-msgid "Memory RAM: {memory}"
-msgstr "זיכרון RAM: {memory}"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 216
-#, python-brace-format
-msgid "  Used: {used}"
-msgstr "בשימוש: {used}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
+msgid "  Used:"
+msgstr "שימושי:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
-#, python-brace-format
-msgid "  Usage: {usage}%"
-msgstr "שימוש: {usage}%"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
+msgid "  Usage:"
+msgstr "שימוש:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 212
-#, python-brace-format
-msgid "Root Partition: {partition}"
-msgstr "מחיצת שורש: {partition}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
+msgid "  Size:"
+msgstr "גודל:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 215
-#, python-brace-format
-msgid "  Size: {size}"
-msgstr "גודל: {size}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 217
-#, python-brace-format
-msgid "  Free: {free}"
-msgstr "חינם: {free}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 218
-#, python-brace-format
-msgid "  Usage: {usage}"
-msgstr "שימוש: {usage}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "  Free:"
+msgstr "חינם:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
 msgid "=== System Info ==="
 msgstr "=== מידע מערכת ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 225
-#, python-brace-format
-msgid "Distro: {distro}"
-msgstr "דיסטרו: {distro}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
+msgid "Distro:"
+msgstr "דיסטרו:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 227
-#, python-brace-format
-msgid "Video: {video}"
-msgstr "וידאו: {וידאו}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
+msgid "Video:"
+msgstr "וידאו:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 229
-#, python-brace-format
-msgid "Install Date: {date}"
-msgstr "תאריך התקנה: {date}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
+msgid "Install Date:"
+msgstr "תאריך התקנה:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 230
-#, python-brace-format
-msgid "Kernel: {kernel}"
-msgstr "קרנל: {kernel}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
+msgid "Kernel:"
+msgstr "קרנל:"
 # 
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
@@ -975,24 +950,21 @@ msgstr "מזהה מכשיר"
 msgid "Bus"
 msgstr "אוטובוס"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 195
-#, python-brace-format
-msgid "USB Hubs & Controllers ({count})"
-msgstr "האביזרים והבקרים של USB ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "האביזרים והבקרים של USB"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
 msgstr "האב"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 235
-#, python-brace-format
-msgid "{count} ports"
-msgstr "{count} יציאות"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
+msgid "ports"
+msgstr "פורטס"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 239
-#, python-brace-format
-msgid "Mode {mode}"
-msgstr "מצב {mode}"
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
+msgid "Mode"
+msgstr "מצב"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 280
 #, python-brace-format
@@ -1003,19 +975,9 @@ msgstr "בקרי USB במערכת ({count} מכשירים)"
 msgid "Copy to clipboard"
 msgstr "העתק ללוח שנה"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 67
-# File: big-hardware-info/src/app/ui/main_window.py, line: 160
-# File: big-hardware-info/src/app/ui/main_window.py, line: 252
-# File: big-hardware-info/src/app/__init__.py, line: 53
-# File: big-hardware-info/src/app/__init__.py, line: 118
-msgid "Big Hardware Info"
-msgstr "מידע על חומרה גדולה"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 155
-msgid "About Big Hardware Info"
-msgstr "אודות מידע על חומרה גדולה"
+# File: big-hardware-info/src/app/ui/main_window.py, line: 222
+msgid "About"
+msgstr "אודות"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 200
 msgid "Refresh hardware information (Ctrl+R)"
@@ -1029,18 +991,25 @@ msgstr "איסוף נתונים מוגבלים (דרוש מנהל)"
 msgid "Search..."
 msgstr "חפש..."
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 222
-msgid "About"
-msgstr "אודות"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
 msgid "Collecting hardware information..."
 msgstr "איסוף מידע על חומרה..."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 357
-#, python-brace-format
-msgid "Loading {category}... ({progress}%)"
-msgstr "טוען {category}... ({progress}%)"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
+msgid "Loading"
+msgstr "טוען"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
+msgid "Admin Access Unavailable"
+msgstr "גישה למנהל אינה זמינה"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
+msgid "The pkexec command is not available on this system."
+msgstr "פקודת pkexec אינה זמינה במערכת זו."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+msgid "OK"
+msgstr "אוקי"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
@@ -1058,15 +1027,9 @@ msgstr "אין נתונים להעתקה"
 msgid "Data copied to clipboard"
 msgstr "הנתונים הועתקו ללוח."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 944
-#, python-brace-format
-msgid "=== {category} ==="
-msgstr "=== {קטגוריה} ==="
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 987
-#, python-brace-format
-msgid "Copied: {title}"
-msgstr "הועתק: {title}"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 956
 msgid "Copied to clipboard"
@@ -1076,11 +1039,22 @@ msgstr "הועתק ללוח הגזרים"
 msgid "Copy content to clipboard"
 msgstr "העתק תוכן ללוח העריכה"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1099
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1139
-#, python-brace-format
-msgid "... {count} more lines hidden"
-msgstr "... {count} שורות נוספות מוסתרות"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
+msgid "more lines hidden"
+msgstr "שורות נוספות מוסתרות"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1106,10 +1080,35 @@ msgstr "... {count} שורות נוספות מוסתרות"
 msgid "Show less"
 msgstr "הצג פחות"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1134
-#, python-brace-format
-msgid "Showing all {count} lines"
-msgstr "מראה את כל {count} השורות"
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "Showing all"
+msgstr "מראה הכל"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "lines"
+msgstr "שורות"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
+msgid "Requires Administrator"
+msgstr "דרוש מנהל מערכת"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
+msgid "Click to run as administrator and show"
+msgstr "לחץ כדי להריץ כמנהל ולהציג"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
+msgid "Administrator Access Required"
+msgstr "דרישת גישה למנהל"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+msgid ""
+"Some hardware information requires administrator privileges to access. Do you want to reload with "
+"elevated access?"
+msgstr "מידע מסוים על חומרה דורש הרשאות מנהל גישה. האם אתה רוצה לטעון מחדש עם גישה מוגבהת?"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
+msgid "Reload as Admin"
+msgstr "טען מחדש כמנהל"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
@@ -1176,18 +1175,17 @@ msgid "No disk information available"
 msgstr "אין מידע על דיסק זמין"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-#, python-brace-format
-msgid "Total Storage: {total}"
-msgstr "אחסון כולל: {total}"
+msgid "Total Storage:"
+msgstr "אחסון כולל:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 105
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 472
-#, python-brace-format
-msgid "Used: {used}"
-msgstr "שימוש: {used}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "שימושי:"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 110
 msgid "Storage Devices"
@@ -1309,10 +1307,6 @@ msgstr "רזולוציה מינימלית"
 msgid "Mapped"
 msgstr "מופה"
 # 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
-msgid "Advanced Information"
-msgstr "מידע מתקדם"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
 msgid "Display Server"
 msgstr "שרת תצוגה"
@@ -1389,9 +1383,8 @@ msgid "IPv6"
 msgstr "IPv6"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-#, python-brace-format
-msgid "Copy {label}"
-msgstr "העתק {label}"
+msgid "Copy"
+msgstr "העתק"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 241
 #, python-brace-format
@@ -1443,18 +1436,16 @@ msgid "Class ID"
 msgstr "מזהה כיתה"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
-#, python-brace-format
-msgid "Total Memory: {total}"
-msgstr "זיכרון כולל: {total}"
+msgid "Total Memory:"
+msgstr "זיכרון כולל:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 98
 msgid "Copy memory info"
 msgstr "העתק מידע זיכרון"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
-#, python-format
-msgid "{:.1f}% used"
-msgstr "{:.1f}% בשימוש"
+msgid "used"
+msgstr "שימושי"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 152
 msgid "Modules"
@@ -1471,11 +1462,6 @@ msgstr "גודל מודול מקסימלי"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 162
 msgid "ECC"
 msgstr "ECC"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 233
-#, python-brace-format
-msgid "Memory Modules ({modules})"
-msgstr "מודולי זיכרון ({modules})"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 296
 msgid "Volts"
@@ -1505,59 +1491,41 @@ msgstr "ZSwap"
 msgid "Compressor"
 msgstr "מדחס"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 391
-#, python-brace-format
-msgid "{swap_id} ({swap_type})"
-msgstr "{swap_id} ({swap_type})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
+msgid "Priority:"
+msgstr "עדיפות:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 429
-#, python-brace-format
-msgid "Used: {used} ({percent:.1f}%)"
-msgstr "שימוש: {used} ({percent:.1f}%)"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
+msgid "Compression:"
+msgstr "דחיסה:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 442
-#, python-brace-format
-msgid "Priority: {priority}"
-msgstr "עדיפות: {priority}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 445
-#, python-brace-format
-msgid "Compression: {compression}"
-msgstr "דחיסה: {compression}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 448
-#, python-brace-format
-msgid "Device: {device}"
-msgstr "מכשיר: {device}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
+msgid "Device:"
+msgstr "מכשיר:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 469
 msgid "=== Memory ==="
 msgstr "=== זיכרון ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 471
-#, python-brace-format
-msgid "Total: {total}"
-msgstr "סך הכל: {total}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "סך הכל:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
+msgid "Usage:"
+msgstr "שימוש:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
-#, python-brace-format
-msgid "Usage: {usage}%"
-msgstr "שימוש: {usage}%"
+msgid "Capacity:"
+msgstr "קיבולת:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 478
-#, python-brace-format
-msgid "Capacity: {capacity}"
-msgstr "קיבולת: {capacity}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
+msgid "Modules:"
+msgstr "מודולים:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 482
-#, python-brace-format
-msgid "Modules: {modules}"
-msgstr "מודולים: {modules}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 485
-#, python-brace-format
-msgid "Slots: {slots}"
-msgstr "סלוטים: {slots}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
+msgid "Slots:"
+msgstr "סלוטים:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1616,58 +1584,48 @@ msgid "Technical Details"
 msgstr "פרטים טכניים"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-#, python-brace-format
-msgid "Thread Speeds ({count})"
-msgstr "מהירויות חוטים ({count})"
+msgid "Thread Speeds"
+msgstr "מהירויות חוטים"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 273
-#, python-brace-format
-msgid "Thread {thread}"
-msgstr "אשכול {thread}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "חוט"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 294
-#, python-brace-format
-msgid "CPU Flags ({count})"
-msgstr "דגלי מעבד ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "דגלי מעבד"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 316
-#, python-brace-format
-msgid "CPU Vulnerabilities ({count})"
-msgstr "פגיעויות מעבד ({count})"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "פגיעויות מעבד"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="
 msgstr "=== מעבד ==="
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
+msgid "Model:"
+msgstr "מודל:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
+msgid "Cores/Threads:"
+msgstr "ליבות/חוטים:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
-#, python-brace-format
-msgid "Model: {model}"
-msgstr "מודל: {model}"
+msgid "Architecture:"
+msgstr "אדריכלות:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 380
-#, python-brace-format
-msgid "Cores/Threads: {cores_threads}"
-msgstr "ליבות/חוטים: {cores_threads}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
+msgid "Bits:"
+msgstr "ביטים:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 383
-#, python-brace-format
-msgid "Architecture: {arch}"
-msgstr "אדריכלות: {arch}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
+msgid "Max Speed:"
+msgstr "מהירות מקסימלית:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 385
-#, python-brace-format
-msgid "Bits: {bits}"
-msgstr "ביטים: {bits}"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 388
-#, python-brace-format
-msgid "Max Speed: {speed} MHz"
-msgstr "מהירות מקסימלית: {speed} מגה-הרץ"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 391
-#, python-brace-format
-msgid "L3 Cache: {cache}"
-msgstr "מטמון L3: {cache}"
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
+msgid "L3 Cache:"
+msgstr "מטמון L3:"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
@@ -1699,225 +1657,3 @@ msgstr ""
 "<p>מידע על חומרה גדולה 2.0.0 - כתיבה מחדש מלאה:</p><ul><li>זיהוי חומרה מקיף</li><li>ייצוא ל-HTML עם "
 "עיצוב מודרני</li><li>שיתוף מקוון באמצעות termbin.com</li><li>הדגשת תחביר עבור קבצי "
 "מערכת</li><li>הבחנה בין מכשירי USB/PCIe</li></ul>"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
-msgid ""
-"Could not upload the report:\n"
-"\n"
-msgstr "לא ניתן להעלות את הדו\"ח:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
-msgid ""
-"Could not export the report:\n"
-"\n"
-msgstr "לא ניתן לייצא את הדו\"ח:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
-msgid ""
-"Report saved successfully to:\n"
-"\n"
-msgstr "הדוח נשמר בהצלחה ל:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
-msgid "  Used:"
-msgstr "שימושי:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
-msgid "  Usage:"
-msgstr "שימוש:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
-msgid "  Size:"
-msgstr "גודל:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
-msgid "  Free:"
-msgstr "חינם:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
-msgid "Distro:"
-msgstr "דיסטרו:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
-msgid "Video:"
-msgstr "וידאו:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
-msgid "Install Date:"
-msgstr "תאריך התקנה:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
-msgid "Kernel:"
-msgstr "קרנל:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "האביזרים והבקרים של USB"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
-msgid "ports"
-msgstr "פורטס"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
-msgid "Mode"
-msgstr "מצב"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
-msgid "Loading"
-msgstr "טוען"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
-msgid "Admin Access Unavailable"
-msgstr "גישה למנהל אינה זמינה"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
-msgid "The pkexec command is not available on this system."
-msgstr "פקודת pkexec אינה זמינה במערכת זו."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-msgid "OK"
-msgstr "אוקי"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
-msgid "more lines hidden"
-msgstr "שורות נוספות מוסתרות"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "Showing all"
-msgstr "מראה הכל"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "lines"
-msgstr "שורות"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
-msgid "Requires Administrator"
-msgstr "דרוש מנהל מערכת"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
-msgid "Click to run as administrator and show"
-msgstr "לחץ כדי להריץ כמנהל ולהציג"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
-msgid "Administrator Access Required"
-msgstr "דרישת גישה למנהל"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
-msgid ""
-"Some hardware information requires administrator privileges to access. Do you want to reload with "
-"elevated access?"
-msgstr "מידע מסוים על חומרה דורש הרשאות מנהל גישה. האם אתה רוצה לטעון מחדש עם גישה מוגבהת?"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
-msgid "Reload as Admin"
-msgstr "טען מחדש כמנהל"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "אחסון כולל:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "שימושי:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-msgid "Copy"
-msgstr "העתק"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
-msgid "Total Memory:"
-msgstr "זיכרון כולל:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
-msgid "used"
-msgstr "שימושי"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
-msgid "Memory Modules"
-msgstr "מודולי זיכרון"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 434
-msgid "Priority:"
-msgstr "עדיפות:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 436
-msgid "Compression:"
-msgstr "דחיסה:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 438
-msgid "Device:"
-msgstr "מכשיר:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "סך הכל:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
-msgid "Usage:"
-msgstr "שימוש:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 473
-msgid "Capacity:"
-msgstr "קיבולת:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 475
-msgid "Modules:"
-msgstr "מודולים:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
-msgid "Slots:"
-msgstr "סלוטים:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "מהירויות חוטים"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "חוט"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "דגלי מעבד"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "פגיעויות מעבד"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 369
-msgid "Model:"
-msgstr "מודל:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
-msgid "Cores/Threads:"
-msgstr "ליבות/חוטים:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
-msgid "Architecture:"
-msgstr "אדריכלות:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
-msgid "Bits:"
-msgstr "ביטים:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
-msgid "Max Speed:"
-msgstr "מהירות מקסימלית:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
-msgid "L3 Cache:"
-msgstr "מטמון L3:"
