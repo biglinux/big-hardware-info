@@ -31,6 +31,90 @@ msgstr "Генерирано:"
 msgid "Visit BigLinux website"
 msgstr "Посетете уебсайта на BigLinux"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 71
+#: NEEDS WORK
+msgid "Hardware Report for"
+msgstr "Доклад за хардуер"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 83
+#: NEEDS WORK
+msgid "Main Navigation"
+msgstr "Основна навигация"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 745
+#: NEEDS WORK
+msgid "Go to"
+msgstr "Отидете на"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Общ преглед на използването"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "Памет RAM:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Използвано:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "Коренен дял:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 931
+#: NEEDS WORK
+msgid "Size:"
+msgstr "Размер:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 933
+#: NEEDS WORK
+msgid "Free:"
+msgstr "Безплатно:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Информация за системата"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
+msgid "Cache"
+msgstr "Кеш"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
+msgid "Technical Details"
+msgstr "Технически детайли"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Нишка"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "Скорости на нишките"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "CPU флагове"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "Уязвимости на процесора"
+# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
 msgid "Advanced Information"
 msgstr "Разширена информация"
@@ -38,6 +122,55 @@ msgstr "Разширена информация"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Не са намерени графични устройства."
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Монитори"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Сървър за показване"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1306
+#: NEEDS WORK
+msgid "OpenGL"
+msgstr "OpenGL"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Устройство"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1338
+#: NEEDS WORK
+msgid "Vulkan"
+msgstr "Вулкан"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1360
+#: NEEDS WORK
+msgid "EGL"
+msgstr "ЕГЛ"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "Използване на паметта"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Общо:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1415
+#: NEEDS WORK
+msgid "General Information"
+msgstr "Обща информация"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
 msgid "Memory Modules"
@@ -47,9 +180,22 @@ msgstr "Модули памет"
 msgid "No storage drives found"
 msgstr "Не са намерени устройства за съхранение."
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Обща памет:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Устройства за съхранение"
+# 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
 msgid "Disk Partitions"
 msgstr "Дискови дялове"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1653
+#: NEEDS WORK
+msgid "Mounted on:"
+msgstr "Монтирано на:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -62,6 +208,11 @@ msgstr "Не са намерени аудио устройства."
 msgid "No network interfaces found"
 msgstr "Не са намерени мрежови интерфейси."
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 1905
+#: NEEDS WORK
+msgid "Virtual Networks"
+msgstr "Виртуални мрежи"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1972
@@ -73,6 +224,15 @@ msgstr "Не е открита батерия (десктоп система)"
 msgid "No Bluetooth devices found"
 msgstr "Не са намерени Bluetooth устройства."
 # 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "Свързани устройства"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB хъбове и контролери"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2110
@@ -81,9 +241,24 @@ msgstr "Не са намерени Bluetooth устройства."
 msgid "No USB devices found"
 msgstr "Не са намерени USB устройства"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 2187
+#: NEEDS WORK
+msgid "USB Hubs"
+msgstr "USB хъбове"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2215
 msgid "No PCI devices found"
 msgstr "Не са намерени PCI устройства"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 2297
+#: NEEDS WORK
+msgid "System Controllers & Bridges"
+msgstr "Системни контролери и мостове"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 2297
+#: NEEDS WORK
+msgid "devices"
+msgstr "устройства"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2334
 msgid "No webcams found"
@@ -93,12 +268,33 @@ msgstr "Не са намерени уебкамери"
 msgid "No printers configured"
 msgstr "Няма конфигурирани принтери"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 2483
+#: NEEDS WORK
+msgid "Printer Status"
+msgstr "Статус на принтера"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "Детайли на принтера"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2479
 # File: big-hardware-info/src/app/ui/sections.py, line: 359
 msgid "No sensors detected"
 msgstr "Не са открити сензори"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Температури на системата"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Скорости на вентилатора"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Подробни данни за сензорите (сензори)"
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
 msgid "Package Repositories"
@@ -140,24 +336,6 @@ msgstr "journalctl (грешки)"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2675
 msgid "No additional information available"
 msgstr "Няма налична допълнителна информация."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "Общ преглед на използването"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "Информация за системата"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 243
 msgid "No battery detected"
@@ -405,19 +583,6 @@ msgstr "Максимални FPS"
 msgid "Driver Version"
 msgstr "Версия на драйвера"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "Устройство"
-# 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 34
 msgid "Share Report Online"
 msgstr "Споделете доклада онлайн"
@@ -571,10 +736,6 @@ msgstr "Ядрен модул"
 msgid "System Controllers & Bridges ({count} devices)"
 msgstr "Системни контролери и мостове ({count} устройства)"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "Детайли на принтера"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
 msgid "Configure printers in System Settings"
 msgstr "Конфигурирайте принтери в Настройки на системата"
@@ -683,17 +844,9 @@ msgstr "Сподели онлайн"
 msgid "Upload your hardware report to get a shareable link for forums or support tickets."
 msgstr "Качете отчета за хардуера си, за да получите споделима връзка за форуми или поддръжка на билети."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
-msgid "Memory RAM:"
-msgstr "Памет RAM:"
-# 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 299
 msgid "Used"
 msgstr "Използвано"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
-msgid "Root Partition:"
-msgstr "Коренен дял:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -771,18 +924,6 @@ msgstr "Ядро:"
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
 msgstr "Няма налични данни от сензора"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "Температури на системата"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "Скорости на вентилатора"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "Подробни данни за сензорите (сензори)"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -880,10 +1021,6 @@ msgstr "Най-важни процеси"
 msgid "CPU Usage"
 msgstr "Използване на ЦПУ"
 # 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
-msgid "Memory Usage"
-msgstr "Използване на паметта"
-# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
 msgid "Packages & Repositories"
 msgstr "Пакети и хранилища"
@@ -921,11 +1058,6 @@ msgstr "Минимално напрежение"
 msgid "Serial"
 msgstr "Сериен"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
-msgid "Connected Devices"
-msgstr "Свързани устройства"
-# 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
 msgid "Class"
 msgstr "Клас"
@@ -951,10 +1083,6 @@ msgstr "Идентификатор на устройството"
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
 msgid "Bus"
 msgstr "Автобус"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "USB хъбове и контролери"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
@@ -1008,6 +1136,11 @@ msgstr "Достъпът на администратора е недостъпе
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
 msgid "The pkexec command is not available on this system."
 msgstr "Командата pkexec не е налична в тази система."
+# 
+# File: src/big_hardware_info/ui/main_window.py, line: 395
+#: NEEDS WORK
+msgid "OK"
+msgstr "Добре"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
@@ -1103,6 +1236,11 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Презареди като администратор"
 # 
+# File: src/big_hardware_info/ui/search.py, line: 64
+#: NEEDS WORK
+msgid "Search Results for"
+msgstr "Резултати от търсенето за"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
 msgstr "Процесор"
@@ -1138,6 +1276,11 @@ msgstr "PCI устройства"
 msgid "USB Devices"
 msgstr "USB устройства"
 # 
+# File: src/big_hardware_info/ui/search.py, line: 168
+#: NEEDS WORK
+msgid "System Memory"
+msgstr "Системна памет"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 191
 msgid "Slot"
 msgstr "Слот"
@@ -1166,23 +1309,6 @@ msgstr "Опитайте с различен термин за търсене."
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
 msgstr "Няма налична информация за диска"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Обща памет:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Използвано:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "Устройства за съхранение"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
@@ -1256,10 +1382,6 @@ msgstr "Активни портове"
 msgid "Empty Ports"
 msgstr "Празни портове"
 # 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "Монитори"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
 msgid "Monitor"
 msgstr "Монитор"
@@ -1299,10 +1421,6 @@ msgstr "Минимална резолюция"
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
 msgid "Mapped"
 msgstr "Картографирано"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "Сървър за показване"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
 msgid "Display"
@@ -1500,10 +1618,6 @@ msgstr "Устройство:"
 msgid "=== Memory ==="
 msgstr "=== Памет ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "Общо:"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
 msgid "Usage:"
 msgstr "Използване:"
@@ -1548,10 +1662,6 @@ msgstr "Създадено"
 msgid "Scaling"
 msgstr "Мащабиране"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
-msgid "Cache"
-msgstr "Кеш"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
 msgid "Family"
 msgstr "Семейство"
@@ -1571,26 +1681,6 @@ msgstr "Микрокод"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
 msgid "Bogomips"
 msgstr "Богомипс"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
-msgid "Technical Details"
-msgstr "Технически детайли"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "Скорости на нишките"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "Нишка"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "CPU флагове"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "Уязвимости на процесора"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="

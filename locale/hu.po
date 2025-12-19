@@ -31,6 +31,90 @@ msgstr "Generált:"
 msgid "Visit BigLinux website"
 msgstr "Látogasson el a BigLinux weboldalára"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 71
+#: NEEDS WORK
+msgid "Hardware Report for"
+msgstr "Hardver Jelentés a"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 83
+#: NEEDS WORK
+msgid "Main Navigation"
+msgstr "Fő navigáció"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 745
+#: NEEDS WORK
+msgid "Go to"
+msgstr "Ugrás ide"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Használati áttekintés"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "RAM memória:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Használva:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "Gyökérpartíció:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 931
+#: NEEDS WORK
+msgid "Size:"
+msgstr "Méret:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 933
+#: NEEDS WORK
+msgid "Free:"
+msgstr "Ingyenes:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Rendszerinformáció"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
+msgid "Cache"
+msgstr "Gyorsítótár"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
+msgid "Technical Details"
+msgstr "Műszaki részletek"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Szál"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "Szálsebességek"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "CPU zászlók"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "CPU sebezhetőségek"
+# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
 msgid "Advanced Information"
 msgstr "Fejlett információ"
@@ -38,6 +122,55 @@ msgstr "Fejlett információ"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Nincs grafikus eszköz található"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Képernyők"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Kijelzőkiszolgáló"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1306
+#: NEEDS WORK
+msgid "OpenGL"
+msgstr "OpenGL"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Eszköz"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1338
+#: NEEDS WORK
+msgid "Vulkan"
+msgstr "Vulkan"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1360
+#: NEEDS WORK
+msgid "EGL"
+msgstr "EGL"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "Memóriahasználat"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Összesen:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1415
+#: NEEDS WORK
+msgid "General Information"
+msgstr "Általános információk"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
 msgid "Memory Modules"
@@ -47,9 +180,22 @@ msgstr "Memória modulok"
 msgid "No storage drives found"
 msgstr "Nincs tárolómeghajtó található"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Összes tárolás:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Tárolóeszközök"
+# 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
 msgid "Disk Partitions"
 msgstr "Lemezpartíciók"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1653
+#: NEEDS WORK
+msgid "Mounted on:"
+msgstr "Felszerelve:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -62,6 +208,11 @@ msgstr "Nincs audioeszköz található"
 msgid "No network interfaces found"
 msgstr "Nincs hálózati interfész található"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 1905
+#: NEEDS WORK
+msgid "Virtual Networks"
+msgstr "Virtuális Hálózatok"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1972
@@ -73,6 +224,15 @@ msgstr "Nincs akkumulátor észlelve (Asztali rendszer)"
 msgid "No Bluetooth devices found"
 msgstr "Nincs Bluetooth-eszköz található"
 # 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "Csatlakoztatott eszközök"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB elosztók és vezérlők"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2110
@@ -81,9 +241,24 @@ msgstr "Nincs Bluetooth-eszköz található"
 msgid "No USB devices found"
 msgstr "Nincs USB-eszköz található"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 2187
+#: NEEDS WORK
+msgid "USB Hubs"
+msgstr "USB hubok"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2215
 msgid "No PCI devices found"
 msgstr "Nincs PCI eszköz találva"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 2297
+#: NEEDS WORK
+msgid "System Controllers & Bridges"
+msgstr "Rendszervezérlők és Hidak"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 2297
+#: NEEDS WORK
+msgid "devices"
+msgstr "eszközök"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2334
 msgid "No webcams found"
@@ -93,12 +268,33 @@ msgstr "Nincs található webkamera."
 msgid "No printers configured"
 msgstr "Nincsenek konfigurálva nyomtatók"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 2483
+#: NEEDS WORK
+msgid "Printer Status"
+msgstr "Nyomtató állapot"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "Nyomtató részletei"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2479
 # File: big-hardware-info/src/app/ui/sections.py, line: 359
 msgid "No sensors detected"
 msgstr "Nincsenek érzékelők észlelve"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Rendszerhőmérsékletek"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Ventilátor sebességek"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Részletes érzékelő adatok (érzékelők)"
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
 msgid "Package Repositories"
@@ -140,24 +336,6 @@ msgstr "journalctl (hibák)"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2675
 msgid "No additional information available"
 msgstr "Nincs további információ elérhető."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "Használati áttekintés"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "Rendszerinformáció"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 243
 msgid "No battery detected"
@@ -405,19 +583,6 @@ msgstr "Max FPS"
 msgid "Driver Version"
 msgstr "Illesztőprogram verzió"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "Eszköz"
-# 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 34
 msgid "Share Report Online"
 msgstr "Jelentés megosztása online"
@@ -571,10 +736,6 @@ msgstr "Kernel modul"
 msgid "System Controllers & Bridges ({count} devices)"
 msgstr "Rendszergazdák és Hidak ({count} eszköz)"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "Nyomtató részletei"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
 msgid "Configure printers in System Settings"
 msgstr "Nyomtatók konfigurálása a Rendszerbeállításokban"
@@ -683,17 +844,9 @@ msgstr "Megosztás online"
 msgid "Upload your hardware report to get a shareable link for forums or support tickets."
 msgstr "Töltsd fel a hardverjelentésedet, hogy megosztható linket kapj fórumokhoz vagy támogatási jegyekhez."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
-msgid "Memory RAM:"
-msgstr "RAM memória:"
-# 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 299
 msgid "Used"
 msgstr "Használt"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
-msgid "Root Partition:"
-msgstr "Gyökérpartíció:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -771,18 +924,6 @@ msgstr "Kernel:"
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
 msgstr "Nincs elérhető érzékelőadat."
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "Rendszerhőmérsékletek"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "Ventilátor sebességek"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "Részletes érzékelő adatok (érzékelők)"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -880,10 +1021,6 @@ msgstr "Legfontosabb folyamatok"
 msgid "CPU Usage"
 msgstr "CPU kihasználtság"
 # 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
-msgid "Memory Usage"
-msgstr "Memóriahasználat"
-# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
 msgid "Packages & Repositories"
 msgstr "Csomagok és Tárolók"
@@ -921,11 +1058,6 @@ msgstr "Min feszültség"
 msgid "Serial"
 msgstr "Sorozatszám"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
-msgid "Connected Devices"
-msgstr "Csatlakoztatott eszközök"
-# 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
 msgid "Class"
 msgstr "Osztály"
@@ -951,10 +1083,6 @@ msgstr "Eszközazonosító"
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
 msgid "Bus"
 msgstr "Busz"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "USB elosztók és vezérlők"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
@@ -1119,6 +1247,11 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Újratöltés rendszergazdaként"
 # 
+# File: src/big_hardware_info/ui/search.py, line: 64
+#: NEEDS WORK
+msgid "Search Results for"
+msgstr "Keresési eredmények a(z)"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
 msgstr "Processzor"
@@ -1154,6 +1287,11 @@ msgstr "PCI Eszközök"
 msgid "USB Devices"
 msgstr "USB eszközök"
 # 
+# File: src/big_hardware_info/ui/search.py, line: 168
+#: NEEDS WORK
+msgid "System Memory"
+msgstr "Rendszer memória"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 191
 msgid "Slot"
 msgstr "Slot"
@@ -1182,23 +1320,6 @@ msgstr "Próbálj meg egy másik keresési kifejezést."
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
 msgstr "Nincs lemezinformáció elérhető"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Összes tárolás:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Használva:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "Tárolóeszközök"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
@@ -1272,10 +1393,6 @@ msgstr "Aktív portok"
 msgid "Empty Ports"
 msgstr "Üres portok"
 # 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "Képernyők"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
 msgid "Monitor"
 msgstr "Képernyő"
@@ -1315,10 +1432,6 @@ msgstr "Minimális felbontás"
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
 msgid "Mapped"
 msgstr "Térképezve"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "Kijelzőkiszolgáló"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
 msgid "Display"
@@ -1516,10 +1629,6 @@ msgstr "Eszköz:"
 msgid "=== Memory ==="
 msgstr "=== Memória ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "Összesen:"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
 msgid "Usage:"
 msgstr "Használat:"
@@ -1564,10 +1673,6 @@ msgstr "Épített"
 msgid "Scaling"
 msgstr "Skálázás"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
-msgid "Cache"
-msgstr "Gyorsítótár"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
 msgid "Family"
 msgstr "Család"
@@ -1587,26 +1692,6 @@ msgstr "Mikrokód"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
 msgid "Bogomips"
 msgstr "Bogomips"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
-msgid "Technical Details"
-msgstr "Műszaki részletek"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "Szálsebességek"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "Szál"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "CPU zászlók"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "CPU sebezhetőségek"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="
