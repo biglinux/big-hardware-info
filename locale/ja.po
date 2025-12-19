@@ -31,90 +31,6 @@ msgstr "生成された:"
 msgid "Visit BigLinux website"
 msgstr "BigLinuxのウェブサイトを訪問してください。"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 71
-#: NEEDS WORK
-msgid "Hardware Report for"
-msgstr "ハードウェアレポートのための"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 83
-#: NEEDS WORK
-msgid "Main Navigation"
-msgstr "メインナビゲーション"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 745
-#: NEEDS WORK
-msgid "Go to"
-msgstr "移動する"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "使用概要"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
-msgid "Memory RAM:"
-msgstr "メモリRAM:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "使用済み:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
-msgid "Root Partition:"
-msgstr "ルートパーティション:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 931
-#: NEEDS WORK
-msgid "Size:"
-msgstr "サイズ:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 933
-#: NEEDS WORK
-msgid "Free:"
-msgstr "無料:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "システム情報"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
-msgid "Cache"
-msgstr "キャッシュ"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
-msgid "Technical Details"
-msgstr "技術的詳細情報"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "スレッド"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "スレッド速度"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "CPUフラグ"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "CPUの脆弱性"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
 msgid "Advanced Information"
 msgstr "高度な情報"
@@ -122,55 +38,6 @@ msgstr "高度な情報"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "グラフィックデバイスが見つかりませんでした。"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "モニター"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "ディスプレイサーバー"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1306
-#: NEEDS WORK
-msgid "OpenGL"
-msgstr "オープンGL"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "デバイス"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1338
-#: NEEDS WORK
-msgid "Vulkan"
-msgstr "バルカン"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1360
-#: NEEDS WORK
-msgid "EGL"
-msgstr "EGL"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
-msgid "Memory Usage"
-msgstr "メモリ使用量"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "合計:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1415
-#: NEEDS WORK
-msgid "General Information"
-msgstr "一般情報"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
 msgid "Memory Modules"
@@ -180,22 +47,9 @@ msgstr "メモリモジュール"
 msgid "No storage drives found"
 msgstr "ストレージドライブが見つかりませんでした。"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "合計ストレージ:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "ストレージデバイス"
-# 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
 msgid "Disk Partitions"
 msgstr "ディスクパーティション"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1653
-#: NEEDS WORK
-msgid "Mounted on:"
-msgstr "マウント先："
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -208,11 +62,6 @@ msgstr "オーディオデバイスが見つかりませんでした。"
 msgid "No network interfaces found"
 msgstr "ネットワークインターフェイスが見つかりませんでした"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 1905
-#: NEEDS WORK
-msgid "Virtual Networks"
-msgstr "仮想ネットワーク"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1972
@@ -224,15 +73,6 @@ msgstr "バッテリーが検出されません（デスクトップシステム
 msgid "No Bluetooth devices found"
 msgstr "Bluetoothデバイスが見つかりませんでした。"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
-msgid "Connected Devices"
-msgstr "接続されたデバイス"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "USBハブとコントローラー"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2110
@@ -241,24 +81,9 @@ msgstr "USBハブとコントローラー"
 msgid "No USB devices found"
 msgstr "USBデバイスが見つかりませんでした。"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 2187
-#: NEEDS WORK
-msgid "USB Hubs"
-msgstr "USBハブ"
-# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2215
 msgid "No PCI devices found"
 msgstr "PCIデバイスが見つかりませんでした。"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 2297
-#: NEEDS WORK
-msgid "System Controllers & Bridges"
-msgstr "システムコントローラーとブリッジ"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 2297
-#: NEEDS WORK
-msgid "devices"
-msgstr "デバイス"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2334
 msgid "No webcams found"
@@ -268,33 +93,12 @@ msgstr "ウェブカメラが見つかりませんでした。"
 msgid "No printers configured"
 msgstr "プリンターが設定されていません"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 2483
-#: NEEDS WORK
-msgid "Printer Status"
-msgstr "プリンタの状態"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "プリンタの詳細"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2479
 # File: big-hardware-info/src/app/ui/sections.py, line: 359
 msgid "No sensors detected"
 msgstr "センサーが検出されませんでした"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "システム温度"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "ファン速度"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "詳細センサーデータ（センサー）"
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
 msgid "Package Repositories"
@@ -336,6 +140,24 @@ msgstr "journalctl（エラー）"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2675
 msgid "No additional information available"
 msgstr "追加情報はありません。"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "使用概要"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "システム情報"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 243
 msgid "No battery detected"
@@ -583,6 +405,19 @@ msgstr "最大FPS"
 msgid "Driver Version"
 msgstr "ドライバーバージョン"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "デバイス"
+# 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 34
 msgid "Share Report Online"
 msgstr "オンラインでレポートを共有"
@@ -734,6 +569,10 @@ msgstr "カーネルモジュール"
 msgid "System Controllers & Bridges ({count} devices)"
 msgstr "システムコントローラーとブリッジ（{count} デバイス）"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "プリンタの詳細"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
 msgid "Configure printers in System Settings"
 msgstr "システム設定でプリンターを構成する"
@@ -840,9 +679,17 @@ msgstr "オンライン共有"
 msgid "Upload your hardware report to get a shareable link for forums or support tickets."
 msgstr "ハードウェアレポートをアップロードして、フォーラムやサポートチケット用の共有リンクを取得してください。"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "メモリRAM:"
+# 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 299
 msgid "Used"
 msgstr "使用済み"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "ルートパーティション:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -920,6 +767,18 @@ msgstr "カーネル:"
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
 msgstr "センサーデータは利用できません。"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "システム温度"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "ファン速度"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "詳細センサーデータ（センサー）"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1017,6 +876,10 @@ msgstr "トッププロセス"
 msgid "CPU Usage"
 msgstr "CPU使用率"
 # 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "メモリ使用量"
+# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
 msgid "Packages & Repositories"
 msgstr "パッケージとリポジトリ"
@@ -1054,6 +917,11 @@ msgstr "最小電圧"
 msgid "Serial"
 msgstr "シリアル"
 # 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "接続されたデバイス"
+# 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
 msgid "Class"
 msgstr "クラス"
@@ -1079,6 +947,10 @@ msgstr "デバイスID"
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
 msgid "Bus"
 msgstr "バス"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USBハブとコントローラー"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
@@ -1134,7 +1006,6 @@ msgid "The pkexec command is not available on this system."
 msgstr "このシステムにはpkexecコマンドがありません。"
 # 
 # File: src/big_hardware_info/ui/main_window.py, line: 395
-#: NEEDS WORK
 msgid "OK"
 msgstr "OK"
 # 
@@ -1193,7 +1064,6 @@ msgstr "行がさらに隠されています"
 # 
 # File: src/big_hardware_info/ui/main_window.py, line: 1106
 # File: src/big_hardware_info/ui/main_window.py, line: 1133
-#: NEEDS WORK
 msgid "Show all"
 msgstr "すべて表示"
 # 
@@ -1275,11 +1145,6 @@ msgstr "一部のハードウェア情報にアクセスするには管理者権
 msgid "Reload as Admin"
 msgstr "管理者として再読み込み"
 # 
-# File: src/big_hardware_info/ui/search.py, line: 64
-#: NEEDS WORK
-msgid "Search Results for"
-msgstr "検索結果 для"
-# 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
 msgstr "プロセッサ"
@@ -1315,11 +1180,6 @@ msgstr "PCIデバイス"
 msgid "USB Devices"
 msgstr "USBデバイス"
 # 
-# File: src/big_hardware_info/ui/search.py, line: 168
-#: NEEDS WORK
-msgid "System Memory"
-msgstr "システムメモリ"
-# 
 # File: big-hardware-info/src/app/ui/search.py, line: 191
 msgid "Slot"
 msgstr "スロット"
@@ -1348,6 +1208,23 @@ msgstr "別の検索語を試してください。"
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
 msgstr "ディスク情報は利用できません。"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "合計ストレージ:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "使用済み:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "ストレージデバイス"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
@@ -1421,6 +1298,10 @@ msgstr "アクティブポート"
 msgid "Empty Ports"
 msgstr "空のポート"
 # 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "モニター"
+# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
 msgid "Monitor"
 msgstr "モニター"
@@ -1460,6 +1341,10 @@ msgstr "最小解像度"
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
 msgid "Mapped"
 msgstr "マッピング済み"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "ディスプレイサーバー"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
 msgid "Display"
@@ -1657,6 +1542,10 @@ msgstr "デバイス:"
 msgid "=== Memory ==="
 msgstr "=== メモリ ==="
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "合計:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
 msgid "Usage:"
 msgstr "使用法："
@@ -1701,6 +1590,10 @@ msgstr "構築済み"
 msgid "Scaling"
 msgstr "スケーリング"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
+msgid "Cache"
+msgstr "キャッシュ"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
 msgid "Family"
 msgstr "家族"
@@ -1720,6 +1613,26 @@ msgstr "マイクロコード"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
 msgid "Bogomips"
 msgstr "ボゴミップス"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
+msgid "Technical Details"
+msgstr "技術的詳細情報"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "スレッド速度"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "スレッド"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "CPUフラグ"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "CPUの脆弱性"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="
