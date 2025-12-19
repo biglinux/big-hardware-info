@@ -1052,6 +1052,12 @@ msgstr "több sor rejtve"
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/main_window.py, line: 1110

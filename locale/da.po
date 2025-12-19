@@ -1260,6 +1260,10 @@ msgid "The pkexec command is not available on this system."
 msgstr "pkexec-kommandoet er ikke tilgængeligt på dette system."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+msgid "OK"
+msgstr "OK"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
@@ -1278,6 +1282,10 @@ msgstr "Ingen data at kopiere"
 # File: big-hardware-info/src/app/ui/main_window.py, line: 903
 msgid "Data copied to clipboard"
 msgstr "Data kopieret til udklipsholder"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "Kopieret:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
 # 

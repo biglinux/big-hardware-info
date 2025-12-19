@@ -1015,6 +1015,10 @@ msgstr "Η εντολή pkexec δεν είναι διαθέσιμη σε αυτ�
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
 msgstr "Άνοιγμα στον περιηγητή..."
@@ -1051,6 +1055,14 @@ msgstr "Αντιγραφή περιεχομένου στο πρόχειρο"
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
 msgid "more lines hidden"
 msgstr "περισσότερες γραμμές κρυφές"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+msgid "Show all"
+msgstr "Δείξε όλα"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133

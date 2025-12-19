@@ -1038,6 +1038,10 @@ msgstr "pkexec-kommandoet er ikke tilgjengelig på dette systemet."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
 msgstr "Åpner i nettleser..."
@@ -1053,6 +1057,12 @@ msgstr "Ingen data å kopiere"
 # File: big-hardware-info/src/app/ui/main_window.py, line: 903
 msgid "Data copied to clipboard"
 msgstr "Data kopiert til utklippstavlen"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "Kopiert:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
 # 
@@ -1078,6 +1088,12 @@ msgstr "Kopier innhold til utklippstavle"
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
 msgid "more lines hidden"
 msgstr "flere linjer skjult"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133

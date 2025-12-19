@@ -364,6 +364,60 @@ msgstr "Driver"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 336
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 542
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/bluetooth.py, line: 58
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 110
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 234
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/webcams.py, line: 80
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 106
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 180
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 267
+# File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 119
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 153
+# File: big-hardware-info/src/big_hardware_info/ui/views/audio.py, line: 135
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 336
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 542
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/bluetooth.py, line: 58
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 110
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 234
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/webcams.py, line: 80
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 106
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 180
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 267
+# File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 119
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 153
+# File: big-hardware-info/src/big_hardware_info/ui/views/audio.py, line: 135
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
@@ -1362,6 +1416,10 @@ msgstr "Acesso de Administrador Indisponível"
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
 msgid "The pkexec command is not available on this system."
 msgstr "O comando pkexec não está disponível neste sistema."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
