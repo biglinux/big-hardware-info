@@ -8,7 +8,7 @@
 A modern GTK4/Adwaita application for viewing and sharing comprehensive hardware information on Linux systems. Built with a focus on usability, accessibility, and modern design principles.
 
 **Version 2.0.0** - Complete rewrite with modern GTK4/Adwaita interface.
- 
+
 ## ✨ Features
 
 ### 🖥️ Comprehensive Hardware Detection
