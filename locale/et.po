@@ -1054,6 +1054,10 @@ msgstr "pkexec käsku ei ole sellel süsteemil saadaval."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
 msgstr "Ava brauseris..."
@@ -1069,6 +1073,10 @@ msgstr "Ei andmeid kopeerimiseks."
 # File: big-hardware-info/src/app/ui/main_window.py, line: 903
 msgid "Data copied to clipboard"
 msgstr "Andmed on kopeeritud lõikelauale."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "Kopeeritud:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
 # 
