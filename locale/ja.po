@@ -1021,6 +1021,10 @@ msgstr "このシステムにはpkexecコマンドがありません。"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
 msgstr "ブラウザで開いています..."
@@ -1057,6 +1061,12 @@ msgstr "クリップボードに内容をコピー"
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
 msgid "more lines hidden"
 msgstr "行がさらに隠されています"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1106
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133

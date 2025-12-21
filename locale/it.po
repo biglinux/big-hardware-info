@@ -1025,6 +1025,10 @@ msgstr "Il comando pkexec non è disponibile su questo sistema."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
 msgstr "Apertura nel browser..."
@@ -1040,6 +1044,10 @@ msgstr "Nessun dato da copiare"
 # File: big-hardware-info/src/app/ui/main_window.py, line: 903
 msgid "Data copied to clipboard"
 msgstr "Dati copiati negli appunti"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
 # 
