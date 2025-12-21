@@ -10,7 +10,7 @@ A modern GTK4/Adwaita application for viewing and sharing comprehensive hardware
 **Version 2.0.0** - Complete rewrite with modern GTK4/Adwaita interface.
 
 ## ✨ Features
-
+ 
 ### 🖥️ Comprehensive Hardware Detection
 - **CPU** - Model, cores, threads, cache sizes, clock speeds, virtualization support
 - **GPU** - Discrete and integrated graphics, driver info, OpenGL/Vulkan support
