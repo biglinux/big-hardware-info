@@ -31,90 +31,6 @@ msgstr "Generirano:"
 msgid "Visit BigLinux website"
 msgstr "Posjetite BigLinux web stranicu"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 71
-#: NEEDS WORK
-msgid "Hardware Report for"
-msgstr "Izvještaj o hardveru za"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 83
-#: NEEDS WORK
-msgid "Main Navigation"
-msgstr "Glavna navigacija"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 745
-#: NEEDS WORK
-msgid "Go to"
-msgstr "Idi na"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "Pregled korištenja"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
-msgid "Memory RAM:"
-msgstr "Memorija RAM:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Korišteno:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
-msgid "Root Partition:"
-msgstr "Root particija:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 931
-#: NEEDS WORK
-msgid "Size:"
-msgstr "Veličina:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 933
-#: NEEDS WORK
-msgid "Free:"
-msgstr "Besplatno:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "Informacije o sustavu"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
-msgid "Cache"
-msgstr "Predmemorija"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
-msgid "Technical Details"
-msgstr "Tehnički detalji"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "Nit"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "Brzina niti"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "CPU zastavice"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "CPU ranjivosti"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
 msgid "Advanced Information"
 msgstr "Napredne informacije"
@@ -122,55 +38,6 @@ msgstr "Napredne informacije"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Nema pronađenih grafičkih uređaja"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "Monitori"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "Poslužitelj za prikazivanje"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1306
-#: NEEDS WORK
-msgid "OpenGL"
-msgstr "OpenGL"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "Uređaj"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1338
-#: NEEDS WORK
-msgid "Vulkan"
-msgstr "Vulkan"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1360
-#: NEEDS WORK
-msgid "EGL"
-msgstr "EGL"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
-msgid "Memory Usage"
-msgstr "Korištenje memorije"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "Ukupno:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1415
-#: NEEDS WORK
-msgid "General Information"
-msgstr "Opće informacije"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
 msgid "Memory Modules"
@@ -180,22 +47,9 @@ msgstr "Memorijski moduli"
 msgid "No storage drives found"
 msgstr "Nema pronađenih skladišnih uređaja"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Ukupno pohrane:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "Uređaji za pohranu"
-# 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
 msgid "Disk Partitions"
 msgstr "Disk particije"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1653
-#: NEEDS WORK
-msgid "Mounted on:"
-msgstr "Montirano na:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -208,11 +62,6 @@ msgstr "Nema audio uređaja."
 msgid "No network interfaces found"
 msgstr "Nema pronađenih mrežnih sučelja"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 1905
-#: NEEDS WORK
-msgid "Virtual Networks"
-msgstr "Virtualne mreže"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1972
@@ -224,15 +73,6 @@ msgstr "Nema otkrivene baterije (Desktop sustav)"
 msgid "No Bluetooth devices found"
 msgstr "Nema pronađenih Bluetooth uređaja"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
-msgid "Connected Devices"
-msgstr "Povezani uređaji"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "USB hubovi i kontroleri"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2110
@@ -241,24 +81,9 @@ msgstr "USB hubovi i kontroleri"
 msgid "No USB devices found"
 msgstr "Nema pronađenih USB uređaja"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 2187
-#: NEEDS WORK
-msgid "USB Hubs"
-msgstr "USB hubovi"
-# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2215
 msgid "No PCI devices found"
 msgstr "Nema PCI uređaja pronađenih"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 2297
-#: NEEDS WORK
-msgid "System Controllers & Bridges"
-msgstr "Sustavi kontrolera i mostova"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 2297
-#: NEEDS WORK
-msgid "devices"
-msgstr "uređaji"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2334
 msgid "No webcams found"
@@ -268,33 +93,12 @@ msgstr "Nema pronađenih web kamera"
 msgid "No printers configured"
 msgstr "Nema konfiguriranih pisača"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 2483
-#: NEEDS WORK
-msgid "Printer Status"
-msgstr "Status pisača"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "Detalji pisača"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2479
 # File: big-hardware-info/src/app/ui/sections.py, line: 359
 msgid "No sensors detected"
 msgstr "Nema senzora."
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "Temperatura sustava"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "Brzine ventilatora"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "Detaljni podaci senzora (senzori)"
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
 msgid "Package Repositories"
@@ -336,6 +140,24 @@ msgstr "journalctl (pogreške)"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2675
 msgid "No additional information available"
 msgstr "Nema dodatnih informacija dostupnih"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Pregled korištenja"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Informacije o sustavu"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 243
 msgid "No battery detected"
@@ -583,6 +405,19 @@ msgstr "Maksimalni FPS"
 msgid "Driver Version"
 msgstr "Verzija upravljačkog programa"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Uređaj"
+# 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 34
 msgid "Share Report Online"
 msgstr "Dijelite izvješće online"
@@ -736,6 +571,10 @@ msgstr "Kernel modul"
 msgid "System Controllers & Bridges ({count} devices)"
 msgstr "Sustavi kontrolera i mostova ({count} uređaja)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "Detalji pisača"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
 msgid "Configure printers in System Settings"
 msgstr "Konfigurirajte pisače u Postavkama sustava"
@@ -844,9 +683,17 @@ msgstr ""
 "Otpremite svoj izvještaj o hardveru kako biste dobili poveznicu koja se može dijeliti za forume ili "
 "podršku."
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "Memorija RAM:"
+# 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 299
 msgid "Used"
 msgstr "Korišteno"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "Root particija:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -924,6 +771,18 @@ msgstr "Jezgra:"
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
 msgstr "Nema dostupnih podataka senzora"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Temperatura sustava"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Brzine ventilatora"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Detaljni podaci senzora (senzori)"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1021,6 +880,10 @@ msgstr "Najvažniji procesi"
 msgid "CPU Usage"
 msgstr "Korištenje CPU-a"
 # 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "Korištenje memorije"
+# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
 msgid "Packages & Repositories"
 msgstr "Paketi i repozitoriji"
@@ -1058,6 +921,11 @@ msgstr "Min Napon"
 msgid "Serial"
 msgstr "Serijski"
 # 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "Povezani uređaji"
+# 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
 msgid "Class"
 msgstr "Klasa"
@@ -1083,6 +951,10 @@ msgstr "ID uređaja"
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
 msgid "Bus"
 msgstr "Autobus"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB hubovi i kontroleri"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
@@ -1215,11 +1087,6 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Ponovno učitaj kao administrator"
 # 
-# File: src/big_hardware_info/ui/search.py, line: 64
-#: NEEDS WORK
-msgid "Search Results for"
-msgstr "Rezultati pretraživanja za"
-# 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
 msgstr "Procesor"
@@ -1255,11 +1122,6 @@ msgstr "PCI uređaji"
 msgid "USB Devices"
 msgstr "USB uređaji"
 # 
-# File: src/big_hardware_info/ui/search.py, line: 168
-#: NEEDS WORK
-msgid "System Memory"
-msgstr "Sustavna memorija"
-# 
 # File: big-hardware-info/src/app/ui/search.py, line: 191
 msgid "Slot"
 msgstr "Slot"
@@ -1288,6 +1150,23 @@ msgstr "Pokušajte s drugim pojmom za pretraživanje."
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
 msgstr "Nema dostupnih informacija o disku"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Ukupno pohrane:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Korišteno:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Uređaji za pohranu"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
@@ -1361,6 +1240,10 @@ msgstr "Aktivni portovi"
 msgid "Empty Ports"
 msgstr "Prazna vrata"
 # 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Monitori"
+# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
 msgid "Monitor"
 msgstr "Monitor"
@@ -1400,6 +1283,10 @@ msgstr "Minimalna razlučivost"
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
 msgid "Mapped"
 msgstr "Mapirano"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Poslužitelj za prikazivanje"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
 msgid "Display"
@@ -1597,6 +1484,10 @@ msgstr "Uređaj:"
 msgid "=== Memory ==="
 msgstr "=== Memorija ==="
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Ukupno:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
 msgid "Usage:"
 msgstr "Korištenje:"
@@ -1641,6 +1532,10 @@ msgstr "Izgrađeno"
 msgid "Scaling"
 msgstr "Skaliranje"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
+msgid "Cache"
+msgstr "Predmemorija"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
 msgid "Family"
 msgstr "Obitelj"
@@ -1660,6 +1555,26 @@ msgstr "Mikrokod"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
 msgid "Bogomips"
 msgstr "Bogomips"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
+msgid "Technical Details"
+msgstr "Tehnički detalji"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "Brzina niti"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Nit"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "CPU zastavice"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "CPU ranjivosti"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="

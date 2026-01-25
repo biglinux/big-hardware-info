@@ -31,90 +31,6 @@ msgstr "Δημιουργήθηκε:"
 msgid "Visit BigLinux website"
 msgstr "Επισκεφθείτε την ιστοσελίδα του BigLinux"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 71
-#: NEEDS WORK
-msgid "Hardware Report for"
-msgstr "Αναφορά Υλικού για"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 83
-#: NEEDS WORK
-msgid "Main Navigation"
-msgstr "Κύρια Πλοήγηση"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 745
-#: NEEDS WORK
-msgid "Go to"
-msgstr "Μετάβαση σε"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "Επισκόπηση Χρήσης"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
-msgid "Memory RAM:"
-msgstr "Μνήμη RAM:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Χρησιμοποιήθηκε:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
-msgid "Root Partition:"
-msgstr "Κύρια Κατανομή:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 931
-#: NEEDS WORK
-msgid "Size:"
-msgstr "Μέγεθος:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 933
-#: NEEDS WORK
-msgid "Free:"
-msgstr "Ελεύθερο:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "Πληροφορίες Συστήματος"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
-msgid "Cache"
-msgstr "Κρυφή μνήμη"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
-msgid "Technical Details"
-msgstr "Τεχνικές Λεπτομέρειες"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "Νήμα"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "Ταχύτητες Νημάτων"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "Σημαίες CPU"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "Ευπάθειες CPU"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
 msgid "Advanced Information"
 msgstr "Προηγμένες Πληροφορίες"
@@ -122,55 +38,6 @@ msgstr "Προηγμένες Πληροφορίες"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Δεν βρέθηκαν συσκευές γραφικών"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "Οθόνες"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "Διακομιστής Εμφάνισης"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1306
-#: NEEDS WORK
-msgid "OpenGL"
-msgstr "OpenGL"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "Συσκευή"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1338
-#: NEEDS WORK
-msgid "Vulkan"
-msgstr "Βούλκαν"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1360
-#: NEEDS WORK
-msgid "EGL"
-msgstr "ΕΓΛ"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
-msgid "Memory Usage"
-msgstr "Χρήση Μνήμης"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "Σύνολο:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1415
-#: NEEDS WORK
-msgid "General Information"
-msgstr "Γενικές Πληροφορίες"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
 msgid "Memory Modules"
@@ -180,22 +47,9 @@ msgstr "Μνήμες"
 msgid "No storage drives found"
 msgstr "Δεν βρέθηκαν δίσκοι αποθήκευσης"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Συνολική Αποθήκευση:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "Συσκευές Αποθήκευσης"
-# 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
 msgid "Disk Partitions"
 msgstr "Διαμερίσματα Δίσκου"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1653
-#: NEEDS WORK
-msgid "Mounted on:"
-msgstr "Τοποθετημένο σε:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -208,11 +62,6 @@ msgstr "Δεν βρέθηκαν ηχητικές συσκευές."
 msgid "No network interfaces found"
 msgstr "Δεν βρέθηκαν διεπαφές δικτύου"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 1905
-#: NEEDS WORK
-msgid "Virtual Networks"
-msgstr "Εικονικά Δίκτυα"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1972
@@ -224,15 +73,6 @@ msgstr "Δεν ανιχνεύθηκε μπαταρία (Επιτραπέζιο �
 msgid "No Bluetooth devices found"
 msgstr "Δεν βρέθηκαν συσκευές Bluetooth"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
-msgid "Connected Devices"
-msgstr "Συνδεδεμένες Συσκευές"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "USB Κόμβοι & Ελεγκτές"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2110
@@ -241,24 +81,9 @@ msgstr "USB Κόμβοι & Ελεγκτές"
 msgid "No USB devices found"
 msgstr "Δεν βρέθηκαν συσκευές USB"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 2187
-#: NEEDS WORK
-msgid "USB Hubs"
-msgstr "USB Κόμβοι"
-# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2215
 msgid "No PCI devices found"
 msgstr "Δεν βρέθηκαν συσκευές PCI"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 2297
-#: NEEDS WORK
-msgid "System Controllers & Bridges"
-msgstr "Συστήματα Ελέγχου & Γέφυρες"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 2297
-#: NEEDS WORK
-msgid "devices"
-msgstr "συσκευές"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2334
 msgid "No webcams found"
@@ -268,33 +93,12 @@ msgstr "Δεν βρέθηκαν κάμερες."
 msgid "No printers configured"
 msgstr "Δεν έχουν ρυθμιστεί εκτυπωτές"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 2483
-#: NEEDS WORK
-msgid "Printer Status"
-msgstr "Κατάσταση Εκτυπωτή"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "Λεπτομέρειες Εκτυπωτή"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2479
 # File: big-hardware-info/src/app/ui/sections.py, line: 359
 msgid "No sensors detected"
 msgstr "Δεν ανιχνεύθηκαν αισθητήρες"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "Θερμοκρασίες Συστήματος"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "Ταχύτητες ανεμιστήρα"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "Λεπτομερή Δεδομένα Αισθητήρων (αισθητήρες)"
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
 msgid "Package Repositories"
@@ -336,6 +140,24 @@ msgstr "journalctl (σφάλματα)"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2675
 msgid "No additional information available"
 msgstr "Δεν είναι διαθέσιμες επιπλέον πληροφορίες."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Επισκόπηση Χρήσης"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Πληροφορίες Συστήματος"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 243
 msgid "No battery detected"
@@ -583,6 +405,19 @@ msgstr "Μέγιστο FPS"
 msgid "Driver Version"
 msgstr "Έκδοση οδηγού"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Συσκευή"
+# 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 34
 msgid "Share Report Online"
 msgstr "Μοιραστείτε την Αναφορά Online"
@@ -736,6 +571,10 @@ msgstr "Μονάδα Πυρήνα"
 msgid "System Controllers & Bridges ({count} devices)"
 msgstr "Συστήματα Ελέγχου & Γέφυρες ({count} συσκευές)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "Λεπτομέρειες Εκτυπωτή"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
 msgid "Configure printers in System Settings"
 msgstr "Ρυθμίστε εκτυπωτές στις Ρυθμίσεις Συστήματος"
@@ -846,9 +685,17 @@ msgstr ""
 "Ανεβάστε την αναφορά υλικού σας για να αποκτήσετε έναν μοιραστό σύνδεσμο για φόρουμ ή εισιτήρια "
 "υποστήριξης."
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "Μνήμη RAM:"
+# 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 299
 msgid "Used"
 msgstr "Χρησιμοποιήθηκε"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "Κύρια Κατανομή:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -926,6 +773,18 @@ msgstr "Πυρήνας:"
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
 msgstr "Δεν είναι διαθέσιμα δεδομένα αισθητήρα."
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Θερμοκρασίες Συστήματος"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Ταχύτητες ανεμιστήρα"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Λεπτομερή Δεδομένα Αισθητήρων (αισθητήρες)"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1023,6 +882,10 @@ msgstr "Κορυφαίες Διαδικασίες"
 msgid "CPU Usage"
 msgstr "Χρήση CPU"
 # 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "Χρήση Μνήμης"
+# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
 msgid "Packages & Repositories"
 msgstr "Πακέτα & Αποθετήρια"
@@ -1060,6 +923,11 @@ msgstr "Ελάχιστη Τάση"
 msgid "Serial"
 msgstr "Σειριακός"
 # 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "Συνδεδεμένες Συσκευές"
+# 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
 msgid "Class"
 msgstr "Κλάση"
@@ -1085,6 +953,10 @@ msgstr "Αναγνωριστικό συσκευής"
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
 msgid "Bus"
 msgstr "Λεωφορείο"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB Κόμβοι & Ελεγκτές"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
@@ -1140,7 +1012,6 @@ msgid "The pkexec command is not available on this system."
 msgstr "Η εντολή pkexec δεν είναι διαθέσιμη σε αυτό το σύστημα."
 # 
 # File: src/big_hardware_info/ui/main_window.py, line: 395
-#: NEEDS WORK
 msgid "OK"
 msgstr "Εντάξει"
 # 
@@ -1279,11 +1150,6 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Επαναφόρτωση ως Διαχειριστής"
 # 
-# File: src/big_hardware_info/ui/search.py, line: 64
-#: NEEDS WORK
-msgid "Search Results for"
-msgstr "Αποτελέσματα Αναζήτησης για"
-# 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
 msgstr "Επεξεργαστής"
@@ -1319,11 +1185,6 @@ msgstr "Συσκευές PCI"
 msgid "USB Devices"
 msgstr "Συσκευές USB"
 # 
-# File: src/big_hardware_info/ui/search.py, line: 168
-#: NEEDS WORK
-msgid "System Memory"
-msgstr "Μνήμη Συστήματος"
-# 
 # File: big-hardware-info/src/app/ui/search.py, line: 191
 msgid "Slot"
 msgstr "Θέση"
@@ -1352,6 +1213,23 @@ msgstr "Δοκιμάστε έναν διαφορετικό όρο αναζήτη
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
 msgstr "Δεν είναι διαθέσιμες πληροφορίες δίσκου"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Συνολική Αποθήκευση:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Χρησιμοποιήθηκε:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Συσκευές Αποθήκευσης"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
@@ -1425,6 +1303,10 @@ msgstr "Ενεργές Θύρες"
 msgid "Empty Ports"
 msgstr "Κενές Θύρες"
 # 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Οθόνες"
+# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
 msgid "Monitor"
 msgstr "Οθόνη"
@@ -1464,6 +1346,10 @@ msgstr "Ελάχιστη Ανάλυση"
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
 msgid "Mapped"
 msgstr "Χαρτογραφημένο"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Διακομιστής Εμφάνισης"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
 msgid "Display"
@@ -1661,6 +1547,10 @@ msgstr "Συσκευή:"
 msgid "=== Memory ==="
 msgstr "=== Μνήμη ==="
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Σύνολο:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
 msgid "Usage:"
 msgstr "Χρήση:"
@@ -1705,6 +1595,10 @@ msgstr "Κατασκευασμένο"
 msgid "Scaling"
 msgstr "Κλιμάκωση"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
+msgid "Cache"
+msgstr "Κρυφή μνήμη"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
 msgid "Family"
 msgstr "Οικογένεια"
@@ -1724,6 +1618,26 @@ msgstr "Μικροκώδικας"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
 msgid "Bogomips"
 msgstr "Μπογκομίπς"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
+msgid "Technical Details"
+msgstr "Τεχνικές Λεπτομέρειες"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "Ταχύτητες Νημάτων"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Νήμα"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "Σημαίες CPU"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "Ευπάθειες CPU"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="
