@@ -96,7 +96,7 @@ Terminal=false
 Icon=big-hardware-info
 Categories=System;Utility;GTK;
 StartupNotify=true
-StartupWMClass=org.biglinux.BigHardwareInfo
+StartupWMClass=br.com.biglinux.bighardwareinfo
 
 Keywords=hardware;system;info;information;cpu;gpu;memory;disk;network;sensors;inxi;
 Keywords[zh_CN]=硬件;系统;信息;处理器;显卡;内存;磁盘;网络;传感器;inxi;

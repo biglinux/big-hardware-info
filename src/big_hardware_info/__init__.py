@@ -44,7 +44,7 @@ class BigHardwareInfoApplication(Adw.Application):
     def __init__(self):
         """Initialize the application."""
         super().__init__(
-            application_id="org.biglinux.BigHardwareInfo",
+            application_id="br.com.biglinux.bighardwareinfo",
             flags=Gio.ApplicationFlags.FLAGS_NONE
         )
         
