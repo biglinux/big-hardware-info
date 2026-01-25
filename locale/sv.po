@@ -31,6 +31,90 @@ msgstr "Genererad:"
 msgid "Visit BigLinux website"
 msgstr "Besök BigLinux-webbplatsen"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 71
+#: NEEDS WORK
+msgid "Hardware Report for"
+msgstr "Hårdvarurapport för"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 83
+#: NEEDS WORK
+msgid "Main Navigation"
+msgstr "Huvudnavigering"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 745
+#: NEEDS WORK
+msgid "Go to"
+msgstr "Gå till"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Användningsöversikt"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "Minne RAM:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Används:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "Rotpartition:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 931
+#: NEEDS WORK
+msgid "Size:"
+msgstr "Storlek:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 933
+#: NEEDS WORK
+msgid "Free:"
+msgstr "Gratis:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Systeminformation"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
+msgid "Cache"
+msgstr "Cache"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
+msgid "Technical Details"
+msgstr "Tekniska detaljer"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Tråd"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "Tråd hastigheter"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "CPU-flaggor"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "CPU-sårbarheter"
+# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
 msgid "Advanced Information"
 msgstr "Avancerad information"
@@ -38,6 +122,55 @@ msgstr "Avancerad information"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Inga grafikenheter hittades"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Skärmar"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Visningsserver"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1306
+#: NEEDS WORK
+msgid "OpenGL"
+msgstr "OpenGL"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Enhet"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1338
+#: NEEDS WORK
+msgid "Vulkan"
+msgstr "Vulkan"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1360
+#: NEEDS WORK
+msgid "EGL"
+msgstr "EGL"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "Minnesanvändning"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Totalt:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1415
+#: NEEDS WORK
+msgid "General Information"
+msgstr "Allmän information"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
 msgid "Memory Modules"
@@ -47,9 +180,22 @@ msgstr "Minnesmoduler"
 msgid "No storage drives found"
 msgstr "Inga lagringsenheter hittades"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Total lagring:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Lagringsenheter"
+# 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
 msgid "Disk Partitions"
 msgstr "Diskpartitioner"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1653
+#: NEEDS WORK
+msgid "Mounted on:"
+msgstr "Monterad på:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -62,6 +208,11 @@ msgstr "Inga ljudenheter hittades"
 msgid "No network interfaces found"
 msgstr "Inga nätverksgränssnitt hittades"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 1905
+#: NEEDS WORK
+msgid "Virtual Networks"
+msgstr "Virtuella nätverk"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1972
@@ -73,6 +224,15 @@ msgstr "Ingen batteri upptäcktes (Skrivbordssystem)"
 msgid "No Bluetooth devices found"
 msgstr "Inga Bluetooth-enheter hittades"
 # 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "Anslutna enheter"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB-hubbar och kontrollerar"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2110
@@ -81,9 +241,24 @@ msgstr "Inga Bluetooth-enheter hittades"
 msgid "No USB devices found"
 msgstr "Inga USB-enheter hittades"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 2187
+#: NEEDS WORK
+msgid "USB Hubs"
+msgstr "USB-hubbar"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2215
 msgid "No PCI devices found"
 msgstr "Inga PCI-enheter hittades"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 2297
+#: NEEDS WORK
+msgid "System Controllers & Bridges"
+msgstr "Systemkontroller och broar"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 2297
+#: NEEDS WORK
+msgid "devices"
+msgstr "enheter"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2334
 msgid "No webcams found"
@@ -93,12 +268,33 @@ msgstr "Inga webbkameror hittades"
 msgid "No printers configured"
 msgstr "Inga skrivare konfigurerade"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 2483
+#: NEEDS WORK
+msgid "Printer Status"
+msgstr "Skrivarstatus"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "Skrivaruppgifter"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2479
 # File: big-hardware-info/src/app/ui/sections.py, line: 359
 msgid "No sensors detected"
 msgstr "Inga sensorer upptäckta"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Systemtemperaturer"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Fläktvarvtal"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Detaljerad sensorinformation (sensorer)"
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
 msgid "Package Repositories"
@@ -140,24 +336,6 @@ msgstr "journalctl (fel)"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2675
 msgid "No additional information available"
 msgstr "Ingen ytterligare information tillgänglig"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "Användningsöversikt"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "Systeminformation"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 243
 msgid "No battery detected"
@@ -405,19 +583,6 @@ msgstr "Max FPS"
 msgid "Driver Version"
 msgstr "Drivrutinsversion"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "Enhet"
-# 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 34
 msgid "Share Report Online"
 msgstr "Dela rapport online"
@@ -571,10 +736,6 @@ msgstr "Kärnmodul"
 msgid "System Controllers & Bridges ({count} devices)"
 msgstr "Systemkontroller och broar ({count} enheter)"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "Skrivaruppgifter"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
 msgid "Configure printers in System Settings"
 msgstr "Konfigurera skrivare i Systeminställningar"
@@ -683,17 +844,9 @@ msgstr "Dela online"
 msgid "Upload your hardware report to get a shareable link for forums or support tickets."
 msgstr "Ladda upp din hårdvaru rapport för att få en delbar länk för forum eller supportärenden."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
-msgid "Memory RAM:"
-msgstr "Minne RAM:"
-# 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 299
 msgid "Used"
 msgstr "Används"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
-msgid "Root Partition:"
-msgstr "Rotpartition:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -771,18 +924,6 @@ msgstr "Kärna:"
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
 msgstr "Ingen sensordata tillgänglig"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "Systemtemperaturer"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "Fläktvarvtal"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "Detaljerad sensorinformation (sensorer)"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -880,10 +1021,6 @@ msgstr "Toppprocesser"
 msgid "CPU Usage"
 msgstr "CPU-användning"
 # 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
-msgid "Memory Usage"
-msgstr "Minnesanvändning"
-# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
 msgid "Packages & Repositories"
 msgstr "Paket och Repositories"
@@ -921,11 +1058,6 @@ msgstr "Min spänning"
 msgid "Serial"
 msgstr "Serienummer"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
-msgid "Connected Devices"
-msgstr "Anslutna enheter"
-# 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
 msgid "Class"
 msgstr "Klass"
@@ -951,10 +1083,6 @@ msgstr "Enhets-ID"
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
 msgid "Bus"
 msgstr "Buss"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "USB-hubbar och kontrollerar"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
@@ -1087,6 +1215,11 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Ladda om som administratör"
 # 
+# File: src/big_hardware_info/ui/search.py, line: 64
+#: NEEDS WORK
+msgid "Search Results for"
+msgstr "Sökresultat för"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 70
 msgid "Processor"
 msgstr "Processor"
@@ -1122,6 +1255,11 @@ msgstr "PCI-enheter"
 msgid "USB Devices"
 msgstr "USB-enheter"
 # 
+# File: src/big_hardware_info/ui/search.py, line: 168
+#: NEEDS WORK
+msgid "System Memory"
+msgstr "Systemminne"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 191
 msgid "Slot"
 msgstr "Slot"
@@ -1150,23 +1288,6 @@ msgstr "Försök med en annan sökterm"
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
 msgstr "Ingen diskinformation tillgänglig"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Total lagring:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Används:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "Lagringsenheter"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
@@ -1240,10 +1361,6 @@ msgstr "Aktiva portar"
 msgid "Empty Ports"
 msgstr "Tomma portar"
 # 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "Skärmar"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
 msgid "Monitor"
 msgstr "Övervaka"
@@ -1283,10 +1400,6 @@ msgstr "Min upplösning"
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
 msgid "Mapped"
 msgstr "Kopplad"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "Visningsserver"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
 msgid "Display"
@@ -1484,10 +1597,6 @@ msgstr "Enhet:"
 msgid "=== Memory ==="
 msgstr "=== Minne ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "Totalt:"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
 msgid "Usage:"
 msgstr "Användning:"
@@ -1532,10 +1641,6 @@ msgstr "Byggd"
 msgid "Scaling"
 msgstr "Skalning"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
-msgid "Cache"
-msgstr "Cache"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
 msgid "Family"
 msgstr "Familj"
@@ -1555,26 +1660,6 @@ msgstr "Mikrokod"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
 msgid "Bogomips"
 msgstr "Bogomips"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
-msgid "Technical Details"
-msgstr "Tekniska detaljer"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "Tråd hastigheter"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "Tråd"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "CPU-flaggor"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "CPU-sårbarheter"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="
