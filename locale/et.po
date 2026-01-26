@@ -16,12 +16,10 @@ msgstr ""
 "X-Generator: attranslate\n"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 186
-#: NEEDS WORK
 msgid "Summary"
 msgstr "Kokkuvõte"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 188
-#: NEEDS WORK
 msgid "Overview of main hardware"
 msgstr "Peamine riistvara ülevaade"
 # 
@@ -30,7 +28,6 @@ msgid "Processor"
 msgstr "Protsessor"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 193
-#: NEEDS WORK
 msgid "CPU information"
 msgstr "CPU teave"
 # 
@@ -39,17 +36,14 @@ msgid "Graphics"
 msgstr "Graafika"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 198
-#: NEEDS WORK
 msgid "Video card information"
 msgstr "Videokaardi teave"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 201
-#: NEEDS WORK
 msgid "Webcams"
 msgstr "Veebikaamerad"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 203
-#: NEEDS WORK
 msgid "Camera devices"
 msgstr "Kaamera seadmed"
 # 
@@ -63,7 +57,6 @@ msgid "Motherboard"
 msgstr "Emaplaat"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 208
-#: NEEDS WORK
 msgid "Motherboard and BIOS information"
 msgstr "Emaplaadi ja BIOS-i teave"
 # 
@@ -72,7 +65,6 @@ msgid "Memory"
 msgstr "Mälu"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 213
-#: NEEDS WORK
 msgid "RAM information"
 msgstr "RAMi teave"
 # 
@@ -81,7 +73,6 @@ msgid "Audio"
 msgstr "Heli"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 218
-#: NEEDS WORK
 msgid "Sound devices"
 msgstr "Heliseadmed"
 # 
@@ -90,7 +81,6 @@ msgid "Network"
 msgstr "Võrk"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 223
-#: NEEDS WORK
 msgid "Network devices and connections"
 msgstr "Võrguseadmed ja ühendused"
 # 
@@ -102,7 +92,6 @@ msgid "Storage"
 msgstr "Salvestus"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 228
-#: NEEDS WORK
 msgid "Storage devices"
 msgstr "Salvestusseadmed"
 # 
@@ -111,27 +100,22 @@ msgid "Battery"
 msgstr "Aku"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 233
-#: NEEDS WORK
 msgid "Battery status"
 msgstr "Aku olek"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 236
-#: NEEDS WORK
 msgid "Bluetooth"
 msgstr "Bluetooth"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 238
-#: NEEDS WORK
 msgid "Bluetooth devices"
 msgstr "Bluetooth seadmed"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 241
-#: NEEDS WORK
 msgid "USB Components"
 msgstr "USB komponendid"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 243
-#: NEEDS WORK
 msgid "USB devices"
 msgstr "USB-sead"
 # 
@@ -140,7 +124,6 @@ msgid "PCI Devices"
 msgstr "PCI seadmed"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 248
-#: NEEDS WORK
 msgid "PCI devices"
 msgstr "PCI seadmed"
 # 
@@ -153,37 +136,30 @@ msgid "System"
 msgstr "Süsteem"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 253
-#: NEEDS WORK
 msgid "System information"
 msgstr "Süsteemi teave"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 256
-#: NEEDS WORK
 msgid "Printers"
 msgstr "Prindid"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 258
-#: NEEDS WORK
 msgid "Printer devices"
 msgstr "Printeriseadmed"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 261
-#: NEEDS WORK
 msgid "Sensors"
 msgstr "Andurid"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 263
-#: NEEDS WORK
 msgid "Temperature and fan sensors"
 msgstr "Temperatuuri ja ventilaatori sensorid"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 266
-#: NEEDS WORK
 msgid "More Info"
 msgstr "Rohkem teavet"
 # 
 # File: src/big_hardware_info/models/hardware_info.py, line: 268
-#: NEEDS WORK
 msgid "Raw system data and logs"
 msgstr "Tooresüsteemi andmed ja logid"
 # 
@@ -203,90 +179,6 @@ msgstr "Genereeritud:"
 msgid "Visit BigLinux website"
 msgstr "Külastage BigLinuxi veebisaiti"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 71
-#: NEEDS WORK
-msgid "Hardware Report for"
-msgstr "Riistaruudustiku aruanne jaoks"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 83
-#: NEEDS WORK
-msgid "Main Navigation"
-msgstr "Peamine navigeerimine"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 745
-#: NEEDS WORK
-msgid "Go to"
-msgstr "Mine."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "Kasutuse ülevaade"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
-msgid "Memory RAM:"
-msgstr "Mälu RAM:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Kasutatud:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
-msgid "Root Partition:"
-msgstr "Juurepartitsioon:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 931
-#: NEEDS WORK
-msgid "Size:"
-msgstr "Suurus:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 933
-#: NEEDS WORK
-msgid "Free:"
-msgstr "Tasuta:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "Süsteemi teave"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
-msgid "Cache"
-msgstr "Vahemälu"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
-msgid "Technical Details"
-msgstr "Tehnilised üksikasjad"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "Käsi"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "Käime kiirus"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "CPU lipud"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "CPU haavatavused"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
 msgid "Advanced Information"
 msgstr "Täpsem teave"
@@ -294,55 +186,6 @@ msgstr "Täpsem teave"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Graafikaseadmeid ei leitud"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "Monitorid"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "Kuvandme server"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1306
-#: NEEDS WORK
-msgid "OpenGL"
-msgstr "OpenGL"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "Seade"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1338
-#: NEEDS WORK
-msgid "Vulkan"
-msgstr "Vulkan"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1360
-#: NEEDS WORK
-msgid "EGL"
-msgstr "EGL"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
-msgid "Memory Usage"
-msgstr "Mälu kasutus"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "Kokku:"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1415
-#: NEEDS WORK
-msgid "General Information"
-msgstr "Üldine teave"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
 msgid "Memory Modules"
@@ -352,22 +195,9 @@ msgstr "Mälu moodulid"
 msgid "No storage drives found"
 msgstr "Mingeid salvestusseadmeid ei leitud."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Kogusmaht:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "Salvestusseadmed"
-# 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
 msgid "Disk Partitions"
 msgstr "Kettad"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 1653
-#: NEEDS WORK
-msgid "Mounted on:"
-msgstr "Paigaldatud:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -380,11 +210,6 @@ msgstr "Heliseadmeid ei leitud"
 msgid "No network interfaces found"
 msgstr "Võrgu liideseid ei leitud"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 1905
-#: NEEDS WORK
-msgid "Virtual Networks"
-msgstr "Virtuaalsed võrgud"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1972
@@ -396,15 +221,6 @@ msgstr "Aku ei tuvastatud (lauaarvuti süsteem)"
 msgid "No Bluetooth devices found"
 msgstr "Bluetooth-seadmeid ei leitud"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
-msgid "Connected Devices"
-msgstr "Ühendatud seadmed"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "USB keskused ja kontrollerid"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2110
@@ -413,24 +229,9 @@ msgstr "USB keskused ja kontrollerid"
 msgid "No USB devices found"
 msgstr "USB-seadmeid ei leitud"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 2187
-#: NEEDS WORK
-msgid "USB Hubs"
-msgstr "USB keskused"
-# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2215
 msgid "No PCI devices found"
 msgstr "PCI seadmeid ei leitud"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 2297
-#: NEEDS WORK
-msgid "System Controllers & Bridges"
-msgstr "Süsteemi Kontrollerid ja Sildadega"
-# 
-# File: src/big_hardware_info/export/html_generator.py, line: 2297
-#: NEEDS WORK
-msgid "devices"
-msgstr "seadmed"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2334
 msgid "No webcams found"
@@ -440,33 +241,12 @@ msgstr "Webkaameraid ei leitud"
 msgid "No printers configured"
 msgstr "Printeid ei ole seadistatud"
 # 
-# File: src/big_hardware_info/export/html_generator.py, line: 2483
-#: NEEDS WORK
-msgid "Printer Status"
-msgstr "Printeri olek"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "Printeri üksikasjad"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2479
 # File: big-hardware-info/src/app/ui/sections.py, line: 359
 msgid "No sensors detected"
 msgstr "Sensoreid ei leitud"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "Süsteemi Temperatuurid"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "Ventilaatori kiirused"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "Üksikasjalik sensorite andmed (sensorid)"
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
 msgid "Package Repositories"
@@ -533,37 +313,26 @@ msgstr "Laadi oma riistvara aruanne üles, et saada jagatav link foorumite või 
 msgid "Share"
 msgstr "Jaga"
 # 
-# File: src/big_hardware_info/ui/sections.py, line: 97
-# File: src/big_hardware_info/ui/sections.py, line: 121
-#: NEEDS WORK
-msgid "Memory RAM"
-msgstr "Mälu RAM"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Kasutuse ülevaade"
+# 
 # File: src/big_hardware_info/ui/sections.py, line: 97
-# File: src/big_hardware_info/ui/sections.py, line: 102
-# File: src/big_hardware_info/ui/sections.py, line: 103
-# File: src/big_hardware_info/ui/sections.py, line: 104
-# File: src/big_hardware_info/ui/sections.py, line: 285
-# File: src/big_hardware_info/ui/renderers/printers.py, line: 93
-#: NEEDS WORK
-msgid "Unknown"
-msgstr "Tundmatu"
+# File: src/big_hardware_info/ui/sections.py, line: 121
+msgid "Memory RAM"
+msgstr "Mälu RAM"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 299
 msgid "Used"
 msgstr "Kasutatud"
 # 
-# File: src/big_hardware_info/ui/sections.py, line: 99
-# File: src/big_hardware_info/ui/sections.py, line: 105
-#: NEEDS WORK
-msgid "Usage"
-msgstr "Kasutus"
-# 
 # File: src/big_hardware_info/ui/sections.py, line: 101
 # File: src/big_hardware_info/ui/sections.py, line: 152
-#: NEEDS WORK
 msgid "Root Partition"
 msgstr "Juurtasand"
 # 
@@ -578,6 +347,15 @@ msgstr "Suurus"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
 msgid "Free"
 msgstr "Tasuta"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Süsteemi teave"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
 msgid "Video"
@@ -867,6 +645,19 @@ msgstr "Maksimaalne FPS"
 msgid "Driver Version"
 msgstr "Juhi versioon"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Seade"
+# 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 34
 msgid "Share Report Online"
 msgstr "Jaga aruannet veebis"
@@ -1012,22 +803,34 @@ msgstr "Tuuma moodul"
 msgid "System Controllers & Bridges ({count} devices)"
 msgstr "Süsteemi kontrollerid ja sillad ({count} seadet)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "Printeri üksikasjad"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
 msgid "Configure printers in System Settings"
 msgstr "Konfigureeri printerid Süsteemi Seadetes"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: src/big_hardware_info/ui/sections.py, line: 97
+# File: src/big_hardware_info/ui/sections.py, line: 102
+# File: src/big_hardware_info/ui/sections.py, line: 103
+# File: src/big_hardware_info/ui/sections.py, line: 104
+# File: src/big_hardware_info/ui/sections.py, line: 285
+# File: src/big_hardware_info/ui/renderers/printers.py, line: 93
+msgid "Unknown"
+msgstr "Tundmatu"
+# 
 # File: src/big_hardware_info/ui/renderers/printers.py, line: 95
-#: NEEDS WORK
 msgid "Idle"
 msgstr "Ootel"
 # 
 # File: src/big_hardware_info/ui/renderers/printers.py, line: 97
-#: NEEDS WORK
 msgid "Printing"
 msgstr "Prindimine"
 # 
 # File: src/big_hardware_info/ui/renderers/printers.py, line: 99
-#: NEEDS WORK
 msgid "Disabled"
 msgstr "Keelatud"
 # 
@@ -1100,6 +903,14 @@ msgstr "BIOSi kuupäev"
 msgid "Full Output"
 msgstr "Täielik väljund"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "Mälu RAM:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "Juurepartitsioon:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 173
 msgid "Distro"
 msgstr "Distro"
@@ -1149,6 +960,18 @@ msgstr "Kerneli:"
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
 msgstr "Sensoriandmed pole saadaval."
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Süsteemi Temperatuurid"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Ventilaatori kiirused"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Üksikasjalik sensorite andmed (sensorid)"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1246,6 +1069,10 @@ msgstr "Peamised protsessid"
 msgid "CPU Usage"
 msgstr "CPU kasutus"
 # 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "Mälu kasutus"
+# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
 msgid "Packages & Repositories"
 msgstr "Pakettid ja hoidlad"
@@ -1279,6 +1106,11 @@ msgstr "Min pinge"
 msgid "Serial"
 msgstr "Seeria"
 # 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "Ühendatud seadmed"
+# 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
 msgid "Class"
 msgstr "Klass"
@@ -1304,6 +1136,10 @@ msgstr "Seadme ID"
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
 msgid "Bus"
 msgstr "Buss"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB keskused ja kontrollerid"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
@@ -1536,19 +1372,9 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Laadi uuesti administraatorina"
 # 
-# File: src/big_hardware_info/ui/search.py, line: 64
-#: NEEDS WORK
-msgid "Search Results for"
-msgstr "Otsingutulemused otsimiseks"
-# 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "USB-seadmed"
-# 
-# File: src/big_hardware_info/ui/search.py, line: 168
-#: NEEDS WORK
-msgid "System Memory"
-msgstr "Süsteemi mälu"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 191
 msgid "Slot"
@@ -1578,6 +1404,23 @@ msgstr "Proovi teistsugust otsinguterminit."
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
 msgstr "Kettainformatsiooni pole saadaval"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Kogusmaht:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Kasutatud:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Salvestusseadmed"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
@@ -1651,6 +1494,10 @@ msgstr "Aktiivsed sadamad"
 msgid "Empty Ports"
 msgstr "Tühjad pordid"
 # 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Monitorid"
+# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
 msgid "Monitor"
 msgstr "Kuvaekraan"
@@ -1690,6 +1537,10 @@ msgstr "Min resolutsioon"
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
 msgid "Mapped"
 msgstr "Kaardistatud"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Kuvandme server"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
 msgid "Display"
@@ -1887,6 +1738,10 @@ msgstr "Seade:"
 msgid "=== Memory ==="
 msgstr "=== Mälu ==="
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Kokku:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
 msgid "Usage:"
 msgstr "Kasutamine:"
@@ -1931,6 +1786,10 @@ msgstr "Ehitatud"
 msgid "Scaling"
 msgstr "Skaalumine"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
+msgid "Cache"
+msgstr "Vahemälu"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
 msgid "Family"
 msgstr "Peregond"
@@ -1950,6 +1809,26 @@ msgstr "Mikrokood"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
 msgid "Bogomips"
 msgstr "Bogomips"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
+msgid "Technical Details"
+msgstr "Tehnilised üksikasjad"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "Käime kiirus"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Käsi"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "CPU lipud"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "CPU haavatavused"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="

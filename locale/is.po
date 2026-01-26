@@ -15,6 +15,154 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 186
+msgid "Summary"
+msgstr "Yfirlit"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 188
+msgid "Overview of main hardware"
+msgstr "Yfirlit yfir aðal vélbúnað."
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 70
+msgid "Processor"
+msgstr "Vinnsla"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 193
+msgid "CPU information"
+msgstr "CPU upplýsingar"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 71
+msgid "Graphics"
+msgstr "Grafík"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 198
+msgid "Video card information"
+msgstr "Upplýsingar um vídeókort"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 201
+msgid "Webcams"
+msgstr "Vefmyndavélar"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 203
+msgid "Camera devices"
+msgstr "Myndavélar"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
+# File: big-hardware-info/src/app/ui/search.py, line: 73
+# File: big-hardware-info/src/app/ui/search.py, line: 221
+# File: big-hardware-info/src/app/ui/search.py, line: 222
+msgid "Motherboard"
+msgstr "Móðurborð"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 208
+msgid "Motherboard and BIOS information"
+msgstr "Móðurborð og BIOS upplýsingar"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 72
+msgid "Memory"
+msgstr "Minni"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 213
+msgid "RAM information"
+msgstr "RAM upplýsingar"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 74
+msgid "Audio"
+msgstr "Hljóð"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 218
+msgid "Sound devices"
+msgstr "Hljóðtæki"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 75
+msgid "Network"
+msgstr "Netkerfi"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 223
+msgid "Network devices and connections"
+msgstr "Netvæðar og tengingar"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 76
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Storage"
+msgstr "Geymsla"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 228
+msgid "Storage devices"
+msgstr "Geymslumin."
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
+msgid "Battery"
+msgstr "Battería"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 233
+msgid "Battery status"
+msgstr "Batterístatus"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 236
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 238
+msgid "Bluetooth devices"
+msgstr "Bluetooth tæki"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 241
+msgid "USB Components"
+msgstr "USB íhlutir"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 243
+msgid "USB devices"
+msgstr "USB tæki"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 77
+msgid "PCI Devices"
+msgstr "PCI tæki"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 248
+msgid "PCI devices"
+msgstr "PCI tæki"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
+# File: big-hardware-info/src/app/ui/search.py, line: 92
+# File: big-hardware-info/src/app/ui/search.py, line: 213
+msgid "System"
+msgstr "Kerfi"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 253
+msgid "System information"
+msgstr "Upplýsingar um kerfið"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 256
+msgid "Printers"
+msgstr "Prentarar"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 258
+msgid "Printer devices"
+msgstr "Prenttæki"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 261
+msgid "Sensors"
+msgstr "sensors"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 263
+msgid "Temperature and fan sensors"
+msgstr "Hitastig og viftasensorar"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 266
+msgid "More Info"
+msgstr "Frekari upplýsingar"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 268
+msgid "Raw system data and logs"
+msgstr "Ósveigjanleg kerfisdatasnið og skráningar"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 54
 msgid "Hardware Report"
 msgstr "Hugbúnaðar skýrsla"
@@ -141,6 +289,30 @@ msgstr "journalctl (villur)"
 msgid "No additional information available"
 msgstr "Engin frekari upplýsingar í boði"
 # 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "Flytja út skýrslu"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
+msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
+msgstr "Vistaðu fullan HTML skýrslu um vélbúnaðinn þinn til að deila með stuðningi eða geyma til skýrslu."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
+msgid "Export"
+msgstr "Útflutningur"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "Deila á netinu"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
+msgid "Upload your hardware report to get a shareable link for forums or support tickets."
+msgstr "Hlaðið upp vélbúnaðar skýrslu þinni til að fá deilanlegan tengil fyrir spjallborð eða stuðningsmiða."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
+msgid "Share"
+msgstr "Deila"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 89
@@ -150,6 +322,30 @@ msgstr "Engin frekari upplýsingar í boði"
 msgid "Usage Overview"
 msgstr "Yfirlit yfir notkun"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 121
+msgid "Memory RAM"
+msgstr "RAM minni"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "Notaður"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 152
+msgid "Root Partition"
+msgstr "Rótpartítion"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "Stærð"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
+msgid "Free"
+msgstr "Frítt"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 183
@@ -158,6 +354,21 @@ msgstr "Yfirlit yfir notkun"
 # File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
 msgid "System Info"
 msgstr "upplýsingar um kerfi"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
+msgid "Video"
+msgstr "Myndband"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "Kjarni"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
+msgid "Install Date"
+msgstr "Uppsetningardagsetning"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 243
 msgid "No battery detected"
@@ -1163,14 +1374,6 @@ msgstr "Innihaldu viðkvæmar upplýsingar"
 msgid "Cancel"
 msgstr "Hætta við"
 # 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
-msgid "Share"
-msgstr "Deila"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
-msgid "Export"
-msgstr "Útflutningur"
-# 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 128
 msgid "HTML files"
 msgstr "HTML skrár"
@@ -1283,18 +1486,25 @@ msgstr "Prentaraupplýsingar"
 msgid "Configure printers in System Settings"
 msgstr "Stilltu prentara í kerfisstillingum"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 93
+msgid "Unknown"
+msgstr "Óþekkt"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 95
+msgid "Idle"
+msgstr "óreindur"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 97
+msgid "Printing"
+msgstr "Prentun"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 99
+msgid "Disabled"
+msgstr "Farið úr gildi"
+# 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
 msgid "No motherboard information available"
 msgstr "Engin móðurborðsupplýsingar tiltækar."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
-# File: big-hardware-info/src/app/ui/search.py, line: 73
-# File: big-hardware-info/src/app/ui/search.py, line: 221
-# File: big-hardware-info/src/app/ui/search.py, line: 222
-msgid "Motherboard"
-msgstr "Móðurborð"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1315,14 +1525,6 @@ msgstr "Framleiðandi"
 # File: big-hardware-info/src/app/ui/search.py, line: 193
 msgid "Type"
 msgstr "Tegund"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
-# File: big-hardware-info/src/app/ui/search.py, line: 92
-# File: big-hardware-info/src/app/ui/search.py, line: 213
-msgid "System"
-msgstr "Kerfi"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1369,64 +1571,17 @@ msgstr "BIOS Dagsetning"
 msgid "Full Output"
 msgstr "Full Output"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 220
-msgid "Export Report"
-msgstr "Flytja út skýrslu"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
-msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
-msgstr "Vistaðu fullan HTML skýrslu um vélbúnaðinn þinn til að deila með stuðningi eða geyma til skýrslu."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 221
-msgid "Share Online"
-msgstr "Deila á netinu"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
-msgid "Upload your hardware report to get a shareable link for forums or support tickets."
-msgstr "Hlaðið upp vélbúnaðar skýrslu þinni til að fá deilanlegan tengil fyrir spjallborð eða stuðningsmiða."
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
 msgid "Memory RAM:"
 msgstr "RAM minni"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
-msgid "Used"
-msgstr "Notaður"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
 msgid "Root Partition:"
 msgstr "Rótpartítion:"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
-msgid "Size"
-msgstr "Stærð"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
-msgid "Free"
-msgstr "Frítt"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 173
 msgid "Distro"
 msgstr "Distro"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
-msgid "Video"
-msgstr "Myndband"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
-msgid "Install Date"
-msgstr "Uppsetningardagsetning"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
-# File: big-hardware-info/src/app/ui/search.py, line: 291
-msgid "Kernel"
-msgstr "Kjarni"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 206
 msgid "=== Usage Overview ==="
@@ -1608,10 +1763,6 @@ msgstr "Pakkar & Geymslur"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/system.py, line: 258
 msgid "Active Repositories"
 msgstr "Virkar Geymslur"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
-msgid "Battery"
-msgstr "Battería"
 # 
 # File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
 msgid "Condition"
@@ -1890,37 +2041,6 @@ msgstr ""
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
 msgid "Reload as Admin"
 msgstr "Endurhlaða sem aðili"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 70
-msgid "Processor"
-msgstr "Vinnsla"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 71
-msgid "Graphics"
-msgstr "Grafík"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 72
-msgid "Memory"
-msgstr "Minni"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 74
-msgid "Audio"
-msgstr "Hljóð"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 75
-msgid "Network"
-msgstr "Netkerfi"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 76
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
-msgid "Storage"
-msgstr "Geymsla"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 77
-msgid "PCI Devices"
-msgstr "PCI tæki"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"

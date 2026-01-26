@@ -15,6 +15,154 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 186
+msgid "Summary"
+msgstr "摘要"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 188
+msgid "Overview of main hardware"
+msgstr "主要硬件概述"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 70
+msgid "Processor"
+msgstr "处理器"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 193
+msgid "CPU information"
+msgstr "CPU 信息"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 71
+msgid "Graphics"
+msgstr "图形"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 198
+msgid "Video card information"
+msgstr "视频卡信息"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 201
+msgid "Webcams"
+msgstr "网络摄像头"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 203
+msgid "Camera devices"
+msgstr "相机设备"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
+# File: big-hardware-info/src/app/ui/search.py, line: 73
+# File: big-hardware-info/src/app/ui/search.py, line: 221
+# File: big-hardware-info/src/app/ui/search.py, line: 222
+msgid "Motherboard"
+msgstr "主板"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 208
+msgid "Motherboard and BIOS information"
+msgstr "主板和BIOS信息"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 72
+msgid "Memory"
+msgstr "内存"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 213
+msgid "RAM information"
+msgstr "RAM 信息"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 74
+msgid "Audio"
+msgstr "音频"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 218
+msgid "Sound devices"
+msgstr "声音设备"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 75
+msgid "Network"
+msgstr "网络"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 223
+msgid "Network devices and connections"
+msgstr "网络设备和连接"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 76
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Storage"
+msgstr "存储"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 228
+msgid "Storage devices"
+msgstr "存储设备"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
+msgid "Battery"
+msgstr "电池"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 233
+msgid "Battery status"
+msgstr "电池状态"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 236
+msgid "Bluetooth"
+msgstr "蓝牙"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 238
+msgid "Bluetooth devices"
+msgstr "蓝牙设备"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 241
+msgid "USB Components"
+msgstr "USB组件"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 243
+msgid "USB devices"
+msgstr "USB设备"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 77
+msgid "PCI Devices"
+msgstr "PCI设备"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 248
+msgid "PCI devices"
+msgstr "PCI设备"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
+# File: big-hardware-info/src/app/ui/search.py, line: 92
+# File: big-hardware-info/src/app/ui/search.py, line: 213
+msgid "System"
+msgstr "系统"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 253
+msgid "System information"
+msgstr "系统信息"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 256
+msgid "Printers"
+msgstr "打印机"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 258
+msgid "Printer devices"
+msgstr "打印设备"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 261
+msgid "Sensors"
+msgstr "传感器"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 263
+msgid "Temperature and fan sensors"
+msgstr "温度和风扇传感器"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 266
+msgid "More Info"
+msgstr "更多信息"
+# 
+# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 268
+msgid "Raw system data and logs"
+msgstr "原始系统数据和日志"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 54
 msgid "Hardware Report"
 msgstr "硬件报告"
@@ -165,6 +313,36 @@ msgstr "journalctl（错误）"
 msgid "No additional information available"
 msgstr "没有可用的附加信息"
 # 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "导出报告"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 36
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
+msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
+msgstr "将您的硬件完整的 HTML 报告保存，以便与支持团队共享或作为参考。"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
+msgid "Export"
+msgstr "导出"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "在线分享"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 48
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
+msgid "Upload your hardware report to get a shareable link for forums or support tickets."
+msgstr "上传您的硬件报告以获取可共享的链接，用于论坛或支持票。"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
+msgid "Share"
+msgstr "分享"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 89
@@ -174,6 +352,33 @@ msgstr "没有可用的附加信息"
 msgid "Usage Overview"
 msgstr "使用概述"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 121
+msgid "Memory RAM"
+msgstr "内存 RAM"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "已使用"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 152
+msgid "Root Partition"
+msgstr "根分区"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "大小"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 138
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
+msgid "Free"
+msgstr "免费"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 183
@@ -182,6 +387,27 @@ msgstr "使用概述"
 # File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
 msgid "System Info"
 msgstr "系统信息"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 174
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
+msgid "Video"
+msgstr "视频"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "内核"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 175
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
+msgid "Install Date"
+msgstr "安装日期"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 243
 msgid "No battery detected"
@@ -481,14 +707,6 @@ msgstr "包含敏感信息"
 msgid "Cancel"
 msgstr "取消"
 # 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
-msgid "Share"
-msgstr "分享"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
-msgid "Export"
-msgstr "导出"
-# 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 128
 msgid "HTML files"
 msgstr "HTML 文件"
@@ -610,18 +828,25 @@ msgstr "打印机详细信息"
 msgid "Configure printers in System Settings"
 msgstr "在系统设置中配置打印机"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 93
+msgid "Unknown"
+msgstr "未知"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 95
+msgid "Idle"
+msgstr "空闲"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 97
+msgid "Printing"
+msgstr "打印"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 99
+msgid "Disabled"
+msgstr "禁用"
+# 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
 msgid "No motherboard information available"
 msgstr "没有可用的主板信息"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
-# File: big-hardware-info/src/app/ui/search.py, line: 73
-# File: big-hardware-info/src/app/ui/search.py, line: 221
-# File: big-hardware-info/src/app/ui/search.py, line: 222
-msgid "Motherboard"
-msgstr "主板"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -642,14 +867,6 @@ msgstr "制造商"
 # File: big-hardware-info/src/app/ui/search.py, line: 193
 msgid "Type"
 msgstr "类型"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
-# File: big-hardware-info/src/app/ui/search.py, line: 92
-# File: big-hardware-info/src/app/ui/search.py, line: 213
-msgid "System"
-msgstr "系统"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -696,28 +913,6 @@ msgstr "BIOS 日期"
 msgid "Full Output"
 msgstr "完整输出"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 220
-msgid "Export Report"
-msgstr "导出报告"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 36
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
-msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
-msgstr "将您的硬件完整的 HTML 报告保存，以便与支持团队共享或作为参考。"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 221
-msgid "Share Online"
-msgstr "在线分享"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 48
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
-msgid "Upload your hardware report to get a shareable link for forums or support tickets."
-msgstr "上传您的硬件报告以获取可共享的链接，用于论坛或支持票。"
-# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 97
@@ -725,10 +920,6 @@ msgstr "上传您的硬件报告以获取可共享的链接，用于论坛或支
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 208
 msgid "Memory RAM:"
 msgstr "内存 RAM："
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
-msgid "Used"
-msgstr "已使用"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -740,46 +931,10 @@ msgstr "根分区："
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
-msgid "Size"
-msgstr "大小"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 138
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
-msgid "Free"
-msgstr "免费"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
 # File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 173
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 173
 msgid "Distro"
 msgstr "发行版"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 174
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
-msgid "Video"
-msgstr "视频"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/pkgbuild/pkg/big-hardware-info/usr/lib/python3.13/site-packages/big_hardware_info/ui/renderers/summary.py, line: 175
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
-msgid "Install Date"
-msgstr "安装日期"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
-# File: big-hardware-info/src/app/ui/search.py, line: 291
-msgid "Kernel"
-msgstr "内核"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -985,10 +1140,6 @@ msgstr "软件包和仓库"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/system.py, line: 258
 msgid "Active Repositories"
 msgstr "活动仓库"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
-msgid "Battery"
-msgstr "电池"
 # 
 # File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
 msgid "Condition"
@@ -1235,37 +1386,6 @@ msgstr "某些硬件信息需要管理员权限才能访问。您想要以提升
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
 msgid "Reload as Admin"
 msgstr "以管理员身份重新加载"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 70
-msgid "Processor"
-msgstr "处理器"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 71
-msgid "Graphics"
-msgstr "图形"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 72
-msgid "Memory"
-msgstr "内存"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 74
-msgid "Audio"
-msgstr "音频"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 75
-msgid "Network"
-msgstr "网络"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 76
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
-msgid "Storage"
-msgstr "存储"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 77
-msgid "PCI Devices"
-msgstr "PCI设备"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
