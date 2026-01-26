@@ -9,6 +9,8 @@ from datetime import datetime
 from dataclasses import dataclass, field, asdict
 from typing import Optional, List, Dict, Any
 
+from big_hardware_info.utils.i18n import _
+
 
 @dataclass
 class HardwareInfo:
@@ -181,88 +183,88 @@ class HardwareInfo:
 # Category metadata for UI display
 CATEGORIES = {
     "summary": {
-        "name": "Summary",
+        "name": _("Summary"),
         "icon": "view-grid-symbolic",
-        "description": "Overview of main hardware",
+        "description": _("Overview of main hardware"),
     },
     "cpu": {
-        "name": "Processor",
+        "name": _("Processor"),
         "icon": "cpu-symbolic",
-        "description": "CPU information",
+        "description": _("CPU information"),
     },
     "gpu": {
-        "name": "Graphics",
+        "name": _("Graphics"),
         "icon": "video-display-symbolic",
-        "description": "Video card information",
+        "description": _("Video card information"),
     },
     "webcam": {
-        "name": "Webcams",
+        "name": _("Webcams"),
         "icon": "camera-web-symbolic",
-        "description": "Camera devices",
+        "description": _("Camera devices"),
     },
     "machine": {
-        "name": "Motherboard",
+        "name": _("Motherboard"),
         "icon": "computer-symbolic",
-        "description": "Motherboard and BIOS information",
+        "description": _("Motherboard and BIOS information"),
     },
     "memory": {
-        "name": "Memory",
+        "name": _("Memory"),
         "icon": "memory-symbolic",
-        "description": "RAM information",
+        "description": _("RAM information"),
     },
     "audio": {
-        "name": "Audio",
+        "name": _("Audio"),
         "icon": "audio-card-symbolic",
-        "description": "Sound devices",
+        "description": _("Sound devices"),
     },
     "network": {
-        "name": "Network",
+        "name": _("Network"),
         "icon": "network-wired-symbolic",
-        "description": "Network devices and connections",
+        "description": _("Network devices and connections"),
     },
     "disk": {
-        "name": "Storage",
+        "name": _("Storage"),
         "icon": "drive-harddisk-symbolic",
-        "description": "Storage devices",
+        "description": _("Storage devices"),
     },
     "battery": {
-        "name": "Battery",
+        "name": _("Battery"),
         "icon": "battery-symbolic",
-        "description": "Battery status",
+        "description": _("Battery status"),
     },
     "bluetooth": {
-        "name": "Bluetooth",
+        "name": _("Bluetooth"),
         "icon": "bluetooth-symbolic",
-        "description": "Bluetooth devices",
+        "description": _("Bluetooth devices"),
     },
     "usb": {
-        "name": "USB Components",
+        "name": _("USB Components"),
         "icon": "media-removable-symbolic",
-        "description": "USB devices",
+        "description": _("USB devices"),
     },
     "pci": {
-        "name": "PCI Devices",
+        "name": _("PCI Devices"),
         "icon": "drive-multidisk-symbolic",
-        "description": "PCI devices",
+        "description": _("PCI devices"),
     },
     "system": {
-        "name": "System",
+        "name": _("System"),
         "icon": "system-run-symbolic",
-        "description": "System information",
+        "description": _("System information"),
     },
     "printer": {
-        "name": "Printers",
+        "name": _("Printers"),
         "icon": "printer-symbolic",
-        "description": "Printer devices",
+        "description": _("Printer devices"),
     },
     "sensors": {
-        "name": "Sensors",
+        "name": _("Sensors"),
         "icon": "temperature-symbolic",
-        "description": "Temperature and fan sensors",
+        "description": _("Temperature and fan sensors"),
     },
     "more_info": {
-        "name": "More Info",
+        "name": _("More Info"),
         "icon": "dialog-information-symbolic",
-        "description": "Raw system data and logs",
+        "description": _("Raw system data and logs"),
     },
 }

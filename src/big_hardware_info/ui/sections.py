@@ -44,17 +44,17 @@ def render_summary(
     
     actions_row.append(ui.action_card(
         "document-save-symbolic",
-        "Export Report",
-        "Save a complete HTML report of your hardware to share with support or keep for reference.",
-        "Export",
+        _("Export Report"),
+        _("Save a complete HTML report of your hardware to share with support or keep for reference."),
+        _("Export"),
         on_export
     ))
-    
+
     actions_row.append(ui.action_card(
         "send-to-symbolic",
-        "Share Online",
-        "Upload your hardware report to get a shareable link for forums or support tickets.",
-        "Share",
+        _("Share Online"),
+        _("Upload your hardware report to get a shareable link for forums or support tickets."),
+        _("Share"),
         on_share
     ))
     
@@ -92,17 +92,17 @@ def _render_usage_card(
     # Build copy text
     def get_copy_text():
         lines = [
-            "=== Usage Overview ===",
+            f"=== {_('Usage Overview')} ===",
             "",
-            f"Memory RAM: {memory_data.get('total', 'Unknown')}",
-            f"  Used: {memory_data.get('used', 'N/A')}",
-            f"  Usage: {memory_data.get('used_percent', 'N/A')}%",
+            f"{_('Memory RAM')}: {memory_data.get('total', _('Unknown'))}",
+            f"  {_('Used')}: {memory_data.get('used', 'N/A')}",
+            f"  {_('Usage')}: {memory_data.get('used_percent', 'N/A')}%",
             "",
-            f"Root Partition: {disk_usage.get('device', disk_usage.get('mount_point', '/'))}",
-            f"  Size: {disk_usage.get('size', 'Unknown')}",
-            f"  Used: {disk_usage.get('used', 'Unknown')}",
-            f"  Free: {disk_usage.get('available', 'Unknown')}",
-            f"  Usage: {disk_usage.get('use_percent', 'N/A')}",
+            f"{_('Root Partition')}: {disk_usage.get('device', disk_usage.get('mount_point', '/'))}",
+            f"  {_('Size')}: {disk_usage.get('size', _('Unknown'))}",
+            f"  {_('Used')}: {disk_usage.get('used', _('Unknown'))}",
+            f"  {_('Free')}: {disk_usage.get('available', _('Unknown'))}",
+            f"  {_('Usage')}: {disk_usage.get('use_percent', 'N/A')}",
         ]
         return "\n".join(lines)
     
@@ -118,13 +118,13 @@ def _render_usage_card(
     ram_used_clean = ram_used.split("(")[0].strip() if "(" in str(ram_used) else ram_used
     
     ram_row = ui.row(spacing=8)
-    ram_row.append(ui.dim_label("Memory RAM:"))
+    ram_row.append(ui.dim_label(_("Memory RAM") + ":"))
     ram_row.append(ui.heading(ram_display))
     card.append(ram_row)
-    
+
     # RAM details
     details = ui.grid()
-    details.attach(ui.dim_label("Used", caption=True), 0, 0, 1, 1)
+    details.attach(ui.dim_label(_("Used"), caption=True), 0, 0, 1, 1)
     details.attach(ui.label(str(ram_used_clean) or "N/A"), 1, 0, 1, 1)
     card.append(details)
     
@@ -149,17 +149,17 @@ def _render_usage_card(
         pass
     
     part_row = ui.row(spacing=8)
-    part_row.append(ui.dim_label("Root Partition:"))
+    part_row.append(ui.dim_label(_("Root Partition") + ":"))
     part_row.append(ui.heading(partition))
     card.append(part_row)
-    
+
     # Partition details
     part_grid = ui.grid()
-    part_grid.attach(ui.dim_label("Size", caption=True), 0, 0, 1, 1)
+    part_grid.attach(ui.dim_label(_("Size"), caption=True), 0, 0, 1, 1)
     part_grid.attach(ui.label(part_size), 1, 0, 1, 1)
-    part_grid.attach(ui.dim_label("Used", caption=True), 2, 0, 1, 1)
+    part_grid.attach(ui.dim_label(_("Used"), caption=True), 2, 0, 1, 1)
     part_grid.attach(ui.label(used_space), 3, 0, 1, 1)
-    part_grid.attach(ui.dim_label("Free", caption=True), 4, 0, 1, 1)
+    part_grid.attach(ui.dim_label(_("Free"), caption=True), 4, 0, 1, 1)
     part_grid.attach(ui.label(free_space), 5, 0, 1, 1)
     card.append(part_grid)
     
@@ -192,11 +192,11 @@ def _render_system_info_card(
     
     def get_copy_text():
         lines = [
-            "=== System Info ===",
+            f"=== {_('System Info')} ===",
             "",
-            f"Video: {gpu_name}",
-            f"Kernel: {kernel}",
-            f"Install Date: {install_date}",
+            f"{_('Video')}: {gpu_name}",
+            f"{_('Kernel')}: {kernel}",
+            f"{_('Install Date')}: {install_date}",
         ]
         return "\n".join(lines)
     
@@ -205,26 +205,26 @@ def _render_system_info_card(
     
     # GPU Row
     gpu_row = ui.row(spacing=8)
-    gpu_row.append(ui.dim_label("Video:"))
+    gpu_row.append(ui.dim_label(_("Video") + ":"))
     gpu_lbl = ui.heading(gpu_name)
     gpu_lbl.set_hexpand(True)
     gpu_lbl.set_wrap(True)
     gpu_row.append(gpu_lbl)
     card.append(gpu_row)
-    
+
     card.append(ui.separator(margins=(4, 4)))
-    
+
     # Kernel Row
     kernel_row = ui.row(spacing=8)
-    kernel_row.append(ui.dim_label("Kernel:"))
+    kernel_row.append(ui.dim_label(_("Kernel") + ":"))
     kernel_row.append(ui.heading(kernel))
     card.append(kernel_row)
-    
+
     card.append(ui.separator(margins=(4, 4)))
-    
+
     # Install Date Row
     date_row = ui.row(spacing=8)
-    date_row.append(ui.dim_label("Install Date:"))
+    date_row.append(ui.dim_label(_("Install Date") + ":"))
     date_row.append(ui.heading(install_date))
     card.append(date_row)
     
@@ -280,15 +280,15 @@ def render_battery(
 def _format_battery_copy(data: Dict[str, Any]) -> str:
     """Format battery data for clipboard."""
     lines = [
-        f"=== {data.get('model', 'Battery')} ===",
+        f"=== {data.get('model', _('Battery'))} ===",
         "",
-        f"Status: {data.get('status', 'Unknown')}",
-        f"Charge: {data.get('charge', 0)}%",
-        f"Vendor: {data.get('vendor', 'N/A')}",
-        f"Technology: {data.get('technology', 'N/A')}",
-        f"Voltage: {data.get('voltage', 'N/A')}",
-        f"Energy: {data.get('energy', 'N/A')}",
-        f"Capacity: {data.get('capacity', 'N/A')}",
+        f"{_('Status')}: {data.get('status', _('Unknown'))}",
+        f"{_('Charge')}: {data.get('charge', 0)}%",
+        f"{_('Vendor')}: {data.get('vendor', 'N/A')}",
+        f"{_('Technology')}: {data.get('technology', 'N/A')}",
+        f"{_('Voltage')}: {data.get('voltage', 'N/A')}",
+        f"{_('Energy')}: {data.get('energy', 'N/A')}",
+        f"{_('Capacity')}: {data.get('capacity', 'N/A')}",
     ]
     return "\n".join(lines)
 
@@ -418,7 +418,7 @@ def render_sensors(
 
 def _format_temps_copy(temps: Dict[str, Any]) -> str:
     """Format temperatures for clipboard."""
-    lines = ["=== Temperatures ===", ""]
+    lines = [f"=== {_('Temperatures')} ===", ""]
     for name, value in temps.items():
         lines.append(f"{name}: {value}")
     return "\n".join(lines)
@@ -426,7 +426,7 @@ def _format_temps_copy(temps: Dict[str, Any]) -> str:
 
 def _format_fans_copy(fans: Dict[str, Any]) -> str:
     """Format fans for clipboard."""
-    lines = ["=== Fans ===", ""]
+    lines = [f"=== {_('Fans')} ===", ""]
     for name, rpm in fans.items():
         lines.append(f"{name}: {rpm}")
     return "\n".join(lines)

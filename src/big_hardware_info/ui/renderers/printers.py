@@ -90,13 +90,13 @@ class PrintersRenderer(SectionRenderer):
                 parts = line.split()
                 if len(parts) >= 2:
                     name = parts[1]
-                    status = "Unknown"
+                    status = _("Unknown")
                     if "idle" in line.lower():
-                        status = "Idle"
+                        status = _("Idle")
                     elif "printing" in line.lower():
-                        status = "Printing"
+                        status = _("Printing")
                     elif "disabled" in line.lower():
-                        status = "Disabled"
+                        status = _("Disabled")
                     
                     enabled = "enabled" in line.lower()
                     printers.append({
