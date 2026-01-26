@@ -15,6 +15,178 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
+# File: src/big_hardware_info/models/hardware_info.py, line: 186
+#: NEEDS WORK
+msgid "Summary"
+msgstr "Yhteenveto"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 188
+#: NEEDS WORK
+msgid "Overview of main hardware"
+msgstr "Yleiskatsaus päälaitteistoon"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 70
+msgid "Processor"
+msgstr "Prosessori"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 193
+#: NEEDS WORK
+msgid "CPU information"
+msgstr "CPU-tiedot"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 71
+msgid "Graphics"
+msgstr "Grafiikka"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 198
+#: NEEDS WORK
+msgid "Video card information"
+msgstr "Näytönohjain tiedot"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 201
+#: NEEDS WORK
+msgid "Webcams"
+msgstr "Verkkokamerat"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 203
+#: NEEDS WORK
+msgid "Camera devices"
+msgstr "Kameralaitteet"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
+# File: big-hardware-info/src/app/ui/search.py, line: 73
+# File: big-hardware-info/src/app/ui/search.py, line: 221
+# File: big-hardware-info/src/app/ui/search.py, line: 222
+msgid "Motherboard"
+msgstr "Emolevy"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 208
+#: NEEDS WORK
+msgid "Motherboard and BIOS information"
+msgstr "Emolevy ja BIOS-tiedot"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 72
+msgid "Memory"
+msgstr "Muisti"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 213
+#: NEEDS WORK
+msgid "RAM information"
+msgstr "RAM-tiedot"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 74
+msgid "Audio"
+msgstr "Ääni"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 218
+#: NEEDS WORK
+msgid "Sound devices"
+msgstr "Äänilaitteet"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 75
+msgid "Network"
+msgstr "Verkko"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 223
+#: NEEDS WORK
+msgid "Network devices and connections"
+msgstr "Verkkolaitteet ja -yhteydet"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 76
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Storage"
+msgstr "Tallennus"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 228
+#: NEEDS WORK
+msgid "Storage devices"
+msgstr "Tallennuslaitteet"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
+msgid "Battery"
+msgstr "Akku"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 233
+#: NEEDS WORK
+msgid "Battery status"
+msgstr "Akkutilanne"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 236
+#: NEEDS WORK
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 238
+#: NEEDS WORK
+msgid "Bluetooth devices"
+msgstr "Bluetooth-laitteet"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 241
+#: NEEDS WORK
+msgid "USB Components"
+msgstr "USB-komponentit"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 243
+#: NEEDS WORK
+msgid "USB devices"
+msgstr "USB-laitteet"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 77
+msgid "PCI Devices"
+msgstr "PCI-laitteet"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 248
+#: NEEDS WORK
+msgid "PCI devices"
+msgstr "PCI-laitteet"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
+# File: big-hardware-info/src/app/ui/search.py, line: 92
+# File: big-hardware-info/src/app/ui/search.py, line: 213
+msgid "System"
+msgstr "Järjestelmä"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 253
+#: NEEDS WORK
+msgid "System information"
+msgstr "Järjestelmätiedot"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 256
+#: NEEDS WORK
+msgid "Printers"
+msgstr "Tulostimet"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 258
+#: NEEDS WORK
+msgid "Printer devices"
+msgstr "Tulostinlaitteet"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 261
+#: NEEDS WORK
+msgid "Sensors"
+msgstr "Anturit"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 263
+#: NEEDS WORK
+msgid "Temperature and fan sensors"
+msgstr "Lämpötila- ja tuuletinanturit"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 266
+#: NEEDS WORK
+msgid "More Info"
+msgstr "Lisätietoja"
+# 
+# File: src/big_hardware_info/models/hardware_info.py, line: 268
+#: NEEDS WORK
+msgid "Raw system data and logs"
+msgstr "Raaka järjestelmätieto ja lokit"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 54
 msgid "Hardware Report"
 msgstr "Laiteraportti"
@@ -31,6 +203,90 @@ msgstr "Luotu:"
 msgid "Visit BigLinux website"
 msgstr "Vieraile BigLinux-verkkosivustolla"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 71
+#: NEEDS WORK
+msgid "Hardware Report for"
+msgstr "Laiteraportti varten"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 83
+#: NEEDS WORK
+msgid "Main Navigation"
+msgstr "Päävalikko"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 745
+#: NEEDS WORK
+msgid "Go to"
+msgstr "Siirry kohtaan"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Käyttöyhteenveto"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "Muisti RAM:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Käytetty:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "Juuriosio:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 931
+#: NEEDS WORK
+msgid "Size:"
+msgstr "Koko:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 933
+#: NEEDS WORK
+msgid "Free:"
+msgstr "Ilmainen:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Järjestelmän tiedot"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
+msgid "Cache"
+msgstr "Välimuisti"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
+msgid "Technical Details"
+msgstr "Tekniset tiedot"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
+msgid "Thread"
+msgstr "Lanka"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
+msgid "Thread Speeds"
+msgstr "Lankanopeudet"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
+msgid "CPU Flags"
+msgstr "CPU-liput"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
+msgid "CPU Vulnerabilities"
+msgstr "CPU-haavoittuvuudet"
+# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
 msgid "Advanced Information"
 msgstr "Edistynyt tieto"
@@ -38,6 +294,55 @@ msgstr "Edistynyt tieto"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Ei grafiikkalaitteita löytynyt"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Näytöt"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Näyttöpalvelin"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1306
+#: NEEDS WORK
+msgid "OpenGL"
+msgstr "OpenGL"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Laite"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1338
+#: NEEDS WORK
+msgid "Vulkan"
+msgstr "Vulkan"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1360
+#: NEEDS WORK
+msgid "EGL"
+msgstr "EGL"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "Muistin käyttö"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+msgid "Total:"
+msgstr "Yhteensä:"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1415
+#: NEEDS WORK
+msgid "General Information"
+msgstr "Yleiset tiedot"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
 msgid "Memory Modules"
@@ -47,9 +352,22 @@ msgstr "Muistimoduulit"
 msgid "No storage drives found"
 msgstr "Ei tallennuslevyjä löytynyt"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Kokonaisvarasto:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Tallennuslaitteet"
+# 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
 msgid "Disk Partitions"
 msgstr "Levyosiot"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 1653
+#: NEEDS WORK
+msgid "Mounted on:"
+msgstr "Asennettu:"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -62,6 +380,11 @@ msgstr "Ei äänilaitteita löytynyt."
 msgid "No network interfaces found"
 msgstr "Verkko-osoitteita ei löytynyt"
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 1905
+#: NEEDS WORK
+msgid "Virtual Networks"
+msgstr "Virtuaaliverkot"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1972
@@ -73,6 +396,15 @@ msgstr "Ei akkua havaittu (Työpöytätietokone)"
 msgid "No Bluetooth devices found"
 msgstr "Ei Bluetooth-laitteita löytynyt."
 # 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "Yhdistetyt laitteet"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "USB-hubit ja ohjaimet"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2110
@@ -81,9 +413,24 @@ msgstr "Ei Bluetooth-laitteita löytynyt."
 msgid "No USB devices found"
 msgstr "Ei USB-laitteita löytynyt."
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 2187
+#: NEEDS WORK
+msgid "USB Hubs"
+msgstr "USB-hubit"
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2215
 msgid "No PCI devices found"
 msgstr "Ei PCI-laitteita löytynyt"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 2297
+#: NEEDS WORK
+msgid "System Controllers & Bridges"
+msgstr "Järjestelmäohjaimet ja siltaelementit"
+# 
+# File: src/big_hardware_info/export/html_generator.py, line: 2297
+#: NEEDS WORK
+msgid "devices"
+msgstr "laitteet"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2334
 msgid "No webcams found"
@@ -93,12 +440,33 @@ msgstr "Ei verkkokameroita löytynyt."
 msgid "No printers configured"
 msgstr "Ei tulostimia ole määritetty."
 # 
+# File: src/big_hardware_info/export/html_generator.py, line: 2483
+#: NEEDS WORK
+msgid "Printer Status"
+msgstr "Tulostimen tila"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "Tulostimen tiedot"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 2479
 # File: big-hardware-info/src/app/ui/sections.py, line: 359
 msgid "No sensors detected"
 msgstr "Ei antureita havaittu"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Järjestelmän lämpötilat"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Tuulettimen nopeudet"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Yksityiskohtaiset anturidata (anturit)"
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
 msgid "Package Repositories"
@@ -141,23 +509,92 @@ msgstr "journalctl (virheet)"
 msgid "No additional information available"
 msgstr "Ei lisätietoja saatavilla"
 # 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "Vie raportti"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
+msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
+msgstr ""
+"Tallenna täydellinen HTML-raportti laitteistostasi jaaaksesi sen tuen kanssa tai säilyttääksesi sen "
+"viitteenä."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
+msgid "Export"
+msgstr "Vie"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "Jaa verkossa"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
+msgid "Upload your hardware report to get a shareable link for forums or support tickets."
+msgstr "Lataa laitteistoraporttisi saadaksesi jaettavan linkin foorumeille tai tukipyyntöihin."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
+msgid "Share"
+msgstr "Jaa"
+# 
+# File: src/big_hardware_info/ui/sections.py, line: 97
+# File: src/big_hardware_info/ui/sections.py, line: 121
+#: NEEDS WORK
+msgid "Memory RAM"
+msgstr "Muisti RAM"
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "Käyttöyhteenveto"
+# File: src/big_hardware_info/ui/sections.py, line: 97
+# File: src/big_hardware_info/ui/sections.py, line: 102
+# File: src/big_hardware_info/ui/sections.py, line: 103
+# File: src/big_hardware_info/ui/sections.py, line: 104
+# File: src/big_hardware_info/ui/sections.py, line: 285
+# File: src/big_hardware_info/ui/renderers/printers.py, line: 93
+#: NEEDS WORK
+msgid "Unknown"
+msgstr "Tuntematon"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "Käytetty"
+# 
+# File: src/big_hardware_info/ui/sections.py, line: 99
+# File: src/big_hardware_info/ui/sections.py, line: 105
+#: NEEDS WORK
+msgid "Usage"
+msgstr "Käyttö"
+# 
+# File: src/big_hardware_info/ui/sections.py, line: 101
+# File: src/big_hardware_info/ui/sections.py, line: 152
+#: NEEDS WORK
+msgid "Root Partition"
+msgstr "Juuriosio"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "Järjestelmän tiedot"
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "Koko"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
+msgid "Free"
+msgstr "Ilmainen"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
+msgid "Video"
+msgstr "Video"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "Ydin"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
+msgid "Install Date"
+msgstr "Asennuspäivämäärä"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 243
 msgid "No battery detected"
@@ -405,19 +842,6 @@ msgstr "Maksimi FPS"
 msgid "Driver Version"
 msgstr "Ohjaimen versio"
 # 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "Laite"
-# 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 34
 msgid "Share Report Online"
 msgstr "Jaa raportti verkossa"
@@ -458,14 +882,6 @@ msgstr "Sisällytä arkaluontoista tietoa"
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 172
 msgid "Cancel"
 msgstr "Peruuta"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
-msgid "Share"
-msgstr "Jaa"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
-msgid "Export"
-msgstr "Vie"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 128
 msgid "HTML files"
@@ -571,26 +987,28 @@ msgstr "Ydinmoduuli"
 msgid "System Controllers & Bridges ({count} devices)"
 msgstr "Järjestelmäohjaimet ja silta ({{count}} laitetta)"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "Tulostimen tiedot"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
 msgid "Configure printers in System Settings"
 msgstr "Määritä tulostimet järjestelmäasetuksissa"
 # 
+# File: src/big_hardware_info/ui/renderers/printers.py, line: 95
+#: NEEDS WORK
+msgid "Idle"
+msgstr "Lepotila"
+# 
+# File: src/big_hardware_info/ui/renderers/printers.py, line: 97
+#: NEEDS WORK
+msgid "Printing"
+msgstr "Tulostus"
+# 
+# File: src/big_hardware_info/ui/renderers/printers.py, line: 99
+#: NEEDS WORK
+msgid "Disabled"
+msgstr "Poistettu käytöstä"
+# 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
 msgid "No motherboard information available"
 msgstr "Emolevytietoja ei ole saatavilla."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
-# File: big-hardware-info/src/app/ui/search.py, line: 73
-# File: big-hardware-info/src/app/ui/search.py, line: 221
-# File: big-hardware-info/src/app/ui/search.py, line: 222
-msgid "Motherboard"
-msgstr "Emolevy"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -611,14 +1029,6 @@ msgstr "Valmistaja"
 # File: big-hardware-info/src/app/ui/search.py, line: 193
 msgid "Type"
 msgstr "Tyyppi"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
-# File: big-hardware-info/src/app/ui/search.py, line: 92
-# File: big-hardware-info/src/app/ui/search.py, line: 213
-msgid "System"
-msgstr "Järjestelmä"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -665,66 +1075,9 @@ msgstr "BIOS-päivämäärä"
 msgid "Full Output"
 msgstr "Täysi tulos"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 220
-msgid "Export Report"
-msgstr "Vie raportti"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
-msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
-msgstr ""
-"Tallenna täydellinen HTML-raportti laitteistostasi jaaaksesi sen tuen kanssa tai säilyttääksesi sen "
-"viitteenä."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 221
-msgid "Share Online"
-msgstr "Jaa verkossa"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
-msgid "Upload your hardware report to get a shareable link for forums or support tickets."
-msgstr "Lataa laitteistoraporttisi saadaksesi jaettavan linkin foorumeille tai tukipyyntöihin."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
-msgid "Memory RAM:"
-msgstr "Muisti RAM:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
-msgid "Used"
-msgstr "Käytetty"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
-msgid "Root Partition:"
-msgstr "Juuriosio:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
-msgid "Size"
-msgstr "Koko"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
-msgid "Free"
-msgstr "Ilmainen"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 173
 msgid "Distro"
 msgstr "Jakelu"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
-msgid "Video"
-msgstr "Video"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
-msgid "Install Date"
-msgstr "Asennuspäivämäärä"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
-# File: big-hardware-info/src/app/ui/search.py, line: 291
-msgid "Kernel"
-msgstr "Ydin"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 206
 msgid "=== Usage Overview ==="
@@ -771,18 +1124,6 @@ msgstr "Ydin:"
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
 msgstr "Ei anturidataa saatavilla"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "Järjestelmän lämpötilat"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "Tuulettimen nopeudet"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "Yksityiskohtaiset anturidata (anturit)"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -880,10 +1221,6 @@ msgstr "Yleisimmät prosessit"
 msgid "CPU Usage"
 msgstr "CPU-käyttö"
 # 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
-msgid "Memory Usage"
-msgstr "Muistin käyttö"
-# 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
 msgid "Packages & Repositories"
 msgstr "Pakettien ja varastojen hallinta"
@@ -891,10 +1228,6 @@ msgstr "Pakettien ja varastojen hallinta"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/system.py, line: 258
 msgid "Active Repositories"
 msgstr "Aktiiviset varastot"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
-msgid "Battery"
-msgstr "Akku"
 # 
 # File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
 msgid "Condition"
@@ -921,11 +1254,6 @@ msgstr "Minimi jännite"
 msgid "Serial"
 msgstr "Sarjanumero"
 # 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
-msgid "Connected Devices"
-msgstr "Yhdistetyt laitteet"
-# 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
 msgid "Class"
 msgstr "Luokka"
@@ -951,10 +1279,6 @@ msgstr "Laitteen tunnus"
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
 msgid "Bus"
 msgstr "Bussi"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "USB-hubit ja ohjaimet"
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
 msgid "Hub"
@@ -1171,40 +1495,19 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Lataa uudelleen järjestelmänvalvojana"
 # 
-# File: big-hardware-info/src/app/ui/search.py, line: 70
-msgid "Processor"
-msgstr "Prosessori"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 71
-msgid "Graphics"
-msgstr "Grafiikka"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 72
-msgid "Memory"
-msgstr "Muisti"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 74
-msgid "Audio"
-msgstr "Ääni"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 75
-msgid "Network"
-msgstr "Verkko"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 76
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
-msgid "Storage"
-msgstr "Tallennus"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 77
-msgid "PCI Devices"
-msgstr "PCI-laitteet"
+# File: src/big_hardware_info/ui/search.py, line: 64
+#: NEEDS WORK
+msgid "Search Results for"
+msgstr "Hakutulokset hakusanalle"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "USB-laitteet"
+# 
+# File: src/big_hardware_info/ui/search.py, line: 168
+#: NEEDS WORK
+msgid "System Memory"
+msgstr "Järjestelmämuisti"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 191
 msgid "Slot"
@@ -1234,23 +1537,6 @@ msgstr "Kokeile toista hakusanaa"
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
 msgstr "Ei levyyn liittyvää tietoa saatavilla"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Kokonaisvarasto:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Käytetty:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "Tallennuslaitteet"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
@@ -1324,10 +1610,6 @@ msgstr "Aktiiviset portit"
 msgid "Empty Ports"
 msgstr "Tyhjät portit"
 # 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "Näytöt"
-# 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
 msgid "Monitor"
 msgstr "Näyttö"
@@ -1367,10 +1649,6 @@ msgstr "Minimiresoluutio"
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
 msgid "Mapped"
 msgstr "Kartoitettu"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "Näyttöpalvelin"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
 msgid "Display"
@@ -1568,10 +1846,6 @@ msgstr "Laite:"
 msgid "=== Memory ==="
 msgstr "=== Muisti ==="
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
-msgid "Total:"
-msgstr "Yhteensä:"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
 msgid "Usage:"
 msgstr "Käyttö:"
@@ -1616,10 +1890,6 @@ msgstr "Rakennettu"
 msgid "Scaling"
 msgstr "Skaalaus"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 184
-msgid "Cache"
-msgstr "Välimuisti"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
 msgid "Family"
 msgstr "Perhe"
@@ -1639,26 +1909,6 @@ msgstr "Mikrokoodi"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
 msgid "Bogomips"
 msgstr "Bogomips"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 246
-msgid "Technical Details"
-msgstr "Tekniset tiedot"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 260
-msgid "Thread Speeds"
-msgstr "Lankanopeudet"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 272
-msgid "Thread"
-msgstr "Lanka"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
-msgid "CPU Flags"
-msgstr "CPU-liput"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
-msgid "CPU Vulnerabilities"
-msgstr "CPU-haavoittuvuudet"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="
