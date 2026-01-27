@@ -1221,6 +1221,10 @@ msgstr "模式"
 msgid "System USB Controllers ({count} devices)"
 msgstr "系统 USB 控制器（{count} 个设备）"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
+msgid "Open device info online"
+msgstr "在线打开设备信息"
+# 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
 msgstr "复制到剪贴板"
@@ -1263,6 +1267,14 @@ msgstr "此系统上不可用 pkexec 命令。"
 # File: src/big_hardware_info/ui/main_window.py, line: 395
 msgid "OK"
 msgstr "好的"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "管理员数据收集成功"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "无法收集管理员数据"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
@@ -1387,6 +1399,15 @@ msgstr "某些硬件信息需要管理员权限才能访问。您想要以提升
 msgid "Reload as Admin"
 msgstr "以管理员身份重新加载"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
+msgid "Hardware information updated with administrator access"
+msgstr "硬件信息已使用管理员权限更新"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
+#, python-brace-format
+msgid "Could not get elevated access: {error_message}"
+msgstr "无法获取提升的访问权限：{error_message}"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "USB设备"
@@ -1415,6 +1436,10 @@ msgstr "未找到结果"
 # File: big-hardware-info/src/app/ui/search.py, line: 325
 msgid "Try a different search term"
 msgstr "尝试不同的搜索词"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
@@ -1684,6 +1709,10 @@ msgstr "未知音频设备"
 msgid "Class ID"
 msgstr "类 ID"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 67
+msgid "No memory information available"
+msgstr "没有可用的内存信息"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
 msgid "Total Memory:"
 msgstr "总内存："
@@ -1814,6 +1843,10 @@ msgstr "模块："
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "插槽："
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
+msgid "No CPU information available"
+msgstr "没有可用的CPU信息"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1959,6 +1992,10 @@ msgstr "最大速度："
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
 msgid "L3 Cache:"
 msgstr "L3缓存："
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "没有可用数据"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""

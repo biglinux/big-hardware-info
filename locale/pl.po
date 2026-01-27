@@ -1126,6 +1126,10 @@ msgstr "Tryb"
 msgid "System USB Controllers ({count} devices)"
 msgstr "Kontrolery USB systemu ({count} urządzeń)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
+msgid "Open device info online"
+msgstr "Otwórz informacje o urządzeniu online"
+# 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
 msgstr "Skopiuj do schowka"
@@ -1165,6 +1169,14 @@ msgstr "Polecenie pkexec nie jest dostępne w tym systemie."
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 msgid "OK"
 msgstr "OK"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "Dane administratora zebrane pomyślnie."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "Nie udało się zebrać danych administratora."
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
@@ -1257,6 +1269,15 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Przeładuj jako administrator"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
+msgid "Hardware information updated with administrator access"
+msgstr "Informacje o sprzęcie zaktualizowane z dostępem administratora"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
+#, python-brace-format
+msgid "Could not get elevated access: {error_message}"
+msgstr "Nie można uzyskać podwyższonego dostępu: {error_message}"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "Urządzenia USB"
@@ -1285,6 +1306,10 @@ msgstr "Nie znaleziono wyników"
 # File: big-hardware-info/src/app/ui/search.py, line: 325
 msgid "Try a different search term"
 msgstr "Spróbuj innego terminu wyszukiwania."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
@@ -1551,6 +1576,10 @@ msgstr "Nieznane urządzenie audio"
 msgid "Class ID"
 msgstr "ID klasy"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 67
+msgid "No memory information available"
+msgstr "Brak dostępnych informacji o pamięci"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
 msgid "Total Memory:"
 msgstr "Całkowita pamięć:"
@@ -1642,6 +1671,10 @@ msgstr "Moduły:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "Sloty:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
+msgid "No CPU information available"
+msgstr "Brak dostępnych informacji o procesorze"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1742,6 +1775,10 @@ msgstr "Maksymalna prędkość:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
 msgid "L3 Cache:"
 msgstr "Cache L3:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "Brak danych dostępnych"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
