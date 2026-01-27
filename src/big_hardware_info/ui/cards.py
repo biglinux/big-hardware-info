@@ -76,7 +76,7 @@ def create_info_card(title: str, subtitle: str = "", icon_name: str = "",
                 label_widget.set_xalign(0)
                 prop_row.append(label_widget)
                 
-                value_widget = Gtk.Label(label=str(value) if value else "N/A")
+                value_widget = Gtk.Label(label=str(value) if value else _("N/A"))
                 value_widget.set_halign(Gtk.Align.START)
                 value_widget.set_hexpand(True)
                 value_widget.set_wrap(True)

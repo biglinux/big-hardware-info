@@ -30,7 +30,7 @@ class WebcamsRenderer(SectionRenderer):
         webcams = self._merge_webcam_data(v4l2_webcams, inxi_webcams)
         
         if not webcams:
-            self.show_no_data("No webcams detected")
+            self.show_no_data(_("No webcams detected"))
             return
         
         for webcam in webcams:

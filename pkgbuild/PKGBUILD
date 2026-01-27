@@ -37,7 +37,10 @@ package() {
     cd "${srcdir}/${pkgname}"
 
     python -m installer --destdir="$pkgdir" dist/*.whl
-    
+
+    # Install files
+    cp -a usr/share "${pkgdir}/usr/share"
+
     cp -f usr/bin/big-hardware-info "${pkgdir}/usr/bin/big-hardware-info"
 
     # Install license file if present

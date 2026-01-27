@@ -493,12 +493,12 @@ class MainWindow(Adw.ApplicationWindow):
                 self._update_content()
 
                 # Show success toast
-                toast = Adw.Toast.new("Admin data collected successfully")
+                toast = Adw.Toast.new(_("Admin data collected successfully"))
                 toast.set_timeout(2)
                 self.toast_overlay.add_toast(toast)
             else:
                 # Show error toast
-                toast = Adw.Toast.new("Failed to collect admin data")
+                toast = Adw.Toast.new(_("Failed to collect admin data"))
                 toast.set_timeout(3)
                 self.toast_overlay.add_toast(toast)
 
@@ -1272,7 +1272,7 @@ class MainWindow(Adw.ApplicationWindow):
         self._show_current_category()
         
         # Show success toast
-        toast = Adw.Toast.new("Hardware information updated with administrator access")
+        toast = Adw.Toast.new(_("Hardware information updated with administrator access"))
         toast.set_timeout(3)
         self.toast_overlay.add_toast(toast)
     
@@ -1282,7 +1282,7 @@ class MainWindow(Adw.ApplicationWindow):
         Args:
             error_message: The error message to display
         """
-        toast = Adw.Toast.new(f"Could not get elevated access: {error_message}")
+        toast = Adw.Toast.new(_("Could not get elevated access: {error_message}").format(error_message=error_message))
         toast.set_timeout(5)
         self.toast_overlay.add_toast(toast)
     
