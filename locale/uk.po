@@ -1172,6 +1172,10 @@ msgstr "Режим"
 msgid "System USB Controllers ({count} devices)"
 msgstr "Системні USB контролери ({count} пристроїв)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
+msgid "Open device info online"
+msgstr "Відкрити інформацію про пристрій онлайн"
+# 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
 msgstr "Скопіювати в буфер обміну"
@@ -1211,6 +1215,14 @@ msgstr "Команда pkexec недоступна в цій системі."
 # File: src/big_hardware_info/ui/main_window.py, line: 395
 msgid "OK"
 msgstr "ОК"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "Дані адміністратора успішно зібрані"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "Не вдалося зібрати дані адміністратора"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
@@ -1380,6 +1392,15 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Перезавантажити як адміністратор"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
+msgid "Hardware information updated with administrator access"
+msgstr "Інформацію про апаратне забезпечення оновлено з доступом адміністратора."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
+#, python-brace-format
+msgid "Could not get elevated access: {error_message}"
+msgstr "Не вдалося отримати підвищений доступ: {error_message}"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "USB-пристрої"
@@ -1408,6 +1429,10 @@ msgstr "Не знайдено результатів"
 # File: big-hardware-info/src/app/ui/search.py, line: 325
 msgid "Try a different search term"
 msgstr "Спробуйте інший пошуковий запит."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
@@ -1674,6 +1699,10 @@ msgstr "Невідомий аудіопристрій"
 msgid "Class ID"
 msgstr "Ідентифікатор класу"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 67
+msgid "No memory information available"
+msgstr "Немає доступної інформації про пам'ять"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
 msgid "Total Memory:"
 msgstr "Загальна пам'ять:"
@@ -1765,6 +1794,10 @@ msgstr "Модулі:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "Слоти:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
+msgid "No CPU information available"
+msgstr "Немає інформації про процесор"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1865,6 +1898,10 @@ msgstr "Максимальна швидкість:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
 msgid "L3 Cache:"
 msgstr "L3 кеш:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "Немає доступних даних"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""

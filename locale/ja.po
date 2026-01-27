@@ -1120,6 +1120,10 @@ msgstr "モード"
 msgid "System USB Controllers ({count} devices)"
 msgstr "システム USB コントローラー ({count} デバイス)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
+msgid "Open device info online"
+msgstr "オンラインでデバイス情報を開く"
+# 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
 msgstr "クリップボードにコピー"
@@ -1159,6 +1163,14 @@ msgstr "このシステムにはpkexecコマンドがありません。"
 # File: src/big_hardware_info/ui/main_window.py, line: 395
 msgid "OK"
 msgstr "OK"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "管理者データが正常に収集されました。"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "管理者データの収集に失敗しました。"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
@@ -1314,6 +1326,15 @@ msgstr "一部のハードウェア情報にアクセスするには管理者権
 msgid "Reload as Admin"
 msgstr "管理者として再読み込み"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
+msgid "Hardware information updated with administrator access"
+msgstr "管理者アクセスでハードウェア情報が更新されました。"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
+#, python-brace-format
+msgid "Could not get elevated access: {error_message}"
+msgstr "昇格されたアクセスを取得できませんでした: {error_message}"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "USBデバイス"
@@ -1342,6 +1363,10 @@ msgstr "結果が見つかりませんでした。"
 # File: big-hardware-info/src/app/ui/search.py, line: 325
 msgid "Try a different search term"
 msgstr "別の検索語を試してください。"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
@@ -1608,6 +1633,10 @@ msgstr "不明なオーディオデバイス"
 msgid "Class ID"
 msgstr "クラスID"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 67
+msgid "No memory information available"
+msgstr "メモリ情報は利用できません。"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
 msgid "Total Memory:"
 msgstr "合計メモリ："
@@ -1699,6 +1728,10 @@ msgstr "モジュール:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "スロット:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
+msgid "No CPU information available"
+msgstr "CPU情報は利用できません。"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1799,6 +1832,10 @@ msgstr "最大速度:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
 msgid "L3 Cache:"
 msgstr "L3キャッシュ:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "データが利用できません"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""

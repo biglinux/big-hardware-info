@@ -1124,6 +1124,10 @@ msgstr "Módusz"
 msgid "System USB Controllers ({count} devices)"
 msgstr "Rendszer USB vezérlők ({count} eszköz)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
+msgid "Open device info online"
+msgstr "Nyissa meg az eszköz információit online"
+# 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
 msgstr "Másolás a vágólapra"
@@ -1163,6 +1167,14 @@ msgstr "A pkexec parancs nem elérhető ezen a rendszeren."
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 msgid "OK"
 msgstr "Rendben"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "Admin adatok sikeresen összegyűjtve"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "Nem sikerült összegyűjteni az adminisztrátori adatokat."
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
@@ -1270,6 +1282,15 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Újratöltés rendszergazdaként"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
+msgid "Hardware information updated with administrator access"
+msgstr "A hardverinformációk frissítve adminisztrátori hozzáféréssel."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
+#, python-brace-format
+msgid "Could not get elevated access: {error_message}"
+msgstr "Nem sikerült megszerezni a magasabb szintű hozzáférést: {error_message}"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "USB eszközök"
@@ -1298,6 +1319,10 @@ msgstr "Nincs találat."
 # File: big-hardware-info/src/app/ui/search.py, line: 325
 msgid "Try a different search term"
 msgstr "Próbálj meg egy másik keresési kifejezést."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
@@ -1564,6 +1589,10 @@ msgstr "Ismeretlen audioeszköz"
 msgid "Class ID"
 msgstr "Osztályazonosító"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 67
+msgid "No memory information available"
+msgstr "Nincs elérhető memóriainformáció."
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
 msgid "Total Memory:"
 msgstr "Összes memória:"
@@ -1655,6 +1684,10 @@ msgstr "Modulok:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "Slotok:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
+msgid "No CPU information available"
+msgstr "Nincs elérhető CPU-információ."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1755,6 +1788,10 @@ msgstr "Max Sebesség:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
 msgid "L3 Cache:"
 msgstr "L3 gyorsítótár:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "Nincs elérhető adat."
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""

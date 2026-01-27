@@ -1149,6 +1149,10 @@ msgstr "Modus"
 msgid "System USB Controllers ({count} devices)"
 msgstr "System USB-kontrollere ({count} enheter)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
+msgid "Open device info online"
+msgstr "Åpne enhetsinformasjon på nettet"
+# 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
 msgstr "Kopier til utklippstavle"
@@ -1188,6 +1192,14 @@ msgstr "pkexec-kommandoet er ikke tilgjengelig på dette systemet."
 # File: src/big_hardware_info/ui/main_window.py, line: 395
 msgid "OK"
 msgstr "OK"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "Admin data samlet vellykket"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "Feilet å samle inn administratordata"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
@@ -1355,6 +1367,15 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Last inn som administrator"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
+msgid "Hardware information updated with administrator access"
+msgstr "Maskinvareinformasjon oppdatert med administratorrettigheter"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
+#, python-brace-format
+msgid "Could not get elevated access: {error_message}"
+msgstr "Kunne ikke få hevet tilgang: {error_message}"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "USB-enheter"
@@ -1383,6 +1404,10 @@ msgstr "Ingen resultater funnet"
 # File: big-hardware-info/src/app/ui/search.py, line: 325
 msgid "Try a different search term"
 msgstr "Prøv et annet søkebegrep"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
@@ -1649,6 +1674,10 @@ msgstr "Ukjent lyd-enhet"
 msgid "Class ID"
 msgstr "Klasse-ID"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 67
+msgid "No memory information available"
+msgstr "Ingen minneinformasjon tilgjengelig"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
 msgid "Total Memory:"
 msgstr "Total minne:"
@@ -1740,6 +1769,10 @@ msgstr "Moduler:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "Spilleautomater:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
+msgid "No CPU information available"
+msgstr "Ingen CPU-informasjon tilgjengelig"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1840,6 +1873,10 @@ msgstr "Maksimal hastighet:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
 msgid "L3 Cache:"
 msgstr "L3-cache:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "Ingen data tilgjengelig"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""

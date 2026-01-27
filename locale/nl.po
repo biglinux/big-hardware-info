@@ -1122,6 +1122,10 @@ msgstr "Modus"
 msgid "System USB Controllers ({count} devices)"
 msgstr "Systeem USB-controllers ({count} apparaten)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
+msgid "Open device info online"
+msgstr "Open apparaatinfo online"
+# 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
 msgstr "Kopiëren naar klembord"
@@ -1161,6 +1165,14 @@ msgstr "De pkexec-opdracht is niet beschikbaar op dit systeem."
 # File: src/big_hardware_info/ui/main_window.py, line: 395
 msgid "OK"
 msgstr "OK"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "Admin gegevens succesvol verzameld"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "Kon niet de beheergegevens verzamelen"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
@@ -1268,6 +1280,15 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Herlaad als beheerder"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
+msgid "Hardware information updated with administrator access"
+msgstr "Hardware-informatie bijgewerkt met beheerdersrechten"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
+#, python-brace-format
+msgid "Could not get elevated access: {error_message}"
+msgstr "Kon geen verhoogde toegang krijgen: {error_message}"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "USB-apparaten"
@@ -1296,6 +1317,10 @@ msgstr "Geen resultaten gevonden"
 # File: big-hardware-info/src/app/ui/search.py, line: 325
 msgid "Try a different search term"
 msgstr "Probeer een andere zoekterm"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/B"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
@@ -1562,6 +1587,10 @@ msgstr "Onbekend audiapparaat"
 msgid "Class ID"
 msgstr "Klasse-ID"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 67
+msgid "No memory information available"
+msgstr "Geen geheugeninformatie beschikbaar"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
 msgid "Total Memory:"
 msgstr "Totale Geheugen:"
@@ -1653,6 +1682,10 @@ msgstr "Modules:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "Slots:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
+msgid "No CPU information available"
+msgstr "Geen CPU-informatie beschikbaar"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1753,6 +1786,10 @@ msgstr "Maximale snelheid:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
 msgid "L3 Cache:"
 msgstr "L3-cache:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "Geen gegevens beschikbaar"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""

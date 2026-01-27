@@ -1158,6 +1158,10 @@ msgstr "Režiim"
 msgid "System USB Controllers ({count} devices)"
 msgstr "Süsteemi USB kontrollerid ({count} seadet)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
+msgid "Open device info online"
+msgstr "Ava seadme teavet veebis"
+# 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
 msgstr "Kopeeri lõikelauale"
@@ -1197,6 +1201,14 @@ msgstr "pkexec käsku ei ole sellel süsteemil saadaval."
 # File: src/big_hardware_info/ui/main_window.py, line: 395
 msgid "OK"
 msgstr "OK"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "Admini andmed koguti edukalt"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "Admin andmete kogumine ebaõnnestus"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 # 
@@ -1372,6 +1384,15 @@ msgstr ""
 msgid "Reload as Admin"
 msgstr "Laadi uuesti administraatorina"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
+msgid "Hardware information updated with administrator access"
+msgstr "Riistvara teave on värskendatud administraatori juurdepääsuga."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
+#, python-brace-format
+msgid "Could not get elevated access: {error_message}"
+msgstr "Ei saanud kõrgendatud juurdepääsu: {error_message}"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "USB-seadmed"
@@ -1400,6 +1421,10 @@ msgstr "Tulemusi ei leitud."
 # File: big-hardware-info/src/app/ui/search.py, line: 325
 msgid "Try a different search term"
 msgstr "Proovi teistsugust otsinguterminit."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
@@ -1666,6 +1691,10 @@ msgstr "Tundmatu heliseade"
 msgid "Class ID"
 msgstr "Klassi ID"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 67
+msgid "No memory information available"
+msgstr "Mälu teavet pole saadaval"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
 msgid "Total Memory:"
 msgstr "Kogusmälu:"
@@ -1757,6 +1786,10 @@ msgstr "Moodulid:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "Slotid:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
+msgid "No CPU information available"
+msgstr "CPU teave pole saadaval"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1857,6 +1890,10 @@ msgstr "Maksimaalne kiirus:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
 msgid "L3 Cache:"
 msgstr "L3 vahemälu:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "Andmed pole saadaval."
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""

@@ -1122,6 +1122,10 @@ msgstr "מצב"
 msgid "System USB Controllers ({count} devices)"
 msgstr "בקרי USB במערכת ({count} מכשירים)"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
+msgid "Open device info online"
+msgstr "פתח מידע על המכשיר באינטרנט"
+# 
 # File: big-hardware-info/src/app/ui/builders.py, line: 154
 msgid "Copy to clipboard"
 msgstr "העתק ללוח שנה"
@@ -1161,6 +1165,14 @@ msgstr "פקודת pkexec אינה זמינה במערכת זו."
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
 msgid "OK"
 msgstr "אוקי"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "נתוני מנהל נאספו בהצלחה"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "כישלון באיסוף נתוני מנהל"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 868
 msgid "Opening in browser..."
@@ -1314,6 +1326,15 @@ msgstr "מידע מסוים על חומרה דורש הרשאות מנהל גי�
 msgid "Reload as Admin"
 msgstr "טען מחדש כמנהל"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
+msgid "Hardware information updated with administrator access"
+msgstr "מידע על חומרה עודכן עם גישת מנהל"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
+#, python-brace-format
+msgid "Could not get elevated access: {error_message}"
+msgstr "לא ניתן לקבל גישה מוגבהת: {error_message}"
+# 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
 msgstr "מכשירי USB"
@@ -1342,6 +1363,10 @@ msgstr "לא נמצאו תוצאות"
 # File: big-hardware-info/src/app/ui/search.py, line: 325
 msgid "Try a different search term"
 msgstr "נסה מונח חיפוש שונה"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 39
 msgid "No disk information available"
@@ -1608,6 +1633,10 @@ msgstr "מכשיר שמע לא ידוע"
 msgid "Class ID"
 msgstr "מזהה כיתה"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 67
+msgid "No memory information available"
+msgstr "אין מידע זיכרון זמין"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 88
 msgid "Total Memory:"
 msgstr "זיכרון כולל:"
@@ -1699,6 +1728,10 @@ msgstr "מודולים:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "סלוטים:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
+msgid "No CPU information available"
+msgstr "אין מידע על מעבד זמין"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 71
 msgid "Copy CPU info"
@@ -1799,6 +1832,10 @@ msgstr "מהירות מקסימלית:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 381
 msgid "L3 Cache:"
 msgstr "מטמון L3:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "אין נתונים זמינים"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
