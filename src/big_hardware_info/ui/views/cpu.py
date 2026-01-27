@@ -40,7 +40,7 @@ class CpuSectionView(HardwareSectionView):
         self.clear()
         
         if not data:
-            self.show_no_data("No CPU information available")
+            self.show_no_data(_("No CPU information available"))
             return
         
         # Render sections

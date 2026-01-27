@@ -377,13 +377,15 @@ class HardwareSectionView(Gtk.Box):
         
         return expander
     
-    def show_no_data(self, message: str = "No data available") -> None:
+    def show_no_data(self, message: str = None) -> None:
         """
         Display a "no data" message in the view.
-        
+
         Args:
             message: The message to display.
         """
+        if message is None:
+            message = _("No data available")
         label = Gtk.Label(label=message)
         label.add_css_class("dim-label")
         label.set_margin_top(32)

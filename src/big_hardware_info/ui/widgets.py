@@ -199,7 +199,7 @@ class DeviceRow(Adw.ActionRow):
             self._url = url
             link_btn = Gtk.Button(icon_name="web-browser-symbolic")
             link_btn.add_css_class("flat")
-            link_btn.set_tooltip_text("Open device info online")
+            link_btn.set_tooltip_text(_("Open device info online"))
             link_btn.set_valign(Gtk.Align.CENTER)
             link_btn.connect("clicked", self._on_link_clicked)
             self.add_suffix(link_btn)

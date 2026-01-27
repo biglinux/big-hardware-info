@@ -64,7 +64,7 @@ class MemorySectionView(HardwareSectionView):
         self.clear()
         
         if not data:
-            self.show_no_data("No memory information available")
+            self.show_no_data(_("No memory information available"))
             return
         
         # Render sections
