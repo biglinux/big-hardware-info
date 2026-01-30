@@ -13,6 +13,7 @@ from gi.repository import Gtk, Adw, Pango, Gdk
 import math
 
 from big_hardware_info.utils.i18n import _
+from big_hardware_info.ui import builders as ui
 
 
 class InfoCard(Gtk.Box):
@@ -38,7 +39,7 @@ class InfoCard(Gtk.Box):
         header = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
         
         if icon_name:
-            icon = Gtk.Image.new_from_icon_name(icon_name)
+            icon = ui.icon(icon_name)
             icon.add_css_class("accent")
             header.append(icon)
         
@@ -136,7 +137,7 @@ class ProgressCard(Gtk.Box):
         header = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
         
         if icon_name:
-            icon = Gtk.Image.new_from_icon_name(icon_name)
+            icon = ui.icon(icon_name)
             header.append(icon)
         
         title_label = Gtk.Label(label=title)
@@ -192,7 +193,7 @@ class DeviceRow(Adw.ActionRow):
             self.set_subtitle(subtitle)
         
         if icon_name:
-            icon = Gtk.Image.new_from_icon_name(icon_name)
+            icon = ui.icon(icon_name)
             self.add_prefix(icon)
         
         if url:
@@ -232,8 +233,7 @@ class StatBox(Gtk.Box):
         self.set_valign(Gtk.Align.CENTER)
         
         if icon_name:
-            icon = Gtk.Image.new_from_icon_name(icon_name)
-            icon.set_pixel_size(24)
+            icon = ui.icon(icon_name, 24)
             icon.add_css_class("accent")
             self.append(icon)
         

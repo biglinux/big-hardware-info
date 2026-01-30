@@ -11,6 +11,7 @@ from gi.repository import Gtk, GLib
 
 from big_hardware_info.utils.i18n import _
 from big_hardware_info.ui.cards import create_info_card
+from big_hardware_info.ui import builders as ui
 
 
 class SearchHandler:
@@ -120,8 +121,7 @@ class SearchHandler:
         section_box.set_margin_top(16)
         section_box.set_margin_bottom(8)
         
-        icon = Gtk.Image.new_from_icon_name(icon_name)
-        icon.set_pixel_size(20)
+        icon = ui.icon(icon_name, 20)
         icon.add_css_class("accent")
         section_box.append(icon)
         
@@ -313,8 +313,7 @@ class SearchHandler:
         no_results.set_vexpand(True)
         no_results.is_no_results = True
         
-        icon = Gtk.Image.new_from_icon_name("edit-find-symbolic")
-        icon.set_pixel_size(64)
+        icon = ui.icon("edit-find-symbolic", 64)
         icon.add_css_class("dim-label")
         no_results.append(icon)
         

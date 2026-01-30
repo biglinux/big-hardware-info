@@ -22,7 +22,7 @@ from big_hardware_info.ui.renderers import (
     PrintersRenderer, WebcamsRenderer, SystemRenderer, UsbRenderer,
     PciRenderer, MoreInfoRenderer, MachineRenderer
 )
-from big_hardware_info.ui import dialogs
+from big_hardware_info.ui import dialogs, builders as ui
 from big_hardware_info.ui.search import SearchHandler
 from big_hardware_info.export.html_generator import HtmlGenerator
 from big_hardware_info.utils.style_manager import StyleManager
@@ -150,8 +150,7 @@ class MainWindow(Adw.ApplicationWindow):
         # App icon button (clickable for About)
         app_icon_btn = Gtk.Button()
         app_icon_btn.add_css_class("flat")
-        app_icon = Gtk.Image.new_from_icon_name("computer-symbolic")
-        app_icon.set_pixel_size(20)
+        app_icon = ui.icon("computer-symbolic", 20)
         app_icon_btn.set_child(app_icon)
         app_icon_btn.set_tooltip_text(_("About") + " " + AppInfo.NAME)
         app_icon_btn.connect("clicked", lambda btn: self.app.activate_action("about", None))
@@ -271,8 +270,7 @@ class MainWindow(Adw.ApplicationWindow):
         box.set_margin_bottom(1)
         
         # Icon
-        icon = Gtk.Image.new_from_icon_name(cat_info["icon"])
-        icon.set_pixel_size(18)
+        icon = ui.icon(cat_info["icon"], 18)
         icon.add_css_class("category-icon")
         box.append(icon)
         
@@ -299,8 +297,7 @@ class MainWindow(Adw.ApplicationWindow):
         header_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
         header_box.set_margin_bottom(6)
         
-        icon = Gtk.Image.new_from_icon_name(icon_name)
-        icon.set_pixel_size(24)
+        icon = ui.icon(icon_name, 24)
         icon.add_css_class("accent")
         header_box.append(icon)
         
@@ -657,8 +654,7 @@ class MainWindow(Adw.ApplicationWindow):
             header_box.set_margin_top(16)
             header_box.set_margin_bottom(8)
 
-            icon = Gtk.Image.new_from_icon_name(cat.get("icon", "computer-symbolic"))
-            icon.set_pixel_size(28)
+            icon = ui.icon(cat.get("icon", "computer-symbolic"), 28)
             icon.add_css_class("accent")
             header_box.append(icon)
 
@@ -1162,8 +1158,7 @@ class MainWindow(Adw.ApplicationWindow):
         box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=6)
         
         # Lock icon
-        icon = Gtk.Image.new_from_icon_name("system-lock-screen-symbolic")
-        icon.set_pixel_size(14)
+        icon = ui.icon("system-lock-screen-symbolic", 14)
         icon.add_css_class("warning")
         box.append(icon)
         

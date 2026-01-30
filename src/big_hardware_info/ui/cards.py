@@ -8,6 +8,8 @@ gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 from gi.repository import Gtk
 
+from big_hardware_info.ui import builders as ui
+
 
 def create_info_card(title: str, subtitle: str = "", icon_name: str = "", 
                      properties: list = None, searchable_extra: str = "") -> Gtk.Widget:
@@ -32,8 +34,7 @@ def create_info_card(title: str, subtitle: str = "", icon_name: str = "",
     header = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=12)
     
     if icon_name:
-        icon = Gtk.Image.new_from_icon_name(icon_name)
-        icon.set_pixel_size(48)
+        icon = ui.icon(icon_name, 48)
         icon.add_css_class("accent")
         header.append(icon)
     
@@ -125,8 +126,7 @@ def create_property_list(title: str, icon_name: str, properties: list, searchabl
         title_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
         
         if icon_name:
-            icon = Gtk.Image.new_from_icon_name(icon_name)
-            icon.set_pixel_size(20)
+            icon = ui.icon(icon_name, 20)
             icon.add_css_class("accent")
             title_box.append(icon)
         
@@ -165,7 +165,7 @@ def create_property_list(title: str, icon_name: str, properties: list, searchabl
             row.set_subtitle_selectable(True)
             
             if prop_icon:
-                icon_widget = Gtk.Image.new_from_icon_name(prop_icon)
+                icon_widget = ui.icon(prop_icon)
                 icon_widget.add_css_class("accent")
                 row.add_prefix(icon_widget)
             

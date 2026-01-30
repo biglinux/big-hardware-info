@@ -15,6 +15,8 @@ gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 from gi.repository import Gtk, Adw, Gdk, GLib, Gio
 
+from big_hardware_info.ui import builders as ui
+
 logger = logging.getLogger(__name__)
 
 
@@ -51,8 +53,7 @@ def show_privacy_export_dialog(window, is_upload: bool = False):
     privacy_box.set_margin_start(0)
     privacy_box.set_margin_end(0)
     
-    warning_icon = Gtk.Image.new_from_icon_name("dialog-warning-symbolic")
-    warning_icon.set_pixel_size(24)
+    warning_icon = ui.icon("dialog-warning-symbolic", 24)
     warning_icon.add_css_class("warning")
     privacy_box.append(warning_icon)
     
