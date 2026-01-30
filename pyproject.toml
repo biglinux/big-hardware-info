@@ -34,6 +34,9 @@ build-backend = "uv_build"
 [tool.uv-build]
 package-dir = "src"
 
+[tool.uv-build.package-data]
+big_hardware_info = ["icons/*.svg"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["big_hardware_info", "big_hardware_info.*"]

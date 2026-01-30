@@ -11,6 +11,7 @@ gi.require_version("Gtk", "4.0")
 from gi.repository import Gtk, Gdk
 
 from big_hardware_info.ui.views.base import HardwareSectionView
+from big_hardware_info.ui import builders as ui
 from big_hardware_info.utils.i18n import _
 
 
@@ -263,8 +264,7 @@ class NetworkSectionView(HardwareSectionView):
             header_row.set_margin_top(12)
             
             # Icon with status
-            vnet_icon = Gtk.Image.new_from_icon_name("network-server-symbolic")
-            vnet_icon.set_pixel_size(24)
+            vnet_icon = ui.icon("network-server-symbolic", 24)
             state = vnet.get("state", "").lower()
             if "up" in state:
                 vnet_icon.add_css_class("success")

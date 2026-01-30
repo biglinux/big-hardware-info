@@ -18,6 +18,7 @@ except (ValueError, ImportError):
     HAS_ADW = False
 
 from big_hardware_info.ui.views.base import HardwareSectionView
+from big_hardware_info.ui import builders as ui
 from big_hardware_info.utils.i18n import _
 
 
@@ -79,8 +80,7 @@ class MemorySectionView(HardwareSectionView):
         
         # Header with icon
         header = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=12)
-        icon = Gtk.Image.new_from_icon_name("memory-symbolic")
-        icon.set_pixel_size(32)
+        icon = ui.icon("memory-symbolic", 32)
         icon.add_css_class("accent")
         header.append(icon)
         
@@ -261,8 +261,7 @@ class MemorySectionView(HardwareSectionView):
         slot_header = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
         slot_header.set_margin_bottom(4)
 
-        slot_icon = Gtk.Image.new_from_icon_name("application-x-firmware-symbolic")
-        slot_icon.set_pixel_size(20)
+        slot_icon = ui.icon("application-x-firmware-symbolic", 20)
         slot_icon.add_css_class("accent")
         slot_header.append(slot_icon)
 
@@ -377,8 +376,7 @@ class MemorySectionView(HardwareSectionView):
         swap_type = swap.get("type", "").lower()
         icon_name = "drive-harddisk-solidstate-symbolic" if "zram" in swap_type else "drive-harddisk-symbolic"
         
-        swap_icon = Gtk.Image.new_from_icon_name(icon_name)
-        swap_icon.set_pixel_size(24)
+        swap_icon = ui.icon(icon_name, 24)
         swap_icon.add_css_class("accent")
         swap_header.append(swap_icon)
         

@@ -101,9 +101,9 @@ def row(spacing: int = 12) -> Gtk.Box:
 
 
 def icon(name: str, size: int = 24, css_class: str = None) -> Gtk.Image:
-    """Create an icon image."""
-    img = Gtk.Image.new_from_icon_name(name)
-    img.set_pixel_size(size)
+    """Create an icon image using bundled icons."""
+    from big_hardware_info.utils.icons import create_icon_image
+    img = create_icon_image(name, size)
     if css_class:
         img.add_css_class(css_class)
     return img

@@ -12,6 +12,8 @@ import gi
 gi.require_version("Gtk", "4.0")
 from gi.repository import Gtk, Pango
 
+from big_hardware_info.ui import builders as ui
+
 
 class HardwareSectionView(Gtk.Box):
     """
@@ -225,8 +227,7 @@ class HardwareSectionView(Gtk.Box):
         card.add_css_class("stat-card")
         
         # Icon
-        icon = Gtk.Image.new_from_icon_name(icon_name)
-        icon.set_pixel_size(24)
+        icon = ui.icon(icon_name, 24)
         icon.add_css_class("accent")
         card.append(icon)
         
