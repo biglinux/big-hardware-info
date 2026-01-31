@@ -348,7 +348,7 @@ msgstr "Tamanho"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
 msgid "Free"
-msgstr "Grátis"
+msgstr "Livre"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -368,7 +368,7 @@ msgstr "Vídeo"
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
 # File: big-hardware-info/src/app/ui/search.py, line: 291
 msgid "Kernel"
-msgstr "Núcleo"
+msgstr "Kernel"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
 msgid "Install Date"
@@ -392,7 +392,7 @@ msgstr "Status"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 254
 msgid "Charge"
-msgstr "Cobrar"
+msgstr "Carga"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -485,7 +485,7 @@ msgstr "ID do Chip"
 # File: big-hardware-info/src/app/ui/views/network.py, line: 117
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 109
 msgid "Bus ID"
-msgstr "ID do ônibus"
+msgstr "ID do barramento"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
