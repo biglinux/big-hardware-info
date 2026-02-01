@@ -20,6 +20,57 @@ from big_hardware_info.ui import builders as ui
 logger = logging.getLogger(__name__)
 
 
+def _merge_hardware_data(base_data: dict, new_data: dict) -> dict:
+    """Merge hardware data intelligently, preserving network IPs.
+    
+    When collecting sensitive data with pkexec, the network section from inxi
+    doesn't include IP addresses (those are added by _add_ip_addresses()).
+    This function preserves the existing network data that already has IPs.
+    
+    Args:
+        base_data: The original hardware data (from window.hardware_data)
+        new_data: New data collected with root privileges
+    
+    Returns:
+        Merged data with sensitive info from new_data but preserved network IPs
+    """
+    result = dict(base_data)
+    
+    for key, value in new_data.items():
+        if key == "network":
+            # Special handling for network: preserve IPs from base_data
+            base_network = base_data.get("network", {})
+            new_network = value
+            
+            # Keep base network data (with IPs) but update with any new sensitive fields
+            if base_network and new_network:
+                # Use base network (which has IPs) but add MAC addresses from new data
+                merged_network = dict(base_network)
+                
+                # Update devices with MACs from new_data
+                base_devices = {d.get("IF", d.get("name", "")): d for d in base_network.get("devices", [])}
+                for new_device in new_network.get("devices", []):
+                    key_name = new_device.get("IF", new_device.get("name", ""))
+                    if key_name and key_name in base_devices:
+                        # Preserve existing device but add MAC if it was masked before
+                        existing = base_devices[key_name]
+                        if new_device.get("mac") and (not existing.get("mac") or "filter" in existing.get("mac", "").lower()):
+                            existing["mac"] = new_device["mac"]
+                    elif key_name:
+                        # New device not in base, add it
+                        base_devices[key_name] = new_device
+                
+                merged_network["devices"] = list(base_devices.values())
+                result["network"] = merged_network
+            else:
+                result["network"] = new_network or base_network
+        else:
+            # For other sections, prefer new_data (has sensitive info)
+            result[key] = value
+    
+    return result
+
+
 def show_privacy_export_dialog(window, is_upload: bool = False):
     """Show privacy options dialog before exporting or uploading.
     
@@ -116,6 +167,50 @@ def show_export_file_dialog(window, filter_sensitive: bool = True):
         window: Parent window instance
         filter_sensitive: If True, filter out sensitive data.
     """
+    # If including sensitive data, collect with root privileges FIRST
+    # This needs to happen in the main thread for pkexec to show auth dialog
+    sensitive_data = None
+    if not filter_sensitive:
+        import subprocess
+        import shutil
+        
+        if shutil.which("pkexec"):
+            try:
+                # Use pkexec to collect full data with root privileges
+                # This will show the authentication dialog
+                result = subprocess.run(
+                    ["pkexec", "inxi", "--tty", "-c", "0", "-Fxxxa", "-v8", 
+                     "--output", "json", "--output-file", "print"],
+                    capture_output=True,
+                    text=True,
+                    timeout=120
+                )
+                
+                if result.returncode == 0 and result.stdout:
+                    import json
+                    from big_hardware_info.collectors.inxi_parser import InxiParser
+                    
+                    try:
+                        root_data = json.loads(result.stdout)
+                        parser = InxiParser()
+                        sensitive_data = parser.parse_full(root_data)
+                        logger.info("Successfully collected sensitive data with root privileges")
+                    except json.JSONDecodeError as e:
+                        logger.warning(f"Failed to parse root inxi output: {e}")
+                elif result.returncode == 126:
+                    # User cancelled authentication
+                    logger.info("User cancelled authentication")
+                    return
+                else:
+                    logger.warning(f"pkexec inxi failed with code {result.returncode}: {result.stderr}")
+            except subprocess.TimeoutExpired:
+                logger.warning("pkexec inxi timed out")
+            except Exception as e:
+                logger.warning(f"Failed to collect with root: {e}")
+        else:
+            logger.warning("pkexec not available")
+    
+    # Now show the file dialog
     dialog = Gtk.FileDialog()
     dialog.set_title(_("Export Hardware Report"))
     dialog.set_modal(True)
@@ -139,7 +234,8 @@ def show_export_file_dialog(window, filter_sensitive: bool = True):
             file = dlg.save_finish(result)
             if file:
                 file_path = file.get_path()
-                export_to_html(window, file_path, filter_sensitive=filter_sensitive)
+                export_to_html(window, file_path, filter_sensitive=filter_sensitive, 
+                              pre_collected_data=sensitive_data)
         except GLib.Error as e:
             if e.code != Gtk.DialogError.DISMISSED:
                 logger.error(f"Export error: {e}")
@@ -155,6 +251,49 @@ def start_share_upload(window, filter_sensitive: bool = True):
         filter_sensitive: If True, filter out sensitive data like serial
                         numbers and MAC addresses.
     """
+    # If including sensitive data, collect with root privileges FIRST
+    # This needs to happen in the main thread for pkexec to show auth dialog
+    sensitive_data = None
+    if not filter_sensitive:
+        import subprocess
+        import shutil
+        
+        if shutil.which("pkexec"):
+            try:
+                # Use pkexec to collect full data with root privileges
+                # This will show the authentication dialog
+                result = subprocess.run(
+                    ["pkexec", "inxi", "--tty", "-c", "0", "-Fxxxa", "-v8", 
+                     "--output", "json", "--output-file", "print"],
+                    capture_output=True,
+                    text=True,
+                    timeout=120
+                )
+                
+                if result.returncode == 0 and result.stdout:
+                    import json
+                    from big_hardware_info.collectors.inxi_parser import InxiParser
+                    
+                    try:
+                        root_data = json.loads(result.stdout)
+                        parser = InxiParser()
+                        sensitive_data = parser.parse_full(root_data)
+                        logger.info("Successfully collected sensitive data with root privileges")
+                    except json.JSONDecodeError as e:
+                        logger.warning(f"Failed to parse root inxi output: {e}")
+                elif result.returncode == 126:
+                    # User cancelled authentication
+                    logger.info("User cancelled authentication")
+                    return
+                else:
+                    logger.warning(f"pkexec inxi failed with code {result.returncode}: {result.stderr}")
+            except subprocess.TimeoutExpired:
+                logger.warning("pkexec inxi timed out")
+            except Exception as e:
+                logger.warning(f"Failed to collect with root: {e}")
+        else:
+            logger.warning("pkexec not available")
+    
     # Create progress dialog
     progress_dialog = Adw.AlertDialog()
     progress_dialog.set_heading(_("Uploading Report"))
@@ -195,8 +334,9 @@ def start_share_upload(window, filter_sensitive: bool = True):
             # Generate HTML in thread
             from big_hardware_info.export.html_generator import HtmlGenerator
             
-            # If filtering sensitive data, collect fresh with -z flag
+            # Handle data collection based on sensitivity settings
             if filter_sensitive:
+                # Filter sensitive data: collect fresh with -z flag (no root needed)
                 from big_hardware_info.collectors.inxi_collector import InxiCollector
                 from big_hardware_info.collectors.inxi_parser import InxiParser
                 
@@ -214,7 +354,14 @@ def start_share_upload(window, filter_sensitive: bool = True):
                         export_data[key] = value
                 else:
                     export_data = window.hardware_data
+            elif sensitive_data:
+                # Use pre-collected data from pkexec (already authenticated)
+                # Use smart merge to preserve network IPs
+                export_data = _merge_hardware_data(window.hardware_data, sensitive_data)
+                export_data["root_collected"] = True
+                logger.info("Using pre-collected sensitive data for upload")
             else:
+                # No pre-collected data, use existing data
                 export_data = window.hardware_data
             
             # Create strongly typed HardwareInfo object for the generator
@@ -337,7 +484,8 @@ def show_share_error(window, error_message: str):
     dialog.present(window)
 
 
-def export_to_html(window, file_path: str, filter_sensitive: bool = True):
+def export_to_html(window, file_path: str, filter_sensitive: bool = True, 
+                   pre_collected_data: dict = None):
     """Export hardware data to HTML file.
     
     Args:
@@ -345,6 +493,8 @@ def export_to_html(window, file_path: str, filter_sensitive: bool = True):
         file_path: Path to save the HTML file.
         filter_sensitive: If True, filter out sensitive data like serial
                         numbers and MAC addresses.
+        pre_collected_data: Optional pre-collected data from pkexec (collected
+                          in main thread before showing file dialog).
     """
     from big_hardware_info.export.html_generator import HtmlGenerator
     
@@ -354,8 +504,9 @@ def export_to_html(window, file_path: str, filter_sensitive: bool = True):
     def generate_html():
         """Generate HTML in background to avoid blocking the UI loop."""
         try:
-            # If filtering sensitive data, recollect with -z flag and re-parse
+            # Handle data collection based on sensitivity settings
             if filter_sensitive:
+                # Filter sensitive data: collect fresh with -z flag (no root needed)
                 from big_hardware_info.collectors.inxi_collector import InxiCollector
                 from big_hardware_info.collectors.inxi_parser import InxiParser
                 
@@ -373,7 +524,14 @@ def export_to_html(window, file_path: str, filter_sensitive: bool = True):
                         export_data[key] = value
                 else:
                     export_data = window.hardware_data
+            elif pre_collected_data:
+                # Use pre-collected data from pkexec (already authenticated)
+                # Use smart merge to preserve network IPs
+                export_data = _merge_hardware_data(window.hardware_data, pre_collected_data)
+                export_data["root_collected"] = True
+                logger.info("Using pre-collected sensitive data for export")
             else:
+                # No pre-collected data and no pkexec auth happened, use existing data
                 export_data = window.hardware_data
             
             # Create strongly typed HardwareInfo object for the generator

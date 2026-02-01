@@ -1573,8 +1573,40 @@ class HtmlGenerator:
             chip_id = device.get("chip_id", "")
             info_link = self._create_info_link(chip_id, 'pci')
             
-            # Video memory from multiple sources
+            # Video memory from multiple sources - filter for integrated GPUs
             video_mem = device.get("video_memory", "") or device.get("vram", "") or opengl.get("memory", "")
+            
+            # Detect integrated GPUs by checking driver/name
+            device_name_lower = device.get("name", "").lower()
+            driver_lower = device.get("driver", "").lower()
+            is_integrated = (
+                "i915" in driver_lower or 
+                "intel" in device_name_lower or
+                "iris" in device_name_lower or
+                "amdgpu" in driver_lower and "radeon vega" in device_name_lower or
+                "amdgpu" in driver_lower and "graphics" in device_name_lower
+            )
+            
+            # For integrated GPUs, if memory > 8GB, it's likely shared system memory
+            if is_integrated and video_mem:
+                import re
+                mem_match = re.search(r"([\d.]+)\s*(GiB|GB|MiB|MB)", video_mem, re.IGNORECASE)
+                if mem_match:
+                    try:
+                        mem_val = float(mem_match.group(1))
+                        mem_unit = mem_match.group(2).upper()
+                        
+                        # Convert to MB for comparison
+                        if "GIB" in mem_unit or "GB" in mem_unit:
+                            mem_mb = mem_val * 1024
+                        else:
+                            mem_mb = mem_val
+                        
+                        # If > 8GB, it's definitely showing system RAM, not VRAM
+                        if mem_mb > 8192:
+                            video_mem = _("Shared")
+                    except (ValueError, AttributeError):
+                        pass
             
             # PCIe info
             pcie_info = ""
@@ -2380,6 +2412,8 @@ class HtmlGenerator:
             ("Driver", device.get("driver", "")),
             ("Interface", device.get("IF", "")),
             ("Speed", device.get("speed", "")),
+            ("IPv4", device.get("ip", "")),
+            ("IPv6", device.get("ipv6", "")),
         ]
         
         connection_label = "USB" if is_usb else "PCIe"
