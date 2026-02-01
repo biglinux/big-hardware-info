@@ -128,8 +128,41 @@ class GpuSectionView(HardwareSectionView):
         
         card.append(title_row)
         
-        # Video memory
+        # Video memory - filter out for integrated GPUs showing system RAM
         video_mem = device.get("video_memory", "") or device.get("vram", "") or opengl_memory
+        
+        # Detect integrated GPUs by checking driver/name
+        device_name = device.get("name", "").lower()
+        driver = device.get("driver", "").lower()
+        is_integrated = (
+            "i915" in driver or 
+            "intel" in device_name or
+            "iris" in device_name or
+            "amdgpu" in driver and "radeon vega" in device_name.lower() or
+            "amdgpu" in driver and "graphics" in device_name.lower()
+        )
+        
+        # For integrated GPUs, if memory >= system RAM or > 8GB, it's likely shared memory
+        if is_integrated and video_mem:
+            try:
+                # Parse memory value (e.g., "14.89 GiB" or "15610MB")
+                import re
+                mem_match = re.search(r"([\d.]+)\s*(GiB|GB|MiB|MB)", video_mem, re.IGNORECASE)
+                if mem_match:
+                    mem_val = float(mem_match.group(1))
+                    mem_unit = mem_match.group(2).upper()
+                    
+                    # Convert to MB for comparison
+                    if "GIB" in mem_unit or "GB" in mem_unit:
+                        mem_mb = mem_val * 1024
+                    else:
+                        mem_mb = mem_val
+                    
+                    # If > 8GB, it's definitely showing system RAM, not VRAM
+                    if mem_mb > 8192:
+                        video_mem = _("Shared")
+            except (ValueError, AttributeError):
+                pass
         
         # PCIe info
         pcie_info = ""
