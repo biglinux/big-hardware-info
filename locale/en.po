@@ -999,7 +999,7 @@ msgstr "Include sensitive information"
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 140
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 145
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 312
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1205
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
 msgid "Cancel"
 msgstr "Cancel"
 
@@ -1251,9 +1251,9 @@ msgstr "BIOS Date"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/sensors.py, line: 47
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/system.py, line: 56
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/battery.py, line: 48
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 782
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 803
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 841
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 784
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 805
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 843
 # File: big-hardware-info/src/big_hardware_info/ui/views/audio.py, line: 67
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 451
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 357
@@ -1644,94 +1644,94 @@ msgid "OK"
 msgstr "OK"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 493
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 495
 msgid "Admin data collected successfully"
 msgstr "Admin data collected successfully"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 498
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 500
 msgid "Failed to collect admin data"
 msgstr "Failed to collect admin data"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 893
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 895
 msgid "Opening in browser..."
 msgstr "Opening in browser..."
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 902
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 904
 msgid "Copy category data to clipboard"
 msgstr "Copy category data to clipboard"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 914
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 916
 msgid "No data to copy"
 msgstr "No data to copy"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 928
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 930
 msgid "Data copied to clipboard"
 msgstr "Data copied to clipboard"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 981
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 983
 msgid "Copied:"
 msgstr "Copied:"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 981
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 983
 msgid "Copied to clipboard"
 msgstr "Copied to clipboard"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1047
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1049
 msgid "Copy content to clipboard"
 msgstr "Copy content to clipboard"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1093
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1131
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1095
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
 msgid "more lines hidden"
 msgstr "more lines hidden"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1102
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1129
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1104
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1131
 msgid "Show all"
 msgstr "Show all"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1125
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1127
 msgid "Show less"
 msgstr "Show less"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1126
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1128
 msgid "Showing all"
 msgstr "Showing all"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1126
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1128
 msgid "lines"
 msgstr "lines"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1166
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1168
 msgid "Requires Administrator"
 msgstr "Requires Administrator"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1173
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1175
 msgid "Click to run as administrator and show"
 msgstr "Click to run as administrator and show"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1199
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1201
 msgid "Administrator Access Required"
 msgstr "Administrator Access Required"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1202
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
 msgid ""
 "Some hardware information requires administrator privileges to access. Do "
 "you want to reload with elevated access?"
@@ -1740,17 +1740,17 @@ msgstr ""
 "you want to reload with elevated access?"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1206
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1208
 msgid "Reload as Admin"
 msgstr "Reload as Admin"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1270
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1272
 msgid "Hardware information updated with administrator access"
 msgstr "Hardware information updated with administrator access"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1280
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1282
 #, python-brace-format
 msgid "Could not get elevated access: {error_message}"
 msgstr "Could not get elevated access: {error_message}"

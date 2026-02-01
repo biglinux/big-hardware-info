@@ -408,6 +408,7 @@ class MainWindow(Adw.ApplicationWindow):
             # Single pkexec call to collect all root-required data at once
             # -F = Full output, -xxx = extra extra extra details, -z = privacy filter
             # -a = even more info (all advanced options)
+            # --tty = Force TTY output mode (avoids IRC client detection when launched from menu)
             # This collects: GPU, SMART, sensors, unmounted partitions, and more
             try:
                 result = subprocess.run(
@@ -415,6 +416,7 @@ class MainWindow(Adw.ApplicationWindow):
                         "pkexec",
                         "inxi",
                         "-Fxxxza",
+                        "--tty",
                         "--output",
                         "json",
                         "--output-file",
