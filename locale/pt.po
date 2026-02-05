@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: big-hardware-info\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Last-Translator: Gustavo Davi da Silva Ramos <GustavoDSR@protonmail.com>\n"
+"Language-Team: Portuguese <LL@li.org>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -348,7 +348,7 @@ msgstr "Tamanho"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
 msgid "Free"
-msgstr "Grátis"
+msgstr "Livre"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -368,7 +368,7 @@ msgstr "Vídeo"
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
 # File: big-hardware-info/src/app/ui/search.py, line: 291
 msgid "Kernel"
-msgstr "Núcleo"
+msgstr "Kernel"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
 msgid "Install Date"
@@ -392,7 +392,7 @@ msgstr "Status"
 # 
 # File: big-hardware-info/src/app/ui/sections.py, line: 254
 msgid "Charge"
-msgstr "Cobrar"
+msgstr "Carga"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -485,7 +485,7 @@ msgstr "ID do Chip"
 # File: big-hardware-info/src/app/ui/views/network.py, line: 117
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 109
 msgid "Bus ID"
-msgstr "ID do ônibus"
+msgstr "ID do barramento"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1366,8 +1366,8 @@ msgid ""
 "Sensitive data (serial numbers, MAC addresses) can be included. For privacy, it's recommended to "
 "exclude them when sharing."
 msgstr ""
-"Dados sensíveis (números de série, endereços MAC) podem ser incluídos. Por questões de privacidade, "
-"é recomendável excluí-los ao compartilhar."
+"Dados sensíveis (números de série e endereços MAC) podem ser incluídos. Por questões de privacidade, "
+"é recomendado não incluí-los ao compartilhar."
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 74
 msgid "Include sensitive information"
@@ -1385,7 +1385,7 @@ msgstr "Arquivos HTML"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 159
 msgid "Uploading Report"
-msgstr "Carregando Relatório"
+msgstr "Enviando Relatório"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 160
 msgid "Generating and uploading your hardware report..."
@@ -1393,11 +1393,11 @@ msgstr "Gerando e enviando seu relatório de hardware..."
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 267
 msgid "Report Uploaded Successfully"
-msgstr "Relatório Carregado com Sucesso"
+msgstr "Relatório Enviado com Sucesso"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 268
 msgid "Your report has been uploaded. The link is available for 7 days."
-msgstr "Seu relatório foi enviado. O link está disponível por 7 dias."
+msgstr "Seu relatório foi enviado. O link ficará disponível por 7 dias."
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 288
 msgid "Copy URL to clipboard"
@@ -1421,7 +1421,7 @@ msgstr "Abrir no Navegador"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 333
 msgid "Upload Failed"
-msgstr "Upload Falhou"
+msgstr "Envio Falhou"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
 msgid ""
@@ -1447,8 +1447,9 @@ msgstr "Relatório Exportado"
 msgid ""
 "Report saved successfully to:\n"
 "\n"
-msgstr "Relatório salvo com sucesso em:"
-# 
+msgstr "O relatório foi salvo com sucesso em:\n"
+"\n"
+#
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 432
 msgid "Failed to open browser"
 msgstr "Falha ao abrir o navegador"
@@ -1472,7 +1473,7 @@ msgstr "Categoria"
 # 
 # File: big-hardware-info/src/app/ui/renderers/pci.py, line: 137
 msgid "Rev"
-msgstr "Revista"
+msgstr "Revisão"
 # 
 # File: big-hardware-info/src/app/ui/renderers/pci.py, line: 138
 msgid "Kernel Module"
@@ -1549,15 +1550,15 @@ msgstr "Versão"
 # 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 45
 msgid "BIOS Vendor"
-msgstr "Fornecedor do BIOS"
+msgstr "Fornecedor da BIOS"
 # 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 46
 msgid "BIOS Version"
-msgstr "Versão do BIOS"
+msgstr "Versão da BIOS"
 # 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 47
 msgid "BIOS Date"
-msgstr "Data do BIOS"
+msgstr "Data da BIOS"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1595,20 +1596,20 @@ msgstr "=== Visão Geral de Uso ==="
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
 msgid "  Used:"
-msgstr "Usado:"
+msgstr "  Usado:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
 msgid "  Usage:"
-msgstr "Uso:"
+msgstr "  Uso:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
 msgid "  Size:"
-msgstr "Tamanho:"
+msgstr "  Tamanho:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
 msgid "  Free:"
-msgstr "Gratuito:"
+msgstr "  Livre:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
 msgid "=== System Info ==="
@@ -1628,11 +1629,11 @@ msgstr "Data de Instalação:"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
 msgid "Kernel:"
-msgstr "Núcleo:"
+msgstr "Kernel:"
 # 
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
 msgid "No sensor data available"
-msgstr "Nenhum dado do sensor disponível"
+msgstr "Nenhum dado de sensor disponível"
 # 
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
 msgid "System Temperatures"
@@ -1640,7 +1641,7 @@ msgstr "Temperaturas do Sistema"
 # 
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
 msgid "Fan Speeds"
-msgstr "Velocidades do Ventilador"
+msgstr "Velocidade das Ventoinhas"
 # 
 # File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
 msgid "Detailed Sensor Data (sensors)"
@@ -1660,8 +1661,8 @@ msgid ""
 "View device info on Linux Hardware Database\n"
 "See driver compatibility and troubleshooting tips"
 msgstr ""
-"Visualizar informações do dispositivo no Banco de Dados de Hardware do Linux  \n"
-"Ver compatibilidade de drivers e dicas de solução de problemas"
+"Visualize informações do dispositivo no Linux Hardware Database\n"
+"Veja compatibilidade de drivers e dicas de solução de problemas"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 24
 msgid "No system information available"
@@ -1681,7 +1682,7 @@ msgstr "Linux"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 113
 msgid "Hostname"
-msgstr "Nome do host"
+msgstr "Hostname"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 115
 msgid "Desktop"
@@ -1740,7 +1741,7 @@ msgstr "Processos Principais"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 182
 msgid "CPU Usage"
-msgstr "Uso da CPU"
+msgstr "Uso de CPU"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
 msgid "Memory Usage"
@@ -1808,7 +1809,7 @@ msgstr "ID do dispositivo"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 167
 msgid "Bus"
-msgstr "Ônibus"
+msgstr "Barramento"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
 msgid "USB Hubs & Controllers"
@@ -1877,7 +1878,7 @@ msgstr "OK"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
 msgid "Admin data collected successfully"
-msgstr "Dados do administrador coletados com sucesso."
+msgstr "Dados de administrador coletados com sucesso."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
 msgid "Failed to collect admin data"
@@ -1957,7 +1958,7 @@ msgstr "mais linhas ocultas"
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1110
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1137
 msgid "Show all"
-msgstr "Mostre tudo"
+msgstr "Mostrar tudo"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
 msgid "Show less"
@@ -1989,7 +1990,7 @@ msgid ""
 "elevated access?"
 msgstr ""
 "Algumas informações de hardware requerem privilégios de administrador para acesso. Você deseja "
-"recarregar com acesso elevado?"
+"recarregar com privilégios elevados?"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
 msgid "Reload as Admin"
@@ -2002,7 +2003,7 @@ msgstr "Informações de hardware atualizadas com acesso de administrador."
 # File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
 #, python-brace-format
 msgid "Could not get elevated access: {error_message}"
-msgstr "Não foi possível obter acesso elevado: {error_message}"
+msgstr "Não foi possível obter privilégios elevados: {error_message}"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
@@ -2060,7 +2061,7 @@ msgstr "Dispositivos de Armazenamento"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 119
 msgid "Unknown Drive"
-msgstr "Unidade Desconhecida"
+msgstr "Unidade de Disco Desconhecida"
 # 
 # File: big-hardware-info/src/app/ui/views/disk.py, line: 160
 msgid "Lanes"
@@ -2097,11 +2098,11 @@ msgstr "Nenhuma informação de GPU disponível"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 61
 msgid "No GPU devices found"
-msgstr "Nenhum dispositivo GPU encontrado"
+msgstr "Nenhuma GPU encontrada"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 104
 msgid "Unknown GPU"
-msgstr "GPU desconhecido"
+msgstr "GPU desconhecida"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 144
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 301
@@ -2160,7 +2161,7 @@ msgstr "Gama"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 238
 msgid "Built Year"
-msgstr "Ano de Construção"
+msgstr "Ano de Fabricação"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 239
 msgid "Max Resolution"
@@ -2204,7 +2205,7 @@ msgstr "Versão GLX"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 299
 msgid "Direct Render"
-msgstr "Render Direto"
+msgstr "Renderizador Direct"
 # 
 # File: big-hardware-info/src/app/ui/views/gpu.py, line: 300
 msgid "Renderer"
@@ -2288,7 +2289,7 @@ msgstr "Velocidade:"
 # 
 # File: big-hardware-info/src/app/ui/views/network.py, line: 385
 msgid "Bus ID:"
-msgstr "ID do ônibus:"
+msgstr "ID do barramento:"
 # 
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 52
 msgid "No audio information available"
@@ -2424,7 +2425,7 @@ msgstr "Processo"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 97
 msgid "Built"
-msgstr "Construído"
+msgstr "Fabricado"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 99
 msgid "Scaling"
@@ -2472,7 +2473,7 @@ msgstr "Flags da CPU"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 312
 msgid "CPU Vulnerabilities"
-msgstr "Vulnerabilidades de CPU"
+msgstr "Vulnerabilidades da CPU"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
 msgid "=== Processor ==="
