@@ -146,26 +146,3 @@ class PciCollector(BaseCollector):
         """
         success, stdout, stderr = self.run_command(["lspci", "-nvv"])
         return stdout if success else ""
-    
-    def get_device_ids(self) -> List[str]:
-        """
-        Get just the list of vendor:device IDs.
-        
-        Returns:
-            List of ID strings in format "XXXX:XXXX".
-        """
-        success, stdout, stderr = self.run_command(["lspci", "-n"])
-        
-        if not success:
-            return []
-        
-        ids = []
-        for line in stdout.split("\n"):
-            parts = line.split()
-            if len(parts) >= 3:
-                # ID is usually the 3rd field
-                id_part = parts[2]
-                if ":" in id_part:
-                    ids.append(id_part)
-        
-        return ids

@@ -124,29 +124,3 @@ class LogsCollector(BaseCollector):
             "by_unit": units,
             "raw": stdout,
         }
-    
-    def collect_recent_errors(self, hours: int = 24) -> dict:
-        """
-        Collect errors from the last N hours.
-        
-        Args:
-            hours: Number of hours to look back.
-            
-        Returns:
-            Dictionary with recent error data.
-        """
-        if not self.command_exists("journalctl"):
-            return {"error": "journalctl command not found"}
-        
-        success, stdout, stderr = self.run_command(
-            ["journalctl", "-p", "err", f"--since={hours} hours ago", "--no-pager"],
-            timeout=60
-        )
-        
-        if not success:
-            return {"error": stderr or "journalctl command failed"}
-        
-        return {
-            "hours": hours,
-            "raw": stdout,
-        }

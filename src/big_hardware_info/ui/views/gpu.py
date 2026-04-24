@@ -24,9 +24,7 @@ class GpuSectionView(HardwareSectionView):
     - OpenGL/Vulkan/EGL details (collapsible)
     - Display server info
     """
-    
-    CATEGORY_ID = "gpu"
-    
+
     def __init__(self, open_url_callback=None, **kwargs) -> None:
         """Initialize the GPU section view.
         

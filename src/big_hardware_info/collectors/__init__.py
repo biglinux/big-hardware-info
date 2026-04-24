@@ -106,25 +106,8 @@ class HardwareCollector:
         
         if progress_callback:
             progress_callback("complete", 1.0)
-        
+
         return data
-    
-    def collect_for_export(self, filter_sensitive: bool = True) -> dict:
-        """
-        Collect data for export/upload with optional privacy filtering.
-        
-        Args:
-            filter_sensitive: If True, filter serial numbers, MACs etc.
-            
-        Returns:
-            Dictionary containing collected hardware information.
-        """
-        inxi_result = self.inxi.collect(filter_sensitive=filter_sensitive)
-        
-        if "data" in inxi_result and inxi_result["data"]:
-            return self.inxi_parser.parse_full(inxi_result["data"])
-        
-        return {"error": inxi_result.get("error", "Unknown error")}
 
 
 __all__ = [

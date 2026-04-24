@@ -104,8 +104,3 @@ class AppConfig:
         self.modified_keys.add(key)  # Track that this key was modified
         return self.save_config()
 
-    def reset(self) -> bool:
-        """Reset configuration to defaults."""
-        self.config = self.defaults.copy()
-        self.modified_keys.clear()
-        return self.save_config()

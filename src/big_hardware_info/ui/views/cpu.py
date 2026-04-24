@@ -27,9 +27,7 @@ class CpuSectionView(HardwareSectionView):
     - Vulnerabilities (collapsible)
     - Raw output (collapsible)
     """
-    
-    CATEGORY_ID = "cpu"
-    
+
     def render(self, data: Dict[str, Any]) -> None:
         """
         Render CPU information.

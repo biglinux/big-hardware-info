@@ -160,23 +160,3 @@ class UsbCollector(BaseCollector):
         """
         success, stdout, stderr = self.run_command(["lsusb", "-v"], timeout=60)
         return stdout if success else ""
-    
-    def get_device_ids(self) -> List[str]:
-        """
-        Get just the list of vendor:device IDs.
-        
-        Returns:
-            List of ID strings in format "XXXX:XXXX".
-        """
-        success, stdout, stderr = self.run_command(["lsusb"])
-        
-        if not success:
-            return []
-        
-        ids = []
-        for line in stdout.split("\n"):
-            match = re.search(r"ID\s+([0-9a-fA-F]{4}:[0-9a-fA-F]{4})", line)
-            if match:
-                ids.append(match.group(1))
-        
-        return ids

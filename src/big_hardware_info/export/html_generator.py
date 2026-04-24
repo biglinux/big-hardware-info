@@ -1,7 +1,4 @@
-"""
-HTML Generator for Hardware Reporter.
-Generates a self-contained HTML report mirroring the GTK UI.
-"""
+"""HTML report generator that mirrors the GTK UI as a self-contained file."""
 
 import json
 import os
@@ -14,44 +11,37 @@ from big_hardware_info.utils.i18n import _
 
 logger = logging.getLogger(__name__)
 
-# PCI device classification keywords for separating important devices from infrastructure
 PCI_INFRASTRUCTURE_KEYWORDS = [
     "bridge", "bus", "usb controller", "hub", "host bridge",
     "isa bridge", "pci bridge", "pcie", "smbus", "communication controller",
     "signal processing", "serial bus", "system peripheral", "pic", "dma",
     "rtc", "timer", "watchdog", "sd host", "sd/mmc",
-    "sata controller", "ahci", "sata ahci"
+    "sata controller", "ahci", "sata ahci",
 ]
 
+
 class HtmlGenerator:
-    """Generates HTML reports from HardwareInfo data."""
-    
-    def __init__(self, hardware_info: HardwareInfo):
-        """Initialize with hardware data."""
-        self.data = hardware_info
-        self.raw_data = hardware_info.to_dict()
-        
-    # Order of sections in the report and sidebar
+    """Render a HardwareInfo into a single HTML document."""
+
     SECTION_ORDER = [
-        "summary", "cpu", "gpu", "memory", "disk", "system", 
-        "machine", "audio", "network", "battery", "bluetooth", 
-        "usb", "pci", "webcam", "printer", "sensors", "more_info"
+        "summary", "cpu", "gpu", "memory", "disk", "system",
+        "machine", "audio", "network", "battery", "bluetooth",
+        "usb", "pci", "webcam", "printer", "sensors", "more_info",
     ]
-        
+
+    def __init__(self, hardware_info: HardwareInfo) -> None:
+        self.hardware_info = hardware_info
+        self.hardware_dict: Dict[str, Any] = hardware_info.to_dict()
+
     def generate(self) -> str:
-        """
-        Generate the complete HTML report.
-        
-        Returns:
-            String containing the full HTML document.
-        """
+        """Return the full HTML document as a string."""
         css = self._get_css()
         js = self._get_js()
         sidebar = self._render_sidebar()
         content = self._render_content()
         
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
-        title = _("Hardware Report") + f" - {self.data.hostname}"
+        title = _("Hardware Report") + f" - {self.hardware_info.hostname}"
         
         # Translatable strings for HTML
         search_placeholder = _("Search sections...")
@@ -68,7 +58,7 @@ class HtmlGenerator:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{_("Hardware Report for")} {self.data.hostname}">
+    <meta name="description" content="{_("Hardware Report for")} {self.hardware_info.hostname}">
     <title>{title}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1148,8 +1138,7 @@ class HtmlGenerator:
         html = []
         
         # Helper to render a single item
-        def render_item(cid, cinfo):
-            # Map GTK symbolic icons to Lucide icon names
+        def render_item(cid: str, cinfo: Dict[str, Any]) -> str:
             icon_map = {
                 "view-grid-symbolic": "layout-grid",
                 "cpu-symbolic": "cpu",
@@ -1241,7 +1230,7 @@ class HtmlGenerator:
         
         for cat_id, method in render_methods:
             header = self._render_section_header(cat_id)
-            content = method(self.data.to_dict().get(cat_id, {}))
+            content = method(self.hardware_info.to_dict().get(cat_id, {}))
             html.append(f"""
             <section id="{cat_id}" class="section-anchor" aria-labelledby="{cat_id}-header">
                 {header}
@@ -1267,7 +1256,7 @@ class HtmlGenerator:
         html = []
         
         # Access full data for summary
-        full_data = self.data.to_dict()
+        full_data = self.hardware_info.to_dict()
         memory = full_data.get("memory", {})
         system = full_data.get("system", {})
         kernel = full_data.get("kernel", {})
@@ -1948,7 +1937,7 @@ class HtmlGenerator:
         drives = data.get("drives", [])
         
         # Access partitions from multiple potential locations
-        full_data = self.data.to_dict()
+        full_data = self.hardware_info.to_dict()
         partitions = data.get("partitions", []) or full_data.get("partitions", {}) or full_data.get("all_partitions", [])
         
         if not drives:
@@ -2185,7 +2174,7 @@ class HtmlGenerator:
         shell_display = f"{shell_name} v{shell_version}" if shell_version else shell_name
         
         # Build kernel display with details
-        kernel = data.get("kernel", "") or self.data.kernel.get("version", "")
+        kernel = data.get("kernel", "") or self.hardware_info.kernel.get("version", "")
         kernel_arch = data.get("kernel_arch", "")
         kernel_bits = data.get("kernel_bits", "")
         kernel_display = kernel
@@ -2197,7 +2186,7 @@ class HtmlGenerator:
         
         # Build left/right items matching GTK
         left_items = [
-            ("Hostname", data.get("hostname", "") or self.data.hostname),
+            ("Hostname", data.get("hostname", "") or self.hardware_info.hostname),
             ("Kernel", kernel_display),
             ("Desktop", f"{data.get('desktop', '')} {data.get('desktop_version', '')}".strip()),
             ("Window Manager", data.get("wm", "")),
@@ -2593,7 +2582,7 @@ class HtmlGenerator:
         html = []
         
         # Prefer inxi data over lsusb
-        full_data = self.data.to_dict()
+        full_data = self.hardware_info.to_dict()
         usb_inxi = full_data.get("usb_inxi", {})
         
         if usb_inxi.get("devices") or usb_inxi.get("hubs"):
@@ -2714,7 +2703,7 @@ class HtmlGenerator:
         html = []
         
         # Get data same as GTK
-        full_data = self.data.to_dict()
+        full_data = self.hardware_info.to_dict()
         pci_lspci = full_data.get("pci", {})
         pci_inxi = full_data.get("pci_inxi", {})
         
@@ -3060,7 +3049,7 @@ class HtmlGenerator:
         html = []
         
         # Access full data
-        full_data = self.data.to_dict()
+        full_data = self.hardware_info.to_dict()
         
         # Get all data sources just like GTK _show_more_info
         system_data = full_data.get("system", {})
@@ -3078,7 +3067,7 @@ class HtmlGenerator:
         sdio_data = full_data.get("sdio", {})
         webcam_data = full_data.get("webcam", {})
         
-        def add_terminal_block(title: str, content: str, highlight: bool = True):
+        def add_terminal_block(title: str, content: str, highlight: bool = True) -> None:
             if content:
                 if highlight:
                     highlighted_content = self._apply_syntax_highlighting(str(content))
@@ -3222,7 +3211,7 @@ class HtmlGenerator:
         # Escape HTML first
         text = str(text).replace("<", "&lt;").replace(">", "&gt;")
         
-        def safe_sub(pattern, repl, source, flags=0):
+        def safe_sub(pattern: str, repl: Any, source: str, flags: int = 0) -> str:
             """Apply regex only to text outside of HTML tags."""
             parts = re.split(r'(<[^>]+>)', source)
             for i, part in enumerate(parts):
@@ -3380,7 +3369,7 @@ class HtmlGenerator:
             )
             
             # Mount options (sorted by length)
-            def make_opt_repl(m):
+            def make_opt_repl(m: 're.Match[str]') -> str:
                 prefix = m.group(0)[0] if m.group(0)[0] in ", " else ""
                 opt_span = f'<span class="hl-keyword">{m.group(1)}</span>'
                 val_span = f'<span class="hl-number">{m.group(2)}</span>' if m.group(2) else ""

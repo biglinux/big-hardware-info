@@ -4,12 +4,9 @@ Hardware information data model.
 Main data structure for storing all collected hardware information.
 """
 
-import json
 from datetime import datetime
 from dataclasses import dataclass, field, asdict
-from typing import Optional, List, Dict, Any
-
-from big_hardware_info.utils.i18n import _
+from typing import List, Dict, Any
 
 
 @dataclass
@@ -93,178 +90,104 @@ class HardwareInfo:
     def to_dict(self) -> dict:
         """Convert to dictionary."""
         return asdict(self)
-    
-    def to_json(self, indent: int = 2) -> str:
-        """Convert to JSON string."""
-        return json.dumps(self.to_dict(), indent=indent, ensure_ascii=False)
-    
+
     @classmethod
     def from_dict(cls, data: dict) -> "HardwareInfo":
         """Create instance from dictionary."""
         return cls(**{k: v for k, v in data.items() if k in cls.__dataclass_fields__})
-    
-    @classmethod
-    def from_json(cls, json_str: str) -> "HardwareInfo":
-        """Create instance from JSON string."""
-        return cls.from_dict(json.loads(json_str))
-    
-    def get_summary(self) -> dict:
-        """
-        Get a summary of key hardware information.
-        
-        Returns:
-            Dictionary with summary data for quick display.
-        """
-        summary = {
-            "hostname": self.hostname,
-            "collected": self.collection_date,
-        }
-        
-        # Extract key info from each section
-        if self.cpu:
-            summary["cpu"] = self._extract_cpu_summary()
-        
-        if self.memory:
-            summary["memory"] = self._extract_memory_summary()
-        
-        if self.gpu:
-            summary["gpu"] = self._extract_gpu_summary()
-        
-        if self.disk_usage:
-            summary["disk"] = self._extract_disk_summary()
-        
-        if self.kernel:
-            summary["kernel"] = self.kernel.get("version", "")
-        
-        return summary
-    
-    def _extract_cpu_summary(self) -> str:
-        """Extract CPU summary from data."""
-        data = self.cpu.get("data", {})
-        if isinstance(data, dict):
-            # Try to find CPU model name
-            for key, value in data.items():
-                if "model" in key.lower() or "info" in key.lower():
-                    if isinstance(value, str):
-                        return value
-        return str(data)[:100] if data else "Unknown"
-    
-    def _extract_memory_summary(self) -> str:
-        """Extract memory summary from data."""
-        data = self.memory.get("data", {})
-        if isinstance(data, dict):
-            for key, value in data.items():
-                if "total" in key.lower() or "ram" in key.lower():
-                    if isinstance(value, str):
-                        return value
-        return str(data)[:100] if data else "Unknown"
-    
-    def _extract_gpu_summary(self) -> str:
-        """Extract GPU summary from data."""
-        data = self.gpu.get("data", {})
-        if isinstance(data, dict):
-            for key, value in data.items():
-                if "device" in key.lower() or "driver" in key.lower():
-                    if isinstance(value, str):
-                        return value
-        return str(data)[:100] if data else "Unknown"
-    
-    def _extract_disk_summary(self) -> str:
-        """Extract disk usage summary."""
-        if self.disk_usage:
-            size = self.disk_usage.get("size", "")
-            used = self.disk_usage.get("used", "")
-            available = self.disk_usage.get("available", "")
-            if size and used and available:
-                return f"{used} / {size} ({available} free)"
-        return "Unknown"
 
 
-# Category metadata for UI display
+# Category metadata for UI display.
+#
+# ``name`` and ``description`` store the English SOURCE strings — each call
+# site is responsible for wrapping them in ``_()`` at render time. Translating
+# at import time was a bug: it froze the strings at whatever locale happened
+# to be active when this module first loaded, and it broke tests that
+# monkey-patch the translation function (double translation).
 CATEGORIES = {
     "summary": {
-        "name": _("Summary"),
+        "name": "Summary",
         "icon": "view-grid-symbolic",
-        "description": _("Overview of main hardware"),
+        "description": "Overview of main hardware",
     },
     "cpu": {
-        "name": _("Processor"),
+        "name": "Processor",
         "icon": "cpu-symbolic",
-        "description": _("CPU information"),
+        "description": "CPU information",
     },
     "gpu": {
-        "name": _("Graphics"),
+        "name": "Graphics",
         "icon": "video-display-symbolic",
-        "description": _("Video card information"),
+        "description": "Video card information",
     },
     "webcam": {
-        "name": _("Webcams"),
+        "name": "Webcams",
         "icon": "camera-web-symbolic",
-        "description": _("Camera devices"),
+        "description": "Camera devices",
     },
     "machine": {
-        "name": _("Motherboard"),
+        "name": "Motherboard",
         "icon": "computer-symbolic",
-        "description": _("Motherboard and BIOS information"),
+        "description": "Motherboard and BIOS information",
     },
     "memory": {
-        "name": _("Memory"),
+        "name": "Memory",
         "icon": "memory-symbolic",
-        "description": _("RAM information"),
+        "description": "RAM information",
     },
     "audio": {
-        "name": _("Audio"),
+        "name": "Audio",
         "icon": "audio-card-symbolic",
-        "description": _("Sound devices"),
+        "description": "Sound devices",
     },
     "network": {
-        "name": _("Network"),
+        "name": "Network",
         "icon": "network-wired-symbolic",
-        "description": _("Network devices and connections"),
+        "description": "Network devices and connections",
     },
     "disk": {
-        "name": _("Storage"),
+        "name": "Storage",
         "icon": "drive-harddisk-symbolic",
-        "description": _("Storage devices"),
+        "description": "Storage devices",
     },
     "battery": {
-        "name": _("Battery"),
+        "name": "Battery",
         "icon": "battery-symbolic",
-        "description": _("Battery status"),
+        "description": "Battery status",
     },
     "bluetooth": {
-        "name": _("Bluetooth"),
+        "name": "Bluetooth",
         "icon": "bluetooth-symbolic",
-        "description": _("Bluetooth devices"),
+        "description": "Bluetooth devices",
     },
     "usb": {
-        "name": _("USB Components"),
+        "name": "USB Components",
         "icon": "media-removable-symbolic",
-        "description": _("USB devices"),
+        "description": "USB devices",
     },
     "pci": {
-        "name": _("PCI Devices"),
+        "name": "PCI Devices",
         "icon": "drive-multidisk-symbolic",
-        "description": _("PCI devices"),
+        "description": "PCI devices",
     },
     "system": {
-        "name": _("System"),
+        "name": "System",
         "icon": "system-run-symbolic",
-        "description": _("System information"),
+        "description": "System information",
     },
     "printer": {
-        "name": _("Printers"),
+        "name": "Printers",
         "icon": "printer-symbolic",
-        "description": _("Printer devices"),
+        "description": "Printer devices",
     },
     "sensors": {
-        "name": _("Sensors"),
+        "name": "Sensors",
         "icon": "temperature-symbolic",
-        "description": _("Temperature and fan sensors"),
+        "description": "Temperature and fan sensors",
     },
     "more_info": {
-        "name": _("More Info"),
+        "name": "More Info",
         "icon": "dialog-information-symbolic",
-        "description": _("Raw system data and logs"),
+        "description": "Raw system data and logs",
     },
 }

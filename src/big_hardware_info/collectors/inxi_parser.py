@@ -1,10 +1,4 @@
-"""
-Inxi JSON Parser.
-
-Parses the inxi JSON output into structured data.
-This module ONLY parses data - it does NOT execute any commands.
-Use InxiCollector to execute inxi commands.
-"""
+"""Parse inxi JSON output into structured hardware data (no command execution)."""
 
 import re
 import os
@@ -17,47 +11,16 @@ logger = logging.getLogger(__name__)
 
 
 class InxiParser:
-    """
-    Parse inxi JSON output into structured data.
-    
-    This class is responsible ONLY for parsing JSON data.
-    It does NOT execute inxi commands - use InxiCollector for that.
-    
-    The inxi JSON format uses numeric keys with format:
-    "NNN#N#N#fieldname" where numbers are ordering metadata.
-    """
-    
-    def __init__(self):
-        """Initialize the parser."""
-        self._cache = {}
-    
+    """Parse inxi JSON output into structured hardware-category dictionaries."""
+
     def _clean_key(self, key: str) -> str:
-        """
-        Extract field name from inxi JSON key.
-        
-        Args:
-            key: Raw key like "000#1#1#Info"
-            
-        Returns:
-            Clean key name like "Info"
-        """
         if "#" in key:
             return key.split("#")[-1]
         return key
-    
-    def parse_full(self, data: List[Dict]) -> Dict[str, Any]:
-        """
-        Parse full inxi JSON output into structured categories.
-        
-        This is the MAIN entry point for parsing inxi data.
-        
-        Args:
-            data: List of dictionaries from inxi JSON output.
-            
-        Returns:
-            Dictionary with categorized hardware information.
-        """
-        result = {
+
+    def parse_full(self, data: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Convert inxi's list-of-section dicts into category-keyed structures."""
+        result: Dict[str, Any] = {
             "cpu": {},
             "gpu": {},
             "memory": {},
@@ -73,9 +36,9 @@ class InxiParser:
         
         if not data or not isinstance(data, list):
             logger.warning("parse_full: Invalid or empty data received")
+            result["pci_inxi"] = {"devices": [], "count": 0}
             return result
-        
-        # Process each section in the JSON data
+
         for section in data:
             for key, value in section.items():
                 section_name = self._clean_key(key)
@@ -114,24 +77,12 @@ class InxiParser:
                 elif "Bluetooth" in section_name:
                     result["bluetooth"] = self._parse_bluetooth_section(value)
         
-        # Create consolidated PCI devices list from all hardware sections
         result["pci_inxi"] = self._extract_pci_devices(result)
-        
+
         return result
-    
+
     def _extract_pci_devices(self, parsed_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Extract PCI device information from all hardware sections.
-        
-        Consolidates PCI devices from GPU, Audio, Network sections
-        since inxi doesn't have a dedicated PCI section.
-        
-        Args:
-            parsed_data: The parsed inxi data with all sections.
-            
-        Returns:
-            Dictionary with devices list and device count.
-        """
+        """Consolidate PCI devices from GPU/Audio/Network (inxi has no PCI section)."""
         devices = []
         seen_bus_ids = set()
         
@@ -1362,6 +1313,3 @@ class InxiParser:
         
         return result
     
-    def clear_cache(self):
-        """Clear the data cache."""
-        self._cache = {}

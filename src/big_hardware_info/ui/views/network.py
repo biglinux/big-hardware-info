@@ -25,11 +25,9 @@ class NetworkSectionView(HardwareSectionView):
     - Virtual networks in collapsible section
     - Status badges for connection state
     """
-    
-    CATEGORY_ID = "network"
-    
+
     def __init__(
-        self, 
+        self,
         open_url_callback: Optional[Callable[[str], None]] = None,
         copy_text_callback: Optional[Callable[[str, str], None]] = None,
         **kwargs

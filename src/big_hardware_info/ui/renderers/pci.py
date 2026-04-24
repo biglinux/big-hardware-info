@@ -10,17 +10,8 @@ from gi.repository import Gtk
 
 from big_hardware_info.ui import builders as ui
 from big_hardware_info.ui.renderers.base import SectionRenderer
+from big_hardware_info.utils.constants import PCI_INFRASTRUCTURE_KEYWORDS
 from big_hardware_info.utils.i18n import _
-
-
-# PCI infrastructure keywords
-PCI_INFRASTRUCTURE_KEYWORDS = [
-    "bridge", "bus", "usb controller", "hub", "host bridge",
-    "isa bridge", "pci bridge", "pcie", "smbus", "communication controller",
-    "signal processing", "serial bus", "system peripheral", "pic", "dma",
-    "rtc", "timer", "watchdog", "sd host", "sd/mmc",
-    "sata controller", "ahci", "sata ahci"
-]
 
 
 class PciRenderer(SectionRenderer):

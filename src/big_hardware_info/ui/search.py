@@ -47,13 +47,12 @@ class SearchHandler:
         """Perform the actual search after debounce delay."""
         self._search_timeout_id = None
         search_text = entry.get_text().lower().strip()
-        self.window.search_filter = search_text
-        
+
         if search_text:
             self.show_global_results(search_text)
         else:
             self.window._update_content()
-        
+
         return False
     
     def show_global_results(self, search_text: str):
@@ -62,7 +61,7 @@ class SearchHandler:
             return
         
         self.window._clear_content()
-        self.window._add_header(f'{_("Search Results for")} "{search_text}"', "edit-find-symbolic")
+        self._append_results_header(f'{_("Search Results for")} "{search_text}"')
         
         results_found = False
         
@@ -115,6 +114,21 @@ class SearchHandler:
         
         return search_recursive(data)
     
+    def _append_results_header(self, title: str) -> None:
+        """Append a title header above the search results list."""
+        header = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
+        header.set_margin_bottom(6)
+
+        icon = ui.icon("edit-find-symbolic", 24)
+        icon.add_css_class("accent")
+        header.append(icon)
+
+        label = Gtk.Label(label=title)
+        label.add_css_class("title-3")
+        header.append(label)
+
+        self.content_container.append(header)
+
     def _add_section_header(self, title: str, icon_name: str):
         """Add a section header for search results."""
         section_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)

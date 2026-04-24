@@ -1,9 +1,4 @@
-"""
-Terminal output syntax highlighting for Hardware Reporter.
-
-Applies syntax coloring to terminal/log output text using GTK TextBuffer tags.
-Colors are consistent with Adwaita theme and used in both GTK views and HTML export.
-"""
+"""Adwaita-themed syntax highlighting for terminal/log output in TextBuffers."""
 
 import re
 from typing import Optional
@@ -13,16 +8,15 @@ gi.require_version("Gtk", "4.0")
 from gi.repository import Gtk
 
 
-# Adwaita theme colors for consistency
 COLORS = {
-    "path": "#3584e4",      # Blue - filesystem paths
-    "number": "#26a269",    # Green - IDs, addresses, numbers
-    "keyword": "#ff7800",   # Orange - keywords, vendors
-    "comment": "#8d93a8",   # Gray - comments, URLs
-    "success": "#33d17a",   # Bright green - enabled, UP, OK
-    "warning": "#e5a50a",   # Yellow - warnings
-    "error": "#e01b24",     # Red - errors, DOWN
-    "osname": "#62a0ea",    # Light blue - OS names
+    "path": "#3584e4",
+    "number": "#26a269",
+    "keyword": "#ff7800",
+    "comment": "#8d93a8",
+    "success": "#33d17a",
+    "warning": "#e5a50a",
+    "error": "#e01b24",
+    "osname": "#62a0ea",
 }
 
 
@@ -140,8 +134,14 @@ def _apply_pattern(buffer: Gtk.TextBuffer, text: str, pattern: str, tag: str,
         buffer.apply_tag_by_name(tag, start, end)
 
 
-def _apply_group(buffer: Gtk.TextBuffer, match, group: int, tag: str, offset: int = 0) -> None:
-    """Helper to apply tag to a regex match group."""
+def _apply_group(
+    buffer: Gtk.TextBuffer,
+    match: re.Match[str],
+    group: int,
+    tag: str,
+    offset: int = 0,
+) -> None:
+    """Apply ``tag`` to ``match.group(group)`` accounting for buffer offset."""
     if match.group(group):
         start = buffer.get_iter_at_offset(offset + match.start(group))
         end = buffer.get_iter_at_offset(offset + match.end(group))

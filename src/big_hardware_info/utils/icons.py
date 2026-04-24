@@ -16,7 +16,7 @@ import gi
 
 gi.require_version('Gtk', '4.0')
 gi.require_version('Gio', '2.0')
-from gi.repository import Gtk, Gio, GLib
+from gi.repository import Gtk, Gio
 
 
 # Possible icon directory paths (checked in order)
@@ -116,61 +116,3 @@ def create_icon_image(icon_name: str, size: int = 16, use_fallback: bool = True)
     return image
 
 
-def is_icon_available(icon_name: str) -> bool:
-    """
-    Check if a bundled icon is available.
-
-    Args:
-        icon_name: Icon name to check
-
-    Returns:
-        True if icon exists in bundled icons, False otherwise
-    """
-    return get_icon_path(icon_name) is not None
-
-
-def list_bundled_icons() -> list[str]:
-    """
-    List all available bundled icons.
-
-    Returns:
-        List of icon names (without .svg extension)
-    """
-    icons = []
-
-    for icon_dir in _ICON_PATHS:
-        if icon_dir.exists() and icon_dir.is_dir():
-            for icon_file in icon_dir.glob("*.svg"):
-                icon_name = icon_file.stem  # Filename without extension
-                if icon_name not in icons:
-                    icons.append(icon_name)
-
-    return sorted(icons)
-
-
-# Preload icon directory for faster lookups (optional optimization)
-def _preload_icon_cache() -> dict[str, Path]:
-    """
-    Preload all icon paths into a cache dictionary.
-
-    This is an internal optimization function that can be called at startup
-    to speed up icon lookups.
-
-    Returns:
-        Dictionary mapping icon names to their paths
-    """
-    cache = {}
-
-    for icon_dir in _ICON_PATHS:
-        if icon_dir.exists() and icon_dir.is_dir():
-            for icon_file in icon_dir.glob("*.svg"):
-                icon_name = icon_file.stem
-                if icon_name not in cache:
-                    cache[icon_name] = icon_file
-
-    return cache
-
-
-# Optional: Create cache at module import time
-# Uncomment the following lines to enable icon caching:
-# _ICON_CACHE = _preload_icon_cache()

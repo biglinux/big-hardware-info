@@ -23,9 +23,7 @@ class DiskSectionView(HardwareSectionView):
     - Individual drive cards with two-column layout
     - Mounted partitions with usage indicators
     """
-    
-    CATEGORY_ID = "disk"
-    
+
     def render(self, data: Dict[str, Any]) -> None:
         """
         Render disk information.

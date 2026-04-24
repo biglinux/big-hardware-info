@@ -9,7 +9,7 @@ from typing import Any, Callable, Optional, List, Tuple
 
 import gi
 gi.require_version("Gtk", "4.0")
-from gi.repository import Gtk, Pango, Gdk
+from gi.repository import Gtk, Gdk
 
 from big_hardware_info.utils.i18n import _
 
@@ -334,28 +334,6 @@ def action_card(
     btn_row.set_margin_top(8)
     btn_row.append(pill_button(button_text, on_click=on_click))
     card_box.append(btn_row)
-    
-    return card_box
-
-
-def stat_card(icon_name: str, value: str, label_text: str) -> Gtk.Box:
-    """Create a stat display card."""
-    card_box = card(css_classes=["stat-card"])
-    card_box.set_halign(Gtk.Align.CENTER)
-    card_box.set_valign(Gtk.Align.CENTER)
-    
-    card_box.append(icon(icon_name, size=24, css_class="accent"))
-    
-    val = Gtk.Label(label=value)
-    val.add_css_class("stat-value")
-    val.set_wrap(True)
-    val.set_max_width_chars(20)
-    val.set_ellipsize(Pango.EllipsizeMode.END)
-    card_box.append(val)
-    
-    lbl = dim_label(label_text)
-    lbl.add_css_class("stat-label")
-    card_box.append(lbl)
     
     return card_box
 

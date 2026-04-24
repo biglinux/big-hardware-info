@@ -2,6 +2,7 @@
 Base class for hardware data collectors.
 """
 
+import os
 import subprocess
 import logging
 import shutil
@@ -10,6 +11,20 @@ from abc import ABC, abstractmethod
 
 
 logger = logging.getLogger(__name__)
+
+
+# Subprocesses inherit the parent's env by default; force a predictable locale
+# so tools that tune output to $LANG (inxi, smartctl, lspci -v) stay parseable,
+# and normalize $PATH so /usr/sbin binaries resolve when launched from a
+# minimal desktop-entry environment.
+def _build_subprocess_env() -> dict:
+    env = os.environ.copy()
+    env["LC_ALL"] = "C"
+    env["LANG"] = "C"
+    env.setdefault("PATH", "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin")
+    if "/usr/sbin" not in env["PATH"].split(":"):
+        env["PATH"] = env["PATH"] + ":/usr/sbin:/sbin"
+    return env
 
 
 class BaseCollector(ABC):
@@ -60,15 +75,20 @@ class BaseCollector(ABC):
             
             if shell and isinstance(command, list):
                 command = " ".join(command)
-            
+
+            # stdin=DEVNULL avoids children inheriting an odd stdin (closed pipe
+            # from a desktop-entry launch, or a non-TTY fd from a CLI wrapper)
+            # which makes tools like inxi misdetect their environment.
             result = subprocess.run(
                 command,
                 capture_output=True,
                 text=True,
                 timeout=timeout,
                 shell=shell,
+                stdin=subprocess.DEVNULL,
+                env=_build_subprocess_env(),
             )
-            
+
             return (
                 result.returncode == 0,
                 result.stdout.strip(),
@@ -114,24 +134,3 @@ class BaseCollector(ABC):
             logger.debug(f"Could not read {path}: {e}")
             return None
     
-    def parse_key_value(self, text: str, separator: str = ":") -> dict:
-        """
-        Parse text with key:value pairs into a dictionary.
-        
-        Args:
-            text: Text to parse.
-            separator: Character separating key from value.
-            
-        Returns:
-            Dictionary of key-value pairs.
-        """
-        result = {}
-        for line in text.split("\n"):
-            if separator in line:
-                parts = line.split(separator, 1)
-                if len(parts) == 2:
-                    key = parts[0].strip()
-                    value = parts[1].strip()
-                    if key:
-                        result[key] = value
-        return result

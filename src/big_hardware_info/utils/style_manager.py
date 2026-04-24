@@ -84,35 +84,3 @@ class StyleManager:
             logger.error(f"Failed to load CSS styles: {e}")
             return False
     
-    def reload_styles(self) -> bool:
-        """
-        Reload CSS styles from the stylesheet file.
-        
-        Useful for development when modifying styles without restarting.
-        
-        Returns:
-            True if styles were reloaded successfully, False otherwise.
-        """
-        return self.load_styles()
-    
-    def unload_styles(self) -> None:
-        """Remove the CSS provider from the display."""
-        if self._provider is not None:
-            display = Gdk.Display.get_default()
-            if display:
-                Gtk.StyleContext.remove_provider_for_display(
-                    display,
-                    self._provider
-                )
-                logger.info("CSS styles unloaded")
-            self._provider = None
-
-
-def load_application_styles() -> bool:
-    """
-    Convenience function to load application styles.
-    
-    Returns:
-        True if styles were loaded successfully, False otherwise.
-    """
-    return StyleManager.get_default().load_styles()

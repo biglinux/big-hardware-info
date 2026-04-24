@@ -23,9 +23,7 @@ class AudioSectionView(HardwareSectionView):
     - USB/PCIe connection info
     - Linux Hardware DB links
     """
-    
-    CATEGORY_ID = "audio"
-    
+
     def __init__(
         self, 
         open_url_callback: Optional[Callable[[str], None]] = None,

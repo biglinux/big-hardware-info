@@ -105,12 +105,11 @@ class WebcamCollector(BaseCollector):
                 webcam.update(details)
                 webcam["device_path"] = main_device
             
-            # Try to match USB ID from bus_info
-            bus_info = webcam.get("bus_info", "")
+            # Match by device name (bus_info path isn't present in lsusb output).
+            name_lower = webcam.get("name", "").lower()
             for usb_name, usb_id in usb_ids.items():
-                # Check if webcam name is in the USB device name
-                if webcam.get("name", "").lower() in usb_name.lower() or \
-                   usb_name.lower() in webcam.get("name", "").lower():
+                usb_lower = usb_name.lower()
+                if name_lower and (name_lower in usb_lower or usb_lower in name_lower):
                     webcam["usb_id"] = usb_id
                     break
         

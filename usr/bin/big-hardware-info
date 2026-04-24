@@ -1,11 +1,7 @@
-#!/bin/sh
+#!/usr/bin/env bash
+# Entry point for the Big Hardware Info GTK4 application.
+# Runs the installed Python package as a module so Python can locate it
+# via the normal site-packages mechanism, without hard-coding Python
+# versions or re-executing the package's __init__.py as a script.
 
-# Search big-hardware-info installation folder
-for i in /usr/lib/python3.{25..6}/site-packages/big_hardware_info /usr/share/big-hardware-info; do
-    if [[ -e "$i" ]]; then
-        cd "$i"
-        break
-    fi
-done
-
-exec python3 __init__.py "$@"
+exec python3 -m big_hardware_info "$@"

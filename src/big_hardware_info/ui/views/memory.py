@@ -10,13 +10,6 @@ import gi
 gi.require_version("Gtk", "4.0")
 from gi.repository import Gtk, Gdk
 
-try:
-    gi.require_version("Adw", "1")
-    from gi.repository import Adw
-    HAS_ADW = True
-except (ValueError, ImportError):
-    HAS_ADW = False
-
 from big_hardware_info.ui.views.base import HardwareSectionView
 from big_hardware_info.ui import builders as ui
 from big_hardware_info.utils.i18n import _
@@ -32,9 +25,7 @@ class MemorySectionView(HardwareSectionView):
     - Swap/ZRAM section with usage
     - Raw output (collapsible)
     """
-    
-    CATEGORY_ID = "memory"
-    
+
     def __init__(self, disk_data: Dict[str, Any] = None, **kwargs) -> None:
         """
         Initialize memory view.
@@ -112,9 +103,6 @@ class MemorySectionView(HardwareSectionView):
             usage_labels.set_hexpand(True)
             
             used = data.get("used", "")
-            available = data.get("available", "")
-            
-            # Clean percentage from used string
             used_clean = self.clean_percentage_string(used)
 
             used_label = Gtk.Label(label=_("Used:") + " " + str(used_clean))
