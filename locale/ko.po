@@ -15,619 +15,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 186
-msgid "Summary"
-msgstr "요약"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 188
-msgid "Overview of main hardware"
-msgstr "주요 하드웨어 개요"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 70
-msgid "Processor"
-msgstr "프로세서"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 193
-msgid "CPU information"
-msgstr "CPU 정보"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 71
-msgid "Graphics"
-msgstr "그래픽스"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 198
-msgid "Video card information"
-msgstr "비디오 카드 정보"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 201
-msgid "Webcams"
-msgstr "웹캠"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 203
-msgid "Camera devices"
-msgstr "카메라 장치"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
-# File: big-hardware-info/src/app/ui/search.py, line: 73
-# File: big-hardware-info/src/app/ui/search.py, line: 221
-# File: big-hardware-info/src/app/ui/search.py, line: 222
-msgid "Motherboard"
-msgstr "메인보드"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 208
-msgid "Motherboard and BIOS information"
-msgstr "마더보드 및 BIOS 정보"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 72
-msgid "Memory"
-msgstr "메모리"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 213
-msgid "RAM information"
-msgstr "RAM 정보"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 74
-msgid "Audio"
-msgstr "오디오"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 218
-msgid "Sound devices"
-msgstr "사운드 장치"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 75
-msgid "Network"
-msgstr "네트워크"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 223
-msgid "Network devices and connections"
-msgstr "네트워크 장치 및 연결"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 76
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
-msgid "Storage"
-msgstr "저장소"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 228
-msgid "Storage devices"
-msgstr "저장 장치"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
-msgid "Battery"
-msgstr "배터리"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 233
-msgid "Battery status"
-msgstr "배터리 상태"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 236
-msgid "Bluetooth"
-msgstr "블루투스"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 238
-msgid "Bluetooth devices"
-msgstr "블루투스 장치"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 241
-msgid "USB Components"
-msgstr "USB 구성 요소"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 243
-msgid "USB devices"
-msgstr "USB 장치"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 77
-msgid "PCI Devices"
-msgstr "PCI 장치"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 248
-msgid "PCI devices"
-msgstr "PCI 장치"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
-# File: big-hardware-info/src/app/ui/search.py, line: 92
-# File: big-hardware-info/src/app/ui/search.py, line: 213
-msgid "System"
-msgstr "시스템"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 253
-msgid "System information"
-msgstr "시스템 정보"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 256
-msgid "Printers"
-msgstr "프린터"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 258
-msgid "Printer devices"
-msgstr "프린터 장치"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 261
-msgid "Sensors"
-msgstr "센서"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 263
-msgid "Temperature and fan sensors"
-msgstr "온도 및 팬 센서"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 266
-msgid "More Info"
-msgstr "자세한 정보"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 268
-msgid "Raw system data and logs"
-msgstr "원시 시스템 데이터 및 로그"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 54
-msgid "Hardware Report"
-msgstr "하드웨어 보고서"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 57
-msgid "Search sections..."
-msgstr "섹션 검색..."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 58
-msgid "Generated:"
-msgstr "생성됨:"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 59
-msgid "Visit BigLinux website"
-msgstr "빅리눅스 웹사이트 방문하기"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
-msgid "Advanced Information"
-msgstr "고급 정보"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1105
-msgid "No graphics devices found"
-msgstr "그래픽 장치가 발견되지 않았습니다."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
-msgid "Memory Modules"
-msgstr "메모리 모듈"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1459
-msgid "No storage drives found"
-msgstr "저장 드라이브를 찾을 수 없습니다."
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
-msgid "Disk Partitions"
-msgstr "디스크 파티션"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1782
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 58
-msgid "No audio devices found"
-msgstr "오디오 장치가 발견되지 않았습니다."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1840
-msgid "No network interfaces found"
-msgstr "네트워크 인터페이스를 찾을 수 없습니다."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1972
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 26
-msgid "No battery detected (Desktop system)"
-msgstr "배터리가 감지되지 않음 (데스크탑 시스템)"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2054
-msgid "No Bluetooth devices found"
-msgstr "블루투스 장치가 발견되지 않았습니다."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2110
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2116
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 35
-msgid "No USB devices found"
-msgstr "USB 장치가 발견되지 않았습니다."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2215
-msgid "No PCI devices found"
-msgstr "PCI 장치가 발견되지 않았습니다."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2334
-msgid "No webcams found"
-msgstr "웹캠을 찾을 수 없습니다."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2395
-msgid "No printers configured"
-msgstr "구성된 프린터가 없습니다."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2479
-# File: big-hardware-info/src/app/ui/sections.py, line: 359
-msgid "No sensors detected"
-msgstr "센서가 감지되지 않았습니다."
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
-msgid "Package Repositories"
-msgstr "패키지 저장소"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2607
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2609
-msgid "No SDIO devices detected"
-msgstr "SDIO 장치가 감지되지 않았습니다."
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2635
-msgid "SDIO"
-msgstr "SDIO"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2665
-msgid "Mhwd driver"
-msgstr "Mhwd 드라이버"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2667
-msgid "Mhwd kernel"
-msgstr "Mhwd 커널"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2672
-msgid "Cmdline"
-msgstr "명령줄"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2687
-msgid "ACPI Interrupts"
-msgstr "ACPI 인터럽트"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2693
-msgid "dmesg (errors)"
-msgstr "dmesg (오류)"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2697
-msgid "journalctl (errors)"
-msgstr "저널ctl (오류)"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2675
-msgid "No additional information available"
-msgstr "추가 정보가 없습니다."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 220
-msgid "Export Report"
-msgstr "보고서 내보내기"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
-msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
-msgstr "하드웨어의 전체 HTML 보고서를 저장하여 지원팀과 공유하거나 참조용으로 보관하세요."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
-msgid "Export"
-msgstr "내보내기"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 221
-msgid "Share Online"
-msgstr "온라인 공유"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
-msgid "Upload your hardware report to get a shareable link for forums or support tickets."
-msgstr "하드웨어 보고서를 업로드하여 포럼이나 지원 티켓을 위한 공유 가능한 링크를 얻으세요."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
-msgid "Share"
-msgstr "공유"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "사용 개요"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 121
-msgid "Memory RAM"
-msgstr "메모리 RAM"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
-msgid "Used"
-msgstr "사용됨"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 152
-msgid "Root Partition"
-msgstr "루트 파티션"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
-msgid "Size"
-msgstr "크기"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
-msgid "Free"
-msgstr "무료"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "시스템 정보"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
-msgid "Video"
-msgstr "비디오"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
-# File: big-hardware-info/src/app/ui/search.py, line: 291
-msgid "Kernel"
-msgstr "커널"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
-msgid "Install Date"
-msgstr "설치 날짜"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 243
-msgid "No battery detected"
-msgstr "배터리가 감지되지 않음"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 252
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 230
-msgid "Model"
-msgstr "모델"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 253
-# File: big-hardware-info/src/app/ui/sections.py, line: 460
-msgid "Status"
-msgstr "상태"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 254
-msgid "Charge"
-msgstr "충전"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 255
-# File: big-hardware-info/src/app/ui/sections.py, line: 324
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 46
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 154
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 141
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 297
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 325
-# File: big-hardware-info/src/app/ui/views/network.py, line: 110
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 103
-msgid "Vendor"
-msgstr "공급업체"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 259
-msgid "Technology"
-msgstr "기술"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 260
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 117
-msgid "Voltage"
-msgstr "전압"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 261
-msgid "Energy"
-msgstr "에너지"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 262
-msgid "Capacity"
-msgstr "용량"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 307
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 25
-msgid "No Bluetooth devices detected"
-msgstr "블루투스 장치가 감지되지 않았습니다."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 325
-# File: big-hardware-info/src/app/ui/sections.py, line: 528
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 47
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 132
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 129
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 150
-# File: big-hardware-info/src/app/ui/views/network.py, line: 118
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 110
-msgid "Chip ID"
-msgstr "칩 ID"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 329
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 51
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 131
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 130
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 149
-# File: big-hardware-info/src/app/ui/views/network.py, line: 117
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 109
-msgid "Bus ID"
-msgstr "버스 ID"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 330
-# File: big-hardware-info/src/app/ui/sections.py, line: 529
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 52
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 136
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 136
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 142
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 242
-# File: big-hardware-info/src/app/ui/views/network.py, line: 111
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 104
-msgid "Driver"
-msgstr "드라이버"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 336
-# File: big-hardware-info/src/app/ui/sections.py, line: 542
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 58
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 110
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 230
-# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 80
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 106
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 180
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 267
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 119
-# File: big-hardware-info/src/app/ui/views/network.py, line: 153
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 135
-msgid "info"
-msgstr "정보"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 337
-# File: big-hardware-info/src/app/ui/sections.py, line: 543
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 59
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 111
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 231
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 107
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 181
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 268
-msgid "View device info on Linux Hardware Database"
-msgstr "Linux 하드웨어 데이터베이스에서 장치 정보 보기"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 367
-msgid "Temperatures"
-msgstr "온도"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 402
-msgid "Fans"
-msgstr "팬"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 453
-msgid "No printers detected"
-msgstr "프린터가 감지되지 않았습니다."
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 461
-msgid "Location"
-msgstr "위치"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 462
-msgid "Make/Model"
-msgstr "제조사/모델"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 466
-msgid "Connection"
-msgstr "연결"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 467
-msgid "Device URI"
-msgstr "장치 URI"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 468
-msgid "Default"
-msgstr "기본값"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 513
-msgid "No webcams detected"
-msgstr "웹캠이 감지되지 않았습니다."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 526
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 231
-msgid "Resolution"
-msgstr "해상도"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 527
-msgid "Format"
-msgstr "형식"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 533
-msgid "Colorspace"
-msgstr "색공간"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 534
-msgid "Max FPS"
-msgstr "최대 FPS"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 535
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 143
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 312
-msgid "Driver Version"
-msgstr "드라이버 버전"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "장치"
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 1022
+msgid "Copy content to clipboard"
+msgstr "클립보드에 내용 복사"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
+msgid "more lines hidden"
+msgstr "더 많은 줄이 숨겨져 있습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1110
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1137
+msgid "Show all"
+msgstr "모든 표시"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+msgid "Show less"
+msgstr "덜 보기"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "Showing all"
+msgstr "모두 표시 중"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "lines"
+msgstr "라인"
+# 
+# File: big-hardware-info/src/app/ui/builders.py, line: 154
+msgid "Copy to clipboard"
+msgstr "클립보드에 복사"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 34
 msgid "Share Report Online"
@@ -667,6 +87,14 @@ msgstr "민감한 정보를 포함하십시오."
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 172
 msgid "Cancel"
 msgstr "취소"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
+msgid "Share"
+msgstr "공유"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
+msgid "Export"
+msgstr "내보내기"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 128
 msgid "HTML files"
@@ -742,70 +170,37 @@ msgstr "보고서가 성공적으로 저장되었습니다:"
 msgid "Failed to open browser"
 msgstr "브라우저를 열지 못했습니다."
 # 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 44
-msgid "No PCI devices detected"
-msgstr "PCI 장치가 감지되지 않았습니다."
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 64
-msgid "Hardware Devices"
-msgstr "하드웨어 장치"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 86
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 174
-msgid "Unknown Device"
-msgstr "알 수 없는 장치"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 130
-msgid "Category"
-msgstr "카테고리"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 137
-msgid "Rev"
-msgstr "리뷰"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 138
-msgid "Kernel Module"
-msgstr "커널 모듈"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 154
-#, python-brace-format
-msgid "System Controllers & Bridges ({count} devices)"
-msgstr "시스템 컨트롤러 및 브리지 ({count} 장치)"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "프린터 세부정보"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
-msgid "Configure printers in System Settings"
-msgstr "시스템 설정에서 프린터 구성"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 93
-msgid "Unknown"
-msgstr "알 수 없음"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 95
-msgid "Idle"
-msgstr "유휴"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 97
-msgid "Printing"
-msgstr "인쇄 중"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 99
-msgid "Disabled"
-msgstr "비활성화됨"
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
-msgid "No motherboard information available"
-msgstr "마더보드 정보가 없습니다."
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1972
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 26
+msgid "No battery detected (Desktop system)"
+msgstr "배터리가 감지되지 않음 (데스크탑 시스템)"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 37
-# File: big-hardware-info/src/app/ui/search.py, line: 195
-msgid "Manufacturer"
-msgstr "제조업체"
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 84
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 48
+# File: big-hardware-info/src/app/ui/main_window.py, line: 757
+# File: big-hardware-info/src/app/ui/main_window.py, line: 778
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 67
+msgid "Full Output"
+msgstr "전체 출력"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
+msgid "Battery"
+msgstr "배터리"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
+msgid "Condition"
+msgstr "조건"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -819,6 +214,62 @@ msgstr "제조업체"
 # File: big-hardware-info/src/app/ui/search.py, line: 193
 msgid "Type"
 msgstr "유형"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 113
+msgid "Cycles"
+msgstr "주기"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 260
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 117
+msgid "Voltage"
+msgstr "전압"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 118
+msgid "Min Voltage"
+msgstr "최소 전압"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 119
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 139
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 163
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 241
+msgid "Serial"
+msgstr "일련번호"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
+msgid "No motherboard information available"
+msgstr "마더보드 정보가 없습니다."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
+# File: big-hardware-info/src/app/ui/search.py, line: 73
+# File: big-hardware-info/src/app/ui/search.py, line: 221
+# File: big-hardware-info/src/app/ui/search.py, line: 222
+msgid "Motherboard"
+msgstr "메인보드"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 37
+# File: big-hardware-info/src/app/ui/search.py, line: 195
+msgid "Manufacturer"
+msgstr "제조업체"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
+# File: big-hardware-info/src/app/ui/search.py, line: 92
+# File: big-hardware-info/src/app/ui/search.py, line: 213
+msgid "System"
+msgstr "시스템"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -848,6 +299,53 @@ msgstr "BIOS 버전"
 msgid "BIOS Date"
 msgstr "BIOS 날짜"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "프린터 세부정보"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2395
+msgid "No printers configured"
+msgstr "구성된 프린터가 없습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
+msgid "Configure printers in System Settings"
+msgstr "시스템 설정에서 프린터 구성"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 93
+msgid "Unknown"
+msgstr "알 수 없음"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 95
+msgid "Idle"
+msgstr "유휴"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 97
+msgid "Printing"
+msgstr "인쇄 중"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 99
+msgid "Disabled"
+msgstr "비활성화됨"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 44
+msgid "No PCI devices detected"
+msgstr "PCI 장치가 감지되지 않았습니다."
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 64
+msgid "Hardware Devices"
+msgstr "하드웨어 장치"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 86
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 174
+msgid "Unknown Device"
+msgstr "알 수 없는 장치"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
@@ -856,26 +354,261 @@ msgstr "BIOS 날짜"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 84
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 47
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 48
-# File: big-hardware-info/src/app/ui/main_window.py, line: 757
-# File: big-hardware-info/src/app/ui/main_window.py, line: 778
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 67
-msgid "Full Output"
-msgstr "전체 출력"
+# File: big-hardware-info/src/app/ui/sections.py, line: 336
+# File: big-hardware-info/src/app/ui/sections.py, line: 542
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 58
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 110
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 230
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 80
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 106
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 180
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 267
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 119
+# File: big-hardware-info/src/app/ui/views/network.py, line: 153
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 135
+msgid "info"
+msgstr "정보"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 337
+# File: big-hardware-info/src/app/ui/sections.py, line: 543
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 59
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 111
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 231
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 107
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 181
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 268
+msgid "View device info on Linux Hardware Database"
+msgstr "Linux 하드웨어 데이터베이스에서 장치 정보 보기"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 130
+msgid "Category"
+msgstr "카테고리"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 329
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 51
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 131
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 130
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 149
+# File: big-hardware-info/src/app/ui/views/network.py, line: 117
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 109
+msgid "Bus ID"
+msgstr "버스 ID"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 325
+# File: big-hardware-info/src/app/ui/sections.py, line: 528
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 132
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 129
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 150
+# File: big-hardware-info/src/app/ui/views/network.py, line: 118
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 110
+msgid "Chip ID"
+msgstr "칩 ID"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 330
+# File: big-hardware-info/src/app/ui/sections.py, line: 529
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 52
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 136
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 136
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 142
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 242
+# File: big-hardware-info/src/app/ui/views/network.py, line: 111
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 104
+msgid "Driver"
+msgstr "드라이버"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 137
+msgid "Rev"
+msgstr "리뷰"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 138
+msgid "Kernel Module"
+msgstr "커널 모듈"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 154
+#, python-brace-format
+msgid "System Controllers & Bridges ({count} devices)"
+msgstr "시스템 컨트롤러 및 브리지 ({count} 장치)"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 513
+msgid "No webcams detected"
+msgstr "웹캠이 감지되지 않았습니다."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 81
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 122
+# File: big-hardware-info/src/app/ui/views/network.py, line: 156
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 138
+msgid ""
+"View device info on Linux Hardware Database\n"
+"See driver compatibility and troubleshooting tips"
+msgstr ""
+"Linux 하드웨어 데이터베이스에서 장치 정보 보기  \n"
+"드라이버 호환성 및 문제 해결 팁 보기"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 526
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 231
+msgid "Resolution"
+msgstr "해상도"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 527
+msgid "Format"
+msgstr "형식"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 533
+msgid "Colorspace"
+msgstr "색공간"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 534
+msgid "Max FPS"
+msgstr "최대 FPS"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "장치"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 535
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 143
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 312
+msgid "Driver Version"
+msgstr "드라이버 버전"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "보고서 내보내기"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
+msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
+msgstr "하드웨어의 전체 HTML 보고서를 저장하여 지원팀과 공유하거나 참조용으로 보관하세요."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "온라인 공유"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
+msgid "Upload your hardware report to get a shareable link for forums or support tickets."
+msgstr "하드웨어 보고서를 업로드하여 포럼이나 지원 티켓을 위한 공유 가능한 링크를 얻으세요."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "사용 개요"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
 msgid "Memory RAM:"
 msgstr "메모리 RAM:"
 # 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "사용됨"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
 msgid "Root Partition:"
 msgstr "루트 파티션:"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "크기"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
+msgid "Free"
+msgstr "무료"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "시스템 정보"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 173
 msgid "Distro"
 msgstr "배포판"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
+msgid "Video"
+msgstr "비디오"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
+msgid "Install Date"
+msgstr "설치 날짜"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "커널"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 206
 msgid "=== Usage Overview ==="
@@ -918,39 +651,6 @@ msgstr "설치 날짜:"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
 msgid "Kernel:"
 msgstr "커널:"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
-msgid "No sensor data available"
-msgstr "센서 데이터가 없습니다."
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "시스템 온도"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "팬 속도"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "상세 센서 데이터 (센서)"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 81
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 122
-# File: big-hardware-info/src/app/ui/views/network.py, line: 156
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 138
-msgid ""
-"View device info on Linux Hardware Database\n"
-"See driver compatibility and troubleshooting tips"
-msgstr ""
-"Linux 하드웨어 데이터베이스에서 장치 정보 보기  \n"
-"드라이버 호환성 및 문제 해결 팁 보기"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 24
 msgid "No system information available"
@@ -1043,17 +743,12 @@ msgstr "패키지 및 저장소"
 msgid "Active Repositories"
 msgstr "활성 저장소"
 # 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
-msgid "Condition"
-msgstr "조건"
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 113
-msgid "Cycles"
-msgstr "주기"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 118
-msgid "Min Voltage"
-msgstr "최소 전압"
+# File: big-hardware-info/src/app/ui/sections.py, line: 307
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 25
+msgid "No Bluetooth devices detected"
+msgstr "블루투스 장치가 감지되지 않았습니다."
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1061,12 +756,45 @@ msgstr "최소 전압"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 119
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 139
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 163
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 241
-msgid "Serial"
-msgstr "일련번호"
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 255
+# File: big-hardware-info/src/app/ui/sections.py, line: 324
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 46
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 154
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 141
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 297
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 325
+# File: big-hardware-info/src/app/ui/views/network.py, line: 110
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 103
+msgid "Vendor"
+msgstr "공급업체"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
+msgid "No sensor data available"
+msgstr "센서 데이터가 없습니다."
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "시스템 온도"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "팬 속도"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "상세 센서 데이터 (센서)"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2110
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2116
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 35
+msgid "No USB devices found"
+msgstr "USB 장치가 발견되지 않았습니다."
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
@@ -1120,138 +848,36 @@ msgstr "모드"
 msgid "System USB Controllers ({count} devices)"
 msgstr "시스템 USB 컨트롤러 ({count} 장치)"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
-msgid "Open device info online"
-msgstr "온라인 장치 정보 열기"
+# File: big-hardware-info/src/app/ui/search.py, line: 70
+msgid "Processor"
+msgstr "프로세서"
 # 
-# File: big-hardware-info/src/app/ui/builders.py, line: 154
-msgid "Copy to clipboard"
-msgstr "클립보드에 복사"
+# File: big-hardware-info/src/app/ui/search.py, line: 71
+msgid "Graphics"
+msgstr "그래픽스"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 222
-msgid "About"
-msgstr "정보"
+# File: big-hardware-info/src/app/ui/search.py, line: 72
+msgid "Memory"
+msgstr "메모리"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 200
-msgid "Refresh hardware information (Ctrl+R)"
-msgstr "하드웨어 정보 새로 고침 (Ctrl+R)"
+# File: big-hardware-info/src/app/ui/search.py, line: 74
+msgid "Audio"
+msgstr "오디오"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 206
-msgid "Collect restricted data (requires admin)"
-msgstr "제한된 데이터 수집 (관리자 권한 필요)"
+# File: big-hardware-info/src/app/ui/search.py, line: 75
+msgid "Network"
+msgstr "네트워크"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 212
-msgid "Search..."
-msgstr "검색..."
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
-msgid "Collecting hardware information..."
-msgstr "하드웨어 정보 수집 중..."
+# File: big-hardware-info/src/app/ui/search.py, line: 76
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Storage"
+msgstr "저장소"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
-msgid "Loading"
-msgstr "로딩 중"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
-msgid "Admin Access Unavailable"
-msgstr "관리자 액세스 사용 불가"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
-msgid "The pkexec command is not available on this system."
-msgstr "이 시스템에서는 pkexec 명령을 사용할 수 없습니다."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-msgid "OK"
-msgstr "알겠습니다."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
-msgid "Admin data collected successfully"
-msgstr "관리자 데이터가 성공적으로 수집되었습니다."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
-msgid "Failed to collect admin data"
-msgstr "관리자 데이터를 수집하지 못했습니다."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 868
-msgid "Opening in browser..."
-msgstr "브라우저에서 열기..."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 877
-msgid "Copy category data to clipboard"
-msgstr "클립보드에 카테고리 데이터를 복사합니다."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 889
-msgid "No data to copy"
-msgstr "복사할 데이터가 없습니다."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 903
-msgid "Data copied to clipboard"
-msgstr "클립보드에 복사된 데이터"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-msgid "Copied:"
-msgstr "복사됨:"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 956
-msgid "Copied to clipboard"
-msgstr "클립보드에 복사됨"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 1022
-msgid "Copy content to clipboard"
-msgstr "클립보드에 내용 복사"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
-msgid "more lines hidden"
-msgstr "더 많은 줄이 숨겨져 있습니다."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1110
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1137
-msgid "Show all"
-msgstr "모든 표시"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
-msgid "Show less"
-msgstr "덜 보기"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "Showing all"
-msgstr "모두 표시 중"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "lines"
-msgstr "라인"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
-msgid "Requires Administrator"
-msgstr "관리자 권한 필요"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
-msgid "Click to run as administrator and show"
-msgstr "관리자로 실행하려면 클릭하고 표시하십시오."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
-msgid "Administrator Access Required"
-msgstr "관리자 액세스 필요"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
-msgid ""
-"Some hardware information requires administrator privileges to access. Do you want to reload with "
-"elevated access?"
-msgstr "일부 하드웨어 정보에 접근하려면 관리자 권한이 필요합니다. 상승된 권한으로 다시 로드하시겠습니까?"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
-msgid "Reload as Admin"
-msgstr "관리자로 다시 로드"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
-msgid "Hardware information updated with administrator access"
-msgstr "관리자 액세스를 통해 하드웨어 정보가 업데이트되었습니다."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
-#, python-brace-format
-msgid "Could not get elevated access: {error_message}"
-msgstr "승격된 액세스를 얻을 수 없습니다: {error_message}"
+# File: big-hardware-info/src/app/ui/search.py, line: 77
+msgid "PCI Devices"
+msgstr "PCI 장치"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
@@ -1282,186 +908,9 @@ msgstr "결과가 없습니다."
 msgid "Try a different search term"
 msgstr "다른 검색어를 시도해 보세요."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
-msgid "N/A"
-msgstr "N/A"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 39
-msgid "No disk information available"
-msgstr "디스크 정보가 없습니다."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "총 저장 용량:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "사용됨:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "저장 장치"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 119
-msgid "Unknown Drive"
-msgstr "알 수 없는 드라이브"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 160
-msgid "Lanes"
-msgstr "차선"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 161
-msgid "Temp"
-msgstr "온도"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 202
-msgid "Mounted Partitions"
-msgstr "마운트된 파티션"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 308
-msgid "Mounted at"
-msgstr "마운트됨"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 318
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 354
-# File: big-hardware-info/src/app/ui/views/network.py, line: 408
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 185
-msgid "Copy device info"
-msgstr "장치 정보 복사"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 49
-msgid "No GPU information available"
-msgstr "GPU 정보가 없습니다."
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 61
-msgid "No GPU devices found"
-msgstr "GPU 장치가 발견되지 않았습니다."
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 104
-msgid "Unknown GPU"
-msgstr "알 수 없는 GPU"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 144
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 301
-msgid "Video Memory"
-msgstr "비디오 메모리"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 145
-msgid "Architecture"
-msgstr "아키텍처"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 151
-# File: big-hardware-info/src/app/ui/views/network.py, line: 98
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 95
-msgid "PCIe"
-msgstr "PCIe"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 152
-msgid "Active Ports"
-msgstr "활성 포트"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 153
-msgid "Empty Ports"
-msgstr "빈 포트"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "모니터"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
-msgid "Monitor"
-msgstr "모니터"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 232
-msgid "Refresh Rate"
-msgstr "새로 고침 빈도"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 234
-msgid "Diagonal"
-msgstr "대각선"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 235
-msgid "Aspect Ratio"
-msgstr "종횡비"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 236
-msgid "DPI"
-msgstr "DPI"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 237
-msgid "Gamma"
-msgstr "감마"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 238
-msgid "Built Year"
-msgstr "제작 연도"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 239
-msgid "Max Resolution"
-msgstr "최대 해상도"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 240
-msgid "Min Resolution"
-msgstr "최소 해상도"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
-msgid "Mapped"
-msgstr "매핑됨"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "디스플레이 서버"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
-msgid "Display"
-msgstr "디스플레이"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 282
-msgid "With"
-msgstr "와 함께"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 284
-msgid "Driver Loaded"
-msgstr "드라이버 로드됨"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 285
-msgid "GPU"
-msgstr "GPU"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 296
-msgid "Compatibility"
-msgstr "호환성"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 298
-msgid "GLX Version"
-msgstr "GLX 버전"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 299
-msgid "Direct Render"
-msgstr "직접 렌더링"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 300
-msgid "Renderer"
-msgstr "렌더러"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 314
-msgid "Device Type"
-msgstr "장치 유형"
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "데이터가 없습니다."
 # 
 # File: big-hardware-info/src/app/ui/views/network.py, line: 56
 msgid "No network information available"
@@ -1481,6 +930,16 @@ msgstr "알 수 없는 네트워크 장치"
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 85
 msgid "USB"
 msgstr "USB"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 151
+# File: big-hardware-info/src/app/ui/views/network.py, line: 98
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 95
+msgid "PCIe"
+msgstr "PCIe"
 # 
 # File: big-hardware-info/src/app/ui/views/network.py, line: 112
 msgid "Interface"
@@ -1539,9 +998,29 @@ msgstr "속도:"
 msgid "Bus ID:"
 msgstr "버스 ID:"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 318
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 354
+# File: big-hardware-info/src/app/ui/views/network.py, line: 408
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 185
+msgid "Copy device info"
+msgstr "장치 정보 복사"
+# 
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 52
 msgid "No audio information available"
 msgstr "오디오 정보가 없습니다."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1782
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 58
+msgid "No audio devices found"
+msgstr "오디오 장치가 발견되지 않았습니다."
 # 
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 72
 msgid "Unknown Audio Device"
@@ -1563,9 +1042,22 @@ msgstr "총 메모리:"
 msgid "Copy memory info"
 msgstr "메모리 정보 복사"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "사용됨:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
 msgid "used"
 msgstr "사용됨"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 262
+msgid "Capacity"
+msgstr "용량"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 152
 msgid "Modules"
@@ -1582,6 +1074,10 @@ msgstr "최대 모듈 크기"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 162
 msgid "ECC"
 msgstr "ECC"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
+msgid "Memory Modules"
+msgstr "메모리 모듈"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 296
 msgid "Volts"
@@ -1646,6 +1142,169 @@ msgstr "모듈:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "슬롯:"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 49
+msgid "No GPU information available"
+msgstr "GPU 정보가 없습니다."
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 61
+msgid "No GPU devices found"
+msgstr "GPU 장치가 발견되지 않았습니다."
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 104
+msgid "Unknown GPU"
+msgstr "알 수 없는 GPU"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 161
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1596
+msgid "Shared"
+msgstr "공유됨"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 144
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 301
+msgid "Video Memory"
+msgstr "비디오 메모리"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 145
+msgid "Architecture"
+msgstr "아키텍처"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 152
+msgid "Active Ports"
+msgstr "활성 포트"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 153
+msgid "Empty Ports"
+msgstr "빈 포트"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "모니터"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
+msgid "Monitor"
+msgstr "모니터"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 252
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 230
+msgid "Model"
+msgstr "모델"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 232
+msgid "Refresh Rate"
+msgstr "새로 고침 빈도"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 234
+msgid "Diagonal"
+msgstr "대각선"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 235
+msgid "Aspect Ratio"
+msgstr "종횡비"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 236
+msgid "DPI"
+msgstr "DPI"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 237
+msgid "Gamma"
+msgstr "감마"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 238
+msgid "Built Year"
+msgstr "제작 연도"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 239
+msgid "Max Resolution"
+msgstr "최대 해상도"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 240
+msgid "Min Resolution"
+msgstr "최소 해상도"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
+msgid "Mapped"
+msgstr "매핑됨"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
+msgid "Advanced Information"
+msgstr "고급 정보"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "디스플레이 서버"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
+msgid "Display"
+msgstr "디스플레이"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 282
+msgid "With"
+msgstr "와 함께"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 284
+msgid "Driver Loaded"
+msgstr "드라이버 로드됨"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 285
+msgid "GPU"
+msgstr "GPU"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 296
+msgid "Compatibility"
+msgstr "호환성"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 298
+msgid "GLX Version"
+msgstr "GLX 버전"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 299
+msgid "Direct Render"
+msgstr "직접 렌더링"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 300
+msgid "Renderer"
+msgstr "렌더러"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 314
+msgid "Device Type"
+msgstr "장치 유형"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 39
+msgid "No disk information available"
+msgstr "디스크 정보가 없습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "총 저장 용량:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "저장 장치"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 119
+msgid "Unknown Drive"
+msgstr "알 수 없는 드라이브"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 160
+msgid "Lanes"
+msgstr "차선"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 161
+msgid "Temp"
+msgstr "온도"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 202
+msgid "Mounted Partitions"
+msgstr "마운트된 파티션"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 308
+msgid "Mounted at"
+msgstr "마운트됨"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
 msgid "No CPU information available"
@@ -1751,9 +1410,91 @@ msgstr "최대 속도:"
 msgid "L3 Cache:"
 msgstr "L3 캐시:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
-msgid "No data available"
-msgstr "데이터가 없습니다."
+# File: big-hardware-info/src/app/ui/main_window.py, line: 222
+msgid "About"
+msgstr "정보"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 200
+msgid "Refresh hardware information (Ctrl+R)"
+msgstr "하드웨어 정보 새로 고침 (Ctrl+R)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 206
+msgid "Collect restricted data (requires admin)"
+msgstr "제한된 데이터 수집 (관리자 권한 필요)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 212
+msgid "Search..."
+msgstr "검색..."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
+msgid "Collecting hardware information..."
+msgstr "하드웨어 정보 수집 중..."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 868
+msgid "Opening in browser..."
+msgstr "브라우저에서 열기..."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "복사됨:"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 956
+msgid "Copied to clipboard"
+msgstr "클립보드에 복사됨"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
+msgid "Requires Administrator"
+msgstr "관리자 권한 필요"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
+msgid "Click to run as administrator and show"
+msgstr "관리자로 실행하려면 클릭하고 표시하십시오."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
+msgid "Administrator Access Required"
+msgstr "관리자 액세스 필요"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+msgid ""
+"Some hardware information requires administrator privileges to access. Do you want to reload with "
+"elevated access?"
+msgstr "일부 하드웨어 정보에 접근하려면 관리자 권한이 필요합니다. 상승된 권한으로 다시 로드하시겠습니까?"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
+msgid "Reload as Admin"
+msgstr "관리자로 다시 로드"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 877
+msgid "Copy category data to clipboard"
+msgstr "클립보드에 카테고리 데이터를 복사합니다."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 889
+msgid "No data to copy"
+msgstr "복사할 데이터가 없습니다."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 903
+msgid "Data copied to clipboard"
+msgstr "클립보드에 복사된 데이터"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "관리자 데이터가 성공적으로 수집되었습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "관리자 데이터를 수집하지 못했습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
+msgid "Admin Access Unavailable"
+msgstr "관리자 액세스 사용 불가"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
+msgid "The pkexec command is not available on this system."
+msgstr "이 시스템에서는 pkexec 명령을 사용할 수 없습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+msgid "OK"
+msgstr "알겠습니다."
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
@@ -1774,12 +1515,148 @@ msgstr "특별 감사드립니다"
 msgid "translator-credits"
 msgstr "번역가-크레딧"
 # 
-# File: big-hardware-info/src/app/__init__.py, line: 150
+# File: big-hardware-info/src/big_hardware_info/__init__.py, line: 102
+#, python-brace-format
 msgid ""
-"<p>Big Hardware Info 2.0.0 - Complete Rewrite:</p><ul><li>Comprehensive hardware "
+"<p>Big Hardware Info {version} - Complete Rewrite:</p><ul><li>Comprehensive hardware "
 "detection</li><li>Export to HTML with modern design</li><li>Online sharing via "
-"termbin.com</li><li>Syntax highlighting for system files</li><li>USB/PCIe device "
+"filebin.net</li><li>Syntax highlighting for system files</li><li>USB/PCIe device "
 "distinction</li></ul>"
 msgstr ""
-"<p>빅 하드웨어 정보 2.0.0 - 완전 재작성:</p><ul><li>포괄적인 하드웨어 감지</li><li>현대적인 디자인의 HTML로 "
-"내보내기</li><li>termbin.com을 통한 온라인 공유</li><li>시스템 파일에 대한 구문 강조</li><li>USB/PCIe 장치 구분</li></ul>"
+"<p>빅 하드웨어 정보 {version} - 완전 재작성:</p><ul><li>포괄적인 하드웨어 감지</li><li>현대적인 디자인의 HTML로 "
+"내보내기</li><li>filebin.net을 통한 온라인 공유</li><li>시스템 파일에 대한 구문 강조</li><li>USB/PCIe 장치 구분</li></ul>"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 54
+msgid "Hardware Report"
+msgstr "하드웨어 보고서"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 57
+msgid "Search sections..."
+msgstr "섹션 검색..."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 58
+msgid "Generated:"
+msgstr "생성됨:"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 59
+msgid "Visit BigLinux website"
+msgstr "빅리눅스 웹사이트 방문하기"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1105
+msgid "No graphics devices found"
+msgstr "그래픽 장치가 발견되지 않았습니다."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1459
+msgid "No storage drives found"
+msgstr "저장 드라이브를 찾을 수 없습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
+msgid "Disk Partitions"
+msgstr "디스크 파티션"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1840
+msgid "No network interfaces found"
+msgstr "네트워크 인터페이스를 찾을 수 없습니다."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2054
+msgid "No Bluetooth devices found"
+msgstr "블루투스 장치가 발견되지 않았습니다."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2215
+msgid "No PCI devices found"
+msgstr "PCI 장치가 발견되지 않았습니다."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2334
+msgid "No webcams found"
+msgstr "웹캠을 찾을 수 없습니다."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2479
+# File: big-hardware-info/src/app/ui/sections.py, line: 359
+msgid "No sensors detected"
+msgstr "센서가 감지되지 않았습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
+msgid "Package Repositories"
+msgstr "패키지 저장소"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2607
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2609
+msgid "No SDIO devices detected"
+msgstr "SDIO 장치가 감지되지 않았습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2635
+msgid "SDIO"
+msgstr "SDIO"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2665
+msgid "Mhwd driver"
+msgstr "Mhwd 드라이버"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2667
+msgid "Mhwd kernel"
+msgstr "Mhwd 커널"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2672
+msgid "Cmdline"
+msgstr "명령줄"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2687
+msgid "ACPI Interrupts"
+msgstr "ACPI 인터럽트"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2693
+msgid "dmesg (errors)"
+msgstr "dmesg (오류)"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2697
+msgid "journalctl (errors)"
+msgstr "저널ctl (오류)"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2675
+msgid "No additional information available"
+msgstr "추가 정보가 없습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 54
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 116
+msgid ""
+"The filebin.net service is temporarily under maintenance. Please try again in a few minutes or use "
+"the HTML export option."
+msgstr "filebin.net 서비스가 일시적으로 유지보수 중입니다. 몇 분 후에 다시 시도하거나 HTML 내보내기 옵션을 사용해 주십시오."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 61
+msgid ""
+"The filebin.net server is temporarily unavailable. Please try again later or use the HTML export "
+"option."
+msgstr "filebin.net 서버가 일시적으로 사용할 수 없습니다. 나중에 다시 시도하거나 HTML 내보내기 옵션을 사용하십시오."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 68
+msgid "Failed to upload the file. Please check your internet connection."
+msgstr "파일 업로드에 실패했습니다. 인터넷 연결을 확인하세요."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 106
+msgid "The server did not return a valid URL. Please try again."
+msgstr "서버가 유효한 URL을 반환하지 않았습니다. 다시 시도해 주세요."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 121
+msgid ""
+"The filebin.net server returned an unexpected response. Please try again later or use the HTML "
+"export option."
+msgstr "filebin.net 서버가 예기치 않은 응답을 반환했습니다. 나중에 다시 시도하거나 HTML 내보내기 옵션을 사용하세요."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 137
+msgid "Invalid response from server. Please try again."
+msgstr "서버에서 잘못된 응답이 있습니다. 다시 시도해 주세요."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 143
+msgid "Upload timed out. Please check your internet connection and try again."
+msgstr "업로드 시간이 초과되었습니다. 인터넷 연결을 확인하고 다시 시도하십시오."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 148
+msgid "The curl command was not found. Please install curl."
+msgstr "curl 명령어를 찾을 수 없습니다. curl을 설치해 주십시오."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 154
+msgid "Upload error: {}"
+msgstr "업로드 오류: {}"

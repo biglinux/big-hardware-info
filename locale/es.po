@@ -15,623 +15,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
-# File: src/big_hardware_info/models/hardware_info.py, line: 186
-msgid "Summary"
-msgstr "Resumen"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 188
-msgid "Overview of main hardware"
-msgstr "Descripción general del hardware principal"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 70
-msgid "Processor"
-msgstr "Procesador"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 193
-msgid "CPU information"
-msgstr "Información de la CPU"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 71
-msgid "Graphics"
-msgstr "Gráficos"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 198
-msgid "Video card information"
-msgstr "Información de la tarjeta de video"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 201
-msgid "Webcams"
-msgstr "Cámaras web"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 203
-msgid "Camera devices"
-msgstr "Dispositivos de cámara"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
-# File: big-hardware-info/src/app/ui/search.py, line: 73
-# File: big-hardware-info/src/app/ui/search.py, line: 221
-# File: big-hardware-info/src/app/ui/search.py, line: 222
-msgid "Motherboard"
-msgstr "Placa base"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 208
-msgid "Motherboard and BIOS information"
-msgstr "Información de la placa base y BIOS"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 72
-msgid "Memory"
-msgstr "Memoria"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 213
-msgid "RAM information"
-msgstr "Información de RAM"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 74
-msgid "Audio"
-msgstr "Audio"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 218
-msgid "Sound devices"
-msgstr "Dispositivos de sonido"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 75
-msgid "Network"
-msgstr "Red"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 223
-msgid "Network devices and connections"
-msgstr "Dispositivos de red y conexiones"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 76
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
-msgid "Storage"
-msgstr "Almacenamiento"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 228
-msgid "Storage devices"
-msgstr "Dispositivos de almacenamiento"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
-msgid "Battery"
-msgstr "Batería"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 233
-msgid "Battery status"
-msgstr "Estado de la batería"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 236
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 238
-msgid "Bluetooth devices"
-msgstr "dispositivos Bluetooth"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 241
-msgid "USB Components"
-msgstr "Componentes USB"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 243
-msgid "USB devices"
-msgstr "dispositivos USB"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 77
-msgid "PCI Devices"
-msgstr "Dispositivos PCI"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 248
-msgid "PCI devices"
-msgstr "dispositivos PCI"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
-# File: big-hardware-info/src/app/ui/search.py, line: 92
-# File: big-hardware-info/src/app/ui/search.py, line: 213
-msgid "System"
-msgstr "Sistema"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 253
-msgid "System information"
-msgstr "Información del sistema"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 256
-msgid "Printers"
-msgstr "Impresoras"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 258
-msgid "Printer devices"
-msgstr "Dispositivos de impresora"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 261
-msgid "Sensors"
-msgstr "Sensores"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 263
-msgid "Temperature and fan sensors"
-msgstr "Sensores de temperatura y ventilador"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 266
-msgid "More Info"
-msgstr "Más información"
-# 
-# File: src/big_hardware_info/models/hardware_info.py, line: 268
-msgid "Raw system data and logs"
-msgstr "Datos y registros del sistema en bruto"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 54
-msgid "Hardware Report"
-msgstr "Informe de hardware"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 57
-msgid "Search sections..."
-msgstr "Buscar secciones..."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 58
-msgid "Generated:"
-msgstr "Generado:"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 59
-msgid "Visit BigLinux website"
-msgstr "Visita el sitio web de BigLinux"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
-msgid "Advanced Information"
-msgstr "Información Avanzada"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1105
-msgid "No graphics devices found"
-msgstr "No se encontraron dispositivos gráficos."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
-msgid "Memory Modules"
-msgstr "Módulos de memoria"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1459
-msgid "No storage drives found"
-msgstr "No se encontraron unidades de almacenamiento."
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
-msgid "Disk Partitions"
-msgstr "Particiones de disco"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1782
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 58
-msgid "No audio devices found"
-msgstr "No se encontraron dispositivos de audio."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1840
-msgid "No network interfaces found"
-msgstr "No se encontraron interfaces de red."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1972
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 26
-msgid "No battery detected (Desktop system)"
-msgstr "No se detecta batería (sistema de escritorio)"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2054
-msgid "No Bluetooth devices found"
-msgstr "No se encontraron dispositivos Bluetooth."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2110
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2116
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 35
-msgid "No USB devices found"
-msgstr "No se encontraron dispositivos USB."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2215
-msgid "No PCI devices found"
-msgstr "No se encontraron dispositivos PCI."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2334
-msgid "No webcams found"
-msgstr "No se encontraron cámaras web."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2395
-msgid "No printers configured"
-msgstr "No hay impresoras configuradas"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2479
-# File: big-hardware-info/src/app/ui/sections.py, line: 359
-msgid "No sensors detected"
-msgstr "No se detectaron sensores"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
-msgid "Package Repositories"
-msgstr "Repositorios de paquetes"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2607
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2609
-msgid "No SDIO devices detected"
-msgstr "No se detectaron dispositivos SDIO."
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2635
-msgid "SDIO"
-msgstr "SDIO"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2665
-msgid "Mhwd driver"
-msgstr "Controlador Mhwd"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2667
-msgid "Mhwd kernel"
-msgstr "Núcleo Mhwd"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2672
-msgid "Cmdline"
-msgstr "Línea de comandos"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2687
-msgid "ACPI Interrupts"
-msgstr "Interrupciones ACPI"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2693
-msgid "dmesg (errors)"
-msgstr "dmesg (errores)"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2697
-msgid "journalctl (errors)"
-msgstr "journalctl (errores)"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2675
-msgid "No additional information available"
-msgstr "No hay información adicional disponible."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 220
-msgid "Export Report"
-msgstr "Exportar informe"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
-msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
-msgstr ""
-"Guarda un informe HTML completo de tu hardware para compartir con el soporte o conservar como "
-"referencia."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
-msgid "Export"
-msgstr "Exportar"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 221
-msgid "Share Online"
-msgstr "Compartir en línea"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
-msgid "Upload your hardware report to get a shareable link for forums or support tickets."
-msgstr "Sube tu informe de hardware para obtener un enlace compartible para foros o tickets de soporte."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
-msgid "Share"
-msgstr "Compartir"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "Resumen de uso"
-# 
-# File: src/big_hardware_info/ui/sections.py, line: 97
-# File: src/big_hardware_info/ui/sections.py, line: 121
-msgid "Memory RAM"
-msgstr "Memoria RAM"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
-msgid "Used"
-msgstr "Usado"
-# 
-# File: src/big_hardware_info/ui/sections.py, line: 101
-# File: src/big_hardware_info/ui/sections.py, line: 152
-msgid "Root Partition"
-msgstr "Partición raíz"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
-msgid "Size"
-msgstr "Tamaño"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
-msgid "Free"
-msgstr "Gratis"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "Información del sistema"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
-msgid "Video"
-msgstr "Vídeo"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
-# File: big-hardware-info/src/app/ui/search.py, line: 291
-msgid "Kernel"
-msgstr "Núcleo"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
-msgid "Install Date"
-msgstr "Fecha de instalación"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 243
-msgid "No battery detected"
-msgstr "No se detecta batería"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 252
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 230
-msgid "Model"
-msgstr "Modelo"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 253
-# File: big-hardware-info/src/app/ui/sections.py, line: 460
-msgid "Status"
-msgstr "Estado"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 254
-msgid "Charge"
-msgstr "Cargar"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 255
-# File: big-hardware-info/src/app/ui/sections.py, line: 324
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 46
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 154
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 141
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 297
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 325
-# File: big-hardware-info/src/app/ui/views/network.py, line: 110
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 103
-msgid "Vendor"
-msgstr "Proveedor"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 259
-msgid "Technology"
-msgstr "Tecnología"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 260
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 117
-msgid "Voltage"
-msgstr "Voltaje"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 261
-msgid "Energy"
-msgstr "Energía"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 262
-msgid "Capacity"
-msgstr "Capacidad"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 307
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 25
-msgid "No Bluetooth devices detected"
-msgstr "No se detectan dispositivos Bluetooth."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 325
-# File: big-hardware-info/src/app/ui/sections.py, line: 528
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 47
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 132
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 129
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 150
-# File: big-hardware-info/src/app/ui/views/network.py, line: 118
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 110
-msgid "Chip ID"
-msgstr "ID de chip"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 329
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 51
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 131
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 130
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 149
-# File: big-hardware-info/src/app/ui/views/network.py, line: 117
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 109
-msgid "Bus ID"
-msgstr "ID de bus"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 330
-# File: big-hardware-info/src/app/ui/sections.py, line: 529
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 52
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 136
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 136
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 142
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 242
-# File: big-hardware-info/src/app/ui/views/network.py, line: 111
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 104
-msgid "Driver"
-msgstr "Controlador"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 336
-# File: big-hardware-info/src/app/ui/sections.py, line: 542
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 58
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 110
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 230
-# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 80
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 106
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 180
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 267
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 119
-# File: big-hardware-info/src/app/ui/views/network.py, line: 153
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 135
-msgid "info"
-msgstr "info"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 337
-# File: big-hardware-info/src/app/ui/sections.py, line: 543
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 59
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 111
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 231
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 107
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 181
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 268
-msgid "View device info on Linux Hardware Database"
-msgstr "Ver información del dispositivo en la Base de Datos de Hardware de Linux"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 367
-msgid "Temperatures"
-msgstr "Temperaturas"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 402
-msgid "Fans"
-msgstr "Ventiladores"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 453
-msgid "No printers detected"
-msgstr "No se detectaron impresoras"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 461
-msgid "Location"
-msgstr "Ubicación"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 462
-msgid "Make/Model"
-msgstr "Marca/Modelo"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 466
-msgid "Connection"
-msgstr "Conexión"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 467
-msgid "Device URI"
-msgstr "URI del dispositivo"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 468
-msgid "Default"
-msgstr "Predeterminado"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 513
-msgid "No webcams detected"
-msgstr "No se detectan cámaras web."
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 526
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 231
-msgid "Resolution"
-msgstr "Resolución"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 527
-msgid "Format"
-msgstr "Formato"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 533
-msgid "Colorspace"
-msgstr "Espacio de color"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 534
-msgid "Max FPS"
-msgstr "Máx FPS"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 535
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 143
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 312
-msgid "Driver Version"
-msgstr "Versión del controlador"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "Dispositivo"
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 1022
+msgid "Copy content to clipboard"
+msgstr "Copiar contenido al portapapeles"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
+msgid "more lines hidden"
+msgstr "más líneas ocultas"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1110
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1137
+msgid "Show all"
+msgstr "Mostrar todo"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
+msgid "Show less"
+msgstr "Mostrar menos"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "Showing all"
+msgstr "Mostrando todo"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
+msgid "lines"
+msgstr "líneas"
+# 
+# File: big-hardware-info/src/app/ui/builders.py, line: 154
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 34
 msgid "Share Report Online"
@@ -673,6 +89,14 @@ msgstr "Incluir información sensible"
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 172
 msgid "Cancel"
 msgstr "Cancelar"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
+msgid "Share"
+msgstr "Compartir"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
+msgid "Export"
+msgstr "Exportar"
 # 
 # File: big-hardware-info/src/app/ui/dialogs.py, line: 128
 msgid "HTML files"
@@ -748,77 +172,37 @@ msgstr "Informe guardado con éxito en:"
 msgid "Failed to open browser"
 msgstr "Error al abrir el navegador"
 # 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 44
-msgid "No PCI devices detected"
-msgstr "No se detectaron dispositivos PCI."
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 64
-msgid "Hardware Devices"
-msgstr "Dispositivos de hardware"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 86
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 174
-msgid "Unknown Device"
-msgstr "Dispositivo desconocido"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 130
-msgid "Category"
-msgstr "Categoría"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 137
-msgid "Rev"
-msgstr "Rev"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 138
-msgid "Kernel Module"
-msgstr "Módulo del núcleo"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 154
-#, python-brace-format
-msgid "System Controllers & Bridges ({count} devices)"
-msgstr "Controladores de sistema y puentes ({count} dispositivos)"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "Detalles de la impresora"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
-msgid "Configure printers in System Settings"
-msgstr "Configurar impresoras en la Configuración del Sistema"
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1972
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 26
+msgid "No battery detected (Desktop system)"
+msgstr "No se detecta batería (sistema de escritorio)"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: src/big_hardware_info/ui/sections.py, line: 97
-# File: src/big_hardware_info/ui/sections.py, line: 102
-# File: src/big_hardware_info/ui/sections.py, line: 103
-# File: src/big_hardware_info/ui/sections.py, line: 104
-# File: src/big_hardware_info/ui/sections.py, line: 285
-# File: src/big_hardware_info/ui/renderers/printers.py, line: 93
-msgid "Unknown"
-msgstr "Desconocido"
-# 
-# File: src/big_hardware_info/ui/renderers/printers.py, line: 95
-msgid "Idle"
-msgstr "Inactivo"
-# 
-# File: src/big_hardware_info/ui/renderers/printers.py, line: 97
-msgid "Printing"
-msgstr "Impresión"
-# 
-# File: src/big_hardware_info/ui/renderers/printers.py, line: 99
-msgid "Disabled"
-msgstr "Deshabilitado"
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
-msgid "No motherboard information available"
-msgstr "No hay información de la placa base disponible."
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 37
-# File: big-hardware-info/src/app/ui/search.py, line: 195
-msgid "Manufacturer"
-msgstr "Fabricante"
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 84
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 48
+# File: big-hardware-info/src/app/ui/main_window.py, line: 757
+# File: big-hardware-info/src/app/ui/main_window.py, line: 778
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 67
+msgid "Full Output"
+msgstr "Salida completa"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
+msgid "Battery"
+msgstr "Batería"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
+msgid "Condition"
+msgstr "Condición"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -832,6 +216,62 @@ msgstr "Fabricante"
 # File: big-hardware-info/src/app/ui/search.py, line: 193
 msgid "Type"
 msgstr "Tipo"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 113
+msgid "Cycles"
+msgstr "Ciclos"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 260
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 117
+msgid "Voltage"
+msgstr "Voltaje"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 118
+msgid "Min Voltage"
+msgstr "Voltaje Mínimo"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 119
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 139
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 163
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 241
+msgid "Serial"
+msgstr "Serie"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
+msgid "No motherboard information available"
+msgstr "No hay información de la placa base disponible."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
+# File: big-hardware-info/src/app/ui/search.py, line: 73
+# File: big-hardware-info/src/app/ui/search.py, line: 221
+# File: big-hardware-info/src/app/ui/search.py, line: 222
+msgid "Motherboard"
+msgstr "Placa base"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 37
+# File: big-hardware-info/src/app/ui/search.py, line: 195
+msgid "Manufacturer"
+msgstr "Fabricante"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
+# File: big-hardware-info/src/app/ui/search.py, line: 92
+# File: big-hardware-info/src/app/ui/search.py, line: 213
+msgid "System"
+msgstr "Sistema"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -861,6 +301,60 @@ msgstr "Versión del BIOS"
 msgid "BIOS Date"
 msgstr "Fecha del BIOS"
 # 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "Detalles de la impresora"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2395
+msgid "No printers configured"
+msgstr "No hay impresoras configuradas"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
+msgid "Configure printers in System Settings"
+msgstr "Configurar impresoras en la Configuración del Sistema"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: src/big_hardware_info/ui/sections.py, line: 97
+# File: src/big_hardware_info/ui/sections.py, line: 102
+# File: src/big_hardware_info/ui/sections.py, line: 103
+# File: src/big_hardware_info/ui/sections.py, line: 104
+# File: src/big_hardware_info/ui/sections.py, line: 285
+# File: src/big_hardware_info/ui/renderers/printers.py, line: 93
+msgid "Unknown"
+msgstr "Desconocido"
+# 
+# File: src/big_hardware_info/ui/renderers/printers.py, line: 95
+msgid "Idle"
+msgstr "Inactivo"
+# 
+# File: src/big_hardware_info/ui/renderers/printers.py, line: 97
+msgid "Printing"
+msgstr "Impresión"
+# 
+# File: src/big_hardware_info/ui/renderers/printers.py, line: 99
+msgid "Disabled"
+msgstr "Deshabilitado"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 44
+msgid "No PCI devices detected"
+msgstr "No se detectaron dispositivos PCI."
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 64
+msgid "Hardware Devices"
+msgstr "Dispositivos de hardware"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 86
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 174
+msgid "Unknown Device"
+msgstr "Dispositivo desconocido"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
@@ -869,26 +363,263 @@ msgstr "Fecha del BIOS"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 84
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 47
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 48
-# File: big-hardware-info/src/app/ui/main_window.py, line: 757
-# File: big-hardware-info/src/app/ui/main_window.py, line: 778
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 67
-msgid "Full Output"
-msgstr "Salida completa"
+# File: big-hardware-info/src/app/ui/sections.py, line: 336
+# File: big-hardware-info/src/app/ui/sections.py, line: 542
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 58
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 110
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 230
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 80
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 106
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 180
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 267
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 119
+# File: big-hardware-info/src/app/ui/views/network.py, line: 153
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 135
+msgid "info"
+msgstr "info"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 337
+# File: big-hardware-info/src/app/ui/sections.py, line: 543
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 59
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 111
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 231
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 107
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 181
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 268
+msgid "View device info on Linux Hardware Database"
+msgstr "Ver información del dispositivo en la Base de Datos de Hardware de Linux"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 130
+msgid "Category"
+msgstr "Categoría"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 329
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 51
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 131
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 130
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 149
+# File: big-hardware-info/src/app/ui/views/network.py, line: 117
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 109
+msgid "Bus ID"
+msgstr "ID de bus"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 325
+# File: big-hardware-info/src/app/ui/sections.py, line: 528
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 132
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 129
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 150
+# File: big-hardware-info/src/app/ui/views/network.py, line: 118
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 110
+msgid "Chip ID"
+msgstr "ID de chip"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 330
+# File: big-hardware-info/src/app/ui/sections.py, line: 529
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 52
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 136
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 136
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 142
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 242
+# File: big-hardware-info/src/app/ui/views/network.py, line: 111
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 104
+msgid "Driver"
+msgstr "Controlador"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 137
+msgid "Rev"
+msgstr "Rev"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 138
+msgid "Kernel Module"
+msgstr "Módulo del núcleo"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 154
+#, python-brace-format
+msgid "System Controllers & Bridges ({count} devices)"
+msgstr "Controladores de sistema y puentes ({count} dispositivos)"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 513
+msgid "No webcams detected"
+msgstr "No se detectan cámaras web."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 81
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 122
+# File: big-hardware-info/src/app/ui/views/network.py, line: 156
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 138
+msgid ""
+"View device info on Linux Hardware Database\n"
+"See driver compatibility and troubleshooting tips"
+msgstr ""
+"Ver información del dispositivo en la Base de Datos de Hardware de Linux  \n"
+"Ver compatibilidad de controladores y consejos de solución de problemas"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 526
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 231
+msgid "Resolution"
+msgstr "Resolución"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 527
+msgid "Format"
+msgstr "Formato"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 533
+msgid "Colorspace"
+msgstr "Espacio de color"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 534
+msgid "Max FPS"
+msgstr "Máx FPS"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "Dispositivo"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 535
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 143
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 312
+msgid "Driver Version"
+msgstr "Versión del controlador"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "Exportar informe"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
+msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
+msgstr ""
+"Guarda un informe HTML completo de tu hardware para compartir con el soporte o conservar como "
+"referencia."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "Compartir en línea"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
+msgid "Upload your hardware report to get a shareable link for forums or support tickets."
+msgstr "Sube tu informe de hardware para obtener un enlace compartible para foros o tickets de soporte."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "Resumen de uso"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
 msgid "Memory RAM:"
 msgstr "Memoria RAM:"
 # 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "Usado"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
 msgid "Root Partition:"
 msgstr "Partición raíz:"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "Tamaño"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
+msgid "Free"
+msgstr "Gratis"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "Información del sistema"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 173
 msgid "Distro"
 msgstr "Distribución"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
+msgid "Video"
+msgstr "Vídeo"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
+msgid "Install Date"
+msgstr "Fecha de instalación"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "Núcleo"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 206
 msgid "=== Usage Overview ==="
@@ -931,39 +662,6 @@ msgstr "Fecha de instalación:"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
 msgid "Kernel:"
 msgstr "Núcleo:"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
-msgid "No sensor data available"
-msgstr "No hay datos de sensor disponibles."
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "Temperaturas del sistema"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "Velocidades del ventilador"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "Datos de Sensor Detallados (sensores)"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 81
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 122
-# File: big-hardware-info/src/app/ui/views/network.py, line: 156
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 138
-msgid ""
-"View device info on Linux Hardware Database\n"
-"See driver compatibility and troubleshooting tips"
-msgstr ""
-"Ver información del dispositivo en la Base de Datos de Hardware de Linux  \n"
-"Ver compatibilidad de controladores y consejos de solución de problemas"
 # 
 # File: big-hardware-info/src/app/ui/renderers/system.py, line: 24
 msgid "No system information available"
@@ -1056,17 +754,12 @@ msgstr "Paquetes y Repositorios"
 msgid "Active Repositories"
 msgstr "Repositorios Activos"
 # 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
-msgid "Condition"
-msgstr "Condición"
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 113
-msgid "Cycles"
-msgstr "Ciclos"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 118
-msgid "Min Voltage"
-msgstr "Voltaje Mínimo"
+# File: big-hardware-info/src/app/ui/sections.py, line: 307
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 25
+msgid "No Bluetooth devices detected"
+msgstr "No se detectan dispositivos Bluetooth."
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -1074,12 +767,45 @@ msgstr "Voltaje Mínimo"
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 119
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 139
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 163
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 241
-msgid "Serial"
-msgstr "Serie"
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 255
+# File: big-hardware-info/src/app/ui/sections.py, line: 324
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 46
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 154
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 141
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 297
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 325
+# File: big-hardware-info/src/app/ui/views/network.py, line: 110
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 103
+msgid "Vendor"
+msgstr "Proveedor"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
+msgid "No sensor data available"
+msgstr "No hay datos de sensor disponibles."
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "Temperaturas del sistema"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "Velocidades del ventilador"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "Datos de Sensor Detallados (sensores)"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2110
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2116
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 35
+msgid "No USB devices found"
+msgstr "No se encontraron dispositivos USB."
 # 
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
 # File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
@@ -1133,172 +859,36 @@ msgstr "Modo"
 msgid "System USB Controllers ({count} devices)"
 msgstr "Controladores USB del sistema ({count} dispositivos)"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
-msgid "Open device info online"
-msgstr "Abrir información del dispositivo en línea"
+# File: big-hardware-info/src/app/ui/search.py, line: 70
+msgid "Processor"
+msgstr "Procesador"
 # 
-# File: big-hardware-info/src/app/ui/builders.py, line: 154
-msgid "Copy to clipboard"
-msgstr "Copiar al portapapeles"
+# File: big-hardware-info/src/app/ui/search.py, line: 71
+msgid "Graphics"
+msgstr "Gráficos"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 222
-msgid "About"
-msgstr "Acerca de"
+# File: big-hardware-info/src/app/ui/search.py, line: 72
+msgid "Memory"
+msgstr "Memoria"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 200
-msgid "Refresh hardware information (Ctrl+R)"
-msgstr "Actualizar información del hardware (Ctrl+R)"
+# File: big-hardware-info/src/app/ui/search.py, line: 74
+msgid "Audio"
+msgstr "Audio"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 206
-msgid "Collect restricted data (requires admin)"
-msgstr "Recopilar datos restringidos (requiere administrador)"
+# File: big-hardware-info/src/app/ui/search.py, line: 75
+msgid "Network"
+msgstr "Red"
 # 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 212
-msgid "Search..."
-msgstr "Buscar..."
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
-msgid "Collecting hardware information..."
-msgstr "Recopilando información del hardware..."
+# File: big-hardware-info/src/app/ui/search.py, line: 76
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Storage"
+msgstr "Almacenamiento"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
-msgid "Loading"
-msgstr "Cargando"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
-msgid "Admin Access Unavailable"
-msgstr "Acceso de administrador no disponible"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
-msgid "The pkexec command is not available on this system."
-msgstr "El comando pkexec no está disponible en este sistema."
-# 
-# File: src/big_hardware_info/ui/main_window.py, line: 395
-msgid "OK"
-msgstr "Aceptar"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
-msgid "Admin data collected successfully"
-msgstr "Datos de administrador recopilados con éxito."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
-msgid "Failed to collect admin data"
-msgstr "Error al recopilar datos de administrador"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 868
-msgid "Opening in browser..."
-msgstr "Abriendo en el navegador..."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 877
-msgid "Copy category data to clipboard"
-msgstr "Copiar datos de categoría al portapapeles"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 889
-msgid "No data to copy"
-msgstr "No hay datos para copiar."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 903
-msgid "Data copied to clipboard"
-msgstr "Datos copiados al portapapeles"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-msgid "Copied:"
-msgstr "Copiado:"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 956
-msgid "Copied to clipboard"
-msgstr "Copiado al portapapeles"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 1022
-msgid "Copy content to clipboard"
-msgstr "Copiar contenido al portapapeles"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1097
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1135
-msgid "more lines hidden"
-msgstr "más líneas ocultas"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1110
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1137
-msgid "Show all"
-msgstr "Mostrar todo"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1133
-msgid "Show less"
-msgstr "Mostrar menos"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "Showing all"
-msgstr "Mostrando todo"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1130
-msgid "lines"
-msgstr "líneas"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
-msgid "Requires Administrator"
-msgstr "Requiere Administrador"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
-msgid "Click to run as administrator and show"
-msgstr "Haga clic para ejecutar como administrador y mostrar"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
-msgid "Administrator Access Required"
-msgstr "Se requiere acceso de administrador"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
-msgid ""
-"Some hardware information requires administrator privileges to access. Do you want to reload with "
-"elevated access?"
-msgstr ""
-"Algunas informaciones de hardware requieren privilegios de administrador para acceder. ¿Desea "
-"recargar con acceso elevado?"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
-msgid "Reload as Admin"
-msgstr "Recargar como administrador"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
-msgid "Hardware information updated with administrator access"
-msgstr "Información de hardware actualizada con acceso de administrador"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
-#, python-brace-format
-msgid "Could not get elevated access: {error_message}"
-msgstr "No se pudo obtener acceso elevado: {error_message}"
+# File: big-hardware-info/src/app/ui/search.py, line: 77
+msgid "PCI Devices"
+msgstr "Dispositivos PCI"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
@@ -1329,186 +919,9 @@ msgstr "No se encontraron resultados."
 msgid "Try a different search term"
 msgstr "Prueba un término de búsqueda diferente."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
-msgid "N/A"
-msgstr "N/A"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 39
-msgid "No disk information available"
-msgstr "No hay información de disco disponible."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "Almacenamiento total:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "Usado:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "Dispositivos de almacenamiento"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 119
-msgid "Unknown Drive"
-msgstr "Unidad desconocida"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 160
-msgid "Lanes"
-msgstr "Carriles"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 161
-msgid "Temp"
-msgstr "Temp"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 202
-msgid "Mounted Partitions"
-msgstr "Particiones Montadas"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 308
-msgid "Mounted at"
-msgstr "Montado en"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 318
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 354
-# File: big-hardware-info/src/app/ui/views/network.py, line: 408
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 185
-msgid "Copy device info"
-msgstr "Copiar información del dispositivo"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 49
-msgid "No GPU information available"
-msgstr "No hay información de GPU disponible."
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 61
-msgid "No GPU devices found"
-msgstr "No se encontraron dispositivos GPU."
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 104
-msgid "Unknown GPU"
-msgstr "GPU desconocido"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 144
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 301
-msgid "Video Memory"
-msgstr "Memoria de video"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 145
-msgid "Architecture"
-msgstr "Arquitectura"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 151
-# File: big-hardware-info/src/app/ui/views/network.py, line: 98
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 95
-msgid "PCIe"
-msgstr "PCIe"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 152
-msgid "Active Ports"
-msgstr "Puertos Activos"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 153
-msgid "Empty Ports"
-msgstr "Puertos vacíos"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "Monitores"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
-msgid "Monitor"
-msgstr "Monitor"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 232
-msgid "Refresh Rate"
-msgstr "Tasa de refresco"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 234
-msgid "Diagonal"
-msgstr "Diagonal"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 235
-msgid "Aspect Ratio"
-msgstr "Relación de aspecto"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 236
-msgid "DPI"
-msgstr "DPI"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 237
-msgid "Gamma"
-msgstr "Gamma"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 238
-msgid "Built Year"
-msgstr "Año de construcción"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 239
-msgid "Max Resolution"
-msgstr "Resolución máxima"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 240
-msgid "Min Resolution"
-msgstr "Resolución mínima"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
-msgid "Mapped"
-msgstr "Mapeado"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "Servidor de visualización"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
-msgid "Display"
-msgstr "Mostrar"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 282
-msgid "With"
-msgstr "Con"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 284
-msgid "Driver Loaded"
-msgstr "Controlador Cargado"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 285
-msgid "GPU"
-msgstr "GPU"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 296
-msgid "Compatibility"
-msgstr "Compatibilidad"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 298
-msgid "GLX Version"
-msgstr "Versión de GLX"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 299
-msgid "Direct Render"
-msgstr "Render Directo"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 300
-msgid "Renderer"
-msgstr "Renderizador"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 314
-msgid "Device Type"
-msgstr "Tipo de dispositivo"
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "No hay datos disponibles."
 # 
 # File: big-hardware-info/src/app/ui/views/network.py, line: 56
 msgid "No network information available"
@@ -1528,6 +941,16 @@ msgstr "Dispositivo de red desconocido"
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 85
 msgid "USB"
 msgstr "USB"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 151
+# File: big-hardware-info/src/app/ui/views/network.py, line: 98
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 95
+msgid "PCIe"
+msgstr "PCIe"
 # 
 # File: big-hardware-info/src/app/ui/views/network.py, line: 112
 msgid "Interface"
@@ -1586,9 +1009,29 @@ msgstr "Velocidad:"
 msgid "Bus ID:"
 msgstr "ID de bus:"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 318
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 354
+# File: big-hardware-info/src/app/ui/views/network.py, line: 408
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 185
+msgid "Copy device info"
+msgstr "Copiar información del dispositivo"
+# 
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 52
 msgid "No audio information available"
 msgstr "No hay información de audio disponible."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1782
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 58
+msgid "No audio devices found"
+msgstr "No se encontraron dispositivos de audio."
 # 
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 72
 msgid "Unknown Audio Device"
@@ -1610,9 +1053,22 @@ msgstr "Memoria total:"
 msgid "Copy memory info"
 msgstr "Copiar información de memoria"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "Usado:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
 msgid "used"
 msgstr "usado"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 262
+msgid "Capacity"
+msgstr "Capacidad"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 152
 msgid "Modules"
@@ -1629,6 +1085,10 @@ msgstr "Tamaño máximo del módulo"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 162
 msgid "ECC"
 msgstr "ECC"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
+msgid "Memory Modules"
+msgstr "Módulos de memoria"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 296
 msgid "Volts"
@@ -1693,6 +1153,169 @@ msgstr "Módulos:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "Tragaperras:"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 49
+msgid "No GPU information available"
+msgstr "No hay información de GPU disponible."
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 61
+msgid "No GPU devices found"
+msgstr "No se encontraron dispositivos GPU."
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 104
+msgid "Unknown GPU"
+msgstr "GPU desconocido"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 161
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1596
+msgid "Shared"
+msgstr "Compartido"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 144
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 301
+msgid "Video Memory"
+msgstr "Memoria de video"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 145
+msgid "Architecture"
+msgstr "Arquitectura"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 152
+msgid "Active Ports"
+msgstr "Puertos Activos"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 153
+msgid "Empty Ports"
+msgstr "Puertos vacíos"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "Monitores"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
+msgid "Monitor"
+msgstr "Monitor"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 252
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 230
+msgid "Model"
+msgstr "Modelo"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 232
+msgid "Refresh Rate"
+msgstr "Tasa de refresco"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 234
+msgid "Diagonal"
+msgstr "Diagonal"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 235
+msgid "Aspect Ratio"
+msgstr "Relación de aspecto"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 236
+msgid "DPI"
+msgstr "DPI"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 237
+msgid "Gamma"
+msgstr "Gamma"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 238
+msgid "Built Year"
+msgstr "Año de construcción"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 239
+msgid "Max Resolution"
+msgstr "Resolución máxima"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 240
+msgid "Min Resolution"
+msgstr "Resolución mínima"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
+msgid "Mapped"
+msgstr "Mapeado"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
+msgid "Advanced Information"
+msgstr "Información Avanzada"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "Servidor de visualización"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
+msgid "Display"
+msgstr "Mostrar"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 282
+msgid "With"
+msgstr "Con"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 284
+msgid "Driver Loaded"
+msgstr "Controlador Cargado"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 285
+msgid "GPU"
+msgstr "GPU"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 296
+msgid "Compatibility"
+msgstr "Compatibilidad"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 298
+msgid "GLX Version"
+msgstr "Versión de GLX"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 299
+msgid "Direct Render"
+msgstr "Render Directo"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 300
+msgid "Renderer"
+msgstr "Renderizador"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 314
+msgid "Device Type"
+msgstr "Tipo de dispositivo"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 39
+msgid "No disk information available"
+msgstr "No hay información de disco disponible."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "Almacenamiento total:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "Dispositivos de almacenamiento"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 119
+msgid "Unknown Drive"
+msgstr "Unidad desconocida"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 160
+msgid "Lanes"
+msgstr "Carriles"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 161
+msgid "Temp"
+msgstr "Temp"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 202
+msgid "Mounted Partitions"
+msgstr "Particiones Montadas"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 308
+msgid "Mounted at"
+msgstr "Montado en"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
 msgid "No CPU information available"
@@ -1798,9 +1421,125 @@ msgstr "Velocidad máxima:"
 msgid "L3 Cache:"
 msgstr "Caché L3:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
-msgid "No data available"
-msgstr "No hay datos disponibles."
+# File: big-hardware-info/src/app/ui/main_window.py, line: 222
+msgid "About"
+msgstr "Acerca de"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 200
+msgid "Refresh hardware information (Ctrl+R)"
+msgstr "Actualizar información del hardware (Ctrl+R)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 206
+msgid "Collect restricted data (requires admin)"
+msgstr "Recopilar datos restringidos (requiere administrador)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 212
+msgid "Search..."
+msgstr "Buscar..."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
+msgid "Collecting hardware information..."
+msgstr "Recopilando información del hardware..."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 868
+msgid "Opening in browser..."
+msgstr "Abriendo en el navegador..."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "Copiado:"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 956
+msgid "Copied to clipboard"
+msgstr "Copiado al portapapeles"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
+msgid "Requires Administrator"
+msgstr "Requiere Administrador"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
+msgid "Click to run as administrator and show"
+msgstr "Haga clic para ejecutar como administrador y mostrar"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
+msgid "Administrator Access Required"
+msgstr "Se requiere acceso de administrador"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+msgid ""
+"Some hardware information requires administrator privileges to access. Do you want to reload with "
+"elevated access?"
+msgstr ""
+"Algunas informaciones de hardware requieren privilegios de administrador para acceder. ¿Desea "
+"recargar con acceso elevado?"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
+msgid "Reload as Admin"
+msgstr "Recargar como administrador"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 877
+msgid "Copy category data to clipboard"
+msgstr "Copiar datos de categoría al portapapeles"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 889
+msgid "No data to copy"
+msgstr "No hay datos para copiar."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 903
+msgid "Data copied to clipboard"
+msgstr "Datos copiados al portapapeles"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "Datos de administrador recopilados con éxito."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "Error al recopilar datos de administrador"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
+msgid "Admin Access Unavailable"
+msgstr "Acceso de administrador no disponible"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
+msgid "The pkexec command is not available on this system."
+msgstr "El comando pkexec no está disponible en este sistema."
+# 
+# File: src/big_hardware_info/ui/main_window.py, line: 395
+msgid "OK"
+msgstr "Aceptar"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
@@ -1822,14 +1561,156 @@ msgstr "Agradecimientos especiales"
 msgid "translator-credits"
 msgstr "créditos-del-traductor"
 # 
-# File: big-hardware-info/src/app/__init__.py, line: 150
+# File: big-hardware-info/src/big_hardware_info/__init__.py, line: 102
+#, python-brace-format
 msgid ""
-"<p>Big Hardware Info 2.0.0 - Complete Rewrite:</p><ul><li>Comprehensive hardware "
+"<p>Big Hardware Info {version} - Complete Rewrite:</p><ul><li>Comprehensive hardware "
 "detection</li><li>Export to HTML with modern design</li><li>Online sharing via "
-"termbin.com</li><li>Syntax highlighting for system files</li><li>USB/PCIe device "
+"filebin.net</li><li>Syntax highlighting for system files</li><li>USB/PCIe device "
 "distinction</li></ul>"
 msgstr ""
-"<p>Big Hardware Info 2.0.0 - Reescritura Completa:</p><ul><li>Detección de hardware "
-"integral</li><li>Exportar a HTML con diseño moderno</li><li>Compartir en línea a través de "
-"termbin.com</li><li>Resaltado de sintaxis para archivos del sistema</li><li>Distinguir dispositivos "
-"USB/PCIe</li></ul>"
+"<p>Información de Hardware Grande {version} - Reescritura Completa:</p><ul><li>Detección de "
+"hardware integral</li><li>Exportar a HTML con diseño moderno</li><li>Compartición en línea a través "
+"de filebin.net</li><li>Resaltado de sintaxis para archivos del sistema</li><li>Distinguir "
+"dispositivos USB/PCIe</li></ul>"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 54
+msgid "Hardware Report"
+msgstr "Informe de hardware"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 57
+msgid "Search sections..."
+msgstr "Buscar secciones..."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 58
+msgid "Generated:"
+msgstr "Generado:"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 59
+msgid "Visit BigLinux website"
+msgstr "Visita el sitio web de BigLinux"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1105
+msgid "No graphics devices found"
+msgstr "No se encontraron dispositivos gráficos."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1459
+msgid "No storage drives found"
+msgstr "No se encontraron unidades de almacenamiento."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
+msgid "Disk Partitions"
+msgstr "Particiones de disco"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1840
+msgid "No network interfaces found"
+msgstr "No se encontraron interfaces de red."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2054
+msgid "No Bluetooth devices found"
+msgstr "No se encontraron dispositivos Bluetooth."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2215
+msgid "No PCI devices found"
+msgstr "No se encontraron dispositivos PCI."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2334
+msgid "No webcams found"
+msgstr "No se encontraron cámaras web."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2479
+# File: big-hardware-info/src/app/ui/sections.py, line: 359
+msgid "No sensors detected"
+msgstr "No se detectaron sensores"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
+msgid "Package Repositories"
+msgstr "Repositorios de paquetes"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2607
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2609
+msgid "No SDIO devices detected"
+msgstr "No se detectaron dispositivos SDIO."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2635
+msgid "SDIO"
+msgstr "SDIO"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2665
+msgid "Mhwd driver"
+msgstr "Controlador Mhwd"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2667
+msgid "Mhwd kernel"
+msgstr "Núcleo Mhwd"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2672
+msgid "Cmdline"
+msgstr "Línea de comandos"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2687
+msgid "ACPI Interrupts"
+msgstr "Interrupciones ACPI"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2693
+msgid "dmesg (errors)"
+msgstr "dmesg (errores)"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2697
+msgid "journalctl (errors)"
+msgstr "journalctl (errores)"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2675
+msgid "No additional information available"
+msgstr "No hay información adicional disponible."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 54
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 116
+msgid ""
+"The filebin.net service is temporarily under maintenance. Please try again in a few minutes or use "
+"the HTML export option."
+msgstr ""
+"El servicio filebin.net está temporalmente en mantenimiento. Por favor, inténtelo de nuevo en unos "
+"minutos o utilice la opción de exportación a HTML."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 61
+msgid ""
+"The filebin.net server is temporarily unavailable. Please try again later or use the HTML export "
+"option."
+msgstr ""
+"El servidor filebin.net está temporalmente no disponible. Por favor, inténtelo de nuevo más tarde o "
+"utilice la opción de exportación a HTML."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 68
+msgid "Failed to upload the file. Please check your internet connection."
+msgstr "Error al subir el archivo. Por favor, verifica tu conexión a Internet."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 106
+msgid "The server did not return a valid URL. Please try again."
+msgstr "El servidor no devolvió una URL válida. Por favor, inténtalo de nuevo."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 121
+msgid ""
+"The filebin.net server returned an unexpected response. Please try again later or use the HTML "
+"export option."
+msgstr ""
+"El servidor filebin.net devolvió una respuesta inesperada. Por favor, inténtalo de nuevo más tarde "
+"o utiliza la opción de exportación HTML."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 137
+msgid "Invalid response from server. Please try again."
+msgstr "Respuesta no válida del servidor. Por favor, inténtalo de nuevo."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 143
+msgid "Upload timed out. Please check your internet connection and try again."
+msgstr "La carga ha expirado. Por favor, verifica tu conexión a internet y vuelve a intentarlo."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 148
+msgid "The curl command was not found. Please install curl."
+msgstr "No se encontró el comando curl. Por favor, instala curl."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 154
+msgid "Upload error: {}"
+msgstr "Error de carga: {}"

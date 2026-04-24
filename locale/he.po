@@ -15,1200 +15,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 186
-msgid "Summary"
-msgstr "סיכום"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 188
-msgid "Overview of main hardware"
-msgstr "סקירה של החומרה העיקרית"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 70
-msgid "Processor"
-msgstr "מעבד"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 193
-msgid "CPU information"
-msgstr "מידע על מעבד"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 71
-msgid "Graphics"
-msgstr "גרפיקה"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 198
-msgid "Video card information"
-msgstr "מידע על כרטיס גרפי"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 201
-msgid "Webcams"
-msgstr "מצלמות רשת"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 203
-msgid "Camera devices"
-msgstr "מכשירי מצלמה"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
-# File: big-hardware-info/src/app/ui/search.py, line: 73
-# File: big-hardware-info/src/app/ui/search.py, line: 221
-# File: big-hardware-info/src/app/ui/search.py, line: 222
-msgid "Motherboard"
-msgstr "לוח אם"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 208
-msgid "Motherboard and BIOS information"
-msgstr "מידע על לוח אם ו-BIOS"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 72
-msgid "Memory"
-msgstr "זיכרון"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 213
-msgid "RAM information"
-msgstr "מידע על זיכרון RAM"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 74
-msgid "Audio"
-msgstr "אודיו"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 218
-msgid "Sound devices"
-msgstr "מכשירי שמע"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 75
-msgid "Network"
-msgstr "רשת"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 223
-msgid "Network devices and connections"
-msgstr "מכשירי רשת וחיבורים"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 76
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
-msgid "Storage"
-msgstr "אחסון"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 228
-msgid "Storage devices"
-msgstr "מכשירי אחסון"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
-msgid "Battery"
-msgstr "סוללה"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 233
-msgid "Battery status"
-msgstr "מצב סוללה"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 236
-msgid "Bluetooth"
-msgstr "בלוטות'"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 238
-msgid "Bluetooth devices"
-msgstr "מכשירי בלוטות'"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 241
-msgid "USB Components"
-msgstr "רכיבי USB"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 243
-msgid "USB devices"
-msgstr "מכשירי USB"
-# 
-# File: big-hardware-info/src/app/ui/search.py, line: 77
-msgid "PCI Devices"
-msgstr "מכשירי PCI"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 248
-msgid "PCI devices"
-msgstr "מכשירי PCI"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
-# File: big-hardware-info/src/app/ui/search.py, line: 92
-# File: big-hardware-info/src/app/ui/search.py, line: 213
-msgid "System"
-msgstr "מערכת"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 253
-msgid "System information"
-msgstr "מידע מערכת"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 256
-msgid "Printers"
-msgstr "מדפסות"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 258
-msgid "Printer devices"
-msgstr "מכשירי הדפסה"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 261
-msgid "Sensors"
-msgstr "חיישנים"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 263
-msgid "Temperature and fan sensors"
-msgstr "חיישני טמפרטורה ומאוורר"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 266
-msgid "More Info"
-msgstr "עוד מידע"
-# 
-# File: big-hardware-info/src/big_hardware_info/models/hardware_info.py, line: 268
-msgid "Raw system data and logs"
-msgstr "נתוני מערכת גולמיים ויומנים"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 54
-msgid "Hardware Report"
-msgstr "דו\"ח חומרה"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 57
-msgid "Search sections..."
-msgstr "מחפש סעיפים..."
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 58
-msgid "Generated:"
-msgstr "נוצר:"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 59
-msgid "Visit BigLinux website"
-msgstr "בקר באתר BigLinux"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
-msgid "Advanced Information"
-msgstr "מידע מתקדם"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1105
-msgid "No graphics devices found"
-msgstr "לא נמצאו מכשירי גרפיקה"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
-msgid "Memory Modules"
-msgstr "מודולי זיכרון"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1459
-msgid "No storage drives found"
-msgstr "לא נמצאו כונני אחסון"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
-msgid "Disk Partitions"
-msgstr "מחיצות דיסק"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1782
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 58
-msgid "No audio devices found"
-msgstr "לא נמצאו מכשירי שמע"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1840
-msgid "No network interfaces found"
-msgstr "לא נמצאו ממשקי רשת"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 1972
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 26
-msgid "No battery detected (Desktop system)"
-msgstr "לא זוהתה סוללה (מערכת שולחנית)"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2054
-msgid "No Bluetooth devices found"
-msgstr "לא נמצאו מכשירי בלוטות'"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2110
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2116
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 35
-msgid "No USB devices found"
-msgstr "לא נמצאו התקני USB"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2215
-msgid "No PCI devices found"
-msgstr "לא נמצאו מכשירי PCI"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2334
-msgid "No webcams found"
-msgstr "לא נמצאו מצלמות רשת"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2395
-msgid "No printers configured"
-msgstr "אין מדפסות מוגדרות"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2479
-# File: big-hardware-info/src/app/ui/sections.py, line: 359
-msgid "No sensors detected"
-msgstr "לא זוהו חיישנים"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
-msgid "Package Repositories"
-msgstr "מאגרי חבילות"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2607
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2609
-msgid "No SDIO devices detected"
-msgstr "לא זוהו מכשירי SDIO"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2635
-msgid "SDIO"
-msgstr "SDIO"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2665
-msgid "Mhwd driver"
-msgstr "דרייבר Mhwd"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2667
-msgid "Mhwd kernel"
-msgstr "מַעֲבַר מַעֲבָדָה"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2672
-msgid "Cmdline"
-msgstr "שורת פקודה"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2687
-msgid "ACPI Interrupts"
-msgstr "הפרעות ACPI"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2693
-msgid "dmesg (errors)"
-msgstr "dmesg (שגיאות)"
-# 
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2697
-msgid "journalctl (errors)"
-msgstr "journalctl (שגיאות)"
-# 
-# File: big-hardware-info/src/app/export/html_generator.py, line: 2675
-msgid "No additional information available"
-msgstr "אין מידע נוסף זמין"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 220
-msgid "Export Report"
-msgstr "ייצוא דוח"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
-msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
-msgstr "שמור דוח HTML מלא של החומרה שלך כדי לשתף עם התמיכה או לשמור לעיון."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
-msgid "Export"
-msgstr "ייצוא"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 221
-msgid "Share Online"
-msgstr "שתף אונליין"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
-msgid "Upload your hardware report to get a shareable link for forums or support tickets."
-msgstr "העלה את דוח החומרה שלך כדי לקבל קישור שניתן לשתף לפורומים או כרטיסי תמיכה."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
-msgid "Share"
-msgstr "שתף"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 89
-# File: big-hardware-info/src/app/ui/sections.py, line: 109
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
-msgid "Usage Overview"
-msgstr "סקירה כללית של השימוש"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 121
-msgid "Memory RAM"
-msgstr "זיכרון RAM"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
-msgid "Used"
-msgstr "שימושי"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 152
-msgid "Root Partition"
-msgstr "מחיצת שורש"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
-msgid "Size"
-msgstr "גודל"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
-msgid "Free"
-msgstr "חינם"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 183
-# File: big-hardware-info/src/app/ui/sections.py, line: 203
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
-# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
-msgid "System Info"
-msgstr "מידע מערכת"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
-msgid "Video"
-msgstr "וידאו"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
-# File: big-hardware-info/src/app/ui/search.py, line: 291
-msgid "Kernel"
-msgstr "קרנל"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
-msgid "Install Date"
-msgstr "תאריך התקנה"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 243
-msgid "No battery detected"
-msgstr "לא זוהתה סוללה"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 252
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 230
-msgid "Model"
-msgstr "מודל"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 253
-# File: big-hardware-info/src/app/ui/sections.py, line: 460
-msgid "Status"
-msgstr "סטטוס"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 254
-msgid "Charge"
-msgstr "טעינה"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 255
-# File: big-hardware-info/src/app/ui/sections.py, line: 324
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 46
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 154
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 141
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 297
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 325
-# File: big-hardware-info/src/app/ui/views/network.py, line: 110
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 103
-msgid "Vendor"
-msgstr "ספק"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 259
-msgid "Technology"
-msgstr "טכנולוגיה"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 260
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 117
-msgid "Voltage"
-msgstr "מתח"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 261
-msgid "Energy"
-msgstr "אנרגיה"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 262
-msgid "Capacity"
-msgstr "קיבולת"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 307
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 25
-msgid "No Bluetooth devices detected"
-msgstr "לא נמצאו מכשירי בלוטות'"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 325
-# File: big-hardware-info/src/app/ui/sections.py, line: 528
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 47
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 132
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 129
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 150
-# File: big-hardware-info/src/app/ui/views/network.py, line: 118
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 110
-msgid "Chip ID"
-msgstr "מזהה שבב"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 329
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 51
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 131
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 130
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 149
-# File: big-hardware-info/src/app/ui/views/network.py, line: 117
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 109
-msgid "Bus ID"
-msgstr "מזהה אוטובוס"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 330
-# File: big-hardware-info/src/app/ui/sections.py, line: 529
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 52
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 136
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 136
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 142
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 242
-# File: big-hardware-info/src/app/ui/views/network.py, line: 111
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 104
-msgid "Driver"
-msgstr "דרייבר"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 336
-# File: big-hardware-info/src/app/ui/sections.py, line: 542
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 58
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 110
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 230
-# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 80
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 106
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 180
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 267
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 119
-# File: big-hardware-info/src/app/ui/views/network.py, line: 153
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 135
-msgid "info"
-msgstr "מידע"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 337
-# File: big-hardware-info/src/app/ui/sections.py, line: 543
-# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 59
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 111
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 231
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 107
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 181
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 268
-msgid "View device info on Linux Hardware Database"
-msgstr "צפה במידע על המכשיר במאגר החומרה של לינוקס"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 367
-msgid "Temperatures"
-msgstr "טמפרטורות"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 402
-msgid "Fans"
-msgstr "מאווררים"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 453
-msgid "No printers detected"
-msgstr "לא זוהו מדפסות"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 461
-msgid "Location"
-msgstr "מיקום"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 462
-msgid "Make/Model"
-msgstr "דגם/מותג"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 466
-msgid "Connection"
-msgstr "חיבור"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 467
-msgid "Device URI"
-msgstr "כתובת URI של המכשיר"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 468
-msgid "Default"
-msgstr "ברירת מחדל"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 513
-msgid "No webcams detected"
-msgstr "לא זוהו מצלמות רשת"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 526
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 231
-msgid "Resolution"
-msgstr "רזולוציה"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 527
-msgid "Format"
-msgstr "פורמט"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 533
-msgid "Colorspace"
-msgstr "מרחב צבעים"
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 534
-msgid "Max FPS"
-msgstr "מקסימום FPS"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 535
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 143
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 312
-msgid "Driver Version"
-msgstr "גרסת מנהל התקן"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/sections.py, line: 536
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
-msgid "Device"
-msgstr "מכשיר"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 34
-msgid "Share Report Online"
-msgstr "שתף דוח באינטרנט"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 36
-msgid ""
-"Your hardware report will be uploaded to filebin.net, a public file hosting service.\n"
-"\n"
-"The generated link will be publicly accessible for 7 days."
-msgstr ""
-"דו\"ח החומרה שלך יועלה ל-filebin.net, שירות אירוח קבצים ציבורי.\n"
-"\n"
-"הקישור שנוצר יהיה נגיש לציבור במשך 7 ימים."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 41
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 119
-msgid "Export Hardware Report"
-msgstr "ייצוא דוח חומרה"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 42
-msgid "Your hardware report will be saved as an HTML file."
-msgstr "דו\"ח החומרה שלך יישמר כקובץ HTML."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 60
-msgid ""
-"Sensitive data (serial numbers, MAC addresses) can be included. For privacy, it's recommended to "
-"exclude them when sharing."
-msgstr ""
-"נתונים רגישים (מספרי סידור, כתובות MAC) עשויים להיות כלולים. לשמירה על פרטיות, מומלץ להשאיר אותם "
-"מחוץ לשיתוף."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 74
-msgid "Include sensitive information"
-msgstr "כלול מידע רגיש"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 88
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 93
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 172
-msgid "Cancel"
-msgstr "ביטול"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 128
-msgid "HTML files"
-msgstr "קבצי HTML"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 159
-msgid "Uploading Report"
-msgstr "מעלה דוח"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 160
-msgid "Generating and uploading your hardware report..."
-msgstr "מייצר ומעלה את דוח החומרה שלך..."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 267
-msgid "Report Uploaded Successfully"
-msgstr "הדוח הועלה בהצלחה"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 268
-msgid "Your report has been uploaded. The link is available for 7 days."
-msgstr "הדוח שלך הועלה. הקישור זמין למשך 7 ימים."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 288
-msgid "Copy URL to clipboard"
-msgstr "העתק כתובת URL ללוח הגזרים"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 305
-msgid "Tip: Click the copy button or select the URL to copy it."
-msgstr "טיפ: לחץ על כפתור ההעתקה או בחר את ה-URL כדי להעתיק אותו."
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 313
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 335
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 410
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 418
-msgid "Close"
-msgstr "סגור"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 314
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 419
-msgid "Open in Browser"
-msgstr "פתח בדפדפן"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 333
-msgid "Upload Failed"
-msgstr "העלאה נכשלה"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
-msgid ""
-"Could not upload the report:\n"
-"\n"
-msgstr "לא ניתן להעלות את הדו\"ח:"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 408
-msgid "Export Failed"
-msgstr "ייצוא נכשל"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
-msgid ""
-"Could not export the report:\n"
-"\n"
-msgstr "לא ניתן לייצא את הדו\"ח:"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 415
-msgid "Report Exported"
-msgstr "דו\"ח יוצא"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
-msgid ""
-"Report saved successfully to:\n"
-"\n"
-msgstr "הדוח נשמר בהצלחה ל:"
-# 
-# File: big-hardware-info/src/app/ui/dialogs.py, line: 432
-msgid "Failed to open browser"
-msgstr "כישלון בפתיחת הדפדפן"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 44
-msgid "No PCI devices detected"
-msgstr "לא זוהו מכשירי PCI"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 64
-msgid "Hardware Devices"
-msgstr "מכשירי חומרה"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 86
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 174
-msgid "Unknown Device"
-msgstr "מכשיר לא ידוע"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 130
-msgid "Category"
-msgstr "קטגוריה"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 137
-msgid "Rev"
-msgstr "רב"
-# 
-# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 138
-msgid "Kernel Module"
-msgstr "מודול קרנל"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 154
-#, python-brace-format
-msgid "System Controllers & Bridges ({count} devices)"
-msgstr "בקרי מערכת וגשרים ({count} מכשירים)"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
-msgid "Printer Details"
-msgstr "פרטי מדפסת"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
-msgid "Configure printers in System Settings"
-msgstr "הגדר מדפסות בהגדרות המערכת"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 93
-msgid "Unknown"
-msgstr "לא ידוע"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 95
-msgid "Idle"
-msgstr "ממתין"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 97
-msgid "Printing"
-msgstr "הדפסה"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 99
-msgid "Disabled"
-msgstr "מושבת"
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
-msgid "No motherboard information available"
-msgstr "אין מידע על לוח אם זמין"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 37
-# File: big-hardware-info/src/app/ui/search.py, line: 195
-msgid "Manufacturer"
-msgstr "יצרן"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 38
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 112
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 132
-# File: big-hardware-info/src/app/ui/search.py, line: 193
-msgid "Type"
-msgstr "סוג"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 40
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 162
-msgid "Firmware"
-msgstr "קושחה"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 44
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 295
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 311
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 324
-msgid "Version"
-msgstr "גרסה"
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 45
-msgid "BIOS Vendor"
-msgstr "ספק BIOS"
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 46
-msgid "BIOS Version"
-msgstr "גרסת BIOS"
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 47
-msgid "BIOS Date"
-msgstr "תאריך BIOS"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 84
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 47
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 48
-# File: big-hardware-info/src/app/ui/main_window.py, line: 757
-# File: big-hardware-info/src/app/ui/main_window.py, line: 778
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 67
-msgid "Full Output"
-msgstr "פלט מלא"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
-msgid "Memory RAM:"
-msgstr "זיכרון RAM:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
-msgid "Root Partition:"
-msgstr "מחיצת שורש:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 173
-msgid "Distro"
-msgstr "דיסטרו"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 206
-msgid "=== Usage Overview ==="
-msgstr "=== סקירת שימוש ==="
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
-msgid "  Used:"
-msgstr "שימושי:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
-msgid "  Usage:"
-msgstr "שימוש:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
-msgid "  Size:"
-msgstr "גודל:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
-msgid "  Free:"
-msgstr "חינם:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
-msgid "=== System Info ==="
-msgstr "=== מידע מערכת ==="
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
-msgid "Distro:"
-msgstr "דיסטרו:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
-msgid "Video:"
-msgstr "וידאו:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
-msgid "Install Date:"
-msgstr "תאריך התקנה:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
-msgid "Kernel:"
-msgstr "קרנל:"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
-msgid "No sensor data available"
-msgstr "אין נתוני חיישן זמינים"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
-msgid "System Temperatures"
-msgstr "טמפרטורות מערכת"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
-msgid "Fan Speeds"
-msgstr "מהירויות מאוורר"
-# 
-# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
-msgid "Detailed Sensor Data (sensors)"
-msgstr "נתוני חיישן מפורטים (חיישנים)"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 81
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 122
-# File: big-hardware-info/src/app/ui/views/network.py, line: 156
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 138
-msgid ""
-"View device info on Linux Hardware Database\n"
-"See driver compatibility and troubleshooting tips"
-msgstr ""
-"צפה במידע על המכשיר במאגר החומרה של לינוקס  \n"
-"ראה תאימות דרייברים וטיפים לפתרון בעיות"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 24
-msgid "No system information available"
-msgstr "אין מידע על המערכת זמין"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 37
-msgid "Compilers"
-msgstr "קומפילרים"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 44
-msgid "Flatpak Packages"
-msgstr "חבילות Flatpak"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 90
-msgid "Linux"
-msgstr "לינוקס"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 113
-msgid "Hostname"
-msgstr "שם המחשב"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 115
-msgid "Desktop"
-msgstr "שולחן עבודה"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 117
-msgid "Shell"
-msgstr "שֶׁלָּל"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 122
-msgid "Init System"
-msgstr "מערכת הפעלה"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 123
-msgid "Session Type"
-msgstr "סוג מפגש"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 126
-msgid "Uptime"
-msgstr "זמן פעולה"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 116
-msgid "Window Manager"
-msgstr "מנהל חלונות"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 118
-msgid "Terminal"
-msgstr "טרמינל"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 124
-msgid "Display Manager"
-msgstr "מנהל תצוגה"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 125
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 283
-msgid "Compositor"
-msgstr "קומפוזיטור"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 127
-msgid "Processes"
-msgstr "תהליכים"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 128
-msgid "Packages"
-msgstr "חבילות"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 129
-msgid "Locale"
-msgstr "אזור שפה"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 173
-msgid "Top Processes"
-msgstr "תהליכים מובילים"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 182
-msgid "CPU Usage"
-msgstr "שימוש במעבד"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
-msgid "Memory Usage"
-msgstr "שימוש בזיכרון"
-# 
-# File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
-msgid "Packages & Repositories"
-msgstr "חבילות ומאגרים"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/system.py, line: 258
-msgid "Active Repositories"
-msgstr "מאגרי פעילים"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
-msgid "Condition"
-msgstr "מצב"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 113
-msgid "Cycles"
-msgstr "מחזורים"
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 118
-msgid "Min Voltage"
-msgstr "מתח מינימלי"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 119
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 139
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 163
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 241
-msgid "Serial"
-msgstr "סידורי"
-# 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
-msgid "Connected Devices"
-msgstr "מכשירים מחוברים"
-# 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
-msgid "Class"
-msgstr "כיתה"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 137
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 155
-# File: big-hardware-info/src/app/ui/views/network.py, line: 113
-msgid "Speed"
-msgstr "מהירות"
-# 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 138
-msgid "Ports"
-msgstr "פורטס"
-# 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 166
-msgid "Device ID"
-msgstr "מזהה מכשיר"
-# 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
-msgid "Bus"
-msgstr "אוטובוס"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
-msgid "USB Hubs & Controllers"
-msgstr "האביזרים והבקרים של USB"
-# 
-# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
-msgid "Hub"
-msgstr "האב"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
-msgid "ports"
-msgstr "פורטס"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
-msgid "Mode"
-msgstr "מצב"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 280
-#, python-brace-format
-msgid "System USB Controllers ({count} devices)"
-msgstr "בקרי USB במערכת ({count} מכשירים)"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/widgets.py, line: 202
-msgid "Open device info online"
-msgstr "פתח מידע על המכשיר באינטרנט"
-# 
-# File: big-hardware-info/src/app/ui/builders.py, line: 154
-msgid "Copy to clipboard"
-msgstr "העתק ללוח שנה"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 222
-msgid "About"
-msgstr "אודות"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 200
-msgid "Refresh hardware information (Ctrl+R)"
-msgstr "רענן מידע חומרה (Ctrl+R)"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 206
-msgid "Collect restricted data (requires admin)"
-msgstr "איסוף נתונים מוגבלים (דרוש מנהל)"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 212
-msgid "Search..."
-msgstr "חפש..."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
-msgid "Collecting hardware information..."
-msgstr "איסוף מידע על חומרה..."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 358
-msgid "Loading"
-msgstr "טוען"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
-msgid "Admin Access Unavailable"
-msgstr "גישה למנהל אינה זמינה"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
-msgid "The pkexec command is not available on this system."
-msgstr "פקודת pkexec אינה זמינה במערכת זו."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
-msgid "OK"
-msgstr "אוקי"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
-msgid "Admin data collected successfully"
-msgstr "נתוני מנהל נאספו בהצלחה"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
-msgid "Failed to collect admin data"
-msgstr "כישלון באיסוף נתוני מנהל"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 868
-msgid "Opening in browser..."
-msgstr "נפתח בדפדפן..."
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 877
-msgid "Copy category data to clipboard"
-msgstr "העתק נתוני קטגוריה ללוח הגזרים"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 889
-msgid "No data to copy"
-msgstr "אין נתונים להעתקה"
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 903
-msgid "Data copied to clipboard"
-msgstr "הנתונים הועתקו ללוח."
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-msgid "Copied:"
-msgstr "הועתק:"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
-# 
-# File: big-hardware-info/src/app/ui/main_window.py, line: 956
-msgid "Copied to clipboard"
-msgstr "הועתק ללוח הגזרים"
+# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
+msgid "N/A"
+msgstr "N/A"
 # 
 # File: big-hardware-info/src/app/ui/main_window.py, line: 1022
 msgid "Copy content to clipboard"
@@ -1304,36 +113,841 @@ msgstr "מראה הכל"
 msgid "lines"
 msgstr "שורות"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
-msgid "Requires Administrator"
-msgstr "דרוש מנהל מערכת"
+# File: big-hardware-info/src/app/ui/builders.py, line: 154
+msgid "Copy to clipboard"
+msgstr "העתק ללוח שנה"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
-msgid "Click to run as administrator and show"
-msgstr "לחץ כדי להריץ כמנהל ולהציג"
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 34
+msgid "Share Report Online"
+msgstr "שתף דוח באינטרנט"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
-msgid "Administrator Access Required"
-msgstr "דרישת גישה למנהל"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 36
 msgid ""
-"Some hardware information requires administrator privileges to access. Do you want to reload with "
-"elevated access?"
-msgstr "מידע מסוים על חומרה דורש הרשאות מנהל גישה. האם אתה רוצה לטעון מחדש עם גישה מוגבהת?"
+"Your hardware report will be uploaded to filebin.net, a public file hosting service.\n"
+"\n"
+"The generated link will be publicly accessible for 7 days."
+msgstr ""
+"דו\"ח החומרה שלך יועלה ל-filebin.net, שירות אירוח קבצים ציבורי.\n"
+"\n"
+"הקישור שנוצר יהיה נגיש לציבור במשך 7 ימים."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
-msgid "Reload as Admin"
-msgstr "טען מחדש כמנהל"
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 41
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 119
+msgid "Export Hardware Report"
+msgstr "ייצוא דוח חומרה"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1275
-msgid "Hardware information updated with administrator access"
-msgstr "מידע על חומרה עודכן עם גישת מנהל"
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 42
+msgid "Your hardware report will be saved as an HTML file."
+msgstr "דו\"ח החומרה שלך יישמר כקובץ HTML."
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1285
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 60
+msgid ""
+"Sensitive data (serial numbers, MAC addresses) can be included. For privacy, it's recommended to "
+"exclude them when sharing."
+msgstr ""
+"נתונים רגישים (מספרי סידור, כתובות MAC) עשויים להיות כלולים. לשמירה על פרטיות, מומלץ להשאיר אותם "
+"מחוץ לשיתוף."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 74
+msgid "Include sensitive information"
+msgstr "כלול מידע רגיש"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 88
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 93
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 172
+msgid "Cancel"
+msgstr "ביטול"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 89
+msgid "Share"
+msgstr "שתף"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 94
+msgid "Export"
+msgstr "ייצוא"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 128
+msgid "HTML files"
+msgstr "קבצי HTML"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 159
+msgid "Uploading Report"
+msgstr "מעלה דוח"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 160
+msgid "Generating and uploading your hardware report..."
+msgstr "מייצר ומעלה את דוח החומרה שלך..."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 267
+msgid "Report Uploaded Successfully"
+msgstr "הדוח הועלה בהצלחה"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 268
+msgid "Your report has been uploaded. The link is available for 7 days."
+msgstr "הדוח שלך הועלה. הקישור זמין למשך 7 ימים."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 288
+msgid "Copy URL to clipboard"
+msgstr "העתק כתובת URL ללוח הגזרים"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 305
+msgid "Tip: Click the copy button or select the URL to copy it."
+msgstr "טיפ: לחץ על כפתור ההעתקה או בחר את ה-URL כדי להעתיק אותו."
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 313
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 335
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 410
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 418
+msgid "Close"
+msgstr "סגור"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 314
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 419
+msgid "Open in Browser"
+msgstr "פתח בדפדפן"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 333
+msgid "Upload Failed"
+msgstr "העלאה נכשלה"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 334
+msgid ""
+"Could not upload the report:\n"
+"\n"
+msgstr "לא ניתן להעלות את הדו\"ח:"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 408
+msgid "Export Failed"
+msgstr "ייצוא נכשל"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 409
+msgid ""
+"Could not export the report:\n"
+"\n"
+msgstr "לא ניתן לייצא את הדו\"ח:"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 415
+msgid "Report Exported"
+msgstr "דו\"ח יוצא"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 417
+msgid ""
+"Report saved successfully to:\n"
+"\n"
+msgstr "הדוח נשמר בהצלחה ל:"
+# 
+# File: big-hardware-info/src/app/ui/dialogs.py, line: 432
+msgid "Failed to open browser"
+msgstr "כישלון בפתיחת הדפדפן"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1972
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 26
+msgid "No battery detected (Desktop system)"
+msgstr "לא זוהתה סוללה (מערכת שולחנית)"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 84
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 48
+# File: big-hardware-info/src/app/ui/main_window.py, line: 757
+# File: big-hardware-info/src/app/ui/main_window.py, line: 778
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 67
+msgid "Full Output"
+msgstr "פלט מלא"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 61
+msgid "Battery"
+msgstr "סוללה"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 111
+msgid "Condition"
+msgstr "מצב"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 38
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 112
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 132
+# File: big-hardware-info/src/app/ui/search.py, line: 193
+msgid "Type"
+msgstr "סוג"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 113
+msgid "Cycles"
+msgstr "מחזורים"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 260
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 117
+msgid "Voltage"
+msgstr "מתח"
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 118
+msgid "Min Voltage"
+msgstr "מתח מינימלי"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/battery.py, line: 119
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 139
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 163
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 241
+msgid "Serial"
+msgstr "סידורי"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
+msgid "No motherboard information available"
+msgstr "אין מידע על לוח אם זמין"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 29
+# File: big-hardware-info/src/app/ui/search.py, line: 73
+# File: big-hardware-info/src/app/ui/search.py, line: 221
+# File: big-hardware-info/src/app/ui/search.py, line: 222
+msgid "Motherboard"
+msgstr "לוח אם"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 37
+# File: big-hardware-info/src/app/ui/search.py, line: 195
+msgid "Manufacturer"
+msgstr "יצרן"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 39
+# File: big-hardware-info/src/app/ui/search.py, line: 92
+# File: big-hardware-info/src/app/ui/search.py, line: 213
+msgid "System"
+msgstr "מערכת"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 40
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 162
+msgid "Firmware"
+msgstr "קושחה"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 44
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 311
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 324
+msgid "Version"
+msgstr "גרסה"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 45
+msgid "BIOS Vendor"
+msgstr "ספק BIOS"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 46
+msgid "BIOS Version"
+msgstr "גרסת BIOS"
+# 
+# File: big-hardware-info/src/app/ui/renderers/machine.py, line: 47
+msgid "BIOS Date"
+msgstr "תאריך BIOS"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 55
+msgid "Printer Details"
+msgstr "פרטי מדפסת"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2395
+msgid "No printers configured"
+msgstr "אין מדפסות מוגדרות"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 75
+msgid "Configure printers in System Settings"
+msgstr "הגדר מדפסות בהגדרות המערכת"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 93
+msgid "Unknown"
+msgstr "לא ידוע"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 95
+msgid "Idle"
+msgstr "ממתין"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 97
+msgid "Printing"
+msgstr "הדפסה"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 99
+msgid "Disabled"
+msgstr "מושבת"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 44
+msgid "No PCI devices detected"
+msgstr "לא זוהו מכשירי PCI"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 64
+msgid "Hardware Devices"
+msgstr "מכשירי חומרה"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 86
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 174
+msgid "Unknown Device"
+msgstr "מכשיר לא ידוע"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 336
+# File: big-hardware-info/src/app/ui/sections.py, line: 542
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 58
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 110
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 230
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 80
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 106
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 180
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 267
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 119
+# File: big-hardware-info/src/app/ui/views/network.py, line: 153
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 135
+msgid "info"
+msgstr "מידע"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 337
+# File: big-hardware-info/src/app/ui/sections.py, line: 543
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 59
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 111
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 231
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 107
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 181
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 268
+msgid "View device info on Linux Hardware Database"
+msgstr "צפה במידע על המכשיר במאגר החומרה של לינוקס"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 130
+msgid "Category"
+msgstr "קטגוריה"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 329
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 51
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 131
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 130
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 149
+# File: big-hardware-info/src/app/ui/views/network.py, line: 117
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 109
+msgid "Bus ID"
+msgstr "מזהה אוטובוס"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 325
+# File: big-hardware-info/src/app/ui/sections.py, line: 528
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 47
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 132
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 129
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 150
+# File: big-hardware-info/src/app/ui/views/network.py, line: 118
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 110
+msgid "Chip ID"
+msgstr "מזהה שבב"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 330
+# File: big-hardware-info/src/app/ui/sections.py, line: 529
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 52
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 136
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 136
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 142
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 242
+# File: big-hardware-info/src/app/ui/views/network.py, line: 111
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 104
+msgid "Driver"
+msgstr "דרייבר"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 137
+msgid "Rev"
+msgstr "רב"
+# 
+# File: big-hardware-info/src/app/ui/renderers/pci.py, line: 138
+msgid "Kernel Module"
+msgstr "מודול קרנל"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/pci.py, line: 154
 #, python-brace-format
-msgid "Could not get elevated access: {error_message}"
-msgstr "לא ניתן לקבל גישה מוגבהת: {error_message}"
+msgid "System Controllers & Bridges ({count} devices)"
+msgstr "בקרי מערכת וגשרים ({count} מכשירים)"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 513
+msgid "No webcams detected"
+msgstr "לא זוהו מצלמות רשת"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/webcams.py, line: 81
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 122
+# File: big-hardware-info/src/app/ui/views/network.py, line: 156
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 138
+msgid ""
+"View device info on Linux Hardware Database\n"
+"See driver compatibility and troubleshooting tips"
+msgstr ""
+"צפה במידע על המכשיר במאגר החומרה של לינוקס  \n"
+"ראה תאימות דרייברים וטיפים לפתרון בעיות"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 526
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 231
+msgid "Resolution"
+msgstr "רזולוציה"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 527
+msgid "Format"
+msgstr "פורמט"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 533
+msgid "Colorspace"
+msgstr "מרחב צבעים"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 534
+msgid "Max FPS"
+msgstr "מקסימום FPS"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 536
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 171
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 156
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 313
+msgid "Device"
+msgstr "מכשיר"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 535
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 143
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 312
+msgid "Driver Version"
+msgstr "גרסת מנהל התקן"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 220
+msgid "Export Report"
+msgstr "ייצוא דוח"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 36
+msgid "Save a complete HTML report of your hardware to share with support or keep for reference."
+msgstr "שמור דוח HTML מלא של החומרה שלך כדי לשתף עם התמיכה או לשמור לעיון."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 221
+msgid "Share Online"
+msgstr "שתף אונליין"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 48
+msgid "Upload your hardware report to get a shareable link for forums or support tickets."
+msgstr "העלה את דוח החומרה שלך כדי לקבל קישור שניתן לשתף לפורומים או כרטיסי תמיכה."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 89
+# File: big-hardware-info/src/app/ui/sections.py, line: 109
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 72
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 77
+msgid "Usage Overview"
+msgstr "סקירה כללית של השימוש"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 97
+msgid "Memory RAM:"
+msgstr "זיכרון RAM:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 299
+msgid "Used"
+msgstr "שימושי"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 128
+msgid "Root Partition:"
+msgstr "מחיצת שורש:"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 153
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 295
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 233
+msgid "Size"
+msgstr "גודל"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 138
+msgid "Free"
+msgstr "חינם"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 183
+# File: big-hardware-info/src/app/ui/sections.py, line: 203
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 145
+# File: big-hardware-info/src/app/ui/renderers/summary.py, line: 156
+msgid "System Info"
+msgstr "מידע מערכת"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 173
+msgid "Distro"
+msgstr "דיסטרו"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 174
+msgid "Video"
+msgstr "וידאו"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 175
+msgid "Install Date"
+msgstr "תאריך התקנה"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 114
+# File: big-hardware-info/src/app/ui/search.py, line: 291
+msgid "Kernel"
+msgstr "קרנל"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 206
+msgid "=== Usage Overview ==="
+msgstr "=== סקירת שימוש ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 209
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 222
+msgid "  Used:"
+msgstr "שימושי:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 210
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 224
+msgid "  Usage:"
+msgstr "שימוש:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 221
+msgid "  Size:"
+msgstr "גודל:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "  Free:"
+msgstr "חינם:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 223
+msgid "=== System Info ==="
+msgstr "=== מידע מערכת ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 231
+msgid "Distro:"
+msgstr "דיסטרו:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 233
+msgid "Video:"
+msgstr "וידאו:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 235
+msgid "Install Date:"
+msgstr "תאריך התקנה:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/summary.py, line: 236
+msgid "Kernel:"
+msgstr "קרנל:"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 24
+msgid "No system information available"
+msgstr "אין מידע על המערכת זמין"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 37
+msgid "Compilers"
+msgstr "קומפילרים"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 44
+msgid "Flatpak Packages"
+msgstr "חבילות Flatpak"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 90
+msgid "Linux"
+msgstr "לינוקס"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 113
+msgid "Hostname"
+msgstr "שם המחשב"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 115
+msgid "Desktop"
+msgstr "שולחן עבודה"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 117
+msgid "Shell"
+msgstr "שֶׁלָּל"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 122
+msgid "Init System"
+msgstr "מערכת הפעלה"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 123
+msgid "Session Type"
+msgstr "סוג מפגש"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 126
+msgid "Uptime"
+msgstr "זמן פעולה"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 116
+msgid "Window Manager"
+msgstr "מנהל חלונות"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 118
+msgid "Terminal"
+msgstr "טרמינל"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 124
+msgid "Display Manager"
+msgstr "מנהל תצוגה"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 125
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 283
+msgid "Compositor"
+msgstr "קומפוזיטור"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 127
+msgid "Processes"
+msgstr "תהליכים"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 128
+msgid "Packages"
+msgstr "חבילות"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 129
+msgid "Locale"
+msgstr "אזור שפה"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 173
+msgid "Top Processes"
+msgstr "תהליכים מובילים"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 182
+msgid "CPU Usage"
+msgstr "שימוש במעבד"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 189
+msgid "Memory Usage"
+msgstr "שימוש בזיכרון"
+# 
+# File: big-hardware-info/src/app/ui/renderers/system.py, line: 220
+msgid "Packages & Repositories"
+msgstr "חבילות ומאגרים"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/system.py, line: 258
+msgid "Active Repositories"
+msgstr "מאגרי פעילים"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 307
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 25
+msgid "No Bluetooth devices detected"
+msgstr "לא נמצאו מכשירי בלוטות'"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 255
+# File: big-hardware-info/src/app/ui/sections.py, line: 324
+# File: big-hardware-info/src/app/ui/renderers/bluetooth.py, line: 46
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 154
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 141
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 297
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 325
+# File: big-hardware-info/src/app/ui/views/network.py, line: 110
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 103
+msgid "Vendor"
+msgstr "ספק"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 24
+msgid "No sensor data available"
+msgstr "אין נתוני חיישן זמינים"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 30
+msgid "System Temperatures"
+msgstr "טמפרטורות מערכת"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 36
+msgid "Fan Speeds"
+msgstr "מהירויות מאוורר"
+# 
+# File: big-hardware-info/src/app/ui/renderers/sensors.py, line: 42
+msgid "Detailed Sensor Data (sensors)"
+msgstr "נתוני חיישן מפורטים (חיישנים)"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2110
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2116
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 35
+msgid "No USB devices found"
+msgstr "לא נמצאו התקני USB"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 43
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 66
+msgid "Connected Devices"
+msgstr "מכשירים מחוברים"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 131
+msgid "Class"
+msgstr "כיתה"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 137
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 155
+# File: big-hardware-info/src/app/ui/views/network.py, line: 113
+msgid "Speed"
+msgstr "מהירות"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 138
+msgid "Ports"
+msgstr "פורטס"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 166
+msgid "Device ID"
+msgstr "מזהה מכשיר"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 167
+msgid "Bus"
+msgstr "אוטובוס"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 194
+msgid "USB Hubs & Controllers"
+msgstr "האביזרים והבקרים של USB"
+# 
+# File: big-hardware-info/src/app/ui/renderers/usb.py, line: 221
+msgid "Hub"
+msgstr "האב"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 233
+msgid "ports"
+msgstr "פורטס"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 237
+msgid "Mode"
+msgstr "מצב"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 280
+#, python-brace-format
+msgid "System USB Controllers ({count} devices)"
+msgstr "בקרי USB במערכת ({count} מכשירים)"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 70
+msgid "Processor"
+msgstr "מעבד"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 71
+msgid "Graphics"
+msgstr "גרפיקה"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 72
+msgid "Memory"
+msgstr "זיכרון"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 74
+msgid "Audio"
+msgstr "אודיו"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 75
+msgid "Network"
+msgstr "רשת"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 76
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 68
+msgid "Storage"
+msgstr "אחסון"
+# 
+# File: big-hardware-info/src/app/ui/search.py, line: 77
+msgid "PCI Devices"
+msgstr "מכשירי PCI"
 # 
 # File: big-hardware-info/src/app/ui/search.py, line: 78
 msgid "USB Devices"
@@ -1364,186 +978,9 @@ msgstr "לא נמצאו תוצאות"
 msgid "Try a different search term"
 msgstr "נסה מונח חיפוש שונה"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/cards.py, line: 79
-msgid "N/A"
-msgstr "N/A"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 39
-msgid "No disk information available"
-msgstr "אין מידע על דיסק זמין"
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
-msgid "Total Storage:"
-msgstr "אחסון כולל:"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
-msgid "Used:"
-msgstr "שימושי:"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
-msgid "Storage Devices"
-msgstr "מכשירי אחסון"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 119
-msgid "Unknown Drive"
-msgstr "כונן לא ידוע"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 160
-msgid "Lanes"
-msgstr "מסלולים"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 161
-msgid "Temp"
-msgstr "טמפ"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 202
-msgid "Mounted Partitions"
-msgstr "מחיצות מותקנות"
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 308
-msgid "Mounted at"
-msgstr "מותקן ב"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/disk.py, line: 318
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 354
-# File: big-hardware-info/src/app/ui/views/network.py, line: 408
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 185
-msgid "Copy device info"
-msgstr "העתק מידע על המכשיר"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 49
-msgid "No GPU information available"
-msgstr "אין מידע על GPU זמין"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 61
-msgid "No GPU devices found"
-msgstr "לא נמצאו מכשירי GPU"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 104
-msgid "Unknown GPU"
-msgstr "כרטיס גרפי לא ידוע"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 144
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 301
-msgid "Video Memory"
-msgstr "זיכרון וידאו"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 145
-msgid "Architecture"
-msgstr "אדריכלות"
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 151
-# File: big-hardware-info/src/app/ui/views/network.py, line: 98
-# File: big-hardware-info/src/app/ui/views/audio.py, line: 95
-msgid "PCIe"
-msgstr "PCIe"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 152
-msgid "Active Ports"
-msgstr "פורט פעיל"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 153
-msgid "Empty Ports"
-msgstr "פורט ריק"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
-msgid "Monitors"
-msgstr "מסכים"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
-msgid "Monitor"
-msgstr "מָסָךְ"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 232
-msgid "Refresh Rate"
-msgstr "קצב רענון"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 234
-msgid "Diagonal"
-msgstr "אלכסוני"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 235
-msgid "Aspect Ratio"
-msgstr "יחס גובה-רוחב"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 236
-msgid "DPI"
-msgstr "DPI"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 237
-msgid "Gamma"
-msgstr "גמא"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 238
-msgid "Built Year"
-msgstr "שנת בנייה"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 239
-msgid "Max Resolution"
-msgstr "רזולוציה מקסימלית"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 240
-msgid "Min Resolution"
-msgstr "רזולוציה מינימלית"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
-msgid "Mapped"
-msgstr "מופה"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
-msgid "Display Server"
-msgstr "שרת תצוגה"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
-msgid "Display"
-msgstr "הצג"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 282
-msgid "With"
-msgstr "עם"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 284
-msgid "Driver Loaded"
-msgstr "דרייבר נטען"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 285
-msgid "GPU"
-msgstr "כרטיס גרפי"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 296
-msgid "Compatibility"
-msgstr "תאימות"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 298
-msgid "GLX Version"
-msgstr "גרסה של GLX"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 299
-msgid "Direct Render"
-msgstr "רינדור ישיר"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 300
-msgid "Renderer"
-msgstr "מנפיק"
-# 
-# File: big-hardware-info/src/app/ui/views/gpu.py, line: 314
-msgid "Device Type"
-msgstr "סוג מכשיר"
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
+msgid "No data available"
+msgstr "אין נתונים זמינים"
 # 
 # File: big-hardware-info/src/app/ui/views/network.py, line: 56
 msgid "No network information available"
@@ -1563,6 +1000,16 @@ msgstr "מכשיר רשת לא ידוע"
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 85
 msgid "USB"
 msgstr "יואסבי"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 151
+# File: big-hardware-info/src/app/ui/views/network.py, line: 98
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 95
+msgid "PCIe"
+msgstr "PCIe"
 # 
 # File: big-hardware-info/src/app/ui/views/network.py, line: 112
 msgid "Interface"
@@ -1621,9 +1068,29 @@ msgstr "מהירות:"
 msgid "Bus ID:"
 msgstr "מזהה אוטובוס:"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 318
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 354
+# File: big-hardware-info/src/app/ui/views/network.py, line: 408
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 185
+msgid "Copy device info"
+msgstr "העתק מידע על המכשיר"
+# 
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 52
 msgid "No audio information available"
 msgstr "אין מידע אודיו זמין"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1782
+# File: big-hardware-info/src/app/ui/views/audio.py, line: 58
+msgid "No audio devices found"
+msgstr "לא נמצאו מכשירי שמע"
 # 
 # File: big-hardware-info/src/app/ui/views/audio.py, line: 72
 msgid "Unknown Audio Device"
@@ -1645,9 +1112,22 @@ msgstr "זיכרון כולל:"
 msgid "Copy memory info"
 msgstr "העתק מידע זיכרון"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 103
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 120
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 423
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 462
+msgid "Used:"
+msgstr "שימושי:"
+# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 140
 msgid "used"
 msgstr "שימושי"
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 262
+msgid "Capacity"
+msgstr "קיבולת"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 152
 msgid "Modules"
@@ -1664,6 +1144,10 @@ msgstr "גודל מודול מקסימלי"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 162
 msgid "ECC"
 msgstr "ECC"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 232
+msgid "Memory Modules"
+msgstr "מודולי זיכרון"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 296
 msgid "Volts"
@@ -1728,6 +1212,169 @@ msgstr "מודולים:"
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 477
 msgid "Slots:"
 msgstr "סלוטים:"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 49
+msgid "No GPU information available"
+msgstr "אין מידע על GPU זמין"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 61
+msgid "No GPU devices found"
+msgstr "לא נמצאו מכשירי GPU"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 104
+msgid "Unknown GPU"
+msgstr "כרטיס גרפי לא ידוע"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 161
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1596
+msgid "Shared"
+msgstr "משותף"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 144
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 301
+msgid "Video Memory"
+msgstr "זיכרון וידאו"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 145
+msgid "Architecture"
+msgstr "אדריכלות"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 152
+msgid "Active Ports"
+msgstr "פורט פעיל"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 153
+msgid "Empty Ports"
+msgstr "פורט ריק"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 203
+msgid "Monitors"
+msgstr "מסכים"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 211
+msgid "Monitor"
+msgstr "מָסָךְ"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/ui/sections.py, line: 252
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 230
+msgid "Model"
+msgstr "מודל"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 232
+msgid "Refresh Rate"
+msgstr "קצב רענון"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 234
+msgid "Diagonal"
+msgstr "אלכסוני"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 235
+msgid "Aspect Ratio"
+msgstr "יחס גובה-רוחב"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 236
+msgid "DPI"
+msgstr "DPI"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 237
+msgid "Gamma"
+msgstr "גמא"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 238
+msgid "Built Year"
+msgstr "שנת בנייה"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 239
+msgid "Max Resolution"
+msgstr "רזולוציה מקסימלית"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 240
+msgid "Min Resolution"
+msgstr "רזולוציה מינימלית"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 243
+msgid "Mapped"
+msgstr "מופה"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 270
+msgid "Advanced Information"
+msgstr "מידע מתקדם"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 279
+msgid "Display Server"
+msgstr "שרת תצוגה"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 281
+msgid "Display"
+msgstr "הצג"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 282
+msgid "With"
+msgstr "עם"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 284
+msgid "Driver Loaded"
+msgstr "דרייבר נטען"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 285
+msgid "GPU"
+msgstr "כרטיס גרפי"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 296
+msgid "Compatibility"
+msgstr "תאימות"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 298
+msgid "GLX Version"
+msgstr "גרסה של GLX"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 299
+msgid "Direct Render"
+msgstr "רינדור ישיר"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 300
+msgid "Renderer"
+msgstr "מנפיק"
+# 
+# File: big-hardware-info/src/app/ui/views/gpu.py, line: 314
+msgid "Device Type"
+msgstr "סוג מכשיר"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 39
+msgid "No disk information available"
+msgstr "אין מידע על דיסק זמין"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 69
+msgid "Total Storage:"
+msgstr "אחסון כולל:"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 110
+msgid "Storage Devices"
+msgstr "מכשירי אחסון"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 119
+msgid "Unknown Drive"
+msgstr "כונן לא ידוע"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 160
+msgid "Lanes"
+msgstr "מסלולים"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 161
+msgid "Temp"
+msgstr "טמפ"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 202
+msgid "Mounted Partitions"
+msgstr "מחיצות מותקנות"
+# 
+# File: big-hardware-info/src/app/ui/views/disk.py, line: 308
+msgid "Mounted at"
+msgstr "מותקן ב"
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 43
 msgid "No CPU information available"
@@ -1833,9 +1480,103 @@ msgstr "מהירות מקסימלית:"
 msgid "L3 Cache:"
 msgstr "מטמון L3:"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 388
-msgid "No data available"
-msgstr "אין נתונים זמינים"
+# File: big-hardware-info/src/app/ui/main_window.py, line: 222
+msgid "About"
+msgstr "אודות"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 200
+msgid "Refresh hardware information (Ctrl+R)"
+msgstr "רענן מידע חומרה (Ctrl+R)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 206
+msgid "Collect restricted data (requires admin)"
+msgstr "איסוף נתונים מוגבלים (דרוש מנהל)"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 212
+msgid "Search..."
+msgstr "חפש..."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 327
+msgid "Collecting hardware information..."
+msgstr "איסוף מידע על חומרה..."
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 868
+msgid "Opening in browser..."
+msgstr "נפתח בדפדפן..."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+msgid "Copied:"
+msgstr "הועתק:"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 985
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 956
+msgid "Copied to clipboard"
+msgstr "הועתק ללוח הגזרים"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1171
+msgid "Requires Administrator"
+msgstr "דרוש מנהל מערכת"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1178
+msgid "Click to run as administrator and show"
+msgstr "לחץ כדי להריץ כמנהל ולהציג"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1204
+msgid "Administrator Access Required"
+msgstr "דרישת גישה למנהל"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1207
+msgid ""
+"Some hardware information requires administrator privileges to access. Do you want to reload with "
+"elevated access?"
+msgstr "מידע מסוים על חומרה דורש הרשאות מנהל גישה. האם אתה רוצה לטעון מחדש עם גישה מוגבהת?"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 1211
+msgid "Reload as Admin"
+msgstr "טען מחדש כמנהל"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 877
+msgid "Copy category data to clipboard"
+msgstr "העתק נתוני קטגוריה ללוח הגזרים"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 889
+msgid "No data to copy"
+msgstr "אין נתונים להעתקה"
+# 
+# File: big-hardware-info/src/app/ui/main_window.py, line: 903
+msgid "Data copied to clipboard"
+msgstr "הנתונים הועתקו ללוח."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 496
+msgid "Admin data collected successfully"
+msgstr "נתוני מנהל נאספו בהצלחה"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 501
+msgid "Failed to collect admin data"
+msgstr "כישלון באיסוף נתוני מנהל"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 392
+msgid "Admin Access Unavailable"
+msgstr "גישה למנהל אינה זמינה"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 393
+msgid "The pkexec command is not available on this system."
+msgstr "פקודת pkexec אינה זמינה במערכת זו."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/main_window.py, line: 395
+msgid "OK"
+msgstr "אוקי"
 # 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
@@ -1857,13 +1598,149 @@ msgstr "תודה מיוחדת"
 msgid "translator-credits"
 msgstr "קרדיטים למתרגם"
 # 
-# File: big-hardware-info/src/app/__init__.py, line: 150
+# File: big-hardware-info/src/big_hardware_info/__init__.py, line: 102
+#, python-brace-format
 msgid ""
-"<p>Big Hardware Info 2.0.0 - Complete Rewrite:</p><ul><li>Comprehensive hardware "
+"<p>Big Hardware Info {version} - Complete Rewrite:</p><ul><li>Comprehensive hardware "
 "detection</li><li>Export to HTML with modern design</li><li>Online sharing via "
-"termbin.com</li><li>Syntax highlighting for system files</li><li>USB/PCIe device "
+"filebin.net</li><li>Syntax highlighting for system files</li><li>USB/PCIe device "
 "distinction</li></ul>"
 msgstr ""
-"<p>מידע על חומרה גדולה 2.0.0 - כתיבה מחדש מלאה:</p><ul><li>זיהוי חומרה מקיף</li><li>ייצוא ל-HTML עם "
-"עיצוב מודרני</li><li>שיתוף מקוון באמצעות termbin.com</li><li>הדגשת תחביר עבור קבצי "
-"מערכת</li><li>הבחנה בין מכשירי USB/PCIe</li></ul>"
+"<p>מידע על חומרה גדולה {version} - כתיבה מחדש מלאה:</p><ul><li>זיהוי חומרה מקיף</li><li>ייצוא "
+"ל-HTML עם עיצוב מודרני</li><li>שיתוף מקוון באמצעות filebin.net</li><li>הדגשת תחביר עבור קבצי "
+"מערכת</li><li>הבחנה בין התקני USB/PCIe</li></ul>"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 54
+msgid "Hardware Report"
+msgstr "דו\"ח חומרה"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 57
+msgid "Search sections..."
+msgstr "מחפש סעיפים..."
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 58
+msgid "Generated:"
+msgstr "נוצר:"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 59
+msgid "Visit BigLinux website"
+msgstr "בקר באתר BigLinux"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1105
+msgid "No graphics devices found"
+msgstr "לא נמצאו מכשירי גרפיקה"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1459
+msgid "No storage drives found"
+msgstr "לא נמצאו כונני אחסון"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1615
+msgid "Disk Partitions"
+msgstr "מחיצות דיסק"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 1840
+msgid "No network interfaces found"
+msgstr "לא נמצאו ממשקי רשת"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2054
+msgid "No Bluetooth devices found"
+msgstr "לא נמצאו מכשירי בלוטות'"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2215
+msgid "No PCI devices found"
+msgstr "לא נמצאו מכשירי PCI"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2334
+msgid "No webcams found"
+msgstr "לא נמצאו מצלמות רשת"
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2479
+# File: big-hardware-info/src/app/ui/sections.py, line: 359
+msgid "No sensors detected"
+msgstr "לא זוהו חיישנים"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2599
+msgid "Package Repositories"
+msgstr "מאגרי חבילות"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2607
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2609
+msgid "No SDIO devices detected"
+msgstr "לא זוהו מכשירי SDIO"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2635
+msgid "SDIO"
+msgstr "SDIO"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2665
+msgid "Mhwd driver"
+msgstr "דרייבר Mhwd"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2667
+msgid "Mhwd kernel"
+msgstr "מַעֲבַר מַעֲבָדָה"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2672
+msgid "Cmdline"
+msgstr "שורת פקודה"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2687
+msgid "ACPI Interrupts"
+msgstr "הפרעות ACPI"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2693
+msgid "dmesg (errors)"
+msgstr "dmesg (שגיאות)"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2697
+msgid "journalctl (errors)"
+msgstr "journalctl (שגיאות)"
+# 
+# File: big-hardware-info/src/app/export/html_generator.py, line: 2675
+msgid "No additional information available"
+msgstr "אין מידע נוסף זמין"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 54
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 116
+msgid ""
+"The filebin.net service is temporarily under maintenance. Please try again in a few minutes or use "
+"the HTML export option."
+msgstr "שירות filebin.net נמצא כעת בתחזוקה זמנית. אנא נסה שוב בעוד כמה דקות או השתמש באפשרות הייצוא ב-HTML."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 61
+msgid ""
+"The filebin.net server is temporarily unavailable. Please try again later or use the HTML export "
+"option."
+msgstr "שרת filebin.net אינו זמין זמנית. אנא נסה שוב מאוחר יותר או השתמש באפשרות ייצוא HTML."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 68
+msgid "Failed to upload the file. Please check your internet connection."
+msgstr "העלאת הקובץ נכשלה. אנא בדוק את חיבור האינטרנט שלך."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 106
+msgid "The server did not return a valid URL. Please try again."
+msgstr "השרת לא החזיר כתובת URL תקפה. אנא נסה שוב."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 121
+msgid ""
+"The filebin.net server returned an unexpected response. Please try again later or use the HTML "
+"export option."
+msgstr "שרת filebin.net החזיר תגובה לא צפויה. אנא נסה שוב מאוחר יותר או השתמש באפשרות ייצוא HTML."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 137
+msgid "Invalid response from server. Please try again."
+msgstr "תגובה לא חוקית מהשרת. אנא נסה שוב."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 143
+msgid "Upload timed out. Please check your internet connection and try again."
+msgstr "העלאה פגה. אנא בדוק את חיבור האינטרנט שלך ונסה שוב."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 148
+msgid "The curl command was not found. Please install curl."
+msgstr "פקודת curl לא נמצאה. אנא התקן את curl."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/uploader.py, line: 154
+msgid "Upload error: {}"
+msgstr "שגיאת העלאה: {}"
