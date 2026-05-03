@@ -6,6 +6,7 @@ Each renderer is responsible for displaying a specific category of hardware info
 
 from big_hardware_info.ui.renderers.base import SectionRenderer
 from big_hardware_info.ui.renderers.summary import SummaryRenderer
+from big_hardware_info.ui.renderers.ai_help import AiHelpRenderer
 from big_hardware_info.ui.renderers.battery import BatteryRenderer
 from big_hardware_info.ui.renderers.bluetooth import BluetoothRenderer
 from big_hardware_info.ui.renderers.sensors import SensorsRenderer
@@ -20,6 +21,7 @@ from big_hardware_info.ui.renderers.machine import MachineRenderer
 __all__ = [
     "SectionRenderer",
     "SummaryRenderer",
+    "AiHelpRenderer",
     "BatteryRenderer",
     "BluetoothRenderer",
     "SensorsRenderer",

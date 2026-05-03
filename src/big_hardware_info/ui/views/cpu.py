@@ -133,25 +133,6 @@ class CpuSectionView(HardwareSectionView):
         hero_card.append(columns_box)
         self.append(hero_card)
     
-    def _create_spec_item(self, label: str, value: str) -> Gtk.Box:
-        """Create a modern spec item with label above value."""
-        item = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=2)
-        
-        # Small dim label on top
-        label_w = Gtk.Label(label=label)
-        label_w.add_css_class("dim-label")
-        label_w.add_css_class("caption")
-        label_w.set_halign(Gtk.Align.START)
-        item.append(label_w)
-        
-        # Bold value below
-        value_w = Gtk.Label(label=str(value))
-        value_w.add_css_class("heading")
-        value_w.set_halign(Gtk.Align.START)
-        value_w.set_selectable(True)
-        item.append(value_w)
-        
-        return item
     
     def _build_speed_display(self, data: Dict[str, Any]) -> str:
         """Build the CPU speed display string."""

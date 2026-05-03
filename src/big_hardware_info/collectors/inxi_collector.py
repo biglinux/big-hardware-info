@@ -11,9 +11,12 @@ logger = logging.getLogger(__name__)
 
 # --tty avoids inxi's IRC-client false-detection that breaks JSON output when
 # launched from a desktop entry without a controlling terminal.
-INXI_COMMAND = ["inxi", "--tty", "-c", "0", "-Fxxxa", "-v8", "--output", "json", "--output-file", "print"]
-INXI_COMMAND_FILTERED = ["inxi", "--tty", "-c", "0", "-Fxxxa", "-v8", "-z", "--output", "json", "--output-file", "print"]
-INXI_COMMAND_FALLBACK = ["inxi", "--tty", "-c", "0", "-Fxxx", "--output", "json", "--output-file", "print"]
+# -y 80 pins width so inxi never tries to probe terminal size (would block
+# without a tty). -v8 already implies -a, so drop the redundant flag to keep
+# the command surface small.
+INXI_COMMAND = ["inxi", "--tty", "-y", "80", "-c", "0", "-Fxxx", "-v8", "--output", "json", "--output-file", "print"]
+INXI_COMMAND_FILTERED = ["inxi", "--tty", "-y", "80", "-c", "0", "-Fxxx", "-v8", "-z", "--output", "json", "--output-file", "print"]
+INXI_COMMAND_FALLBACK = ["inxi", "--tty", "-y", "80", "-c", "0", "-Fxxx", "--output", "json", "--output-file", "print"]
 
 def _looks_like_inxi_failure(stdout: str) -> bool:
     """Return True if stdout is inxi diagnostic text, not JSON.
@@ -33,8 +36,12 @@ class InxiCollector(BaseCollector):
 
     def __init__(self) -> None:
         super().__init__()
-        self.max_retries = 2
-        self.retry_delay = 1.0
+        # Single retry only: a fresh -v8 attempt that already failed once is
+        # almost certain to fail the same way again, and a 90s × 3 retry chain
+        # made the UI look frozen at 10% on desktop launches.
+        self.max_retries = 1
+        self.retry_delay = 0.5
+        self.attempt_timeout = 45
 
     def collect(self, filter_sensitive: bool = False) -> dict:
         """Run inxi with retries and return parsed JSON or an error dict."""
@@ -50,7 +57,7 @@ class InxiCollector(BaseCollector):
                 logger.info(f"Retrying inxi command (attempt {attempt + 1}/{self.max_retries + 1})")
                 time.sleep(self.retry_delay)
             
-            success, stdout, stderr = self.run_command(command, timeout=90)
+            success, stdout, stderr = self.run_command(command, timeout=self.attempt_timeout)
 
             if success and stdout and not _looks_like_inxi_failure(stdout):
                 try:
@@ -78,7 +85,7 @@ class InxiCollector(BaseCollector):
                 )
 
         logger.info("Trying fallback inxi command with simpler options")
-        success, stdout, stderr = self.run_command(INXI_COMMAND_FALLBACK, timeout=90)
+        success, stdout, stderr = self.run_command(INXI_COMMAND_FALLBACK, timeout=30)
 
         if success and stdout and not _looks_like_inxi_failure(stdout):
             try:

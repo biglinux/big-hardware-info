@@ -21,6 +21,12 @@ def _build_subprocess_env() -> dict:
     env = os.environ.copy()
     env["LC_ALL"] = "C"
     env["LANG"] = "C"
+    # TERM=dumb prevents children (inxi/Perl Term::ReadKey, smartctl, etc) from
+    # probing terminal capabilities or width when launched from a desktop entry
+    # without a controlling tty — a known cause of multi-minute hangs.
+    env["TERM"] = "dumb"
+    # COLUMNS pins width so tools that still ioctl(TIOCGWINSZ) get a sane fallback.
+    env.setdefault("COLUMNS", "200")
     env.setdefault("PATH", "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin")
     if "/usr/sbin" not in env["PATH"].split(":"):
         env["PATH"] = env["PATH"] + ":/usr/sbin:/sbin"

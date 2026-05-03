@@ -8,6 +8,7 @@ Architecture:
 - HardwareCollector: Orchestrates collection using both classes
 """
 
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from .base_collector import BaseCollector
@@ -18,6 +19,7 @@ from .usb_collector import UsbCollector
 from .system_collector import SystemCollector
 from .logs_collector import LogsCollector
 from .webcam_collector import WebcamCollector
+from .ai_diagnostics_collector import AiDiagnosticsCollector
 
 
 class HardwareCollector:
@@ -37,6 +39,7 @@ class HardwareCollector:
         self.system = SystemCollector()
         self.logs = LogsCollector()
         self.webcam = WebcamCollector()
+        self.ai_diag = AiDiagnosticsCollector()
     
     def collect_all(self, progress_callback=None) -> dict:
         """
@@ -54,12 +57,32 @@ class HardwareCollector:
         
         if progress_callback:
             progress_callback("inxi", 0.1)
-        
+
+        # Heartbeat: nudge progress 0.10 → 0.55 every 0.7s while inxi runs, so
+        # the UI does not look frozen on desktop launches where inxi can take
+        # 30+ seconds (lots of subprocesses without a controlling tty).
+        stop_heartbeat = threading.Event()
+
+        def _heartbeat() -> None:
+            steps = 30
+            i = 0
+            while not stop_heartbeat.wait(0.7) and i < steps:
+                i += 1
+                if progress_callback:
+                    progress_callback("inxi", 0.1 + 0.45 * i / steps)
+
+        beat = threading.Thread(target=_heartbeat, daemon=True)
+        beat.start()
+
         # Step 1: Execute inxi command ONCE via InxiCollector
-        inxi_result = self.inxi.collect(filter_sensitive=False)
-        
+        try:
+            inxi_result = self.inxi.collect(filter_sensitive=False)
+        finally:
+            stop_heartbeat.set()
+            beat.join(timeout=1.0)
+
         if progress_callback:
-            progress_callback("inxi", 0.3)
+            progress_callback("inxi", 0.55)
         
         # Step 2: Parse the JSON data via InxiParser
         if "data" in inxi_result and inxi_result["data"]:
@@ -70,7 +93,7 @@ class HardwareCollector:
         
         if progress_callback:
             progress_callback("inxi", 0.6)
-        
+
         # Collect additional system data in parallel
         tasks = {
             "pci": self.pci.collect,
@@ -78,6 +101,7 @@ class HardwareCollector:
             "system_extra": self.system.collect,
             "logs": self.logs.collect,
             "webcam": self.webcam.collect,
+            "ai_diag": self.ai_diag.collect,
         }
         
         completed = 0
@@ -119,5 +143,6 @@ __all__ = [
     "SystemCollector",
     "LogsCollector",
     "WebcamCollector",
+    "AiDiagnosticsCollector",
     "HardwareCollector",
 ]

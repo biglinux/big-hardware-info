@@ -2,11 +2,17 @@
 
 import json
 import os
+import html as html_utils
 import logging
 from datetime import datetime
 from typing import Dict, Any, List, Optional, Tuple
 
 from big_hardware_info.models.hardware_info import HardwareInfo, CATEGORIES
+from big_hardware_info.utils.ai_prompts import (
+    CATEGORIES as PROMPT_CATEGORIES,
+    build_prompts,
+    detect_reply_language,
+)
 from big_hardware_info.utils.i18n import _
 
 logger = logging.getLogger(__name__)
@@ -24,7 +30,7 @@ class HtmlGenerator:
     """Render a HardwareInfo into a single HTML document."""
 
     SECTION_ORDER = [
-        "summary", "cpu", "gpu", "memory", "disk", "system",
+        "summary", "ai_help", "cpu", "gpu", "memory", "disk", "system",
         "machine", "audio", "network", "battery", "bluetooth",
         "usb", "pci", "webcam", "printer", "sensors", "more_info",
     ]
@@ -903,6 +909,55 @@ class HtmlGenerator:
         .hl-error { color: var(--hl-error); font-weight: 600; }
         .hl-osname { color: var(--hl-osname); font-weight: 700; }
 
+        /* AI Help section */
+        .ai-help-search {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-family: inherit;
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.15s ease, background 0.15s ease;
+        }
+        .ai-help-search::placeholder {
+            color: var(--text-muted);
+        }
+        .ai-help-search:focus {
+            border-color: var(--accent-primary);
+            background: var(--bg-card);
+        }
+        .ai-help-collapse > summary {
+            cursor: pointer;
+            padding: 8px 12px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-weight: 500;
+            list-style: none;
+            user-select: none;
+        }
+        .ai-help-collapse > summary::-webkit-details-marker { display: none; }
+        .ai-help-collapse > summary:hover {
+            border-color: var(--accent-primary);
+            background: var(--bg-card-hover);
+        }
+        .ai-help-collapse[open] > summary {
+            border-color: var(--accent-primary);
+        }
+        .ai-help-group h3 {
+            color: var(--text-primary);
+            margin: 0 0 4px 0;
+        }
+        .ai-help-prompt .ai-help-body {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--glass-border);
+            border-radius: 6px;
+            padding: 8px;
+            color: var(--text-secondary);
+        }
+
         /* Responsive Design */
         @media (max-width: 900px) {
             html, body {
@@ -1156,7 +1211,8 @@ class HtmlGenerator:
                 "system-run-symbolic": "settings",
                 "printer-symbolic": "printer",
                 "temperature-symbolic": "thermometer",
-                "dialog-information-symbolic": "info"
+                "dialog-information-symbolic": "info",
+                "system-help-symbolic": "help-circle",
             }
             lucide_icon = icon_map.get(cinfo["icon"], "circle")
             # Translate the category name for the sidebar so exported HTML is localized
@@ -1199,6 +1255,7 @@ class HtmlGenerator:
         # Map method names to keys
         method_map = {
             "summary": self._render_summary,
+            "ai_help": self._render_ai_help,
             "cpu": self._render_cpu,
             "gpu": self._render_gpu,
             "memory": self._render_memory,
@@ -1263,7 +1320,7 @@ class HtmlGenerator:
         gpu = full_data.get("gpu", {})
         disk_usage = full_data.get("disk_usage", {})
         install_date_data = full_data.get("install_date", {})
-        
+
         # Calculate RAM percent safely
         ram_used_str = memory.get("used", "0")
         ram_total_str = memory.get("total", "0")
@@ -1371,6 +1428,109 @@ class HtmlGenerator:
         """)
         
         return "\n".join(html)
+
+    def _render_ai_help(self, _data: Dict[str, Any]) -> str:
+        """Render AI Help section: searchable collapse of pre-built prompts."""
+        full_data = self.hardware_info.to_dict()
+        prompts = build_prompts(full_data)
+        lang = detect_reply_language()
+
+        intro = _(
+            "%(n)d ready-made prompts for common Linux desktop issues. "
+            "Open the list, pick one, click Copy, and paste into ChatGPT / "
+            "Claude / Gemini after your problem description. Each prompt "
+            "embeds the relevant diagnostic outputs already collected from "
+            "this machine and asks the chatbot to reply in %(lang)s. "
+            "Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+        ) % {"n": len(prompts), "lang": lang}
+
+        search_label = _("Filter prompts (e.g. wifi, suspend, nvidia, pacman)…")
+        copy_label = _("Copy")
+        copied_label = _("Copied")
+        toggle_label = _("Show prompt list (%d available)") % len(prompts)
+
+        prompts_by_category: Dict[str, List[Any]] = {}
+        for prompt in prompts:
+            prompts_by_category.setdefault(prompt.category, []).append(prompt)
+
+        groups_html: List[str] = []
+        for cat in PROMPT_CATEGORIES:
+            cat_prompts = prompts_by_category.get(cat.key, [])
+            if not cat_prompts:
+                continue
+            cards: List[str] = []
+            for prompt in cat_prompts:
+                title = html_utils.escape(prompt.title)
+                summary = html_utils.escape(prompt.summary)
+                body = html_utils.escape(prompt.body)
+                search_text = html_utils.escape(
+                    " ".join((
+                        prompt.title, prompt.summary, prompt.category,
+                        *prompt.keywords,
+                    )).lower(),
+                    quote=True,
+                )
+                cards.append(f"""
+                <div class="ai-help-prompt card" data-search="{search_text}" style="padding:12px;margin-bottom:10px;">
+                    <div class="box-horizontal" style="align-items:center;gap:8px;margin-bottom:4px;">
+                        <strong style="flex:1;">{title}</strong>
+                        <button type="button" class="copy-btn"
+                            onclick="(function(b){{const t=b.closest('.ai-help-prompt').querySelector('.ai-help-body').innerText;navigator.clipboard.writeText(t);b.innerText='{copied_label}';setTimeout(()=>b.innerText='{copy_label}',1500);}})(this)">{copy_label}</button>
+                    </div>
+                    <div class="dim-label" style="font-size:0.9em;margin-bottom:6px;">{summary}</div>
+                    <pre class="ai-help-body terminal-text" style="max-height:200px;overflow:auto;white-space:pre-wrap;font-family:monospace;font-size:0.82em;margin:0;">{body}</pre>
+                </div>
+                """)
+            cat_title = html_utils.escape(cat.title)
+            cat_desc = html_utils.escape(cat.description)
+            groups_html.append(f"""
+            <div class="ai-help-group" style="margin-bottom:18px;">
+                <h3 style="margin:8px 0 4px 0;">{cat_title}</h3>
+                <div class="dim-label" style="font-size:0.88em;margin-bottom:8px;">{cat_desc}</div>
+                {''.join(cards)}
+            </div>
+            """)
+
+        groups_block = "\n".join(groups_html) or (
+            f"<div class='dim-label'>{_('No prompts available.')}</div>"
+        )
+
+        return f"""
+        <div class="ai-help-section">
+            <p class="dim-label" style="margin-bottom:8px;">{html_utils.escape(intro)}</p>
+            <input type="search" class="ai-help-search" placeholder="{search_label}"
+                style="width:100%;padding:8px;margin-bottom:8px;box-sizing:border-box;" />
+            <details class="ai-help-collapse">
+                <summary>{toggle_label}</summary>
+                <div class="ai-help-list" style="margin-top:12px;">
+                    {groups_block}
+                </div>
+            </details>
+        </div>
+        <script>
+        (function() {{
+            const root = document.getElementById('ai_help');
+            if (!root) return;
+            const input = root.querySelector('.ai-help-search');
+            const details = root.querySelector('.ai-help-collapse');
+            const cards = root.querySelectorAll('.ai-help-prompt');
+            const groups = root.querySelectorAll('.ai-help-group');
+            input.addEventListener('input', () => {{
+                const q = input.value.trim().toLowerCase();
+                cards.forEach(c => {{
+                    const visible = !q || (c.dataset.search || '').includes(q);
+                    c.style.display = visible ? '' : 'none';
+                }});
+                groups.forEach(g => {{
+                    const any = Array.from(g.querySelectorAll('.ai-help-prompt'))
+                        .some(c => c.style.display !== 'none');
+                    g.style.display = any ? '' : 'none';
+                }});
+                if (q) details.open = true;
+            }});
+        }})();
+        </script>
+        """
 
     def _render_cpu(self, data: Dict[str, Any]) -> str:
         """Render CPU section with complete information matching GTK."""

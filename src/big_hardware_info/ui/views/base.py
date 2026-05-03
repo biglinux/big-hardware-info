@@ -142,6 +142,24 @@ class HardwareSectionView(Gtk.Box):
 
         return expander
 
+    def _create_spec_item(self, label: str, value: str) -> Gtk.Box:
+        """Spec item: small dim caption above bold heading value."""
+        item = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=2)
+
+        label_w = Gtk.Label(label=label)
+        label_w.add_css_class("dim-label")
+        label_w.add_css_class("caption")
+        label_w.set_halign(Gtk.Align.START)
+        item.append(label_w)
+
+        value_w = Gtk.Label(label=str(value))
+        value_w.add_css_class("heading")
+        value_w.set_halign(Gtk.Align.START)
+        value_w.set_selectable(True)
+        item.append(value_w)
+
+        return item
+
     def show_no_data(self, message: str | None = None) -> None:
         if message is None:
             message = _("No data available")

@@ -190,24 +190,6 @@ class MemorySectionView(HardwareSectionView):
 
         self.append(hero_card)
 
-    def _create_spec_item(self, label: str, value: str) -> Gtk.Box:
-        """Create a spec item with label on top and value below."""
-        item_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=2)
-
-        label_widget = Gtk.Label(label=label)
-        label_widget.add_css_class("caption")
-        label_widget.add_css_class("dim-label")
-        label_widget.set_halign(Gtk.Align.START)
-        item_box.append(label_widget)
-
-        value_widget = Gtk.Label(label=value)
-        value_widget.add_css_class("heading")
-        value_widget.set_halign(Gtk.Align.START)
-        value_widget.set_selectable(True)
-        item_box.append(value_widget)
-
-        return item_box
-
     def _render_modules(self, data: Dict[str, Any]) -> None:
         """Render memory modules (RAM sticks) section in a collapsible expander."""
         modules = data.get("modules", [])

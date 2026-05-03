@@ -14,6 +14,7 @@ import logging
 from typing import Callable, Iterable, Tuple
 
 from big_hardware_info.ui.renderers import (
+    AiHelpRenderer,
     BatteryRenderer,
     BluetoothRenderer,
     MachineRenderer,
@@ -44,6 +45,10 @@ SectionRenderFn = Callable[[object], None]
 
 def _render_summary(window) -> None:
     SummaryRenderer(window).render()
+
+
+def _render_ai_help(window) -> None:
+    AiHelpRenderer(window).render()
 
 
 def _render_cpu(window) -> None:
@@ -144,6 +149,7 @@ def _full_output_label() -> str:
 #: Declarative list of (category_id, renderer) tuples, in display order.
 SECTIONS: Tuple[Tuple[str, SectionRenderFn], ...] = (
     ("summary", _render_summary),
+    ("ai_help", _render_ai_help),
     ("cpu", _render_cpu),
     ("gpu", _render_gpu),
     ("webcam", _render_webcams),

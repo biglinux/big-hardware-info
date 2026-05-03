@@ -83,6 +83,9 @@ class HardwareInfo:
     # Logs
     logs: Dict[str, Any] = field(default_factory=dict)
     more_info: Dict[str, Any] = field(default_factory=dict)
+
+    # AI diagnostic command outputs (collected by AiDiagnosticsCollector)
+    ai_diag: Dict[str, Any] = field(default_factory=dict)
     
     # Raw inxi output (for display)
     raw_inxi: Dict[str, str] = field(default_factory=dict)
@@ -109,6 +112,11 @@ CATEGORIES = {
         "name": "Summary",
         "icon": "view-grid-symbolic",
         "description": "Overview of main hardware",
+    },
+    "ai_help": {
+        "name": "AI Help",
+        "icon": "system-help-symbolic",
+        "description": "Pre-built prompts to ask an AI chatbot for help",
     },
     "cpu": {
         "name": "Processor",
