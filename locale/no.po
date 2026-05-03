@@ -318,17 +318,13 @@ msgstr "AI Hjelp — Klare Spørsmål"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for the Linux desktop issues people actually report — Wi-Fi, hybrid GPU, "
-"suspend, Bluetooth audio, broken updates, and more. Click a row to review, edit the <fill in> "
-"placeholders, then copy. Each prompt asks the chatbot to reply in your system language (%(lang)s) "
-"and lists the diagnostic angles so answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
-"hostname) is redacted before injection."
+"%(n)d ready prompts for common Linux desktop issues (Wi-Fi, suspend, GPU, audio, updates…). Click a "
+"row to review and copy. Replies in %(lang)s; sensitive data (MAC, IP, serial) is removed before "
+"sharing."
 msgstr ""
-"%(n)d ferdige forespørseler for Linux-skrivebordsproblemer folk faktisk rapporterer — Wi-Fi, hybrid "
-"GPU, suspendere, Bluetooth-lyd, ødelagte oppdateringer, og mer. Klikk på en rad for å gjennomgå, "
-"redigere <fill in> plassholdere, og deretter kopiere. Hver forespørsel ber chatboten om å svare på "
-"ditt systemspråk (%(lang)s) og lister opp de diagnostiske vinklene slik at svarene forblir "
-"fokuserte. Sensitiv data (MAC, IP, serienummer, UUID, vertsnavn) blir redigert før injeksjon."
+"%(n)d klare forslag for vanlige Linux skrivebordsproblemer (Wi-Fi, hvilemodus, GPU, lyd, "
+"oppdateringer…). Klikk på en rad for å gjennomgå og kopiere. Svar i %(lang)s; sensitiv data (MAC, "
+"IP, serienummer) fjernes før deling."
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -345,12 +341,10 @@ msgstr "Kopier prompt til utklippstavle"
 msgid "Open editor / preview"
 msgstr "Åpne redigerer / forhåndsvisning"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 229
 #, python-format
-msgid "Edit the <fill in> placeholders below, then press Copy. The chatbot will reply in %(lang)s."
-msgstr ""
-"Rediger <fyll inn> plassholderne nedenfor, og trykk deretter Kopier. Chatboten vil svare på "
-"%(lang)s."
+msgid "Edit the <fill in> placeholders, then press Copy. Reply in %(lang)s."
+msgstr "Rediger <fyll inn> plassholdere, og trykk deretter Kopier. Svar i %(lang)s."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
 msgid "Reset"
@@ -2084,15 +2078,15 @@ msgstr "Besøk BigLinux-nettstedet"
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for common Linux desktop issues. Open the list, pick one, click Copy, and "
-"paste into ChatGPT / Claude / Gemini after your problem description. Each prompt embeds the "
-"relevant diagnostic outputs already collected from this machine and asks the chatbot to reply in "
-"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+"%(n)d ready prompts for common Linux desktop issues. Open the list, copy one, paste into your "
+"chatbot. Replies in %(lang)s; MAC, IP, UUID, serial and hostname are removed before sharing."
 msgstr ""
-"%(n)d ferdige forslag for vanlige Linux-skrivebordsproblemer. Åpne listen, velg en, klikk Kopier, "
-"og lim inn i ChatGPT / Claude / Gemini etter problembeskrivelsen din. Hver prompt inneholder de "
-"relevante diagnostiske utdataene som allerede er samlet inn fra denne maskinen og ber chatboten om "
-"å svare på %(lang)s. Sensitiv data (MAC, IP, UUID, serienummer, vertsnavn) er redigert."
+"%(n)d klare forslag for vanlige Linux-skrivebordsproblemer. Åpne listen, kopier en, lim inn i "
+"chatboten din. Svar på %(lang)s; MAC, IP, UUID, serienummer og vertsnavn er fjernet før deling."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 # 

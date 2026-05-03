@@ -263,18 +263,13 @@ msgstr "AI Yardım — Hazır İfadeler"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for the Linux desktop issues people actually report — Wi-Fi, hybrid GPU, "
-"suspend, Bluetooth audio, broken updates, and more. Click a row to review, edit the <fill in> "
-"placeholders, then copy. Each prompt asks the chatbot to reply in your system language (%(lang)s) "
-"and lists the diagnostic angles so answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
-"hostname) is redacted before injection."
+"%(n)d ready prompts for common Linux desktop issues (Wi-Fi, suspend, GPU, audio, updates…). Click a "
+"row to review and copy. Replies in %(lang)s; sensitive data (MAC, IP, serial) is removed before "
+"sharing."
 msgstr ""
-"%(n)d hazır yapılmış Linux masaüstü sorunları için istemler — Wi-Fi, hibrit GPU, askıya alma, "
-"Bluetooth ses, bozuk güncellemeler ve daha fazlası. Gözden geçirmek, <fill in> yer tutucularını "
-"düzenlemek ve ardından kopyalamak için bir satıra tıklayın. Her istem, sohbet botundan sistem "
-"dilinizde (%(lang)s) yanıt vermesini ister ve yanıtların odaklanmasını sağlamak için tanısal "
-"açılara yer verir. Hassas veriler (MAC, IP, seri, UUID, ana bilgisayar adı) enjekte edilmeden önce "
-"gizlenir."
+"Ortak Linux masaüstü sorunları için %(n)d hazır istem (Wi-Fi, askıya alma, GPU, ses, "
+"güncellemeler…). Gözden geçirmek ve kopyalamak için bir satıra tıklayın. Yanıtlar %(lang)s "
+"dilindedir; hassas veriler (MAC, IP, seri) paylaşmadan önce kaldırılmıştır."
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -291,12 +286,10 @@ msgstr "Panoyu panoya kopyala"
 msgid "Open editor / preview"
 msgstr "Düzenleyiciyi / önizlemeyi aç"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 229
 #, python-format
-msgid "Edit the <fill in> placeholders below, then press Copy. The chatbot will reply in %(lang)s."
-msgstr ""
-"Aşağıdaki <fill in> yer tutucularını düzenleyin, ardından Kopyala'ya basın. Sohbet botu %(lang)s "
-"dilinde yanıt verecektir."
+msgid "Edit the <fill in> placeholders, then press Copy. Reply in %(lang)s."
+msgstr "<fill in> yer tutucularını düzenleyin, ardından Kopyala'ya basın."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
 msgid "Reset"
@@ -2003,16 +1996,12 @@ msgstr "BigLinux web sitesini ziyaret edin."
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for common Linux desktop issues. Open the list, pick one, click Copy, and "
-"paste into ChatGPT / Claude / Gemini after your problem description. Each prompt embeds the "
-"relevant diagnostic outputs already collected from this machine and asks the chatbot to reply in "
-"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+"%(n)d ready prompts for common Linux desktop issues. Open the list, copy one, paste into your "
+"chatbot. Replies in %(lang)s; MAC, IP, UUID, serial and hostname are removed before sharing."
 msgstr ""
-"%(n)d hazır yapılmış Linux masaüstü sorunları için istemler. Listeyi açın, birini seçin, Kopyala'ya "
-"tıklayın ve sorun açıklamanızdan sonra ChatGPT / Claude / Gemini'ye yapıştırın. Her istem, bu "
-"makineden zaten toplanmış ilgili tanı çıktılarıyla gömülüdür ve sohbet botundan %(lang)s dilinde "
-"yanıt vermesini ister. Hassas veriler (MAC, IP, UUID, seri numarası, ana bilgisayar adı) "
-"gizlenmiştir."
+"%(n)d yaygın Linux masaüstü sorunları için hazır istemler. Listeyi açın, birini kopyalayın, sohbet "
+"botunuza yapıştırın. Yanıtlar %(lang)s dilindedir; MAC, IP, UUID, seri numarası ve ana bilgisayar "
+"adı paylaşmadan önce kaldırılır."
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 msgid "Copied"

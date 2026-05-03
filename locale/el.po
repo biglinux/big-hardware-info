@@ -289,18 +289,13 @@ msgstr "Βοήθεια AI — Έτοιμες Προτροπές"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for the Linux desktop issues people actually report — Wi-Fi, hybrid GPU, "
-"suspend, Bluetooth audio, broken updates, and more. Click a row to review, edit the <fill in> "
-"placeholders, then copy. Each prompt asks the chatbot to reply in your system language (%(lang)s) "
-"and lists the diagnostic angles so answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
-"hostname) is redacted before injection."
+"%(n)d ready prompts for common Linux desktop issues (Wi-Fi, suspend, GPU, audio, updates…). Click a "
+"row to review and copy. Replies in %(lang)s; sensitive data (MAC, IP, serial) is removed before "
+"sharing."
 msgstr ""
-"%(n)d έτοιμες προτροπές για ζητήματα επιφάνειας εργασίας Linux που αναφέρουν οι χρήστες — Wi-Fi, "
-"υβριδική GPU, αναστολή, ήχος Bluetooth, σπασμένες ενημερώσεις και άλλα. Κάντε κλικ σε μια γραμμή "
-"για να αναθεωρήσετε, να επεξεργαστείτε τις <fill in> θέσεις, και στη συνέχεια να αντιγράψετε. Κάθε "
-"προτροπή ζητά από το chatbot να απαντήσει στη γλώσσα του συστήματός σας (%(lang)s) και παραθέτει "
-"τις διαγνωστικές γωνίες ώστε οι απαντήσεις να παραμένουν εστιασμένες. Ευαίσθητα δεδομένα (MAC, IP, "
-"σειριακός αριθμός, UUID, όνομα υπολογιστή) διαγράφονται πριν από την εισαγωγή."
+"%(n)d έτοιμες προτροπές για κοινά ζητήματα επιφάνειας εργασίας Linux (Wi-Fi, αναστολή, GPU, ήχος, "
+"ενημερώσεις…). Κάντε κλικ σε μια γραμμή για να αναθεωρήσετε και να αντιγράψετε. Απαντήσεις σε "
+"%(lang)s; ευαίσθητα δεδομένα (MAC, IP, σειριακός αριθμός) αφαιρούνται πριν από την κοινοποίηση."
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -317,12 +312,10 @@ msgstr "Αντιγράψτε την προτροπή στο πρόχειρο"
 msgid "Open editor / preview"
 msgstr "Άνοιγμα επεξεργαστή / προεπισκόπηση"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 229
 #, python-format
-msgid "Edit the <fill in> placeholders below, then press Copy. The chatbot will reply in %(lang)s."
-msgstr ""
-"Επεξεργαστείτε τις θέσεις <fill in> παρακάτω, στη συνέχεια πατήστε Αντιγραφή. Ο chatbot θα "
-"απαντήσει στα %(lang)s."
+msgid "Edit the <fill in> placeholders, then press Copy. Reply in %(lang)s."
+msgstr "Επεξεργαστείτε τις θέσεις <fill in>, στη συνέχεια πατήστε Αντιγραφή."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
 msgid "Reset"
@@ -2039,16 +2032,12 @@ msgstr "Επισκεφθείτε την ιστοσελίδα του BigLinux"
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for common Linux desktop issues. Open the list, pick one, click Copy, and "
-"paste into ChatGPT / Claude / Gemini after your problem description. Each prompt embeds the "
-"relevant diagnostic outputs already collected from this machine and asks the chatbot to reply in "
-"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+"%(n)d ready prompts for common Linux desktop issues. Open the list, copy one, paste into your "
+"chatbot. Replies in %(lang)s; MAC, IP, UUID, serial and hostname are removed before sharing."
 msgstr ""
-"%(n)d έτοιμες προτροπές για κοινά ζητήματα επιφάνειας εργασίας Linux. Ανοίξτε τη λίστα, επιλέξτε "
-"μία, κάντε κλικ στην Αντιγραφή και επικολλήστε στο ChatGPT / Claude / Gemini μετά την περιγραφή του "
-"προβλήματός σας. Κάθε προτροπή ενσωματώνει τις σχετικές διαγνωστικές εξόδους που έχουν ήδη "
-"συλλεχθεί από αυτή τη μηχανή και ζητά από το chatbot να απαντήσει στα %(lang)s. Ευαίσθητα δεδομένα "
-"(MAC, IP, UUID, σειριακός αριθμός, όνομα υπολογιστή) έχουν αποκρυφτεί."
+"%(n)d έτοιμες προτροπές για κοινά ζητήματα επιφάνειας εργασίας Linux. Ανοίξτε τη λίστα, αντιγράψτε "
+"μία, επικολλήστε την στο chatbot σας. Απαντήσεις σε %(lang)s; MAC, IP, UUID, σειριακός αριθμός και "
+"όνομα υπολογιστή έχουν αφαιρεθεί πριν από την κοινοποίηση."
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 msgid "Copied"

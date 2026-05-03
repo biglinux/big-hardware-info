@@ -260,18 +260,13 @@ msgstr "Ayuda de IA — Prompts Listos"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for the Linux desktop issues people actually report — Wi-Fi, hybrid GPU, "
-"suspend, Bluetooth audio, broken updates, and more. Click a row to review, edit the <fill in> "
-"placeholders, then copy. Each prompt asks the chatbot to reply in your system language (%(lang)s) "
-"and lists the diagnostic angles so answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
-"hostname) is redacted before injection."
+"%(n)d ready prompts for common Linux desktop issues (Wi-Fi, suspend, GPU, audio, updates…). Click a "
+"row to review and copy. Replies in %(lang)s; sensitive data (MAC, IP, serial) is removed before "
+"sharing."
 msgstr ""
-"%(n)d indicaciones listas para los problemas del escritorio de Linux que la gente realmente "
-"informa: Wi-Fi, GPU híbrida, suspensión, audio Bluetooth, actualizaciones rotas y más. Haz clic en "
-"una fila para revisar, editar los marcadores de posición <fill in>, y luego copiar. Cada indicación "
-"pide al chatbot que responda en el idioma de tu sistema (%(lang)s) y enumera los ángulos de "
-"diagnóstico para que las respuestas se mantengan enfocadas. Los datos sensibles (MAC, IP, serie, "
-"UUID, nombre de host) son redactados antes de la inyección."
+"%(n)d indicaciones listas para problemas comunes de escritorio en Linux (Wi-Fi, suspensión, GPU, "
+"audio, actualizaciones…). Haz clic en una fila para revisar y copiar. Respuestas en %(lang)s; los "
+"datos sensibles (MAC, IP, serie) se eliminan antes de compartir."
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -288,12 +283,10 @@ msgstr "Copiar aviso al portapapeles"
 msgid "Open editor / preview"
 msgstr "Abrir editor / vista previa"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 229
 #, python-format
-msgid "Edit the <fill in> placeholders below, then press Copy. The chatbot will reply in %(lang)s."
-msgstr ""
-"Edit los marcadores de posición <fill in> a continuación, luego presiona Copiar. El chatbot "
-"responderá en %(lang)s."
+msgid "Edit the <fill in> placeholders, then press Copy. Reply in %(lang)s."
+msgstr "Edita los marcadores de posición <fill in>, luego presiona Copiar. Responde en %(lang)s."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
 msgid "Reset"
@@ -2008,16 +2001,12 @@ msgstr "Visita el sitio web de BigLinux"
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for common Linux desktop issues. Open the list, pick one, click Copy, and "
-"paste into ChatGPT / Claude / Gemini after your problem description. Each prompt embeds the "
-"relevant diagnostic outputs already collected from this machine and asks the chatbot to reply in "
-"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+"%(n)d ready prompts for common Linux desktop issues. Open the list, copy one, paste into your "
+"chatbot. Replies in %(lang)s; MAC, IP, UUID, serial and hostname are removed before sharing."
 msgstr ""
-"%(n)d indicaciones predefinidas para problemas comunes del escritorio de Linux. Abre la lista, "
-"elige una, haz clic en Copiar y pégala en ChatGPT / Claude / Gemini después de tu descripción del "
-"problema. Cada indicación incluye las salidas de diagnóstico relevantes ya recopiladas de esta "
-"máquina y pide al chatbot que responda en %(lang)s. Los datos sensibles (MAC, IP, UUID, serie, "
-"nombre de host) están redactados."
+"%(n)d indicaciones listas para problemas comunes de escritorio en Linux. Abre la lista, copia una, "
+"pégala en tu chatbot. Respuestas en %(lang)s; MAC, IP, UUID, número de serie y nombre de host se "
+"eliminan antes de compartir."
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 msgid "Copied"

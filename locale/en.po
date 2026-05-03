@@ -167,7 +167,7 @@ msgstr "Tip: Click the copy button or select the URL to copy it."
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 423
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 474
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 484
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 272
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 268
 msgid "Close"
 msgstr "Close"
 
@@ -228,7 +228,7 @@ msgstr "Failed to open browser"
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/battery.py, line: 26
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2627
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2624
 msgid "No battery detected (Desktop system)"
 msgstr "No battery detected (Desktop system)"
 
@@ -321,7 +321,7 @@ msgstr "Serial"
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 47
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1450
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1447
 #, python-format
 msgid "Show prompt list (%d available)"
 msgstr "Show prompt list (%d available)"
@@ -335,55 +335,45 @@ msgstr "AI Help — Ready Prompts"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for the Linux desktop issues people actually report "
-"— Wi-Fi, hybrid GPU, suspend, Bluetooth audio, broken updates, and more. "
-"Click a row to review, edit the <fill in> placeholders, then copy. Each "
-"prompt asks the chatbot to reply in your system language (%(lang)s) and "
-"lists the diagnostic angles so answers stay focused. Sensitive data (MAC, "
-"IP, serial, UUID, hostname) is redacted before injection."
+"%(n)d ready prompts for common Linux desktop issues (Wi-Fi, suspend, GPU, "
+"audio, updates…). Click a row to review and copy. Replies in %(lang)s; "
+"sensitive data (MAC, IP, serial) is removed before sharing."
 msgstr ""
-"%(n)d ready-made prompts for the Linux desktop issues people actually report "
-"— Wi-Fi, hybrid GPU, suspend, Bluetooth audio, broken updates, and more. "
-"Click a row to review, edit the <fill in> placeholders, then copy. Each "
-"prompt asks the chatbot to reply in your system language (%(lang)s) and "
-"lists the diagnostic angles so answers stay focused. Sensitive data (MAC, "
-"IP, serial, UUID, hostname) is redacted before injection."
+"%(n)d ready prompts for common Linux desktop issues (Wi-Fi, suspend, GPU, "
+"audio, updates…). Click a row to review and copy. Replies in %(lang)s; "
+"sensitive data (MAC, IP, serial) is removed before sharing."
 
 #
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 104
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1447
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 100
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1444
 msgid "Filter prompts (e.g. wifi, suspend, nvidia, pacman)…"
 msgstr "Filter prompts (e.g. wifi, suspend, nvidia, pacman)…"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 150
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 146
 msgid "Copy prompt to clipboard"
 msgstr "Copy prompt to clipboard"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 160
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 156
 msgid "Open editor / preview"
 msgstr "Open editor / preview"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 229
 #, python-format
-msgid ""
-"Edit the <fill in> placeholders below, then press Copy. The chatbot will "
-"reply in %(lang)s."
-msgstr ""
-"Edit the <fill in> placeholders below, then press Copy. The chatbot will "
-"reply in %(lang)s."
+msgid "Edit the <fill in> placeholders, then press Copy. Reply in %(lang)s."
+msgstr "Edit the <fill in> placeholders, then press Copy. Reply in %(lang)s."
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 256
 msgid "Reset"
 msgstr "Reset"
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 261
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 257
 msgid "Restore the original template"
 msgstr "Restore the original template"
 
@@ -392,9 +382,9 @@ msgstr "Restore the original template"
 #
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 276
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 272
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 226
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1448
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1445
 msgid "Copy"
 msgstr "Copy"
 
@@ -475,7 +465,7 @@ msgstr "Printer Details"
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 70
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3063
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3060
 msgid "No printers configured"
 msgstr "No printers configured"
 
@@ -1054,8 +1044,8 @@ msgstr "Detailed Sensor Data (sensors)"
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 35
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2772
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2778
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2769
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2775
 msgid "No USB devices found"
 msgstr "No USB devices found"
 
@@ -1342,7 +1332,7 @@ msgstr "No audio information available"
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/views/audio.py, line: 56
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2431
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2428
 msgid "No audio devices found"
 msgstr "No audio devices found"
 
@@ -1415,7 +1405,7 @@ msgstr "ECC"
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 202
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2086
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2083
 msgid "Memory Modules"
 msgstr "Memory Modules"
 
@@ -1518,7 +1508,7 @@ msgstr "Unknown GPU"
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 161
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1756
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1753
 msgid "Shared"
 msgstr "Shared"
 
@@ -1613,8 +1603,8 @@ msgstr "Mapped"
 #
 # File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 301
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 215
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1703
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1978
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1700
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1975
 msgid "Advanced Information"
 msgstr "Advanced Information"
 
@@ -2455,111 +2445,107 @@ msgstr "Visit BigLinux website"
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for common Linux desktop issues. Open the list, "
-"pick one, click Copy, and paste into ChatGPT / Claude / Gemini after your "
-"problem description. Each prompt embeds the relevant diagnostic outputs "
-"already collected from this machine and asks the chatbot to reply in "
-"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+"%(n)d ready prompts for common Linux desktop issues. Open the list, copy "
+"one, paste into your chatbot. Replies in %(lang)s; MAC, IP, UUID, serial and "
+"hostname are removed before sharing."
 msgstr ""
-"%(n)d ready-made prompts for common Linux desktop issues. Open the list, "
-"pick one, click Copy, and paste into ChatGPT / Claude / Gemini after your "
-"problem description. Each prompt embeds the relevant diagnostic outputs "
-"already collected from this machine and asks the chatbot to reply in "
-"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+"%(n)d ready prompts for common Linux desktop issues. Open the list, copy "
+"one, paste into your chatbot. Replies in %(lang)s; MAC, IP, UUID, serial and "
+"hostname are removed before sharing."
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
 msgid "Copied"
 msgstr "Copied"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1718
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1715
 msgid "No graphics devices found"
 msgstr "No graphics devices found"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2104
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2101
 msgid "No storage drives found"
 msgstr "No storage drives found"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2227
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2224
 msgid "Disk Partitions"
 msgstr "Disk Partitions"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2489
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2486
 msgid "No network interfaces found"
 msgstr "No network interfaces found"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2709
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2706
 msgid "No Bluetooth devices found"
 msgstr "No Bluetooth devices found"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2881
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2878
 msgid "No PCI devices found"
 msgstr "No PCI devices found"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3002
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2999
 msgid "No webcams found"
 msgstr "No webcams found"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3147
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3144
 msgid "No sensors detected"
 msgstr "No sensors detected"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3246
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3243
 msgid "Package Repositories"
 msgstr "Package Repositories"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3279
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3281
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3276
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3278
 msgid "No SDIO devices detected"
 msgstr "No SDIO devices detected"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3282
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3279
 msgid "SDIO"
 msgstr "SDIO"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3312
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3309
 msgid "Mhwd driver"
 msgstr "Mhwd driver"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3314
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3311
 msgid "Mhwd kernel"
 msgstr "Mhwd kernel"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3319
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3316
 msgid "Cmdline"
 msgstr "Cmdline"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3334
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3331
 msgid "ACPI Interrupts"
 msgstr "ACPI Interrupts"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3340
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3337
 msgid "dmesg (errors)"
 msgstr "dmesg (errors)"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3344
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3341
 msgid "journalctl (errors)"
 msgstr "journalctl (errors)"
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3347
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3344
 msgid "No additional information available"
 msgstr "No additional information available"
 

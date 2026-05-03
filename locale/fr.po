@@ -269,18 +269,13 @@ msgstr "Aide IA — Invites Prêtes"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for the Linux desktop issues people actually report — Wi-Fi, hybrid GPU, "
-"suspend, Bluetooth audio, broken updates, and more. Click a row to review, edit the <fill in> "
-"placeholders, then copy. Each prompt asks the chatbot to reply in your system language (%(lang)s) "
-"and lists the diagnostic angles so answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
-"hostname) is redacted before injection."
+"%(n)d ready prompts for common Linux desktop issues (Wi-Fi, suspend, GPU, audio, updates…). Click a "
+"row to review and copy. Replies in %(lang)s; sensitive data (MAC, IP, serial) is removed before "
+"sharing."
 msgstr ""
-"%(n)d invites de prompts prêts à l'emploi pour les problèmes de bureau Linux que les gens signalent "
-"réellement — Wi-Fi, GPU hybride, suspension, audio Bluetooth, mises à jour défectueuses, et plus "
-"encore. Cliquez sur une ligne pour examiner, modifier les espaces réservés <fill in>, puis copiez. "
-"Chaque invite demande au chatbot de répondre dans la langue de votre système (%(lang)s) et énumère "
-"les angles de diagnostic afin que les réponses restent ciblées. Les données sensibles (MAC, IP, "
-"série, UUID, nom d'hôte) sont masquées avant injection."
+"%(n)d invites prêts pour des problèmes courants de bureau Linux (Wi-Fi, suspension, GPU, audio, "
+"mises à jour…). Cliquez sur une ligne pour examiner et copier. Réponses en %(lang)s ; les données "
+"sensibles (MAC, IP, série) sont supprimées avant le partage."
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -297,12 +292,10 @@ msgstr "Copier l'invite dans le presse-papiers"
 msgid "Open editor / preview"
 msgstr "Ouvrir l'éditeur / aperçu"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 229
 #, python-format
-msgid "Edit the <fill in> placeholders below, then press Copy. The chatbot will reply in %(lang)s."
-msgstr ""
-"Modifiez les espaces réservés <remplir> ci-dessous, puis appuyez sur Copier. Le chatbot répondra en "
-"%(lang)s."
+msgid "Edit the <fill in> placeholders, then press Copy. Reply in %(lang)s."
+msgstr "Modifiez les espaces réservés <remplir> puis appuyez sur Copier. Répondez en %(lang)s."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
 msgid "Reset"
@@ -2747,16 +2740,16 @@ msgstr "Visitez le site Web de BigLinux"
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for common Linux desktop issues. Open the list, pick one, click Copy, and "
-"paste into ChatGPT / Claude / Gemini after your problem description. Each prompt embeds the "
-"relevant diagnostic outputs already collected from this machine and asks the chatbot to reply in "
-"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+"%(n)d ready prompts for common Linux desktop issues. Open the list, copy one, paste into your "
+"chatbot. Replies in %(lang)s; MAC, IP, UUID, serial and hostname are removed before sharing."
 msgstr ""
-"%(n)d invites de prompts prêts à l'emploi pour des problèmes courants de bureau Linux. Ouvrez la "
-"liste, choisissez-en un, cliquez sur Copier, puis collez-le dans ChatGPT / Claude / Gemini après "
-"votre description de problème. Chaque prompt intègre les sorties de diagnostic pertinentes déjà "
-"collectées depuis cette machine et demande au chatbot de répondre en %(lang)s. Les données "
-"sensibles (MAC, IP, UUID, numéro de série, nom d'hôte) sont masquées."
+"%(n)d invites prêts pour des problèmes courants de bureau Linux. Ouvrez la liste, copiez-en un, "
+"collez-le dans votre chatbot. Réponses en %(lang)s ; MAC, IP, UUID, numéro de série et nom d'hôte "
+"sont supprimés avant le partage."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 # 

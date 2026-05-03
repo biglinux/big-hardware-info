@@ -292,18 +292,13 @@ msgstr "AI Segítség — Kész Kérdések"
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for the Linux desktop issues people actually report — Wi-Fi, hybrid GPU, "
-"suspend, Bluetooth audio, broken updates, and more. Click a row to review, edit the <fill in> "
-"placeholders, then copy. Each prompt asks the chatbot to reply in your system language (%(lang)s) "
-"and lists the diagnostic angles so answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
-"hostname) is redacted before injection."
+"%(n)d ready prompts for common Linux desktop issues (Wi-Fi, suspend, GPU, audio, updates…). Click a "
+"row to review and copy. Replies in %(lang)s; sensitive data (MAC, IP, serial) is removed before "
+"sharing."
 msgstr ""
-"%(n)d kész prompt a Linux asztali problémákhoz, amelyeket az emberek valóban jelentettek — Wi-Fi, "
-"hibrid GPU, felfüggesztés, Bluetooth audio, törött frissítések és még sok más. Kattintson egy sorra "
-"a felülvizsgálathoz, szerkessze a <fill in> helyettesítőket, majd másolja. Minden prompt arra kéri "
-"a chatbotot, hogy válaszoljon az Ön rendszer nyelvén (%(lang)s), és felsorolja a diagnosztikai "
-"szempontokat, hogy a válaszok fókuszáltak maradjanak. Az érzékeny adatokat (MAC, IP, sorozatszám, "
-"UUID, hosztnév) eltávolítják az injekció előtt."
+"%(n)d kész prompt a gyakori Linux asztali problémákhoz (Wi-Fi, felfüggesztés, GPU, audio, "
+"frissítések…). Kattintson egy sorra a megtekintéshez és másoláshoz. Válaszok %(lang)s nyelven; "
+"érzékeny adatok (MAC, IP, sorozatszám) eltávolításra kerülnek a megosztás előtt."
 # 
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 # 
@@ -320,12 +315,10 @@ msgstr "Másolás a vágólapra"
 msgid "Open editor / preview"
 msgstr "Szerkesztő / előnézet megnyitása"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 229
 #, python-format
-msgid "Edit the <fill in> placeholders below, then press Copy. The chatbot will reply in %(lang)s."
-msgstr ""
-"Szerkeszd a <fill in> helyőrzőket alább, majd nyomj a Másolás gombra. A chatbot válaszolni fog "
-"%(lang)s nyelven."
+msgid "Edit the <fill in> placeholders, then press Copy. Reply in %(lang)s."
+msgstr "Szerkeszd a <kitöltés> helyettesítőket, majd nyomj a Másolás gombra. Válaszolj a %(lang)s nyelven."
 # 
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
 msgid "Reset"
@@ -2001,16 +1994,12 @@ msgstr "Látogasson el a BigLinux weboldalára"
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
 #, python-format
 msgid ""
-"%(n)d ready-made prompts for common Linux desktop issues. Open the list, pick one, click Copy, and "
-"paste into ChatGPT / Claude / Gemini after your problem description. Each prompt embeds the "
-"relevant diagnostic outputs already collected from this machine and asks the chatbot to reply in "
-"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+"%(n)d ready prompts for common Linux desktop issues. Open the list, copy one, paste into your "
+"chatbot. Replies in %(lang)s; MAC, IP, UUID, serial and hostname are removed before sharing."
 msgstr ""
-"%(n)d kész prompt a gyakori Linux asztali problémákhoz. Nyisd meg a listát, válassz egyet, kattints "
-"a Másolásra, és illeszd be a ChatGPT / Claude / Gemini-be a problémád leírása után. Minden prompt "
-"tartalmazza a már összegyűjtött releváns diagnosztikai kimeneteket erről a gépről, és arra kéri a "
-"chatbotot, hogy válaszoljon %(lang)s nyelven. Az érzékeny adatok (MAC, IP, UUID, sorozatszám, "
-"hosztnév) eltávolításra kerültek."
+"%(n)d kész prompt a gyakori Linux asztali problémákhoz. Nyisd meg a listát, másolj egyet, illeszd "
+"be a chatbotodba. Válaszok %(lang)s nyelven; a MAC, IP, UUID, sorozatszám és a gazdagép név "
+"eltávolításra kerül megosztás előtt."
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 msgid "Copied"
