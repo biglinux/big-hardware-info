@@ -245,6 +245,65 @@ msgstr "Minimální napětí"
 msgid "Serial"
 msgstr "Sériové číslo"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 47
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1450
+#, python-format
+msgid "Show prompt list (%d available)"
+msgstr "Zobrazit seznam výzev (%d k dispozici)"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 77
+msgid "AI Help — Ready Prompts"
+msgstr "AI Nápověda — Připravené výzvy"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
+#, python-format
+msgid ""
+"%(n)d ready-made prompts for the Linux desktop issues people actually report — Wi-Fi, hybrid GPU, "
+"suspend, Bluetooth audio, broken updates, and more. Click a row to review, edit the <fill in> "
+"placeholders, then copy. Each prompt asks the chatbot to reply in your system language (%(lang)s) "
+"and lists the diagnostic angles so answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
+"hostname) is redacted before injection."
+msgstr ""
+"%(n)d hotové výzvy pro problémy s Linux desktopem, které lidé skutečně hlásí — Wi-Fi, hybridní GPU, "
+"uspání, Bluetooth audio, nefunkční aktualizace a další. Klikněte na řádek pro zobrazení, úpravu "
+"zástupných znaků <fill in>, a poté zkopírujte. Každá výzva žádá chatbot, aby odpověděl ve vašem "
+"systémovém jazyce (%(lang)s) a uvádí diagnostické úhly, aby odpovědi zůstaly zaměřené. Citlivá data "
+"(MAC, IP, sériové číslo, UUID, název hostitele) jsou před vložením redigována."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 104
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1447
+msgid "Filter prompts (e.g. wifi, suspend, nvidia, pacman)…"
+msgstr "Filtrujte výzvy (např. wifi, pozastavit, nvidia, pacman)…"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 150
+msgid "Copy prompt to clipboard"
+msgstr "Zkopírovat výzvu do schránky"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 160
+msgid "Open editor / preview"
+msgstr "Otevřít editor / náhled"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+#, python-format
+msgid "Edit the <fill in> placeholders below, then press Copy. The chatbot will reply in %(lang)s."
+msgstr "Upravte zástupné symboly <fill in> níže a poté stiskněte Kopírovat. Chatbot odpoví v %(lang)s."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
+msgid "Reset"
+msgstr "Obnovit"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 261
+msgid "Restore the original template"
+msgstr "Obnovit původní šablonu"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+msgid "Copy"
+msgstr "Kopírovat"
+# 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
 msgid "No motherboard information available"
 msgstr "Žádné informace o základní desce nejsou k dispozici."
@@ -968,10 +1027,6 @@ msgstr "IPv4"
 msgid "IPv6"
 msgstr "IPv6"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-msgid "Copy"
-msgstr "Kopírovat"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 241
 #, python-brace-format
 msgid "Virtual Networks ({count})"
@@ -1511,6 +1566,363 @@ msgstr "Příkaz pkexec není na tomto systému k dispozici."
 msgid "OK"
 msgstr "OK"
 # 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 59
+msgid "=== AI Support Context ==="
+msgstr "=== Kontext AI podpory ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 63
+msgid "Paste this below your problem description."
+msgstr "Vložte to pod popis vašeho problému."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 91
+msgid "[System]"
+msgstr "[System]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 118
+msgid "[Hardware]"
+msgstr "[Hardware]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 143
+msgid "GPU:"
+msgstr "GPU:"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 143
+#, python-format
+msgid "GPU#%d:"
+msgstr "GPU#%d:"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 217
+msgid "[Network & Bluetooth]"
+msgstr "[Síť a Bluetooth]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 248
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 250
+msgid "Ethernet"
+msgstr "Ethernet"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 291
+msgid "[Drivers]"
+msgstr "[Ovladače]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 307
+msgid "[PCI Bus — lspci]"
+msgstr "[PCI sběrnice — lspci]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 311
+msgid "[USB Bus — lsusb]"
+msgstr "[USB sběrnice — lsusb]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 325
+msgid "[Recent Errors — dmesg]"
+msgstr "[Poslední chyby — dmesg]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 330
+msgid "[Recent Errors — journal]"
+msgstr "[Recent Errors — deník]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 42
+msgid "Network & Bluetooth"
+msgstr "Síť a Bluetooth"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 43
+msgid "Wi-Fi, Ethernet, Bluetooth pairing/audio."
+msgstr "Wi-Fi, Ethernet, párování Bluetooth/audio."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 47
+msgid "Graphics & Display"
+msgstr "Grafika a zobrazení"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 48
+msgid "GPU drivers, hybrid graphics, scaling, multi-monitor."
+msgstr "Ovladače GPU, hybridní grafika, škálování, více monitorů."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 53
+msgid "Sound, microphone, PipeWire/PulseAudio."
+msgstr "Zvuk, mikrofon, PipeWire/PulseAudio."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 57
+msgid "Power & Thermals"
+msgstr "Napájení a teplota"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 58
+msgid "Suspend/hibernate, battery, fan, overheating."
+msgstr "Pozastavit/hibernovat, baterie, ventilátor, přehřívání."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 62
+msgid "System & Packages"
+msgstr "Systém a balíčky"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 63
+msgid "Boot, package manager, broken updates, rollback, disk space."
+msgstr "Boot, správce balíčků, nefunkční aktualizace, návrat zpět, diskový prostor."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 67
+msgid "Peripherals"
+msgstr "Periferie"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 68
+msgid "Webcam, touchpad, printer, scanner, USB."
+msgstr "Webkamera, touchpad, tiskárna, skener, USB."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 72
+msgid "Performance"
+msgstr "Výkon"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 73
+msgid "Lag, high load, slow boot, wake-up sources."
+msgstr "Zpoždění, vysoké zatížení, pomalé spuštění, zdroje probuzení."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 77
+msgid "Other"
+msgstr "Jiné"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 78
+msgid "Apps, Flatpak, generic problem with full snapshot."
+msgstr "Aplikace, Flatpak, obecný problém s plným snímkem."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 281
+msgid "Wi-Fi unstable / drops"
+msgstr "Wi-Fi nestabilní / vypadává"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 282
+msgid "Disconnects, slow, missing networks, 5 GHz absent"
+msgstr "Odpojení, pomalé, chybějící sítě, 5 GHz chybí"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 298
+msgid "Wi-Fi gone after suspend"
+msgstr "Wi-Fi zmizelo po uspání"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 299
+msgid "NIC disappears until reboot after sleep/resume"
+msgstr "NIC zmizí až do restartu po spánku/obnovení"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 315
+msgid "Ethernet no link / slow"
+msgstr "Ethernet bez spojení / pomalé"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 316
+msgid "Cable connected but no IP, wrong speed, or down on boot"
+msgstr "Kabel připojen, ale žádná IP, špatná rychlost nebo vypnuto při spuštění"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 337
+msgid "Bluetooth audio cuts / mic missing"
+msgstr "Bluetooth audio se přerušuje / chybí mikrofon"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 338
+msgid "Headphone stutters, no A2DP, mic profile absent"
+msgstr "Sluchátka se trhají, chybí A2DP, profil mikrofonu chybí"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 355
+msgid "Bluetooth pairing / detection"
+msgstr "Párování / detekce Bluetooth"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 356
+msgid "Adapter missing, won't pair, won't reconnect"
+msgstr "Adaptér chybí, nebude spárován, nebude se znovu připojovat."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 383
+msgid "Hybrid GPU / wrong renderer"
+msgstr "Hybridní GPU / nesprávný renderer"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 384
+msgid "App uses iGPU, dGPU stays on, external monitor blank"
+msgstr "Aplikace používá iGPU, dGPU zůstává zapnuté, externí monitor je prázdný."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 400
+msgid "Tearing / flicker (Wayland or X11)"
+msgstr "Trhání / blikání (Wayland nebo X11)"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 401
+msgid "Visible tearing, black flashes, scroll judder"
+msgstr "Viditelné trhání, černé záblesky, trhání při rolování"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 417
+msgid "Fractional scaling / HiDPI"
+msgstr "Zlomkové měřítko / HiDPI"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 418
+msgid "Blurry apps, 60Hz cap, cursor flicker, XWayland tiny"
+msgstr "Rozmazané aplikace, limit 60Hz, blikání kurzoru, XWayland malé"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 437
+msgid "External monitor / refresh rate"
+msgstr "Externí monitor / obnovovací frekvence"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 438
+msgid "Not detected, stuck 60 Hz, no HDR, DP MST"
+msgstr "Není detekováno, zablokováno na 60 Hz, žádný HDR, DP MST"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 453
+msgid "Blurry / bad fonts"
+msgstr "Rozmazané / špatné písma"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 454
+msgid "Soft Wayland fonts, wrong subpixel, Electron blurry"
+msgstr "Měkké písmo Wayland, špatný subpixel, rozmazaný Electron"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 469
+msgid "VRR / FreeSync / G-Sync"
+msgstr "VRR / FreeSync / G-Sync"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 470
+msgid "Adaptive sync not engaging or flickering"
+msgstr "Adaptivní synchronizace se nezapíná nebo bliká."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 492
+msgid "No sound / wrong output"
+msgstr "Žádný zvuk / nesprávný výstup"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 493
+msgid "Silent speakers, HDMI silent, profile won't switch"
+msgstr "Tiché reproduktory, HDMI ticho, profil se nepřepne"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 509
+msgid "Microphone not working"
+msgstr "Mikrofon nefunguje"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 510
+msgid "No detection, low gain, app-specific mute"
+msgstr "Žádné detekce, nízké zesílení, specifické ztlumení aplikace"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 525
+msgid "Crackling / underrun"
+msgstr "Praskání / nedostatek dat"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 526
+msgid "Pops under load, USB DAC stutters, BT coexistence"
+msgstr "Pops při zatížení, USB DAC škube, BT koexistence"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 544
+msgid "Suspend wakes alone / black screen"
+msgstr "Suspend se probouzí sám / černá obrazovka"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 545
+msgid "Instant wake, won't sleep, blank on resume"
+msgstr "Okamžité probuzení, nebude spát, prázdné po obnovení"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 561
+msgid "Hibernate fails / no resume"
+msgstr "Hibernate selhalo / žádné obnovení"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 562
+msgid "Won't enter, IO error, or session lost on boot"
+msgstr "Nedojde k přihlášení, chyba IO nebo ztráta relace při spuštění"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 583
+msgid "Battery drain / charging"
+msgstr "Vybití baterie / nabíjení"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 584
+msgid "Fast drain, charge limit ignored, ppd vs TLP"
+msgstr "Rychlé vybíjení, limit nabíjení ignorován, ppd vs TLP"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 602
+msgid "Overheating / fan / throttle"
+msgstr "Přehřívání / ventilátor / omezování výkonu"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 603
+msgid "High temps, loud fan, shutdown under load"
+msgstr "Vysoké teploty, hlučný ventilátor, vypnutí pod zátěží"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 626
+msgid "pacman keyring / signature error"
+msgstr "chyba klíčového prstenu pacman / podpisu"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 627
+msgid "Invalid sig, unknown key, after long no-update"
+msgstr "Neplatný podpis, neznámý klíč, po dlouhé době bez aktualizace"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 647
+msgid "Dependency conflict / broken update"
+msgstr "Konflikt závislostí / poškozená aktualizace"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 648
+msgid "Refuses upgrade, partial state, held packages"
+msgstr "Odmítá aktualizaci, částečný stav, zadržené balíčky"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 664
+msgid "Boot fails / emergency shell / GRUB"
+msgstr "Boot selhání / nouzová skořepina / GRUB"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 665
+msgid "Won't boot, drops to shell, GRUB rescue, panic"
+msgstr "Nespustí se, přejde do shellu, GRUB záchrana, panika"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 685
+msgid "Broken after update / rollback"
+msgstr "Poškozeno po aktualizaci / návratu zpět"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 686
+msgid "Find regressing package, downgrade, snapper rollback"
+msgstr "Najděte balíček pro regresi, downgrade, obnovení pomocí Snapper."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 707
+msgid "Disk full / root partition"
+msgstr "Disk je plný / kořenová partition"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 708
+msgid "No space, package cache huge, snapshots eat space"
+msgstr "Žádný prostor, mezipaměť balíčků obrovská, snímky zabírají místo"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 730
+msgid "Webcam not detected / black"
+msgstr "Webkamera není detekována / černá"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 731
+msgid "No /dev/video, IPU6 stack needed, dark image"
+msgstr "Žádné /dev/video, potřebný zásobník IPU6, tmavý obraz"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 746
+msgid "Touchpad / gestures"
+msgstr "Touchpad / gestaure"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 747
+msgid "No gestures, wrong driver, palm rejection bad"
+msgstr "Žádné gesta, špatný ovladač, špatné odmítání dlaně."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 762
+msgid "Printer / scanner"
+msgstr "Tiskárna / skener"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 763
+msgid "Not detected, queue stuck, IPP-everywhere fails"
+msgstr "Není detekováno, fronta uvízla, IPP-všude selhalo"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 781
+msgid "System lag / high load"
+msgstr "Zpoždění systému / vysoké zatížení"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 782
+msgid "UI stutter, CPU peg, swap thrash, OOM"
+msgstr "UI trhání, CPU na maximu, swapování, OOM"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 797
+msgid "Slow boot"
+msgstr "Pomalé spuštění"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 798
+msgid "Long boot, service stalls, fsck every time"
+msgstr "Dlouhé spouštění, zpoždění služby, fsck pokaždé"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 818
+msgid "Flatpak / Snap app issue"
+msgstr "Problém s aplikací Flatpak / Snap"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 819
+msgid "Won't launch, no perms, wrong theme, no GPU"
+msgstr "Nespustí se, žádná oprávnění, špatná šablona, žádná GPU"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 836
+msgid "Generic issue (full snapshot)"
+msgstr "Obecný problém (úplný snímek)"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 837
+msgid "Anything not covered — includes full report"
+msgstr "Cokoli, co není pokryto — zahrnuje úplnou zprávu"
+# 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
 "View detailed hardware information and share diagnostic reports.\n"
@@ -1559,6 +1971,23 @@ msgstr "Vygenerováno:"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 59
 msgid "Visit BigLinux website"
 msgstr "Navštivte webové stránky BigLinux"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
+#, python-format
+msgid ""
+"%(n)d ready-made prompts for common Linux desktop issues. Open the list, pick one, click Copy, and "
+"paste into ChatGPT / Claude / Gemini after your problem description. Each prompt embeds the "
+"relevant diagnostic outputs already collected from this machine and asks the chatbot to reply in "
+"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+msgstr ""
+"%(n)d hotových výzev pro běžné problémy s Linux desktopem. Otevřete seznam, vyberte jednu, klikněte "
+"na Kopírovat a vložte do ChatGPT / Claude / Gemini po popisu vašeho problému. Každá výzva obsahuje "
+"relevantní diagnostické výstupy již shromážděné z tohoto stroje a žádá chatbot, aby odpověděl v "
+"%(lang)s. Citlivá data (MAC, IP, UUID, sériové číslo, název hostitele) jsou redigována."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+msgid "Copied"
+msgstr "Zkopírováno"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"

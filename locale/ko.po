@@ -243,6 +243,63 @@ msgstr "최소 전압"
 msgid "Serial"
 msgstr "일련번호"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 47
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1450
+#, python-format
+msgid "Show prompt list (%d available)"
+msgstr "프롬프트 목록 표시 (%d 사용 가능)"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 77
+msgid "AI Help — Ready Prompts"
+msgstr "AI 도움말 — 준비된 프롬프트"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
+#, python-format
+msgid ""
+"%(n)d ready-made prompts for the Linux desktop issues people actually report — Wi-Fi, hybrid GPU, "
+"suspend, Bluetooth audio, broken updates, and more. Click a row to review, edit the <fill in> "
+"placeholders, then copy. Each prompt asks the chatbot to reply in your system language (%(lang)s) "
+"and lists the diagnostic angles so answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
+"hostname) is redacted before injection."
+msgstr ""
+"리눅스 데스크탑 문제에 대해 사람들이 실제로 보고하는 준비된 프롬프트 %(n)d개 — Wi-Fi, 하이브리드 GPU, 절전, 블루투스 오디오, 손상된 업데이트 등. 행을 클릭하여 "
+"검토하고 <fill in> 자리 표시자를 편집한 다음 복사하십시오. 각 프롬프트는 챗봇에게 시스템 언어(%(lang)s)로 응답하도록 요청하며, 진단 각도를 나열하여 답변이 "
+"집중되도록 합니다. 민감한 데이터(MAC, IP, 일련 번호, UUID, 호스트 이름)는 주입 전에 삭제됩니다."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 104
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1447
+msgid "Filter prompts (e.g. wifi, suspend, nvidia, pacman)…"
+msgstr "프롬프트 필터(예: wifi, 일시 중지, nvidia, pacman)…"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 150
+msgid "Copy prompt to clipboard"
+msgstr "클립보드에 프롬프트 복사"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 160
+msgid "Open editor / preview"
+msgstr "편집기 / 미리보기 열기"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+#, python-format
+msgid "Edit the <fill in> placeholders below, then press Copy. The chatbot will reply in %(lang)s."
+msgstr "아래의 <fill in> 자리 표시자를 편집한 후 복사 버튼을 누르세요. 챗봇은 %(lang)s로 응답할 것입니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
+msgid "Reset"
+msgstr "재설정"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 261
+msgid "Restore the original template"
+msgstr "원래 템플릿 복원"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+msgid "Copy"
+msgstr "복사"
+# 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
 msgid "No motherboard information available"
 msgstr "마더보드 정보가 없습니다."
@@ -957,10 +1014,6 @@ msgstr "IPv4"
 msgid "IPv6"
 msgstr "IPv6"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-msgid "Copy"
-msgstr "복사"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 241
 #, python-brace-format
 msgid "Virtual Networks ({count})"
@@ -1496,6 +1549,363 @@ msgstr "이 시스템에서는 pkexec 명령을 사용할 수 없습니다."
 msgid "OK"
 msgstr "알겠습니다."
 # 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 59
+msgid "=== AI Support Context ==="
+msgstr "=== AI 지원 컨텍스트 ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 63
+msgid "Paste this below your problem description."
+msgstr "문제 설명 아래에 이것을 붙여넣으세요."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 91
+msgid "[System]"
+msgstr "[시스템]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 118
+msgid "[Hardware]"
+msgstr "[하드웨어]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 143
+msgid "GPU:"
+msgstr "GPU:"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 143
+#, python-format
+msgid "GPU#%d:"
+msgstr "GPU#%d:"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 217
+msgid "[Network & Bluetooth]"
+msgstr "[네트워크 및 블루투스]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 248
+msgid "Wi-Fi"
+msgstr "와이파이"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 250
+msgid "Ethernet"
+msgstr "이더넷"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 291
+msgid "[Drivers]"
+msgstr "[드라이버]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 307
+msgid "[PCI Bus — lspci]"
+msgstr "[PCI 버스 — lspci]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 311
+msgid "[USB Bus — lsusb]"
+msgstr "[USB 버스 — lsusb]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 325
+msgid "[Recent Errors — dmesg]"
+msgstr "[최근 오류 — dmesg]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 330
+msgid "[Recent Errors — journal]"
+msgstr "[최근 오류 — 저널]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 42
+msgid "Network & Bluetooth"
+msgstr "네트워크 및 블루투스"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 43
+msgid "Wi-Fi, Ethernet, Bluetooth pairing/audio."
+msgstr "Wi-Fi, 이더넷, 블루투스 페어링/오디오."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 47
+msgid "Graphics & Display"
+msgstr "그래픽 및 디스플레이"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 48
+msgid "GPU drivers, hybrid graphics, scaling, multi-monitor."
+msgstr "GPU 드라이버, 하이브리드 그래픽, 스케일링, 다중 모니터."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 53
+msgid "Sound, microphone, PipeWire/PulseAudio."
+msgstr "사운드, 마이크, 파이프와이어/펄스오디오."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 57
+msgid "Power & Thermals"
+msgstr "전원 및 열 관리"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 58
+msgid "Suspend/hibernate, battery, fan, overheating."
+msgstr "일시 중지/최대 절전, 배터리, 팬, 과열."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 62
+msgid "System & Packages"
+msgstr "시스템 및 패키지"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 63
+msgid "Boot, package manager, broken updates, rollback, disk space."
+msgstr "부팅, 패키지 관리자, 손상된 업데이트, 롤백, 디스크 공간."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 67
+msgid "Peripherals"
+msgstr "주변기기"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 68
+msgid "Webcam, touchpad, printer, scanner, USB."
+msgstr "웹캠, 터치패드, 프린터, 스캐너, USB."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 72
+msgid "Performance"
+msgstr "성능"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 73
+msgid "Lag, high load, slow boot, wake-up sources."
+msgstr "지연, 높은 부하, 느린 부팅, 웨이크업 소스."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 77
+msgid "Other"
+msgstr "기타"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 78
+msgid "Apps, Flatpak, generic problem with full snapshot."
+msgstr "앱, Flatpak, 전체 스냅샷과 관련된 일반적인 문제."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 281
+msgid "Wi-Fi unstable / drops"
+msgstr "Wi-Fi 불안정 / 끊김"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 282
+msgid "Disconnects, slow, missing networks, 5 GHz absent"
+msgstr "연결 끊김, 느림, 누락된 네트워크, 5GHz 없음"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 298
+msgid "Wi-Fi gone after suspend"
+msgstr "일시 중단 후 Wi-Fi가 사라짐"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 299
+msgid "NIC disappears until reboot after sleep/resume"
+msgstr "슬립/재개 후 NIC가 재부팅할 때까지 사라집니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 315
+msgid "Ethernet no link / slow"
+msgstr "이더넷 링크 없음 / 느림"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 316
+msgid "Cable connected but no IP, wrong speed, or down on boot"
+msgstr "케이블이 연결되었지만 IP가 없거나, 속도가 잘못되었거나, 부팅 시 다운됨"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 337
+msgid "Bluetooth audio cuts / mic missing"
+msgstr "블루투스 오디오 끊김 / 마이크 없음"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 338
+msgid "Headphone stutters, no A2DP, mic profile absent"
+msgstr "헤드폰이 끊김, A2DP 없음, 마이크 프로필 없음"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 355
+msgid "Bluetooth pairing / detection"
+msgstr "블루투스 페어링 / 탐지"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 356
+msgid "Adapter missing, won't pair, won't reconnect"
+msgstr "어댑터가 누락되어 연결할 수 없고, 재연결할 수 없습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 383
+msgid "Hybrid GPU / wrong renderer"
+msgstr "하이브리드 GPU / 잘못된 렌더러"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 384
+msgid "App uses iGPU, dGPU stays on, external monitor blank"
+msgstr "앱이 iGPU를 사용하고, dGPU는 켜져 있으며, 외부 모니터는 비어 있습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 400
+msgid "Tearing / flicker (Wayland or X11)"
+msgstr "찢김 / 깜박임 (Wayland 또는 X11)"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 401
+msgid "Visible tearing, black flashes, scroll judder"
+msgstr "가시적인 찢어짐, 검은 플래시, 스크롤 떨림"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 417
+msgid "Fractional scaling / HiDPI"
+msgstr "분수 스케일링 / HiDPI"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 418
+msgid "Blurry apps, 60Hz cap, cursor flicker, XWayland tiny"
+msgstr "흐릿한 앱, 60Hz 제한, 커서 깜박임, XWayland 작음"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 437
+msgid "External monitor / refresh rate"
+msgstr "외부 모니터 / 새로 고침 빈도"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 438
+msgid "Not detected, stuck 60 Hz, no HDR, DP MST"
+msgstr "감지되지 않음, 60Hz 고정, HDR 없음, DP MST"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 453
+msgid "Blurry / bad fonts"
+msgstr "흐릿한 / 나쁜 글꼴"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 454
+msgid "Soft Wayland fonts, wrong subpixel, Electron blurry"
+msgstr "소프트 웨이랜드 글꼴, 잘못된 서브픽셀, 일렉트론 흐림"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 469
+msgid "VRR / FreeSync / G-Sync"
+msgstr "VRR / FreeSync / G-Sync"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 470
+msgid "Adaptive sync not engaging or flickering"
+msgstr "적응형 동기화가 작동하지 않거나 깜박임이 발생합니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 492
+msgid "No sound / wrong output"
+msgstr "소리 없음 / 잘못된 출력"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 493
+msgid "Silent speakers, HDMI silent, profile won't switch"
+msgstr "무음 스피커, HDMI 무음, 프로필이 전환되지 않음"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 509
+msgid "Microphone not working"
+msgstr "마이크가 작동하지 않음"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 510
+msgid "No detection, low gain, app-specific mute"
+msgstr "탐지 없음, 낮은 이득, 앱 전용 음소거"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 525
+msgid "Crackling / underrun"
+msgstr "지터 / 언더런"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 526
+msgid "Pops under load, USB DAC stutters, BT coexistence"
+msgstr "부하 시 팝 소음, USB DAC 버벅임, BT 공존"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 544
+msgid "Suspend wakes alone / black screen"
+msgstr "일시 중단 시 혼자 깨어남 / 검은 화면"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 545
+msgid "Instant wake, won't sleep, blank on resume"
+msgstr "즉각적인 깨우기, 잠자지 않음, 재개 시 빈 화면"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 561
+msgid "Hibernate fails / no resume"
+msgstr "하이버네이트 실패 / 복원 없음"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 562
+msgid "Won't enter, IO error, or session lost on boot"
+msgstr "부팅 시 입력 불가, IO 오류 또는 세션 손실"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 583
+msgid "Battery drain / charging"
+msgstr "배터리 소모 / 충전"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 584
+msgid "Fast drain, charge limit ignored, ppd vs TLP"
+msgstr "빠른 방전, 충전 한도 무시, ppd 대 TLP"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 602
+msgid "Overheating / fan / throttle"
+msgstr "과열 / 팬 / 스로틀"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 603
+msgid "High temps, loud fan, shutdown under load"
+msgstr "고온, 시끄러운 팬, 부하 시 종료"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 626
+msgid "pacman keyring / signature error"
+msgstr "pacman 키링 / 서명 오류"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 627
+msgid "Invalid sig, unknown key, after long no-update"
+msgstr "유효하지 않은 서명, 알 수 없는 키, 오랜 무업데이트 후"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 647
+msgid "Dependency conflict / broken update"
+msgstr "종속성 충돌 / 손상된 업데이트"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 648
+msgid "Refuses upgrade, partial state, held packages"
+msgstr "업그레이드를 거부함, 부분 상태, 보류된 패키지"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 664
+msgid "Boot fails / emergency shell / GRUB"
+msgstr "부팅 실패 / 긴급 셸 / GRUB"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 665
+msgid "Won't boot, drops to shell, GRUB rescue, panic"
+msgstr "부팅되지 않음, 셸로 떨어짐, GRUB 복구, 패닉"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 685
+msgid "Broken after update / rollback"
+msgstr "업데이트 / 롤백 후 손상됨"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 686
+msgid "Find regressing package, downgrade, snapper rollback"
+msgstr "회귀 패키지 찾기, 다운그레이드, 스냅퍼 롤백"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 707
+msgid "Disk full / root partition"
+msgstr "디스크가 가득 찼습니다 / 루트 파티션"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 708
+msgid "No space, package cache huge, snapshots eat space"
+msgstr "공간 부족, 패키지 캐시가 큼, 스냅샷이 공간을 차지함"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 730
+msgid "Webcam not detected / black"
+msgstr "웹캠이 감지되지 않음 / 검은 화면"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 731
+msgid "No /dev/video, IPU6 stack needed, dark image"
+msgstr "No /dev/video, IPU6 스택 필요, 어두운 이미지"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 746
+msgid "Touchpad / gestures"
+msgstr "터치패드 / 제스처"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 747
+msgid "No gestures, wrong driver, palm rejection bad"
+msgstr "제스처 없음, 잘못된 드라이버, 손바닥 거부 기능 불량"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 762
+msgid "Printer / scanner"
+msgstr "프린터 / 스캐너"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 763
+msgid "Not detected, queue stuck, IPP-everywhere fails"
+msgstr "감지되지 않음, 대기열 정체, IPP-모든 곳에서 실패"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 781
+msgid "System lag / high load"
+msgstr "시스템 지연 / 높은 부하"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 782
+msgid "UI stutter, CPU peg, swap thrash, OOM"
+msgstr "UI 지연, CPU 고정, 스왑 스래시, OOM"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 797
+msgid "Slow boot"
+msgstr "느린 부팅"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 798
+msgid "Long boot, service stalls, fsck every time"
+msgstr "긴 부팅, 서비스 중단, 매번 fsck"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 818
+msgid "Flatpak / Snap app issue"
+msgstr "Flatpak / Snap 앱 문제"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 819
+msgid "Won't launch, no perms, wrong theme, no GPU"
+msgstr "실행되지 않음, 권한 없음, 잘못된 테마, GPU 없음"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 836
+msgid "Generic issue (full snapshot)"
+msgstr "일반적인 문제 (전체 스냅샷)"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 837
+msgid "Anything not covered — includes full report"
+msgstr "포함되지 않은 모든 사항 - 전체 보고서 포함"
+# 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
 "View detailed hardware information and share diagnostic reports.\n"
@@ -1541,6 +1951,22 @@ msgstr "생성됨:"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 59
 msgid "Visit BigLinux website"
 msgstr "빅리눅스 웹사이트 방문하기"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
+#, python-format
+msgid ""
+"%(n)d ready-made prompts for common Linux desktop issues. Open the list, pick one, click Copy, and "
+"paste into ChatGPT / Claude / Gemini after your problem description. Each prompt embeds the "
+"relevant diagnostic outputs already collected from this machine and asks the chatbot to reply in "
+"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+msgstr ""
+"%(n)d 준비된 프롬프트가 일반 Linux 데스크탑 문제를 위해 제공됩니다. 목록을 열고 하나를 선택한 후 복사 클릭하고 문제 설명 후 ChatGPT / Claude / "
+"Gemini에 붙여넣기 하세요. 각 프롬프트는 이 머신에서 이미 수집된 관련 진단 출력을 포함하고 있으며 챗봇에게 %(lang)s로 응답하도록 요청합니다. 민감한 데이터(MAC, "
+"IP, UUID, 시리얼, 호스트 이름)는 삭제되었습니다."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+msgid "Copied"
+msgstr "복사됨"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"

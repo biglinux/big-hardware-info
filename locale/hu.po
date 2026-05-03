@@ -277,6 +277,68 @@ msgstr "Min feszültség"
 msgid "Serial"
 msgstr "Sorozatszám"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 47
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1450
+#, python-format
+msgid "Show prompt list (%d available)"
+msgstr "Mutasd a prompt listát (%d elérhető)"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 77
+msgid "AI Help — Ready Prompts"
+msgstr "AI Segítség — Kész Kérdések"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
+#, python-format
+msgid ""
+"%(n)d ready-made prompts for the Linux desktop issues people actually report — Wi-Fi, hybrid GPU, "
+"suspend, Bluetooth audio, broken updates, and more. Click a row to review, edit the <fill in> "
+"placeholders, then copy. Each prompt asks the chatbot to reply in your system language (%(lang)s) "
+"and lists the diagnostic angles so answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
+"hostname) is redacted before injection."
+msgstr ""
+"%(n)d kész prompt a Linux asztali problémákhoz, amelyeket az emberek valóban jelentettek — Wi-Fi, "
+"hibrid GPU, felfüggesztés, Bluetooth audio, törött frissítések és még sok más. Kattintson egy sorra "
+"a felülvizsgálathoz, szerkessze a <fill in> helyettesítőket, majd másolja. Minden prompt arra kéri "
+"a chatbotot, hogy válaszoljon az Ön rendszer nyelvén (%(lang)s), és felsorolja a diagnosztikai "
+"szempontokat, hogy a válaszok fókuszáltak maradjanak. Az érzékeny adatokat (MAC, IP, sorozatszám, "
+"UUID, hosztnév) eltávolítják az injekció előtt."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 104
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1447
+msgid "Filter prompts (e.g. wifi, suspend, nvidia, pacman)…"
+msgstr "Szűrje a parancsokat (pl. wifi, felfüggesztés, nvidia, pacman)…"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 150
+msgid "Copy prompt to clipboard"
+msgstr "Másolás a vágólapra"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 160
+msgid "Open editor / preview"
+msgstr "Szerkesztő / előnézet megnyitása"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+#, python-format
+msgid "Edit the <fill in> placeholders below, then press Copy. The chatbot will reply in %(lang)s."
+msgstr ""
+"Szerkeszd a <fill in> helyőrzőket alább, majd nyomj a Másolás gombra. A chatbot válaszolni fog "
+"%(lang)s nyelven."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
+msgid "Reset"
+msgstr "Visszaállítás"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 261
+msgid "Restore the original template"
+msgstr "Állítsa vissza az eredeti sablont."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+msgid "Copy"
+msgstr "Másolás"
+# 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
 msgid "No motherboard information available"
 msgstr "Nincs elérhető alaplap-információ."
@@ -993,10 +1055,6 @@ msgstr "IPv4"
 msgid "IPv6"
 msgstr "IPv6"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-msgid "Copy"
-msgstr "Másolás"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 241
 #, python-brace-format
 msgid "Virtual Networks ({count})"
@@ -1534,6 +1592,363 @@ msgstr "A pkexec parancs nem elérhető ezen a rendszeren."
 msgid "OK"
 msgstr "Rendben"
 # 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 59
+msgid "=== AI Support Context ==="
+msgstr "=== AI Támogatási Kontextus ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 63
+msgid "Paste this below your problem description."
+msgstr "Illessze be ezt a probléma leírása alá."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 91
+msgid "[System]"
+msgstr "[Rendszer]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 118
+msgid "[Hardware]"
+msgstr "[Hardver]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 143
+msgid "GPU:"
+msgstr "GPU:"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 143
+#, python-format
+msgid "GPU#%d:"
+msgstr "GPU#%d:"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 217
+msgid "[Network & Bluetooth]"
+msgstr "[Hálózat és Bluetooth]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 248
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 250
+msgid "Ethernet"
+msgstr "Ethernet"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 291
+msgid "[Drivers]"
+msgstr "[Illesztők]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 307
+msgid "[PCI Bus — lspci]"
+msgstr "[PCI Bus — lspci]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 311
+msgid "[USB Bus — lsusb]"
+msgstr "[USB Bus — lsusb]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 325
+msgid "[Recent Errors — dmesg]"
+msgstr "[Legutóbbi hibák — dmesg]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 330
+msgid "[Recent Errors — journal]"
+msgstr "[Legutóbbi hibák — napló]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 42
+msgid "Network & Bluetooth"
+msgstr "Hálózat és Bluetooth"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 43
+msgid "Wi-Fi, Ethernet, Bluetooth pairing/audio."
+msgstr "Wi-Fi, Ethernet, Bluetooth párosítás/hang."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 47
+msgid "Graphics & Display"
+msgstr "Grafika és Kijelző"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 48
+msgid "GPU drivers, hybrid graphics, scaling, multi-monitor."
+msgstr "GPU illesztőprogramok, hibrid grafika, méretezés, többmonitoros."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 53
+msgid "Sound, microphone, PipeWire/PulseAudio."
+msgstr "Hang, mikrofon, PipeWire/PulseAudio."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 57
+msgid "Power & Thermals"
+msgstr "Teljesítmény és Hőmérsékletek"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 58
+msgid "Suspend/hibernate, battery, fan, overheating."
+msgstr "Felfüggesztés/hibernálás, akkumulátor, ventilátor, túlmelegedés."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 62
+msgid "System & Packages"
+msgstr "Rendszerek és Csomagok"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 63
+msgid "Boot, package manager, broken updates, rollback, disk space."
+msgstr "Indítás, csomagkezelő, sérült frissítések, visszaállítás, lemezterület."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 67
+msgid "Peripherals"
+msgstr "Perifériák"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 68
+msgid "Webcam, touchpad, printer, scanner, USB."
+msgstr "Webkamera, érintőpad, nyomtató, szkenner, USB."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 72
+msgid "Performance"
+msgstr "Teljesítmény"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 73
+msgid "Lag, high load, slow boot, wake-up sources."
+msgstr "Lassú működés, magas terhelés, lassú indítás, ébresztési források."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 77
+msgid "Other"
+msgstr "Más"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 78
+msgid "Apps, Flatpak, generic problem with full snapshot."
+msgstr "Alkalmazások, Flatpak, általános probléma a teljes pillanatképpel."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 281
+msgid "Wi-Fi unstable / drops"
+msgstr "Wi-Fi instabil / megszakad"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 282
+msgid "Disconnects, slow, missing networks, 5 GHz absent"
+msgstr "Kapcsolódások megszakadnak, lassú, hiányzó hálózatok, 5 GHz hiányzik"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 298
+msgid "Wi-Fi gone after suspend"
+msgstr "A Wi-Fi eltűnt a felfüggesztés után"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 299
+msgid "NIC disappears until reboot after sleep/resume"
+msgstr "A NIC eltűnik újraindításig alvás/folytatás után."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 315
+msgid "Ethernet no link / slow"
+msgstr "Ethernet nincs kapcsolat / lassú"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 316
+msgid "Cable connected but no IP, wrong speed, or down on boot"
+msgstr "Kábel csatlakoztatva, de nincs IP, hibás sebesség, vagy leállás indításkor."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 337
+msgid "Bluetooth audio cuts / mic missing"
+msgstr "Bluetooth audio megszakad / mikrofon hiányzik"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 338
+msgid "Headphone stutters, no A2DP, mic profile absent"
+msgstr "Füles stuttering, nincs A2DP, mikrofon profil hiányzik"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 355
+msgid "Bluetooth pairing / detection"
+msgstr "Bluetooth párosítás / észlelés"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 356
+msgid "Adapter missing, won't pair, won't reconnect"
+msgstr "Adapter hiányzik, nem tud párosítani, nem tud újracsatlakozni"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 383
+msgid "Hybrid GPU / wrong renderer"
+msgstr "Hibrid GPU / hibás renderelő"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 384
+msgid "App uses iGPU, dGPU stays on, external monitor blank"
+msgstr "Az alkalmazás iGPU-t használ, a dGPU bekapcsolva marad, a külső monitor üres."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 400
+msgid "Tearing / flicker (Wayland or X11)"
+msgstr "Tépés / villogás (Wayland vagy X11)"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 401
+msgid "Visible tearing, black flashes, scroll judder"
+msgstr "Látható szakadás, fekete villanások, görgetési remegés"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 417
+msgid "Fractional scaling / HiDPI"
+msgstr "Törtrészes skálázás / HiDPI"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 418
+msgid "Blurry apps, 60Hz cap, cursor flicker, XWayland tiny"
+msgstr "Homályos alkalmazások, 60Hz korlát, kurzor villogás, XWayland kicsi"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 437
+msgid "External monitor / refresh rate"
+msgstr "Külső monitor / frissítési gyakoriság"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 438
+msgid "Not detected, stuck 60 Hz, no HDR, DP MST"
+msgstr "Nem észlelve, 60 Hz-re ragadt, nincs HDR, DP MST"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 453
+msgid "Blurry / bad fonts"
+msgstr "Elmosódott / rossz betűtípusok"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 454
+msgid "Soft Wayland fonts, wrong subpixel, Electron blurry"
+msgstr "Puha Wayland betűtípusok, hibás alpixel, Electron elmosódott"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 469
+msgid "VRR / FreeSync / G-Sync"
+msgstr "VRR / FreeSync / G-Sync"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 470
+msgid "Adaptive sync not engaging or flickering"
+msgstr "Az adaptív szinkronizálás nem aktiválódik vagy villog."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 492
+msgid "No sound / wrong output"
+msgstr "Nincs hang / hibás kimenet"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 493
+msgid "Silent speakers, HDMI silent, profile won't switch"
+msgstr "Némák hangszórók, HDMI néma, a profil nem vált."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 509
+msgid "Microphone not working"
+msgstr "A mikrofon nem működik"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 510
+msgid "No detection, low gain, app-specific mute"
+msgstr "Nincs észlelés, alacsony erősítés, alkalmazás-specifikus némítás"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 525
+msgid "Crackling / underrun"
+msgstr "Recsegés / alulcsordulás"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 526
+msgid "Pops under load, USB DAC stutters, BT coexistence"
+msgstr "Zaj terhelés alatt, USB DAC akadozik, BT együttélés"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 544
+msgid "Suspend wakes alone / black screen"
+msgstr "Felfüggesztés egyedül ébred / fekete képernyő"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 545
+msgid "Instant wake, won't sleep, blank on resume"
+msgstr "Azonnali ébredés, nem alszik, üres a folytatáskor."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 561
+msgid "Hibernate fails / no resume"
+msgstr "A hibernálás nem sikerült / nincs folytatás"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 562
+msgid "Won't enter, IO error, or session lost on boot"
+msgstr "Nem lép be, IO hiba, vagy session elveszett a rendszerindításkor"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 583
+msgid "Battery drain / charging"
+msgstr "Akkumulátor lemerülés / töltés"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 584
+msgid "Fast drain, charge limit ignored, ppd vs TLP"
+msgstr "Gyors lemerülés, töltési korlát figyelmen kívül hagyva, ppd vs TLP"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 602
+msgid "Overheating / fan / throttle"
+msgstr "Túlmelegedés / ventilátor / teljesítménykorlátozás"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 603
+msgid "High temps, loud fan, shutdown under load"
+msgstr "Magas hőmérsékletek, hangos ventilátor, leállás terhelés alatt"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 626
+msgid "pacman keyring / signature error"
+msgstr "pacman kulcsgyűjtemény / aláírási hiba"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 627
+msgid "Invalid sig, unknown key, after long no-update"
+msgstr "Érvénytelen aláírás, ismeretlen kulcs, hosszú frissítés nélküli időszak után"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 647
+msgid "Dependency conflict / broken update"
+msgstr "Függőségi ütközés / megszakadt frissítés"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 648
+msgid "Refuses upgrade, partial state, held packages"
+msgstr "Frissítés elutasítva, részleges állapot, visszatartott csomagok"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 664
+msgid "Boot fails / emergency shell / GRUB"
+msgstr "A rendszerindítás nem sikerült / vészhelyzeti héj / GRUB"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 665
+msgid "Won't boot, drops to shell, GRUB rescue, panic"
+msgstr "Nem indul el, shell-re ugrik, GRUB helyreállítás, pánik"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 685
+msgid "Broken after update / rollback"
+msgstr "Frissítés / visszaállítás után megszakadt"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 686
+msgid "Find regressing package, downgrade, snapper rollback"
+msgstr "Keresd meg a visszafordító csomagot, visszaállítás, snapper visszaállítás."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 707
+msgid "Disk full / root partition"
+msgstr "Lemez tele / gyökérpartíció"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 708
+msgid "No space, package cache huge, snapshots eat space"
+msgstr "Nincs hely, a csomag gyorsítótár hatalmas, a pillanatképek helyet foglalnak."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 730
+msgid "Webcam not detected / black"
+msgstr "Webkamera nem észlelhető / fekete"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 731
+msgid "No /dev/video, IPU6 stack needed, dark image"
+msgstr "Nincs /dev/video, IPU6 verem szükséges, sötét kép"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 746
+msgid "Touchpad / gestures"
+msgstr "Érintőpad / gesztusok"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 747
+msgid "No gestures, wrong driver, palm rejection bad"
+msgstr "Nincsenek gesztusok, hibás illesztőprogram, rossz tenyérelutasítás."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 762
+msgid "Printer / scanner"
+msgstr "Nyomtató / szkenner"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 763
+msgid "Not detected, queue stuck, IPP-everywhere fails"
+msgstr "Nem észlelve, a sor megakadt, az IPP-mindenhol hibát jelez."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 781
+msgid "System lag / high load"
+msgstr "Rendszer késlekedés / magas terhelés"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 782
+msgid "UI stutter, CPU peg, swap thrash, OOM"
+msgstr "UI akadozás, CPU terhelés, swap ki-be kapcsolás, OOM"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 797
+msgid "Slow boot"
+msgstr "Lassú indítás"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 798
+msgid "Long boot, service stalls, fsck every time"
+msgstr "Hosszú indítás, szolgáltatás leáll, fsck minden alkalommal"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 818
+msgid "Flatpak / Snap app issue"
+msgstr "Flatpak / Snap alkalmazás probléma"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 819
+msgid "Won't launch, no perms, wrong theme, no GPU"
+msgstr "Nem indul, nincs jogosultság, rossz téma, nincs GPU"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 836
+msgid "Generic issue (full snapshot)"
+msgstr "Általános probléma (teljes pillanatkép)"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 837
+msgid "Anything not covered — includes full report"
+msgstr "Minden, ami nincs lefedve — tartalmazza a teljes jelentést"
+# 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
 "View detailed hardware information and share diagnostic reports.\n"
@@ -1582,6 +1997,24 @@ msgstr "Generált:"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 59
 msgid "Visit BigLinux website"
 msgstr "Látogasson el a BigLinux weboldalára"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
+#, python-format
+msgid ""
+"%(n)d ready-made prompts for common Linux desktop issues. Open the list, pick one, click Copy, and "
+"paste into ChatGPT / Claude / Gemini after your problem description. Each prompt embeds the "
+"relevant diagnostic outputs already collected from this machine and asks the chatbot to reply in "
+"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+msgstr ""
+"%(n)d kész prompt a gyakori Linux asztali problémákhoz. Nyisd meg a listát, válassz egyet, kattints "
+"a Másolásra, és illeszd be a ChatGPT / Claude / Gemini-be a problémád leírása után. Minden prompt "
+"tartalmazza a már összegyűjtött releváns diagnosztikai kimeneteket erről a gépről, és arra kéri a "
+"chatbotot, hogy válaszoljon %(lang)s nyelven. Az érzékeny adatok (MAC, IP, UUID, sorozatszám, "
+"hosztnév) eltávolításra kerültek."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+msgid "Copied"
+msgstr "Másolva"
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"

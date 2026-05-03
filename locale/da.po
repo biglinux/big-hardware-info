@@ -263,6 +263,67 @@ msgstr "Min spænding"
 msgid "Serial"
 msgstr "Seriel"
 # 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 47
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1450
+#, python-format
+msgid "Show prompt list (%d available)"
+msgstr "Vis liste over prompts (%d tilgængelige)"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 77
+msgid "AI Help — Ready Prompts"
+msgstr "AI Hjælp — Klare Prompter"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
+#, python-format
+msgid ""
+"%(n)d ready-made prompts for the Linux desktop issues people actually report — Wi-Fi, hybrid GPU, "
+"suspend, Bluetooth audio, broken updates, and more. Click a row to review, edit the <fill in> "
+"placeholders, then copy. Each prompt asks the chatbot to reply in your system language (%(lang)s) "
+"and lists the diagnostic angles so answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
+"hostname) is redacted before injection."
+msgstr ""
+"%(n)d færdiglavede prompts til Linux-desktopproblemer, som folk faktisk rapporterer — Wi-Fi, hybrid "
+"GPU, suspendere, Bluetooth-lyd, ødelagte opdateringer og mere. Klik på en række for at gennemgå, "
+"redigere <fill in> pladsholdere, og kopier derefter. Hver prompt beder chatbotten om at svare på "
+"dit system sprog (%(lang)s) og opregner de diagnostiske vinkler, så svarene forbliver fokuserede. "
+"Følsomme data (MAC, IP, serienummer, UUID, værtsnavn) er redigeret før injektion."
+# 
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 104
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1447
+msgid "Filter prompts (e.g. wifi, suspend, nvidia, pacman)…"
+msgstr "Filtrer prompts (f.eks. wifi, suspendere, nvidia, pacman)…"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 150
+msgid "Copy prompt to clipboard"
+msgstr "Kopier prompt til udklipsholder"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 160
+msgid "Open editor / preview"
+msgstr "Åbn editor / forhåndsvisning"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+#, python-format
+msgid "Edit the <fill in> placeholders below, then press Copy. The chatbot will reply in %(lang)s."
+msgstr ""
+"Rediger <fill in> pladsholderne nedenfor, og tryk derefter på Kopier. Chatbotten vil svare på "
+"%(lang)s."
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
+msgid "Reset"
+msgstr "Nulstil"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 261
+msgid "Restore the original template"
+msgstr "Gendan den oprindelige skabelon"
+# 
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
+msgid "Copy"
+msgstr "Kopier"
+# 
 # File: big-hardware-info/src/app/ui/renderers/machine.py, line: 20
 msgid "No motherboard information available"
 msgstr "Ingen oplysninger om bundkort tilgængelige"
@@ -1226,10 +1287,6 @@ msgstr "IPv4"
 msgid "IPv6"
 msgstr "IPv6"
 # 
-# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 227
-msgid "Copy"
-msgstr "Kopier"
-# 
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 241
 #, python-brace-format
 msgid "Virtual Networks ({count})"
@@ -1775,6 +1832,363 @@ msgstr "pkexec-kommandoet er ikke tilgængeligt på dette system."
 msgid "OK"
 msgstr "OK"
 # 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 59
+msgid "=== AI Support Context ==="
+msgstr "=== AI Support Kontekst ==="
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 63
+msgid "Paste this below your problem description."
+msgstr "Indsæt dette under din problembeskrivelse."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 91
+msgid "[System]"
+msgstr "[System]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 118
+msgid "[Hardware]"
+msgstr "[Hardware]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 143
+msgid "GPU:"
+msgstr "GPU:"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 143
+#, python-format
+msgid "GPU#%d:"
+msgstr "GPU#%d:"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 217
+msgid "[Network & Bluetooth]"
+msgstr "[Netværk & Bluetooth]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 248
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 250
+msgid "Ethernet"
+msgstr "Ethernet"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 291
+msgid "[Drivers]"
+msgstr "[Drivere]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 307
+msgid "[PCI Bus — lspci]"
+msgstr "[PCI Bus — lspci]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 311
+msgid "[USB Bus — lsusb]"
+msgstr "[USB-bus — lsusb]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 325
+msgid "[Recent Errors — dmesg]"
+msgstr "[Seneste fejl — dmesg]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 330
+msgid "[Recent Errors — journal]"
+msgstr "[Seneste fejl — journal]"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 42
+msgid "Network & Bluetooth"
+msgstr "Netværk og Bluetooth"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 43
+msgid "Wi-Fi, Ethernet, Bluetooth pairing/audio."
+msgstr "Wi-Fi, Ethernet, Bluetooth-parring/lyd."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 47
+msgid "Graphics & Display"
+msgstr "Grafik og skærm"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 48
+msgid "GPU drivers, hybrid graphics, scaling, multi-monitor."
+msgstr "GPU-drivere, hybridgrafik, skalering, multi-monitor."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 53
+msgid "Sound, microphone, PipeWire/PulseAudio."
+msgstr "Lyd, mikrofon, PipeWire/PulseAudio."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 57
+msgid "Power & Thermals"
+msgstr "Strøm og varme"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 58
+msgid "Suspend/hibernate, battery, fan, overheating."
+msgstr "Suspendere/hibernere, batteri, blæser, overophedning."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 62
+msgid "System & Packages"
+msgstr "System & Pakker"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 63
+msgid "Boot, package manager, broken updates, rollback, disk space."
+msgstr "Boot, pakkeadministrator, ødelagte opdateringer, tilbageførsel, diskplads."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 67
+msgid "Peripherals"
+msgstr "Periferiudstyr"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 68
+msgid "Webcam, touchpad, printer, scanner, USB."
+msgstr "Webcam, touchpad, printer, scanner, USB."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 72
+msgid "Performance"
+msgstr "Ydelse"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 73
+msgid "Lag, high load, slow boot, wake-up sources."
+msgstr "Forsinkelse, høj belastning, langsom opstart, vækningskilder."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 77
+msgid "Other"
+msgstr "Andet"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 78
+msgid "Apps, Flatpak, generic problem with full snapshot."
+msgstr "Apps, Flatpak, generisk problem med fuld snapshot."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 281
+msgid "Wi-Fi unstable / drops"
+msgstr "Wi-Fi ustabil / falder"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 282
+msgid "Disconnects, slow, missing networks, 5 GHz absent"
+msgstr "Frakoblinger, langsom, manglende netværk, 5 GHz fraværende"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 298
+msgid "Wi-Fi gone after suspend"
+msgstr "Wi-Fi forsvundet efter dvale"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 299
+msgid "NIC disappears until reboot after sleep/resume"
+msgstr "NIC forsvinder indtil genstart efter søvn/gendannelse"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 315
+msgid "Ethernet no link / slow"
+msgstr "Ethernet ingen forbindelse / langsom"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 316
+msgid "Cable connected but no IP, wrong speed, or down on boot"
+msgstr "Kabel tilsluttet, men ingen IP, forkert hastighed eller ned ved opstart."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 337
+msgid "Bluetooth audio cuts / mic missing"
+msgstr "Bluetooth-lyd afbrydes / mikrofon mangler"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 338
+msgid "Headphone stutters, no A2DP, mic profile absent"
+msgstr "Hovedtelefoner hakker, ingen A2DP, mikrofonprofil fraværende"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 355
+msgid "Bluetooth pairing / detection"
+msgstr "Bluetooth-parring / registrering"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 356
+msgid "Adapter missing, won't pair, won't reconnect"
+msgstr "Adapter mangler, vil ikke parre, vil ikke genoprette forbindelse"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 383
+msgid "Hybrid GPU / wrong renderer"
+msgstr "Hybrid GPU / forkert renderer"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 384
+msgid "App uses iGPU, dGPU stays on, external monitor blank"
+msgstr "App bruger iGPU, dGPU forbliver tændt, ekstern skærm er tom."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 400
+msgid "Tearing / flicker (Wayland or X11)"
+msgstr "Tearing / flimmer (Wayland eller X11)"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 401
+msgid "Visible tearing, black flashes, scroll judder"
+msgstr "Synlig rivning, sorte blink, rulle rystelser"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 417
+msgid "Fractional scaling / HiDPI"
+msgstr "Brøk skalering / HiDPI"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 418
+msgid "Blurry apps, 60Hz cap, cursor flicker, XWayland tiny"
+msgstr "Slørede apps, 60Hz grænse, markørflimmer, XWayland lille"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 437
+msgid "External monitor / refresh rate"
+msgstr "Ekstern skærm / opdateringsfrekvens"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 438
+msgid "Not detected, stuck 60 Hz, no HDR, DP MST"
+msgstr "Ikke registreret, fastlåst 60 Hz, ingen HDR, DP MST"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 453
+msgid "Blurry / bad fonts"
+msgstr "Utydelige / dårlige skrifttyper"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 454
+msgid "Soft Wayland fonts, wrong subpixel, Electron blurry"
+msgstr "Bløde Wayland skrifttyper, forkert subpixel, sløret Electron"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 469
+msgid "VRR / FreeSync / G-Sync"
+msgstr "VRR / FreeSync / G-Sync"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 470
+msgid "Adaptive sync not engaging or flickering"
+msgstr "Adaptiv synkronisering aktiveres ikke eller flimrer"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 492
+msgid "No sound / wrong output"
+msgstr "Ingen lyd / forkert output"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 493
+msgid "Silent speakers, HDMI silent, profile won't switch"
+msgstr "Stille højttalere, HDMI stille, profil skifter ikke."
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 509
+msgid "Microphone not working"
+msgstr "Mikrofon fungerer ikke"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 510
+msgid "No detection, low gain, app-specific mute"
+msgstr "Ingen detektion, lav forstærkning, app-specifik lydløs"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 525
+msgid "Crackling / underrun"
+msgstr "Knitrende / underrun"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 526
+msgid "Pops under load, USB DAC stutters, BT coexistence"
+msgstr "Pops under belastning, USB DAC hakker, BT sameksistens"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 544
+msgid "Suspend wakes alone / black screen"
+msgstr "Suspend vækker alene / sort skærm"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 545
+msgid "Instant wake, won't sleep, blank on resume"
+msgstr "Øjeblikkelig opvågning, vil ikke sove, tom ved genoptagelse"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 561
+msgid "Hibernate fails / no resume"
+msgstr "Hibernate mislykkedes / ingen genoptagelse"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 562
+msgid "Won't enter, IO error, or session lost on boot"
+msgstr "Vil ikke starte, IO-fejl eller session tabt ved opstart"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 583
+msgid "Battery drain / charging"
+msgstr "Batteriudladning / opladning"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 584
+msgid "Fast drain, charge limit ignored, ppd vs TLP"
+msgstr "Hurtig afladning, opladningsgrænse ignoreret, ppd vs TLP"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 602
+msgid "Overheating / fan / throttle"
+msgstr "Overophedning / blæser / throttling"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 603
+msgid "High temps, loud fan, shutdown under load"
+msgstr "Høje temperaturer, højlydt blæser, nedlukning under belastning"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 626
+msgid "pacman keyring / signature error"
+msgstr "pacman nøglering / signaturfejl"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 627
+msgid "Invalid sig, unknown key, after long no-update"
+msgstr "Ugyldig signatur, ukendt nøgle, efter lang tids ingen opdatering"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 647
+msgid "Dependency conflict / broken update"
+msgstr "Afhængighedskonflikt / ødelagt opdatering"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 648
+msgid "Refuses upgrade, partial state, held packages"
+msgstr "Afviser opgradering, delvis tilstand, tilbageholdte pakker"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 664
+msgid "Boot fails / emergency shell / GRUB"
+msgstr "Boot fejler / nødskalsmiljø / GRUB"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 665
+msgid "Won't boot, drops to shell, GRUB rescue, panic"
+msgstr "Kan ikke starte, falder tilbage til shell, GRUB redning, panik"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 685
+msgid "Broken after update / rollback"
+msgstr "Ødelagt efter opdatering / tilbageførsel"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 686
+msgid "Find regressing package, downgrade, snapper rollback"
+msgstr "Find regressionspakke, nedgrader, snapper tilbageførsel"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 707
+msgid "Disk full / root partition"
+msgstr "Disk fuld / rodpartition"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 708
+msgid "No space, package cache huge, snapshots eat space"
+msgstr "Ingen plads, pakke-cache kæmpe, snapshots optager plads"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 730
+msgid "Webcam not detected / black"
+msgstr "Webcam ikke registreret / sort"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 731
+msgid "No /dev/video, IPU6 stack needed, dark image"
+msgstr "Ingen /dev/video, IPU6-stak nødvendig, mørk billede"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 746
+msgid "Touchpad / gestures"
+msgstr "Touchpad / bevægelser"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 747
+msgid "No gestures, wrong driver, palm rejection bad"
+msgstr "Ingen gestus, forkert driver, håndfladeafvisning dårlig"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 762
+msgid "Printer / scanner"
+msgstr "Printer / scanner"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 763
+msgid "Not detected, queue stuck, IPP-everywhere fails"
+msgstr "Ikke registreret, kø fast, IPP-overalt fejler"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 781
+msgid "System lag / high load"
+msgstr "Systemforsinkelse / høj belastning"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 782
+msgid "UI stutter, CPU peg, swap thrash, OOM"
+msgstr "UI hak, CPU spidsbelastning, swap thrashing, OOM"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 797
+msgid "Slow boot"
+msgstr "Langsom opstart"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 798
+msgid "Long boot, service stalls, fsck every time"
+msgstr "Lang opstart, service står stille, fsck hver gang"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 818
+msgid "Flatpak / Snap app issue"
+msgstr "Flatpak / Snap app problem"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 819
+msgid "Won't launch, no perms, wrong theme, no GPU"
+msgstr "Vil ikke starte, ingen tilladelser, forkert tema, ingen GPU"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 836
+msgid "Generic issue (full snapshot)"
+msgstr "Generisk problem (ful snapshot)"
+# 
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 837
+msgid "Anything not covered — includes full report"
+msgstr "Alt, der ikke er dækket - inkluderer fuld rapport"
+# 
 # File: big-hardware-info/src/app/__init__.py, line: 123
 msgid ""
 "View detailed hardware information and share diagnostic reports.\n"
@@ -1822,6 +2236,23 @@ msgstr "Genereret:"
 # File: big-hardware-info/src/app/export/html_generator.py, line: 59
 msgid "Visit BigLinux website"
 msgstr "Besøg BigLinux-webstedet"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
+#, python-format
+msgid ""
+"%(n)d ready-made prompts for common Linux desktop issues. Open the list, pick one, click Copy, and "
+"paste into ChatGPT / Claude / Gemini after your problem description. Each prompt embeds the "
+"relevant diagnostic outputs already collected from this machine and asks the chatbot to reply in "
+"%(lang)s. Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+msgstr ""
+"%(n)d færdiglavede prompts til almindelige Linux skrivebordsproblemer. Åbn listen, vælg en, klik på "
+"Kopier, og indsæt i ChatGPT / Claude / Gemini efter din problembeskrivelse. Hver prompt indeholder "
+"de relevante diagnostiske output, der allerede er indsamlet fra denne maskine, og beder chatbotten "
+"om at svare på %(lang)s. Følsomme data (MAC, IP, UUID, serienummer, værtsnavn) er anonymiseret."
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 # 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"

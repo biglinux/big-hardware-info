@@ -11,7 +11,7 @@ msgstr  "Project-Id-Version: big-hardware-info\n"
         "Language-Team: LANGUAGE <LL@li.org>\n"
         "Language: \n"
         "MIME-Version: 1.0\n"
-        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
         "Content-Transfer-Encoding: 8bit\n"
 
 #
@@ -153,10 +153,13 @@ msgid   "Tip: Click the copy button or select the URL to copy it."
 msgstr  ""
 
 #
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+#
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 403
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 423
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 474
 # File: big-hardware-info/src/big_hardware_info/ui/dialogs.py, line: 484
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 272
 msgid   "Close"
 msgstr  ""
 
@@ -208,7 +211,7 @@ msgstr  ""
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/battery.py, line: 26
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2467
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2627
 msgid   "No battery detected (Desktop system)"
 msgstr  ""
 
@@ -232,9 +235,9 @@ msgstr  ""
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/system.py, line: 56
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/sensors.py, line: 47
 # File: big-hardware-info/src/big_hardware_info/ui/views/audio.py, line: 65
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 439
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 355
-# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 141
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 421
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 336
+# File: big-hardware-info/src/big_hardware_info/ui/sections.py, line: 146
 msgid   "Full Output"
 msgstr  ""
 
@@ -261,7 +264,7 @@ msgstr  ""
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/machine.py, line: 38
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 132
 # File: big-hardware-info/src/big_hardware_info/ui/search.py, line: 207
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 217
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 198
 msgid   "Type"
 msgstr  ""
 
@@ -291,10 +294,82 @@ msgstr  ""
 #
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/battery.py, line: 119
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 139
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 284
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 266
 # File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 272
 # File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 163
 msgid   "Serial"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+#
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 47
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1450
+#, python-format
+msgid   "Show prompt list (%d available)"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 77
+msgid   "AI Help — Ready Prompts"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 82
+#, python-format
+msgid   "%(n)d ready-made prompts for the Linux desktop issues people "
+        "actually report — Wi-Fi, hybrid GPU, suspend, Bluetooth audio, "
+        "broken updates, and more. Click a row to review, edit the <fill in> "
+        "placeholders, then copy. Each prompt asks the chatbot to reply in "
+        "your system language (%(lang)s) and lists the diagnostic angles so "
+        "answers stay focused. Sensitive data (MAC, IP, serial, UUID, "
+        "hostname) is redacted before injection."
+msgstr  ""
+
+#
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+#
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 104
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1447
+msgid   "Filter prompts (e.g. wifi, suspend, nvidia, pacman)…"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 150
+msgid   "Copy prompt to clipboard"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 160
+msgid   "Open editor / preview"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 233
+#, python-format
+msgid   "Edit the <fill in> placeholders below, then press Copy. The chatbot "
+        "will reply in %(lang)s."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 260
+msgid   "Reset"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 261
+msgid   "Restore the original template"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+#
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+#
+# File: big-hardware-info/src/big_hardware_info/ui/renderers/ai_help.py, line: 276
+# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 226
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1448
+msgid   "Copy"
 msgstr  ""
 
 #
@@ -319,7 +394,7 @@ msgstr  ""
 #
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/machine.py, line: 37
 # File: big-hardware-info/src/big_hardware_info/ui/search.py, line: 209
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 282
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 264
 msgid   "Manufacturer"
 msgstr  ""
 
@@ -374,7 +449,7 @@ msgstr  ""
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/printers.py, line: 70
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2903
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3063
 msgid   "No printers configured"
 msgstr  ""
 
@@ -944,8 +1019,8 @@ msgstr  ""
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 35
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2612
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2618
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2772
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2778
 msgid   "No USB devices found"
 msgstr  ""
 
@@ -971,7 +1046,7 @@ msgstr  ""
 #
 # File: big-hardware-info/src/big_hardware_info/ui/renderers/usb.py, line: 137
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 112
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 280
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 262
 # File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 155
 # File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 89
 msgid   "Speed"
@@ -1034,12 +1109,18 @@ msgid   "Memory"
 msgstr  ""
 
 #
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+#
 # File: big-hardware-info/src/big_hardware_info/ui/search.py, line: 74
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 52
 msgid   "Audio"
 msgstr  ""
 
 #
+# #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
+#
 # File: big-hardware-info/src/big_hardware_info/ui/search.py, line: 75
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 251
 msgid   "Network"
 msgstr  ""
 
@@ -1065,7 +1146,7 @@ msgstr  ""
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/search.py, line: 205
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 279
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 261
 msgid   "Slot"
 msgstr  ""
 
@@ -1073,7 +1154,7 @@ msgstr  ""
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/search.py, line: 211
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 283
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 265
 msgid   "Part Number"
 msgstr  ""
 
@@ -1099,7 +1180,7 @@ msgid   "Try a different search term"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 147
+# File: big-hardware-info/src/big_hardware_info/ui/views/base.py, line: 165
 msgid   "No data available"
 msgstr  ""
 
@@ -1155,11 +1236,6 @@ msgstr  ""
 #
 # File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 208
 msgid   "IPv6"
-msgstr  ""
-
-#
-# File: big-hardware-info/src/big_hardware_info/ui/views/network.py, line: 226
-msgid   "Copy"
 msgstr  ""
 
 #
@@ -1231,7 +1307,7 @@ msgstr  ""
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/views/audio.py, line: 56
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2271
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2431
 msgid   "No audio devices found"
 msgstr  ""
 
@@ -1264,8 +1340,8 @@ msgstr  ""
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 108
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 409
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 448
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 391
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 430
 # File: big-hardware-info/src/big_hardware_info/ui/views/disk.py, line: 101
 msgid   "Used:"
 msgstr  ""
@@ -1303,88 +1379,88 @@ msgstr  ""
 #
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 220
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1926
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 202
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2086
 msgid   "Memory Modules"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 281
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 263
 msgid   "Volts"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 322
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 304
 msgid   "Swap / ZRAM"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 338
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 320
 msgid   "Kernel Settings"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 344
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 326
 msgid   "Swappiness"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 345
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 327
 msgid   "Cache Pressure"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 346
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 328
 msgid   "ZSwap"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 347
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 329
 msgid   "Compressor"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 420
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 402
 msgid   "Priority:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 422
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 404
 msgid   "Compression:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 424
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 406
 msgid   "Device:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 445
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 427
 msgid   "=== Memory ==="
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 447
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 429
 msgid   "Total:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 449
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 431
 msgid   "Usage:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 459
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 441
 msgid   "Capacity:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 461
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 443
 msgid   "Modules:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 463
+# File: big-hardware-info/src/big_hardware_info/ui/views/memory.py, line: 445
 msgid   "Slots:"
 msgstr  ""
 
@@ -1407,7 +1483,7 @@ msgstr  ""
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 161
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1596
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1756
 msgid   "Shared"
 msgstr  ""
 
@@ -1501,9 +1577,9 @@ msgstr  ""
 # #-#-#-#-#  big-hardware-info.pot (big-hardware-info)  #-#-#-#-#
 #
 # File: big-hardware-info/src/big_hardware_info/ui/views/gpu.py, line: 301
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 234
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1543
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1818
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 215
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1703
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1978
 msgid   "Advanced Information"
 msgstr  ""
 
@@ -1638,92 +1714,92 @@ msgid   "Scaling"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 182
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 163
 msgid   "Cache"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 218
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 199
 msgid   "Family"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 219
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 200
 msgid   "Model ID"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 220
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 201
 msgid   "Stepping"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 221
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 202
 msgid   "Microcode"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 223
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 204
 msgid   "Bogomips"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 244
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 225
 msgid   "Technical Details"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 258
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 239
 msgid   "Thread Speeds"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 270
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 251
 msgid   "Thread"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 289
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 270
 msgid   "CPU Flags"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 310
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 291
 msgid   "CPU Vulnerabilities"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 365
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 346
 msgid   "=== Processor ==="
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 367
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 348
 msgid   "Model:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 371
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 352
 msgid   "Cores/Threads:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 373
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 354
 msgid   "Architecture:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 375
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 356
 msgid   "Bits:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 377
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 358
 msgid   "Max Speed:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 379
+# File: big-hardware-info/src/big_hardware_info/ui/views/cpu.py, line: 360
 msgid   "L3 Cache:"
 msgstr  ""
 
@@ -1835,6 +1911,452 @@ msgid   "OK"
 msgstr  ""
 
 #
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 59
+msgid   "=== AI Support Context ==="
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 63
+msgid   "Paste this below your problem description."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 91
+msgid   "[System]"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 118
+msgid   "[Hardware]"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 143
+msgid   "GPU:"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 143
+#, python-format
+msgid   "GPU#%d:"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 217
+msgid   "[Network & Bluetooth]"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 248
+msgid   "Wi-Fi"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 250
+msgid   "Ethernet"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 291
+msgid   "[Drivers]"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 307
+msgid   "[PCI Bus — lspci]"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 311
+msgid   "[USB Bus — lsusb]"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 325
+msgid   "[Recent Errors — dmesg]"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_context.py, line: 330
+msgid   "[Recent Errors — journal]"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 42
+msgid   "Network & Bluetooth"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 43
+msgid   "Wi-Fi, Ethernet, Bluetooth pairing/audio."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 47
+msgid   "Graphics & Display"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 48
+msgid   "GPU drivers, hybrid graphics, scaling, multi-monitor."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 53
+msgid   "Sound, microphone, PipeWire/PulseAudio."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 57
+msgid   "Power & Thermals"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 58
+msgid   "Suspend/hibernate, battery, fan, overheating."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 62
+msgid   "System & Packages"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 63
+msgid   "Boot, package manager, broken updates, rollback, disk space."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 67
+msgid   "Peripherals"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 68
+msgid   "Webcam, touchpad, printer, scanner, USB."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 72
+msgid   "Performance"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 73
+msgid   "Lag, high load, slow boot, wake-up sources."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 77
+msgid   "Other"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 78
+msgid   "Apps, Flatpak, generic problem with full snapshot."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 281
+msgid   "Wi-Fi unstable / drops"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 282
+msgid   "Disconnects, slow, missing networks, 5 GHz absent"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 298
+msgid   "Wi-Fi gone after suspend"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 299
+msgid   "NIC disappears until reboot after sleep/resume"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 315
+msgid   "Ethernet no link / slow"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 316
+msgid   "Cable connected but no IP, wrong speed, or down on boot"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 337
+msgid   "Bluetooth audio cuts / mic missing"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 338
+msgid   "Headphone stutters, no A2DP, mic profile absent"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 355
+msgid   "Bluetooth pairing / detection"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 356
+msgid   "Adapter missing, won't pair, won't reconnect"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 383
+msgid   "Hybrid GPU / wrong renderer"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 384
+msgid   "App uses iGPU, dGPU stays on, external monitor blank"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 400
+msgid   "Tearing / flicker (Wayland or X11)"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 401
+msgid   "Visible tearing, black flashes, scroll judder"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 417
+msgid   "Fractional scaling / HiDPI"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 418
+msgid   "Blurry apps, 60Hz cap, cursor flicker, XWayland tiny"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 437
+msgid   "External monitor / refresh rate"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 438
+msgid   "Not detected, stuck 60 Hz, no HDR, DP MST"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 453
+msgid   "Blurry / bad fonts"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 454
+msgid   "Soft Wayland fonts, wrong subpixel, Electron blurry"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 469
+msgid   "VRR / FreeSync / G-Sync"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 470
+msgid   "Adaptive sync not engaging or flickering"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 492
+msgid   "No sound / wrong output"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 493
+msgid   "Silent speakers, HDMI silent, profile won't switch"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 509
+msgid   "Microphone not working"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 510
+msgid   "No detection, low gain, app-specific mute"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 525
+msgid   "Crackling / underrun"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 526
+msgid   "Pops under load, USB DAC stutters, BT coexistence"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 544
+msgid   "Suspend wakes alone / black screen"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 545
+msgid   "Instant wake, won't sleep, blank on resume"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 561
+msgid   "Hibernate fails / no resume"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 562
+msgid   "Won't enter, IO error, or session lost on boot"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 583
+msgid   "Battery drain / charging"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 584
+msgid   "Fast drain, charge limit ignored, ppd vs TLP"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 602
+msgid   "Overheating / fan / throttle"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 603
+msgid   "High temps, loud fan, shutdown under load"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 626
+msgid   "pacman keyring / signature error"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 627
+msgid   "Invalid sig, unknown key, after long no-update"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 647
+msgid   "Dependency conflict / broken update"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 648
+msgid   "Refuses upgrade, partial state, held packages"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 664
+msgid   "Boot fails / emergency shell / GRUB"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 665
+msgid   "Won't boot, drops to shell, GRUB rescue, panic"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 685
+msgid   "Broken after update / rollback"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 686
+msgid   "Find regressing package, downgrade, snapper rollback"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 707
+msgid   "Disk full / root partition"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 708
+msgid   "No space, package cache huge, snapshots eat space"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 730
+msgid   "Webcam not detected / black"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 731
+msgid   "No /dev/video, IPU6 stack needed, dark image"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 746
+msgid   "Touchpad / gestures"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 747
+msgid   "No gestures, wrong driver, palm rejection bad"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 762
+msgid   "Printer / scanner"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 763
+msgid   "Not detected, queue stuck, IPP-everywhere fails"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 781
+msgid   "System lag / high load"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 782
+msgid   "UI stutter, CPU peg, swap thrash, OOM"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 797
+msgid   "Slow boot"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 798
+msgid   "Long boot, service stalls, fsck every time"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 818
+msgid   "Flatpak / Snap app issue"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 819
+msgid   "Won't launch, no perms, wrong theme, no GPU"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 836
+msgid   "Generic issue (full snapshot)"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/utils/ai_prompts.py, line: 837
+msgid   "Anything not covered — includes full report"
+msgstr  ""
+
+#
 # File: big-hardware-info/src/big_hardware_info/__init__.py, line: 82
 msgid   "View detailed hardware information and share diagnostic reports.\n"
         "\n"
@@ -1863,113 +2385,129 @@ msgid   "<p>Big Hardware Info {version} - Complete Rewrite:</"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 44
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 50
 msgid   "Hardware Report"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 47
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 53
 msgid   "Search sections..."
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 48
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 54
 msgid   "Generated:"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 49
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 55
 msgid   "Visit BigLinux website"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1558
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1439
+#, python-format
+msgid   "%(n)d ready-made prompts for common Linux desktop issues. Open the "
+        "list, pick one, click Copy, and paste into ChatGPT / Claude / Gemini "
+        "after your problem description. Each prompt embeds the relevant "
+        "diagnostic outputs already collected from this machine and asks the "
+        "chatbot to reply in %(lang)s. Sensitive data (MAC, IP, UUID, serial, "
+        "hostname) is redacted."
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+msgid   "Copied"
+msgstr  ""
+
+#
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1718
 msgid   "No graphics devices found"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1944
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2104
 msgid   "No storage drives found"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2067
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2227
 msgid   "Disk Partitions"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2329
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2489
 msgid   "No network interfaces found"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2549
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2709
 msgid   "No Bluetooth devices found"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2721
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2881
 msgid   "No PCI devices found"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2842
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3002
 msgid   "No webcams found"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 2987
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3147
 msgid   "No sensors detected"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3086
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3246
 msgid   "Package Repositories"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3119
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3121
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3279
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3281
 msgid   "No SDIO devices detected"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3122
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3282
 msgid   "SDIO"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3152
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3312
 msgid   "Mhwd driver"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3154
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3314
 msgid   "Mhwd kernel"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3159
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3319
 msgid   "Cmdline"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3174
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3334
 msgid   "ACPI Interrupts"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3180
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3340
 msgid   "dmesg (errors)"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3184
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3344
 msgid   "journalctl (errors)"
 msgstr  ""
 
 #
-# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3187
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 3347
 msgid   "No additional information available"
 msgstr  ""
 
