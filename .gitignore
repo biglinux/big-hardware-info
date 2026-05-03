@@ -168,3 +168,12 @@ cython_debug/
 # Claude Code
 CLAUDE.md
 .claude
+
+# makepkg build artifacts
+pkgbuild/pkg/
+pkgbuild/src/
+pkgbuild/big-hardware-info/
+
+# Local debug scripts and dumps
+debug_inxi_*.py
+inxi-output-in-pc-with-error.txt

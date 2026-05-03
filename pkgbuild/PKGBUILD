@@ -25,8 +25,49 @@ pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL-3.0-or-later')
 url="https://github.com/biglinux/${pkgname}"
-source=("git+${url}.git")
-md5sums=('SKIP')
+
+# Use the local checkout when this PKGBUILD is invoked from inside the
+# project tree (parent of pkgbuild/ has pyproject.toml + src/<pkg>/). Falls
+# back to cloning the published GitHub source for clean rebuilds outside the
+# tree.
+_local_root="${startdir}/.."
+if [ -f "${_local_root}/pyproject.toml" ] && [ -d "${_local_root}/src/big_hardware_info" ]; then
+    _use_local_source=1
+    source=()
+    md5sums=()
+else
+    _use_local_source=0
+    source=("git+${url}.git")
+    md5sums=('SKIP')
+fi
+
+prepare() {
+    if [ "${_use_local_source}" = 1 ]; then
+        rm -rf "${srcdir}/${pkgname}"
+        mkdir -p "${srcdir}/${pkgname}"
+        # Copy only what the wheel build + package() needs. Avoids the
+        # self-recursion that happens with `cp -a parent/.` when srcdir lives
+        # under parent (pkgbuild/src lives inside the project root).
+        local _item
+        for _item in src usr pyproject.toml README.md LICENSE locale; do
+            if [ -e "${_local_root}/${_item}" ]; then
+                cp -a "${_local_root}/${_item}" "${srcdir}/${pkgname}/"
+            fi
+        done
+        # Strip dev-only caches that the wheel build would otherwise pick up
+        # via setuptools' package-data discovery.
+        find "${srcdir}/${pkgname}" \
+            \( -type d -name __pycache__ -o \
+               -type d -name .mypy_cache -o \
+               -type d -name .pytest_cache -o \
+               -type d -name .ruff_cache -o \
+               -type d -name '*.egg-info' -o \
+               -type f -name '*.pyc' \) -prune -exec rm -rf {} +
+        msg2 "Building ${pkgname} from local checkout: ${_local_root}"
+    else
+        msg2 "Building ${pkgname} from upstream git: ${url}"
+    fi
+}
 
 build() {
     cd "${srcdir}/${pkgname}"
