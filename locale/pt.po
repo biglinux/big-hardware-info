@@ -2718,6 +2718,10 @@ msgstr ""
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
 # 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
+# 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449

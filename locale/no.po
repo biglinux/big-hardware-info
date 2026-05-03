@@ -2085,6 +2085,10 @@ msgstr ""
 "chatboten din. Svar på %(lang)s; MAC, IP, UUID, serienummer og vertsnavn er fjernet før deling."
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
+msgid "Copied"
+msgstr "Kopiert"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1446
 # 
