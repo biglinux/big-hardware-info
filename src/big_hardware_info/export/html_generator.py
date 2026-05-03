@@ -1436,12 +1436,9 @@ class HtmlGenerator:
         lang = detect_reply_language()
 
         intro = _(
-            "%(n)d ready-made prompts for common Linux desktop issues. "
-            "Open the list, pick one, click Copy, and paste into ChatGPT / "
-            "Claude / Gemini after your problem description. Each prompt "
-            "embeds the relevant diagnostic outputs already collected from "
-            "this machine and asks the chatbot to reply in %(lang)s. "
-            "Sensitive data (MAC, IP, UUID, serial, hostname) is redacted."
+            "%(n)d ready prompts for common Linux desktop issues. "
+            "Open the list, copy one, paste into your chatbot. "
+            "Replies in %(lang)s; MAC, IP, UUID, serial and hostname are removed before sharing."
         ) % {"n": len(prompts), "lang": lang}
 
         search_label = _("Filter prompts (e.g. wifi, suspend, nvidia, pacman)…")

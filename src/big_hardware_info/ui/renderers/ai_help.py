@@ -79,14 +79,10 @@ class AiHelpRenderer(SectionRenderer):
 
         subtitle = ui.label(
             _(
-                "%(n)d ready-made prompts for the Linux desktop issues "
-                "people actually report — Wi-Fi, hybrid GPU, suspend, "
-                "Bluetooth audio, broken updates, and more. Click a row "
-                "to review, edit the <fill in> placeholders, then copy. "
-                "Each prompt asks the chatbot to reply in your system "
-                "language (%(lang)s) and lists the diagnostic angles so "
-                "answers stay focused. Sensitive data (MAC, IP, serial, "
-                "UUID, hostname) is redacted before injection."
+                "%(n)d ready prompts for common Linux desktop issues "
+                "(Wi-Fi, suspend, GPU, audio, updates…). Click a row to "
+                "review and copy. Replies in %(lang)s; sensitive data "
+                "(MAC, IP, serial) is removed before sharing."
             ) % {"n": count, "lang": lang},
             css_classes=["dim-label"],
             selectable=True,
@@ -230,8 +226,8 @@ class AiHelpRenderer(SectionRenderer):
 
         hint = ui.label(
             _(
-                "Edit the <fill in> placeholders below, then press Copy. "
-                "The chatbot will reply in %(lang)s."
+                "Edit the <fill in> placeholders, then press Copy. "
+                "Reply in %(lang)s."
             ) % {"lang": detect_reply_language()},
             css_classes=["dim-label"],
             wrap=True,

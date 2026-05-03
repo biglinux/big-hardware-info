@@ -157,8 +157,8 @@ def _footer(lang: str) -> str:
     return (
         f"Reply in {lang}. Be terse, technical. Give: 1) likely cause, "
         "2) extra diagnostic commands if needed, 3) fix steps in order, "
-        "4) when to escalate. Use code blocks. Diagnostic output below is "
-        "already redacted (MAC/IP/UUID/serial/hostname stripped)."
+        "4) when to escalate. Use code blocks. Diagnostic output below has "
+        "MAC, IP, UUID, serial and hostname removed for privacy."
     )
 
 
