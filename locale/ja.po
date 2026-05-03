@@ -2049,6 +2049,12 @@ msgstr ""
 "sで返信するように求めます。機密データ（MAC、IP、UUID、シリアル、ホスト名）は削除されています。"
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+msgid "Copied"
+msgstr "コピーされました"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 # 

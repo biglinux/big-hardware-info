@@ -2120,6 +2120,12 @@ msgstr ""
 "відповісти українською. Чутливі дані (MAC, IP, UUID, серійний номер, ім'я хоста) приховані."
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+msgid "Copied"
+msgstr "Скопійовано"
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 # 

@@ -2762,6 +2762,10 @@ msgstr ""
 # 
 # File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
 # 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+# 
+# File: big-hardware-info/src/big_hardware_info/export/html_generator.py, line: 1449
+# 
 # File: big-hardware-info/src/app/export/html_generator.py, line: 1105
 msgid "No graphics devices found"
 msgstr "Aucun périphérique graphique trouvé"
