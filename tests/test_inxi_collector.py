@@ -78,6 +78,26 @@ class TestInxiCollectorFailurePaths:
         assert "error" in result
         assert "inxi" in result["error"].lower()
 
+    def test_section_fallback_returns_partial_data_after_full_timeout(self) -> None:
+        collector = InxiCollector()
+        section_payload = '[{"000#1#0#System": []}]'
+
+        with patch.object(collector, "command_exists", return_value=True), \
+             patch.object(collector, "run_command") as mock_run:
+            mock_run.side_effect = [
+                (False, "", "Command timed out"),
+                (False, "", "Command timed out"),
+                (False, "", "Command timed out"),
+                (True, section_payload, ""),
+                *[(False, "", "Command timed out")] * 17,
+            ]
+
+            result = collector.collect()
+
+        assert "data" in result
+        assert result["data"] == [{"000#1#0#System": []}]
+        assert result["partial"] is True
+
 
 class TestSubprocessEnvironment:
     """Subprocess env/stdin must be defensively normalized."""
@@ -93,7 +113,7 @@ class TestSubprocessEnvironment:
         assert "/usr/sbin" in path_dirs
         assert "/sbin" in path_dirs
 
-    def test_run_command_uses_devnull_stdin_and_normalized_env(self) -> None:
+    def test_run_command_uses_pty_stdin_and_normalized_env(self) -> None:
         class _TestCollector(BaseCollector):
             def collect(self) -> dict:
                 return {}
@@ -107,5 +127,12 @@ class TestSubprocessEnvironment:
             collector.run_command(["echo", "ok"])
 
         _, kwargs = mock_run.call_args
-        assert kwargs["stdin"] is subprocess.DEVNULL
+        # stdin must be a pty fd (int), not DEVNULL: bluez btmgmt (called via
+        # `inxi -E`) hangs reading stdin if it ever sees EOF.
+        assert isinstance(kwargs["stdin"], int)
+        assert kwargs["stdin"] != subprocess.DEVNULL
+        assert kwargs["start_new_session"] is True
+        assert "capture_output" not in kwargs
+        assert kwargs["stdout"] is not subprocess.PIPE
+        assert kwargs["stderr"] is not subprocess.PIPE
         assert kwargs["env"]["LC_ALL"] == "C"

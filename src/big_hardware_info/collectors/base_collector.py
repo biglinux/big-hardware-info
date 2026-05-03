@@ -3,9 +3,11 @@ Base class for hardware data collectors.
 """
 
 import os
+import pty
 import subprocess
 import logging
 import shutil
+import tempfile
 from typing import Optional, Tuple
 from abc import ABC, abstractmethod
 
@@ -21,10 +23,9 @@ def _build_subprocess_env() -> dict:
     env = os.environ.copy()
     env["LC_ALL"] = "C"
     env["LANG"] = "C"
-    # TERM=dumb prevents children (inxi/Perl Term::ReadKey, smartctl, etc) from
-    # probing terminal capabilities or width when launched from a desktop entry
-    # without a controlling tty — a known cause of multi-minute hangs.
-    env["TERM"] = "dumb"
+    # Desktop launchers often omit TERM. Use a common terminal value instead of
+    # "dumb" so command-line tools stay on the same code path as terminal runs.
+    env.setdefault("TERM", "xterm-256color")
     # COLUMNS pins width so tools that still ioctl(TIOCGWINSZ) get a sane fallback.
     env.setdefault("COLUMNS", "200")
     env.setdefault("PATH", "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin")
@@ -82,23 +83,55 @@ class BaseCollector(ABC):
             if shell and isinstance(command, list):
                 command = " ".join(command)
 
-            # stdin=DEVNULL avoids children inheriting an odd stdin (closed pipe
-            # from a desktop-entry launch, or a non-TTY fd from a CLI wrapper)
-            # which makes tools like inxi misdetect their environment.
-            result = subprocess.run(
-                command,
-                capture_output=True,
-                text=True,
-                timeout=timeout,
-                shell=shell,
-                stdin=subprocess.DEVNULL,
-                env=_build_subprocess_env(),
-            )
+            # Use regular temporary files instead of stdout/stderr pipes.
+            # Some tools spawned by inxi can leave inherited pipe FDs open after
+            # the main process exits, making Python wait for EOF until timeout.
+            #
+            # stdin is a pty slave, not /dev/null: bluez `btmgmt info` (called by
+            # `inxi -E`/`-v8`) reads stdin even with a cmdline arg and hangs
+            # forever when stdin gives EOF. A pty never EOFs, so it behaves like
+            # the interactive shell case where the bug never fires.
+            stdin_master_fd, stdin_slave_fd = pty.openpty()
+            with tempfile.TemporaryFile("w+", encoding="utf-8", errors="replace") as stdout_file:
+                if capture_stderr:
+                    stderr_target = tempfile.TemporaryFile(
+                        "w+",
+                        encoding="utf-8",
+                        errors="replace",
+                    )
+                else:
+                    stderr_target = subprocess.DEVNULL
+
+                try:
+                    result = subprocess.run(
+                        command,
+                        stdout=stdout_file,
+                        stderr=stderr_target,
+                        text=True,
+                        timeout=timeout,
+                        shell=shell,
+                        stdin=stdin_slave_fd,
+                        start_new_session=True,
+                        env=_build_subprocess_env(),
+                    )
+
+                    stdout_file.seek(0)
+                    stdout = stdout_file.read().strip()
+
+                    stderr = ""
+                    if capture_stderr:
+                        stderr_target.seek(0)
+                        stderr = stderr_target.read().strip()
+                finally:
+                    if capture_stderr:
+                        stderr_target.close()
+                    os.close(stdin_master_fd)
+                    os.close(stdin_slave_fd)
 
             return (
                 result.returncode == 0,
-                result.stdout.strip(),
-                result.stderr.strip() if capture_stderr else "",
+                stdout,
+                stderr,
             )
             
         except subprocess.TimeoutExpired:
