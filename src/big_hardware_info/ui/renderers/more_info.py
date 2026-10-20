@@ -77,15 +77,18 @@ class MoreInfoRenderer(SectionRenderer):
         if modules_raw:
             self._add_terminal_block("lsmod", modules_raw)
         
-        # MHWD driver
-        mhwd_drivers = mhwd_data.get("installed_drivers", "") if isinstance(mhwd_data, dict) else ""
-        if mhwd_drivers:
-            self._add_terminal_block("Mhwd driver", mhwd_drivers)
-        
-        # MHWD kernel
-        mhwd_kernels = mhwd_data.get("installed_kernels", "") if isinstance(mhwd_data, dict) else ""
-        if mhwd_kernels:
-            self._add_terminal_block("Mhwd kernel", mhwd_kernels)
+        # Graphics drivers and kernels (big-drivers, or mhwd where it remains)
+        if isinstance(mhwd_data, dict):
+            mhwd_drivers = mhwd_data.get("installed_drivers", "")
+            if mhwd_drivers:
+                self._add_terminal_block(
+                    mhwd_data.get("drivers_title") or "Mhwd driver", mhwd_drivers
+                )
+            mhwd_kernels = mhwd_data.get("installed_kernels", "")
+            if mhwd_kernels:
+                self._add_terminal_block(
+                    mhwd_data.get("kernels_title") or "Mhwd kernel", mhwd_kernels
+                )
         
         # Cmdline
         cmdline_raw = cmdline_data.get("raw", "") if isinstance(cmdline_data, dict) else ""

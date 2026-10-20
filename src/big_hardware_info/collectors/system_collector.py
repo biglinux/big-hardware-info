@@ -157,25 +157,60 @@ class SystemCollector(BaseCollector):
     
     def collect_mhwd(self) -> dict:
         """
-        Collect MHWD (Manjaro Hardware Detection) information.
+        Collect the installed graphics drivers and kernels.
+        
+        BigLinux and BigCommunity replaced mhwd with big-drivers
+        (big-driver-manager-cli); systems that still have mhwd keep
+        showing its output.
         
         Returns:
-            Dictionary with MHWD data.
+            Dictionary with the drivers and kernels text and the commands
+            that produced it ("drivers_title", "kernels_title").
         """
+        import re
+        
         result = {
             "installed_drivers": "",
             "installed_kernels": "",
-            "available": self.command_exists("mhwd"),
+            "available": False,
+            "tool": "",
+            "drivers_title": "",
+            "kernels_title": "",
         }
         
-        if not result["available"]:
+        if self.command_exists("big-drivers"):
+            result.update(
+                available=True,
+                tool="big-drivers",
+                drivers_title="big-drivers gpu",
+                kernels_title="big-drivers kernel list --installed",
+            )
+            commands = (
+                ("installed_drivers", ["big-drivers", "--no-color", "gpu"]),
+                (
+                    "installed_kernels",
+                    ["big-drivers", "--no-color", "kernel", "list", "--installed"],
+                ),
+            )
+            for key, command in commands:
+                success, stdout, _ = self.run_command(command, timeout=8)
+                if success:
+                    result[key] = stdout.strip("\n")
             return result
+        
+        if not self.command_exists("mhwd"):
+            return result
+        result.update(
+            available=True,
+            tool="mhwd",
+            drivers_title="Mhwd driver",
+            kernels_title="Mhwd kernel",
+        )
         
         # Get installed drivers
         success, stdout, _ = self.run_command(["mhwd", "-li"])
         if success:
             # Remove ANSI escape codes
-            import re
             clean = re.sub(r'\x1B\[[0-9;]*[mG]', '', stdout)
             result["installed_drivers"] = clean
         

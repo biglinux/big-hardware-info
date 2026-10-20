@@ -3157,12 +3157,16 @@ class HtmlGenerator:
             modules_raw = modules_data.get("raw", "")
             add_terminal_block("lsmod", modules_raw)
         
-        # MHWD driver
+        # Graphics drivers and kernels (big-drivers, or mhwd where it remains)
         if isinstance(mhwd_data, dict):
             mhwd_drivers = mhwd_data.get("installed_drivers", "")
-            add_terminal_block(_("Mhwd driver"), mhwd_drivers)
+            add_terminal_block(
+                mhwd_data.get("drivers_title") or _("Mhwd driver"), mhwd_drivers
+            )
             mhwd_kernels = mhwd_data.get("installed_kernels", "")
-            add_terminal_block(_("Mhwd kernel"), mhwd_kernels)
+            add_terminal_block(
+                mhwd_data.get("kernels_title") or _("Mhwd kernel"), mhwd_kernels
+            )
         
         # Cmdline
         if isinstance(cmdline_data, dict):
