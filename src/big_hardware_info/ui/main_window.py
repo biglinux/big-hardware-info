@@ -71,6 +71,8 @@ class MainWindow(Adw.ApplicationWindow):
             **kwargs,
         )
         
+        self.add_css_class("big-hardware-info")
+
         # Initialize state
         self._should_maximize = is_maximized
         self._size_save_timeout_id = None
